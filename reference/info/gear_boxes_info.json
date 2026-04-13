@@ -1,0 +1,3595 @@
+{
+    "gearboxes_scouts": {
+        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_scout_default",
+                "awd_modifier": 1.36,
+                "damage_capacity": 120,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.4,
+                "fuel_consumption": 1.95,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 2.0,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 3.0,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 4.38,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 6.77,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 10.89,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 18.0,
+                        "fuel_modifier": 0.9
+                    }
+                ],
+                "price": 1500,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_scout_highway",
+                "awd_modifier": 1.39,
+                "damage_capacity": 100,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.24,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 3.0,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 2.67,
+                        "fuel_modifier": 1.82
+                    },
+                    {
+                        "ang_vel": 4.02,
+                        "fuel_modifier": 1.66
+                    },
+                    {
+                        "ang_vel": 5.63,
+                        "fuel_modifier": 1.51
+                    },
+                    {
+                        "ang_vel": 7.55,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 9.83,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 12.54,
+                        "fuel_modifier": 1.04
+                    },
+                    {
+                        "ang_vel": 15.76,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 1900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_scout_offroad",
+                "awd_modifier": 1.35,
+                "damage_capacity": 150,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 1.85,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 1.83,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 2.76,
+                        "fuel_modifier": 1.56
+                    },
+                    {
+                        "ang_vel": 4.09,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 5.99,
+                        "fuel_modifier": 1.15
+                    },
+                    {
+                        "ang_vel": 8.71,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_scout_finetune",
+                "awd_modifier": 1.43,
+                "damage_capacity": 110,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.15,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 35.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 2.33,
+                        "fuel_modifier": 1.82
+                    },
+                    {
+                        "ang_vel": 3.28,
+                        "fuel_modifier": 1.66
+                    },
+                    {
+                        "ang_vel": 4.48,
+                        "fuel_modifier": 1.51
+                    },
+                    {
+                        "ang_vel": 5.97,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 7.84,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 10.18,
+                        "fuel_modifier": 1.04
+                    },
+                    {
+                        "ang_vel": 13.12,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 1900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_scouts_tuz": {
+        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts_tuz.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_scout_tuz",
+                "awd_modifier": 1.3,
+                "damage_capacity": 80,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.8,
+                "fuel_consumption": 1.1,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 3.0,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 7.0,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 2.0,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.93,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 4.36,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 6.58,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 10.0,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 1500,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special": {
+        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_special.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_default",
+                "awd_modifier": 1.24,
+                "damage_capacity": 220,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 3.0,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 0.9,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 1.44,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 2.16,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 3.15,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_offroad",
+                "awd_modifier": 1.21,
+                "damage_capacity": 250,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.85,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 0.87,
+                        "fuel_modifier": 1.67
+                    },
+                    {
+                        "ang_vel": 1.4,
+                        "fuel_modifier": 1.48
+                    },
+                    {
+                        "ang_vel": 2.07,
+                        "fuel_modifier": 1.28
+                    },
+                    {
+                        "ang_vel": 2.92,
+                        "fuel_modifier": 1.09
+                    },
+                    {
+                        "ang_vel": 4.01,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_finetune",
+                "awd_modifier": 1.27,
+                "damage_capacity": 180,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 3.3,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.04,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 1.05,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 1.6,
+                        "fuel_modifier": 1.57
+                    },
+                    {
+                        "ang_vel": 2.23,
+                        "fuel_modifier": 1.43
+                    },
+                    {
+                        "ang_vel": 2.95,
+                        "fuel_modifier": 1.28
+                    },
+                    {
+                        "ang_vel": 3.8,
+                        "fuel_modifier": 1.14
+                    },
+                    {
+                        "ang_vel": 4.77,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.9,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 7.2,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_trucks": {
+        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_truck_default",
+                "awd_modifier": 1.32,
+                "damage_capacity": 180,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.67,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 1.1,
+                "high_vel": 7.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.46,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 3.97,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 6.32,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 10.0,
+                        "fuel_modifier": 0.9
+                    }
+                ],
+                "price": 1900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_highrange",
+                "awd_modifier": 1.34,
+                "damage_capacity": 150,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 3.08,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.0,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.97,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 3.36,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 5.02,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 7.0,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 9.37,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 12.19,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 15.57,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_offroad",
+                "awd_modifier": 1.3,
+                "damage_capacity": 220,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.54,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.38,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 2.33,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 3.7,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 5.67,
+                        "fuel_modifier": 1.12
+                    },
+                    {
+                        "ang_vel": 8.51,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_finetune",
+                "awd_modifier": 1.37,
+                "damage_capacity": 130,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.94,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.73,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 2.71,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 3.93,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 5.48,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 7.42,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 9.86,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 12.93,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_trucks_unique_offroad": {
+        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks_unique_offroad.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_truck_unique_offroad",
+                "awd_modifier": 1.31,
+                "damage_capacity": 160,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.85,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 7.56,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.53,
+                        "fuel_modifier": 1.61
+                    },
+                    {
+                        "ang_vel": 2.38,
+                        "fuel_modifier": 1.43
+                    },
+                    {
+                        "ang_vel": 3.56,
+                        "fuel_modifier": 1.24
+                    },
+                    {
+                        "ang_vel": 5.22,
+                        "fuel_modifier": 1.05
+                    },
+                    {
+                        "ang_vel": 7.54,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 10.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_kenworth_963": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_kenworth_963.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_kenworth_963",
+                "awd_modifier": 1.26,
+                "damage_capacity": 230,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 3.08,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 1.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.6,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 0.9,
+                        "fuel_modifier": 1.8
+                    },
+                    {
+                        "ang_vel": 1.27,
+                        "fuel_modifier": 1.65
+                    },
+                    {
+                        "ang_vel": 1.73,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 2.32,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 3.07,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 4.01,
+                        "fuel_modifier": 1.05
+                    },
+                    {
+                        "ang_vel": 5.2,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3200,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_default",
+                "awd_modifier": 1.26,
+                "damage_capacity": 220,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 3.08,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.89,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 0.9,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 1.44,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 2.16,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 3.15,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_offroad",
+                "awd_modifier": 1.23,
+                "damage_capacity": 250,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.92,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 0.87,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 1.4,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 2.07,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 2.92,
+                        "fuel_modifier": 1.11
+                    },
+                    {
+                        "ang_vel": 4.01,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_finetune",
+                "awd_modifier": 1.3,
+                "damage_capacity": 180,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 3.38,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.04,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 1.05,
+                        "fuel_modifier": 1.75
+                    },
+                    {
+                        "ang_vel": 1.6,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.23,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 2.95,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 3.8,
+                        "fuel_modifier": 1.16
+                    },
+                    {
+                        "ang_vel": 4.77,
+                        "fuel_modifier": 1.01
+                    },
+                    {
+                        "ang_vel": 5.9,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 7.2,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_special_mack_defense": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_mack_defense.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_mack_defense",
+                "awd_modifier": 1.32,
+                "damage_capacity": 200,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.42,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.55,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 4.22,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 6.9,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 11.17,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 18.0,
+                        "fuel_modifier": 1.1
+                    }
+                ],
+                "price": 2900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_highrange",
+                "awd_modifier": 1.33,
+                "damage_capacity": 150,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.79,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.0,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.97,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 3.36,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 5.02,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 7.0,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 9.37,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 12.19,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 15.57,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_offroad",
+                "awd_modifier": 1.3,
+                "damage_capacity": 220,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.3,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.38,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 2.33,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 3.7,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 5.67,
+                        "fuel_modifier": 1.12
+                    },
+                    {
+                        "ang_vel": 8.51,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_finetune",
+                "awd_modifier": 1.37,
+                "damage_capacity": 130,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.67,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.73,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 2.71,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 3.93,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 5.48,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 7.42,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 9.86,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 12.93,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_offroad_burlak_6x6": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_11\\classes\\gearboxes\\gearboxes_offroad_burlak_6x6.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_scout_burlak_default",
+                "awd_modifier": 1.25,
+                "damage_capacity": 200,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.4,
+                "fuel_consumption": 2.4,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.4,
+                "gears": [
+                    {
+                        "ang_vel": 0.9,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 1.44,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 2.16,
+                        "fuel_modifier": 1.22
+                    },
+                    {
+                        "ang_vel": 3.15,
+                        "fuel_modifier": 1.15
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.1
+                    }
+                ],
+                "price": 1500,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_scout_burlak_highrange",
+                "awd_modifier": 1.25,
+                "damage_capacity": 180,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 2.76,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.88,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 1.17,
+                        "fuel_modifier": 1.71
+                    },
+                    {
+                        "ang_vel": 1.91,
+                        "fuel_modifier": 1.56
+                    },
+                    {
+                        "ang_vel": 2.73,
+                        "fuel_modifier": 1.42
+                    },
+                    {
+                        "ang_vel": 3.64,
+                        "fuel_modifier": 1.27
+                    },
+                    {
+                        "ang_vel": 4.65,
+                        "fuel_modifier": 1.13
+                    },
+                    {
+                        "ang_vel": 5.77,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 7.02,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 8.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3500,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_aac_58dw": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_aac_58dw.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_aac_58dw_special",
+                "awd_modifier": 1.25,
+                "damage_capacity": 135,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.4,
+                "fuel_consumption": 1.8,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 2.3,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 9.1,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 3.2,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 4.26,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 5.95,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 8.66,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 13.0,
+                        "fuel_modifier": 0.9
+                    }
+                ],
+                "price": 2700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_plad_450": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_plad_450.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_special_plad_450",
+                "awd_modifier": 1.23,
+                "damage_capacity": 230,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 2.8,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 23.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.76,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 0.8,
+                        "fuel_modifier": 1.8
+                    },
+                    {
+                        "ang_vel": 1.37,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.16,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 3.25,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 4.74,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 6.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 7000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_rezvani_tank": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13_5\\classes\\gearboxes\\gearboxes_special_rezvani_tank.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_rezvani_tank_special",
+                "awd_modifier": 1.25,
+                "damage_capacity": 150,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.4,
+                "fuel_consumption": 1.8,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 2.0,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 3.0,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 3.62,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 5.72,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 7.44,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 9.86,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 13.25,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 18.0,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_mack_pinnacle": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_pinnacle.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_mack_pinnacle",
+                "awd_modifier": 1.31,
+                "damage_capacity": 200,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.02,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.4,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 10.15,
+                "high_fuel_modifier": 1.45,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.08,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 2.88,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 3.98,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 5.5,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 7.6,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 10.5,
+                        "fuel_modifier": 0.95
+                    },
+                    {
+                        "ang_vel": 14.5,
+                        "fuel_modifier": 0.7
+                    }
+                ],
+                "price": 2600,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_highrange",
+                "awd_modifier": 1.33,
+                "damage_capacity": 150,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.33,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.0,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.97,
+                        "fuel_modifier": 1.75
+                    },
+                    {
+                        "ang_vel": 3.36,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 5.02,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 7.0,
+                        "fuel_modifier": 1.31
+                    },
+                    {
+                        "ang_vel": 9.37,
+                        "fuel_modifier": 1.16
+                    },
+                    {
+                        "ang_vel": 12.19,
+                        "fuel_modifier": 1.01
+                    },
+                    {
+                        "ang_vel": 15.57,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_offroad",
+                "awd_modifier": 1.29,
+                "damage_capacity": 220,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 1.92,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.38,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.33,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 3.7,
+                        "fuel_modifier": 1.31
+                    },
+                    {
+                        "ang_vel": 5.67,
+                        "fuel_modifier": 1.11
+                    },
+                    {
+                        "ang_vel": 8.51,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_finetune",
+                "awd_modifier": 1.36,
+                "damage_capacity": 130,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.23,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.73,
+                        "fuel_modifier": 1.75
+                    },
+                    {
+                        "ang_vel": 2.71,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 3.93,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 5.48,
+                        "fuel_modifier": 1.31
+                    },
+                    {
+                        "ang_vel": 7.42,
+                        "fuel_modifier": 1.16
+                    },
+                    {
+                        "ang_vel": 9.86,
+                        "fuel_modifier": 1.01
+                    },
+                    {
+                        "ang_vel": 12.93,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_mack_terra_pro": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_terra_pro.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_mack_terra_pro",
+                "awd_modifier": 1.34,
+                "damage_capacity": 200,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.27,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.2,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.4,
+                "high_fuel_modifier": 1.35,
+                "gears": [
+                    {
+                        "ang_vel": 1.2,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 1.72,
+                        "fuel_modifier": 1.35
+                    },
+                    {
+                        "ang_vel": 2.43,
+                        "fuel_modifier": 1.25
+                    },
+                    {
+                        "ang_vel": 3.39,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 4.68,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 6.43,
+                        "fuel_modifier": 0.9
+                    },
+                    {
+                        "ang_vel": 8.8,
+                        "fuel_modifier": 0.7
+                    },
+                    {
+                        "ang_vel": 12.0,
+                        "fuel_modifier": 0.6
+                    }
+                ],
+                "price": 1900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_highrange",
+                "awd_modifier": 1.37,
+                "damage_capacity": 150,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.62,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.0,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.9,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 3.22,
+                        "fuel_modifier": 1.57
+                    },
+                    {
+                        "ang_vel": 4.78,
+                        "fuel_modifier": 1.43
+                    },
+                    {
+                        "ang_vel": 6.64,
+                        "fuel_modifier": 1.28
+                    },
+                    {
+                        "ang_vel": 8.84,
+                        "fuel_modifier": 1.14
+                    },
+                    {
+                        "ang_vel": 11.44,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 14.53,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 18.2,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_offroad",
+                "awd_modifier": 1.33,
+                "damage_capacity": 220,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.16,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.19,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.34,
+                        "fuel_modifier": 1.67
+                    },
+                    {
+                        "ang_vel": 2.24,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 3.53,
+                        "fuel_modifier": 1.28
+                    },
+                    {
+                        "ang_vel": 5.37,
+                        "fuel_modifier": 1.09
+                    },
+                    {
+                        "ang_vel": 7.98,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 11.7,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_finetune",
+                "awd_modifier": 1.4,
+                "damage_capacity": 130,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.5,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 10.92,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.67,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 2.6,
+                        "fuel_modifier": 1.57
+                    },
+                    {
+                        "ang_vel": 3.76,
+                        "fuel_modifier": 1.43
+                    },
+                    {
+                        "ang_vel": 5.21,
+                        "fuel_modifier": 1.28
+                    },
+                    {
+                        "ang_vel": 7.02,
+                        "fuel_modifier": 1.14
+                    },
+                    {
+                        "ang_vel": 9.27,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.09,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 15.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_special_mercer_k520": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_mercer_k520.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_special_mercer_k520",
+                "awd_modifier": 1.27,
+                "damage_capacity": 190,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.5,
+                "idle_fuel_modifier": 0.25,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 22.0,
+                "reverse_vel": 1.8,
+                "reverse_fuel_modifier": 0.95,
+                "high_vel": 8.4,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 2.2,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.98,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 4.12,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 5.81,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 8.31,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.0,
+                        "fuel_modifier": 0.85
+                    }
+                ],
+                "price": 7000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_sleiter_mfk816": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_sleiter_mfk816.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_special_sleiter_mfk816",
+                "awd_modifier": 1.3,
+                "damage_capacity": 230,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 3.3,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 24.0,
+                "reverse_vel": 0.6,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.6,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 1.2,
+                        "fuel_modifier": 1.8
+                    },
+                    {
+                        "ang_vel": 1.82,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.69,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 3.9,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 5.61,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 8.0,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6500,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_modern_padera_std4": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_modern_padera_std4.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_padera_std4_default",
+                "awd_modifier": 1.25,
+                "damage_capacity": 220,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.58,
+                "fuel_consumption": 2.09,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 10.0,
+                "reverse_vel": 1.14,
+                "reverse_fuel_modifier": 1.58,
+                "high_vel": 6.58,
+                "high_fuel_modifier": 1.3,
+                "gears": [
+                    {
+                        "ang_vel": 1.15,
+                        "fuel_modifier": 1.58
+                    },
+                    {
+                        "ang_vel": 1.85,
+                        "fuel_modifier": 1.46
+                    },
+                    {
+                        "ang_vel": 2.85,
+                        "fuel_modifier": 1.31
+                    },
+                    {
+                        "ang_vel": 4.3,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 6.39,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 9.4,
+                        "fuel_modifier": 0.92
+                    }
+                ],
+                "price": 2900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_padera_std4_offroad",
+                "awd_modifier": 1.21,
+                "damage_capacity": 240,
+                "damage_threshold": 0.58,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 1.98,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 13.0,
+                "reverse_vel": 1.95,
+                "reverse_fuel_modifier": 1.62,
+                "high_vel": 7.22,
+                "high_fuel_modifier": 1.3,
+                "gears": [
+                    {
+                        "ang_vel": 1.27,
+                        "fuel_modifier": 1.63
+                    },
+                    {
+                        "ang_vel": 2.1,
+                        "fuel_modifier": 1.44
+                    },
+                    {
+                        "ang_vel": 3.26,
+                        "fuel_modifier": 1.25
+                    },
+                    {
+                        "ang_vel": 4.88,
+                        "fuel_modifier": 1.06
+                    },
+                    {
+                        "ang_vel": 7.15,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 10.31,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_padera_std4_highrange",
+                "awd_modifier": 1.24,
+                "damage_capacity": 200,
+                "damage_threshold": 0.55,
+                "damage_consumption_modifier": 1.52,
+                "fuel_consumption": 2.4,
+                "idle_fuel_modifier": 0.32,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 8.0,
+                "reverse_vel": 1.8,
+                "reverse_fuel_modifier": 1.6,
+                "high_vel": 11.22,
+                "high_fuel_modifier": 1.24,
+                "gears": [
+                    {
+                        "ang_vel": 1.79,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 3.0,
+                        "fuel_modifier": 1.53
+                    },
+                    {
+                        "ang_vel": 4.41,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 6.06,
+                        "fuel_modifier": 1.25
+                    },
+                    {
+                        "ang_vel": 8.0,
+                        "fuel_modifier": 1.11
+                    },
+                    {
+                        "ang_vel": 10.26,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.92,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.03,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_padera_std4_finetune",
+                "awd_modifier": 1.27,
+                "damage_capacity": 200,
+                "damage_threshold": 0.55,
+                "damage_consumption_modifier": 1.52,
+                "fuel_consumption": 2.3,
+                "idle_fuel_modifier": 0.32,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 8.0,
+                "reverse_vel": 1.95,
+                "reverse_fuel_modifier": 1.67,
+                "high_vel": 9.62,
+                "high_fuel_modifier": 1.3,
+                "gears": [
+                    {
+                        "ang_vel": 1.59,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 2.44,
+                        "fuel_modifier": 1.53
+                    },
+                    {
+                        "ang_vel": 3.49,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 4.79,
+                        "fuel_modifier": 1.25
+                    },
+                    {
+                        "ang_vel": 6.38,
+                        "fuel_modifier": 1.11
+                    },
+                    {
+                        "ang_vel": 8.35,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 10.76,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 13.74,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6200,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_special_old_avenhorn_a15": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_old_avenhorn_a15.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_avenhorn_a15_default",
+                "awd_modifier": 1.23,
+                "damage_capacity": 240,
+                "damage_threshold": 0.45,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 2.11,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 18.0,
+                "reverse_vel": 0.6,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.52,
+                "gears": [
+                    {
+                        "ang_vel": 1.3,
+                        "fuel_modifier": 1.88
+                    },
+                    {
+                        "ang_vel": 1.68,
+                        "fuel_modifier": 1.73
+                    },
+                    {
+                        "ang_vel": 2.15,
+                        "fuel_modifier": 1.67
+                    },
+                    {
+                        "ang_vel": 2.76,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 3.53,
+                        "fuel_modifier": 1.18
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_avenhorn_a15_offroad",
+                "awd_modifier": 1.19,
+                "damage_capacity": 260,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 2.0,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.56,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.27,
+                "gears": [
+                    {
+                        "ang_vel": 1.1,
+                        "fuel_modifier": 1.82
+                    },
+                    {
+                        "ang_vel": 1.61,
+                        "fuel_modifier": 1.61
+                    },
+                    {
+                        "ang_vel": 2.25,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 3.07,
+                        "fuel_modifier": 1.18
+                    },
+                    {
+                        "ang_vel": 4.1,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_avenhorn_a15_highway",
+                "awd_modifier": 1.22,
+                "damage_capacity": 260,
+                "damage_threshold": 0.52,
+                "damage_consumption_modifier": 1.42,
+                "fuel_consumption": 2.43,
+                "idle_fuel_modifier": 0.28,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 8.0,
+                "reverse_vel": 0.75,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.88,
+                "high_fuel_modifier": 1.45,
+                "gears": [
+                    {
+                        "ang_vel": 1.53,
+                        "fuel_modifier": 1.87
+                    },
+                    {
+                        "ang_vel": 2.24,
+                        "fuel_modifier": 1.71
+                    },
+                    {
+                        "ang_vel": 3.03,
+                        "fuel_modifier": 1.55
+                    },
+                    {
+                        "ang_vel": 3.89,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 4.85,
+                        "fuel_modifier": 1.23
+                    },
+                    {
+                        "ang_vel": 5.92,
+                        "fuel_modifier": 1.07
+                    },
+                    {
+                        "ang_vel": 7.1,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 8.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_jangsu_rx_600": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_jangsu_rx_600.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_truck_jangsu_rx_600_default",
+                "awd_modifier": 1.25,
+                "damage_capacity": 200,
+                "damage_threshold": 0.55,
+                "damage_consumption_modifier": 1.48,
+                "fuel_consumption": 2.02,
+                "idle_fuel_modifier": 0.28,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 1.68,
+                "high_vel": 8.05,
+                "high_fuel_modifier": 1.61,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 2.57,
+                        "fuel_modifier": 1.42
+                    },
+                    {
+                        "ang_vel": 4.29,
+                        "fuel_modifier": 1.25
+                    },
+                    {
+                        "ang_vel": 7.06,
+                        "fuel_modifier": 1.18
+                    },
+                    {
+                        "ang_vel": 11.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_jangsu_rx_600_offroad",
+                "awd_modifier": 1.22,
+                "damage_capacity": 220,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.42,
+                "fuel_consumption": 1.92,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.85,
+                "reverse_fuel_modifier": 1.6,
+                "high_vel": 8.74,
+                "high_fuel_modifier": 1.66,
+                "gears": [
+                    {
+                        "ang_vel": 1.41,
+                        "fuel_modifier": 1.65
+                    },
+                    {
+                        "ang_vel": 2.36,
+                        "fuel_modifier": 1.46
+                    },
+                    {
+                        "ang_vel": 3.71,
+                        "fuel_modifier": 1.27
+                    },
+                    {
+                        "ang_vel": 5.66,
+                        "fuel_modifier": 1.08
+                    },
+                    {
+                        "ang_vel": 8.46,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.49,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3600,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_jangsu_rx_600_finetune",
+                "awd_modifier": 1.28,
+                "damage_capacity": 220,
+                "damage_threshold": 0.41,
+                "damage_consumption_modifier": 1.42,
+                "fuel_consumption": 2.23,
+                "idle_fuel_modifier": 0.25,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.85,
+                "reverse_fuel_modifier": 1.65,
+                "high_vel": 11.65,
+                "high_fuel_modifier": 1.67,
+                "gears": [
+                    {
+                        "ang_vel": 1.77,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.74,
+                        "fuel_modifier": 1.56
+                    },
+                    {
+                        "ang_vel": 3.96,
+                        "fuel_modifier": 1.41
+                    },
+                    {
+                        "ang_vel": 5.48,
+                        "fuel_modifier": 1.27
+                    },
+                    {
+                        "ang_vel": 7.4,
+                        "fuel_modifier": 1.13
+                    },
+                    {
+                        "ang_vel": 9.81,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.84,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.65,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            },
+            {
+                "name": "g_truck_jangsu_rx_600_highrange",
+                "awd_modifier": 1.25,
+                "damage_capacity": 190,
+                "damage_threshold": 0.45,
+                "damage_consumption_modifier": 1.45,
+                "fuel_consumption": 2.33,
+                "idle_fuel_modifier": 0.25,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 22.0,
+                "reverse_vel": 1.8,
+                "reverse_fuel_modifier": 1.65,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 2.01,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 3.39,
+                        "fuel_modifier": 1.56
+                    },
+                    {
+                        "ang_vel": 5.04,
+                        "fuel_modifier": 1.41
+                    },
+                    {
+                        "ang_vel": 7.0,
+                        "fuel_modifier": 1.27
+                    },
+                    {
+                        "ang_vel": 9.34,
+                        "fuel_modifier": 1.13
+                    },
+                    {
+                        "ang_vel": 12.13,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 15.46,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.43,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3200,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_voron_g5352": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_voron_g5352.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_truck_voron_g5352_default",
+                "awd_modifier": 1.23,
+                "damage_capacity": 210,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.43,
+                "fuel_consumption": 3.18,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 1.22,
+                "reverse_fuel_modifier": 2.35,
+                "high_vel": 5.74,
+                "high_fuel_modifier": 1.95,
+                "gears": [
+                    {
+                        "ang_vel": 1.22,
+                        "fuel_modifier": 2.35
+                    },
+                    {
+                        "ang_vel": 2.07,
+                        "fuel_modifier": 2.17
+                    },
+                    {
+                        "ang_vel": 3.35,
+                        "fuel_modifier": 1.87
+                    },
+                    {
+                        "ang_vel": 5.28,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 8.2,
+                        "fuel_modifier": 0.91
+                    }
+                ],
+                "price": 2900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_voron_g5352_offroad",
+                "awd_modifier": 1.19,
+                "damage_capacity": 230,
+                "damage_threshold": 0.57,
+                "damage_consumption_modifier": 1.55,
+                "fuel_consumption": 3.02,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 10.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 2.4,
+                "high_vel": 6.87,
+                "high_fuel_modifier": 2.01,
+                "gears": [
+                    {
+                        "ang_vel": 1.2,
+                        "fuel_modifier": 2.27
+                    },
+                    {
+                        "ang_vel": 2.01,
+                        "fuel_modifier": 1.99
+                    },
+                    {
+                        "ang_vel": 3.13,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 4.68,
+                        "fuel_modifier": 1.45
+                    },
+                    {
+                        "ang_vel": 6.83,
+                        "fuel_modifier": 1.18
+                    },
+                    {
+                        "ang_vel": 9.81,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 6000,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_voron_g5352_highrange",
+                "awd_modifier": 1.22,
+                "damage_capacity": 200,
+                "damage_threshold": 0.45,
+                "damage_consumption_modifier": 1.49,
+                "fuel_consumption": 3.66,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 8.0,
+                "reverse_vel": 1.63,
+                "reverse_fuel_modifier": 2.27,
+                "high_vel": 10.68,
+                "high_fuel_modifier": 1.91,
+                "gears": [
+                    {
+                        "ang_vel": 1.69,
+                        "fuel_modifier": 2.34
+                    },
+                    {
+                        "ang_vel": 2.85,
+                        "fuel_modifier": 2.13
+                    },
+                    {
+                        "ang_vel": 4.21,
+                        "fuel_modifier": 1.93
+                    },
+                    {
+                        "ang_vel": 5.8,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 7.65,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 9.81,
+                        "fuel_modifier": 1.31
+                    },
+                    {
+                        "ang_vel": 12.32,
+                        "fuel_modifier": 1.11
+                    },
+                    {
+                        "ang_vel": 15.26,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5200,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_mercedes_benz_actros_6x6": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_actros_6x6.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_mercedes_benz_actros_default",
+                "awd_modifier": 1.25,
+                "damage_capacity": 220,
+                "damage_threshold": 0.5,
+                "damage_consumption_modifier": 1.31,
+                "fuel_consumption": 1.55,
+                "idle_fuel_modifier": 0.34,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 10.0,
+                "reverse_vel": 1.4,
+                "reverse_fuel_modifier": 1.712,
+                "high_vel": 10.22,
+                "high_fuel_modifier": 1.36,
+                "gears": [
+                    {
+                        "ang_vel": 1.4,
+                        "fuel_modifier": 1.712
+                    },
+                    {
+                        "ang_vel": 2.68,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 4.83,
+                        "fuel_modifier": 1.41
+                    },
+                    {
+                        "ang_vel": 8.47,
+                        "fuel_modifier": 1.14
+                    },
+                    {
+                        "ang_vel": 14.6,
+                        "fuel_modifier": 0.8
+                    }
+                ],
+                "price": 1900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_benz_actros_offroad",
+                "awd_modifier": 1.23,
+                "damage_capacity": 230,
+                "damage_threshold": 0.61,
+                "damage_consumption_modifier": 1.37,
+                "fuel_consumption": 1.47,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 14.0,
+                "reverse_vel": 1.82,
+                "reverse_fuel_modifier": 1.85,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 1.39,
+                "gears": [
+                    {
+                        "ang_vel": 1.39,
+                        "fuel_modifier": 1.79
+                    },
+                    {
+                        "ang_vel": 2.34,
+                        "fuel_modifier": 1.58
+                    },
+                    {
+                        "ang_vel": 3.71,
+                        "fuel_modifier": 1.37
+                    },
+                    {
+                        "ang_vel": 5.68,
+                        "fuel_modifier": 1.16
+                    },
+                    {
+                        "ang_vel": 8.52,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_benz_actros_highrange",
+                "awd_modifier": 1.26,
+                "damage_capacity": 200,
+                "damage_threshold": 0.55,
+                "damage_consumption_modifier": 1.24,
+                "fuel_consumption": 1.78,
+                "idle_fuel_modifier": 0.32,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 6.0,
+                "reverse_vel": 2.01,
+                "reverse_fuel_modifier": 1.68,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 1.35,
+                "gears": [
+                    {
+                        "ang_vel": 1.98,
+                        "fuel_modifier": 1.84
+                    },
+                    {
+                        "ang_vel": 3.37,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 5.03,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 7.01,
+                        "fuel_modifier": 1.37
+                    },
+                    {
+                        "ang_vel": 9.38,
+                        "fuel_modifier": 1.21
+                    },
+                    {
+                        "ang_vel": 12.2,
+                        "fuel_modifier": 1.05
+                    },
+                    {
+                        "ang_vel": 15.57,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_benz_actros_finetune",
+                "awd_modifier": 1.29,
+                "damage_capacity": 230,
+                "damage_threshold": 0.61,
+                "damage_consumption_modifier": 1.39,
+                "fuel_consumption": 1.7,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 14.0,
+                "reverse_vel": 1.82,
+                "reverse_fuel_modifier": 1.94,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 1.42,
+                "gears": [
+                    {
+                        "ang_vel": 1.74,
+                        "fuel_modifier": 1.84
+                    },
+                    {
+                        "ang_vel": 2.72,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 3.94,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 5.49,
+                        "fuel_modifier": 1.37
+                    },
+                    {
+                        "ang_vel": 7.43,
+                        "fuel_modifier": 1.21
+                    },
+                    {
+                        "ang_vel": 9.87,
+                        "fuel_modifier": 1.05
+                    },
+                    {
+                        "ang_vel": 12.94,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_mercedes_benz_zetros_6x6": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_zetros_6x6.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_mercedes_zetros_default",
+                "awd_modifier": 1.27,
+                "damage_capacity": 210,
+                "damage_threshold": 0.72,
+                "damage_consumption_modifier": 1.25,
+                "fuel_consumption": 2.44,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 10.0,
+                "reverse_vel": 1.68,
+                "reverse_fuel_modifier": 2.83,
+                "high_vel": 9.33,
+                "high_fuel_modifier": 2.05,
+                "gears": [
+                    {
+                        "ang_vel": 1.68,
+                        "fuel_modifier": 2.83
+                    },
+                    {
+                        "ang_vel": 2.86,
+                        "fuel_modifier": 2.6
+                    },
+                    {
+                        "ang_vel": 4.81,
+                        "fuel_modifier": 2.22
+                    },
+                    {
+                        "ang_vel": 8.02,
+                        "fuel_modifier": 1.68
+                    },
+                    {
+                        "ang_vel": 13.33,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2500,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_zetros_offroad",
+                "awd_modifier": 1.24,
+                "damage_capacity": 230,
+                "damage_threshold": 0.66,
+                "damage_consumption_modifier": 1.42,
+                "fuel_consumption": 2.31,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 14.0,
+                "reverse_vel": 1.99,
+                "reverse_fuel_modifier": 2.9,
+                "high_vel": 8.82,
+                "high_fuel_modifier": 2.12,
+                "gears": [
+                    {
+                        "ang_vel": 1.52,
+                        "fuel_modifier": 2.41
+                    },
+                    {
+                        "ang_vel": 2.47,
+                        "fuel_modifier": 2.12
+                    },
+                    {
+                        "ang_vel": 3.82,
+                        "fuel_modifier": 1.83
+                    },
+                    {
+                        "ang_vel": 5.77,
+                        "fuel_modifier": 1.53
+                    },
+                    {
+                        "ang_vel": 8.57,
+                        "fuel_modifier": 1.24
+                    },
+                    {
+                        "ang_vel": 12.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_zetros_highrange",
+                "awd_modifier": 1.27,
+                "damage_capacity": 200,
+                "damage_threshold": 0.75,
+                "damage_consumption_modifier": 1.29,
+                "fuel_consumption": 2.8,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 6.0,
+                "reverse_vel": 2.27,
+                "reverse_fuel_modifier": 2.75,
+                "high_vel": 12.0,
+                "high_fuel_modifier": 2.0,
+                "gears": [
+                    {
+                        "ang_vel": 2.18,
+                        "fuel_modifier": 2.48
+                    },
+                    {
+                        "ang_vel": 3.56,
+                        "fuel_modifier": 2.26
+                    },
+                    {
+                        "ang_vel": 5.21,
+                        "fuel_modifier": 2.04
+                    },
+                    {
+                        "ang_vel": 7.17,
+                        "fuel_modifier": 1.83
+                    },
+                    {
+                        "ang_vel": 9.51,
+                        "fuel_modifier": 1.61
+                    },
+                    {
+                        "ang_vel": 12.3,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 15.63,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 19.6,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4200,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_mercedes_zetros_finetune",
+                "awd_modifier": 1.3,
+                "damage_capacity": 230,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.45,
+                "fuel_consumption": 2.68,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 14.0,
+                "reverse_vel": 1.99,
+                "reverse_fuel_modifier": 3.045,
+                "high_vel": 11.76,
+                "high_fuel_modifier": 2.15,
+                "gears": [
+                    {
+                        "ang_vel": 1.92,
+                        "fuel_modifier": 2.48
+                    },
+                    {
+                        "ang_vel": 2.89,
+                        "fuel_modifier": 2.26
+                    },
+                    {
+                        "ang_vel": 4.1,
+                        "fuel_modifier": 2.04
+                    },
+                    {
+                        "ang_vel": 5.63,
+                        "fuel_modifier": 1.83
+                    },
+                    {
+                        "ang_vel": 7.55,
+                        "fuel_modifier": 1.61
+                    },
+                    {
+                        "ang_vel": 9.96,
+                        "fuel_modifier": 1.39
+                    },
+                    {
+                        "ang_vel": 12.99,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 16.8,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5100,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_scouts_f750": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_1_1\\classes\\gearboxes\\gearboxes_scouts_f750.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_scout_f750",
+                "awd_modifier": 1.25,
+                "damage_capacity": 75,
+                "damage_threshold": 0.2,
+                "damage_consumption_modifier": 1.4,
+                "fuel_consumption": 1.8,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 2.0,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 9.8,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.9
+                    },
+                    {
+                        "ang_vel": 2.4,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 3.77,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 5.86,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 9.08,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 14.0,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 1500,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_kolob": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_2_2\\classes\\gearboxes\\gearboxes_special_kolob.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_special_kolob",
+                "awd_modifier": 1.23,
+                "damage_capacity": 220,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 1.9,
+                "idle_fuel_modifier": 0.2,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.74,
+                "high_fuel_modifier": 1.55,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 2.32,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 3.56,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 5.42,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 8.2,
+                        "fuel_modifier": 0.9
+                    }
+                ],
+                "price": 7900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_trucks_unique_m916a1_finetune": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_6\\classes\\gearboxes\\gearboxes_trucks_unique_m916a1_finetune.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_truck_unique_m916a1_finetune",
+                "awd_modifier": 1.44,
+                "damage_capacity": 100,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 3.3,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 8.4,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 2.73,
+                        "fuel_modifier": 1.66
+                    },
+                    {
+                        "ang_vel": 3.45,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 4.31,
+                        "fuel_modifier": 1.38
+                    },
+                    {
+                        "ang_vel": 5.35,
+                        "fuel_modifier": 1.24
+                    },
+                    {
+                        "ang_vel": 6.59,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 8.07,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 9.86,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 12.0,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 5500,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_azov_sprinter": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_7\\classes\\gearboxes\\gearboxes_azov_sprinter.xml",
+        "hauler_candidate": false,
+        "gearboxes": [
+            {
+                "name": "g_azov_sprinter_sport",
+                "awd_modifier": 1.23,
+                "damage_capacity": 220,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 5.0,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 1.9,
+                "high_vel": 8.12,
+                "high_fuel_modifier": 2.05,
+                "gears": [
+                    {
+                        "ang_vel": 2.1,
+                        "fuel_modifier": 3.0
+                    },
+                    {
+                        "ang_vel": 2.86,
+                        "fuel_modifier": 2.8
+                    },
+                    {
+                        "ang_vel": 3.98,
+                        "fuel_modifier": 2.6
+                    },
+                    {
+                        "ang_vel": 5.62,
+                        "fuel_modifier": 2.4
+                    },
+                    {
+                        "ang_vel": 8.04,
+                        "fuel_modifier": 2.2
+                    },
+                    {
+                        "ang_vel": 11.6,
+                        "fuel_modifier": 2.1
+                    }
+                ],
+                "price": 5700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            }
+        ]
+    },
+    "gearboxes_special_zikz_612h": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_special_zikz_612h.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_special_zikz_612h_default",
+                "awd_modifier": 1.24,
+                "damage_capacity": 220,
+                "damage_threshold": 0.6,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 3.0,
+                "idle_fuel_modifier": 0.35,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 1.0,
+                "reverse_vel": 0.3,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.45,
+                "gears": [
+                    {
+                        "ang_vel": 0.1,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 0.72,
+                        "fuel_modifier": 1.4
+                    },
+                    {
+                        "ang_vel": 1.58,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 2.8,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 4.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 2900,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_zikz_612h_offroad",
+                "awd_modifier": 1.21,
+                "damage_capacity": 250,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 2.85,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 0.3,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 4.25,
+                "high_fuel_modifier": 1.5,
+                "gears": [
+                    {
+                        "ang_vel": 0.4,
+                        "fuel_modifier": 1.55
+                    },
+                    {
+                        "ang_vel": 0.97,
+                        "fuel_modifier": 1.38
+                    },
+                    {
+                        "ang_vel": 1.69,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 2.63,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 3.84,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.4,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 3800,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_special_zikz_612h_finetune",
+                "awd_modifier": 1.27,
+                "damage_capacity": 180,
+                "damage_threshold": 0.7,
+                "damage_consumption_modifier": 1.9,
+                "fuel_consumption": 3.3,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 5.04,
+                "high_fuel_modifier": 1.6,
+                "gears": [
+                    {
+                        "ang_vel": 0.43,
+                        "fuel_modifier": 1.6
+                    },
+                    {
+                        "ang_vel": 1.01,
+                        "fuel_modifier": 1.46
+                    },
+                    {
+                        "ang_vel": 1.69,
+                        "fuel_modifier": 1.33
+                    },
+                    {
+                        "ang_vel": 2.48,
+                        "fuel_modifier": 1.2
+                    },
+                    {
+                        "ang_vel": 3.4,
+                        "fuel_modifier": 1.06
+                    },
+                    {
+                        "ang_vel": 4.48,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 5.74,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 7.2,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 4700,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    },
+    "gearboxes_zikz_566a": {
+        "file_path": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_zikz_566a.xml",
+        "hauler_candidate": true,
+        "gearboxes": [
+            {
+                "name": "g_truck_default",
+                "awd_modifier": 1.32,
+                "damage_capacity": 180,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 3.12,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 15.0,
+                "reverse_vel": 1.5,
+                "reverse_fuel_modifier": 1.1,
+                "high_vel": 5.95,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.5,
+                        "fuel_modifier": 1.7
+                    },
+                    {
+                        "ang_vel": 2.35,
+                        "fuel_modifier": 1.5
+                    },
+                    {
+                        "ang_vel": 3.63,
+                        "fuel_modifier": 1.3
+                    },
+                    {
+                        "ang_vel": 5.57,
+                        "fuel_modifier": 1.1
+                    },
+                    {
+                        "ang_vel": 8.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 1900,
+                "high_exists": false,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_highrange",
+                "awd_modifier": 1.34,
+                "damage_capacity": 150,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.7,
+                "fuel_consumption": 3.59,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 20.0,
+                "reverse_vel": 1.0,
+                "reverse_fuel_modifier": 1.0,
+                "high_vel": 11.02,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.85,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 3.03,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 4.42,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 6.04,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 7.93,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 10.14,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 12.73,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 15.75,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 9300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": false,
+                "low_minus_exists": false,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_offroad",
+                "awd_modifier": 1.3,
+                "damage_capacity": 220,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.6,
+                "fuel_consumption": 2.97,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 25.0,
+                "reverse_vel": 0.5,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 7.08,
+                "high_fuel_modifier": 1.65,
+                "gears": [
+                    {
+                        "ang_vel": 1.31,
+                        "fuel_modifier": 1.72
+                    },
+                    {
+                        "ang_vel": 2.13,
+                        "fuel_modifier": 1.52
+                    },
+                    {
+                        "ang_vel": 3.26,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 4.85,
+                        "fuel_modifier": 1.12
+                    },
+                    {
+                        "ang_vel": 7.06,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 10.12,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 9500,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": false
+            },
+            {
+                "name": "g_truck_finetune",
+                "awd_modifier": 1.37,
+                "damage_capacity": 130,
+                "damage_threshold": 0.4,
+                "damage_consumption_modifier": 1.5,
+                "fuel_consumption": 3.44,
+                "idle_fuel_modifier": 0.3,
+                "min_break_frequency": 0.0,
+                "max_break_frequency": 30.0,
+                "reverse_vel": 0.7,
+                "reverse_fuel_modifier": 0.9,
+                "high_vel": 9.45,
+                "high_fuel_modifier": 1.7,
+                "gears": [
+                    {
+                        "ang_vel": 1.63,
+                        "fuel_modifier": 1.77
+                    },
+                    {
+                        "ang_vel": 2.47,
+                        "fuel_modifier": 1.62
+                    },
+                    {
+                        "ang_vel": 3.51,
+                        "fuel_modifier": 1.47
+                    },
+                    {
+                        "ang_vel": 4.78,
+                        "fuel_modifier": 1.32
+                    },
+                    {
+                        "ang_vel": 6.34,
+                        "fuel_modifier": 1.17
+                    },
+                    {
+                        "ang_vel": 8.25,
+                        "fuel_modifier": 1.02
+                    },
+                    {
+                        "ang_vel": 10.61,
+                        "fuel_modifier": 1.0
+                    },
+                    {
+                        "ang_vel": 13.5,
+                        "fuel_modifier": 1.0
+                    }
+                ],
+                "price": 11300,
+                "high_exists": true,
+                "low_exists": true,
+                "low_plus_exists": true,
+                "low_minus_exists": true,
+                "is_manual_low_gear": true
+            }
+        ]
+    }
+}

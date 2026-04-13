@@ -1,0 +1,563 @@
+{
+    "scout_trailer_flatbed_1": {
+        "name": "Small Scout Flatbed",
+        "trailer_name_id": "UI_TRAILER_SCOUT_FLATBED_1_NAME",
+        "trailer_id": "scout_trailer_flatbed_1",
+        "cargo_slots": 1,
+        "mass": 1005,
+        "price": 2700,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_flatbed_2": {
+        "name": "Scout Flatbed",
+        "trailer_name_id": "UI_TRAILER_SCOUT_FLATBED_2_NAME",
+        "trailer_id": "scout_trailer_flatbed_2",
+        "cargo_slots": 2,
+        "mass": 1005,
+        "price": 3400,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_oiltank": {
+        "name": "Scout Fuel Carrier",
+        "trailer_name_id": "UI_TRAILER_SCOUT_OILTANK_NAME",
+        "trailer_id": "scout_trailer_oiltank",
+        "fuel_capacity": 900,
+        "full_mass": 1055,
+        "mass": 2655,
+        "price": 3800,
+        "trailer_type": "ScautTrailer"
+    },
+    "semitrailer_coiled_tubing": {
+        "name": "Coiled Tubing Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_COILED_TUBING_NAME",
+        "trailer_id": "semitrailer_coiled_tubing",
+        "mass": 19580,
+        "price": 4700,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_flatbed_5": {
+        "name": "Flatbed Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_FLATBED_5_NAME",
+        "trailer_id": "semitrailer_flatbed_5",
+        "cargo_slots": 5,
+        "mass": 4585,
+        "price": 6600,
+        "trailer_type": "Semitrailer"
+    },
+    "semitrailer_gooseneck_4": {
+        "name": "Gooseneck Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_GOOSENECK_3_NAME",
+        "trailer_id": "semitrailer_gooseneck_4",
+        "cargo_slots": 4,
+        "mass": 5309,
+        "price": 5700,
+        "trailer_type": "Semitrailer"
+    },
+    "semitrailer_heavy_construction_equipment": {
+        "name": "Construction Rig Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_HEAVY_CONSTRUCTION_EQUIPMENT_NAME",
+        "trailer_id": "semitrailer_heavy_construction_equipment",
+        "mass": 19515,
+        "price": 7500,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_heavy_oiltank": {
+        "name": "Heavy Fuel Tanker Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_HEAVY_OILTANK_NAME",
+        "trailer_id": "semitrailer_heavy_oiltank",
+        "fuel_capacity": 5000,
+        "full_mass": 6055,
+        "mass": 12055,
+        "price": 7200,
+        "trailer_type": "LargeSemitrailerOiltank"
+    },
+    "semitrailer_m747": {
+        "name": "Heavy Duty Lowboy Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_M747_NAME",
+        "trailer_id": "semitrailer_m747",
+        "cargo_slots": 3,
+        "mass": 4702,
+        "price": 6400,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_oiltank": {
+        "name": "Fuel Carrier Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_OILTANK_NAME",
+        "trailer_id": "semitrailer_oiltank",
+        "fuel_capacity": 3700,
+        "full_mass": 4085,
+        "mass": 4385,
+        "price": 6000,
+        "trailer_type": "SemitrailerOiltank"
+    },
+    "semitrailer_oil_rig": {
+        "name": "Oil Rig Salvage Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_OIL_RIG_NAME",
+        "trailer_id": "semitrailer_oil_rig",
+        "mass": 12275,
+        "price": null,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_sideboard_5": {
+        "name": "Sideboard Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_SIDEBOARD_4_NAME",
+        "trailer_id": "semitrailer_sideboard_5",
+        "cargo_slots": 5,
+        "mass": 4385,
+        "price": 6800,
+        "trailer_type": "Semitrailer"
+    },
+    "semitrailer_stepdeck_5": {
+        "name": "Stepdeck Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_STEPDECK_4_NAME",
+        "trailer_id": "semitrailer_stepdeck_5",
+        "cargo_slots": 5,
+        "mass": 2309,
+        "price": 7200,
+        "trailer_type": "Semitrailer"
+    },
+    "trailer_addon_maintainer": {
+        "name": "Maintenance Trailer",
+        "trailer_name_id": "UI_TRAILER_MAINTAINER_NAME",
+        "trailer_id": "trailer_addon_maintainer",
+        "fuel_capacity": 2000,
+        "repair_capacity": 350,
+        "spare_wheels": 6,
+        "mass": 5438,
+        "price": 7500,
+        "trailer_type": "Trailer"
+    },
+    "trailer_flatbed_2": {
+        "name": "Flatbed Trailer",
+        "trailer_name_id": "UI_TRAILER_FLATBED_2_NAME",
+        "trailer_id": "trailer_flatbed_2",
+        "cargo_slots": 2,
+        "mass": 4000,
+        "price": 3800,
+        "trailer_type": "Trailer"
+    },
+    "trailer_flatbed_ramps_4": {
+        "name": "Ramped Flatbed Trailer",
+        "trailer_name_id": "UI_TRAILER_FLATBED_RAMPS_3_NAME",
+        "trailer_id": "trailer_flatbed_ramps_4",
+        "cargo_slots": 4,
+        "mass": 4378,
+        "price": 4200,
+        "trailer_type": "Trailer"
+    },
+    "trailer_flatbed_special_2": {
+        "name": "Curtainside Trailer",
+        "trailer_name_id": "UI_TRAILER_FLATBED_SPECIAL_2_NAME",
+        "trailer_id": "trailer_flatbed_special_2",
+        "mass": 4490,
+        "price": 3400,
+        "trailer_type": "Trailer"
+    },
+    "trailer_oiltank": {
+        "name": "Fuel Carrier Trailer",
+        "trailer_name_id": "UI_TRAILER_OILTANK_NAME",
+        "trailer_id": "trailer_oiltank",
+        "fuel_capacity": 2000,
+        "full_mass": 4300,
+        "mass": 1900,
+        "price": 4900,
+        "trailer_type": "Trailer"
+    },
+    "trailer_service_2": {
+        "name": "Service Trailer",
+        "trailer_name_id": "UI_TRAILER_SERVICE_2_NAME",
+        "trailer_id": "trailer_service_2",
+        "repair_capacity": 1500,
+        "spare_wheels": 8,
+        "mass": 5602,
+        "price": 6400,
+        "trailer_type": "Trailer"
+    },
+    "trailer_sideboard_2": {
+        "name": "Sideboard Trailer",
+        "trailer_name_id": "UI_TRAILER_SIDEBOARD_2_NAME",
+        "trailer_id": "trailer_sideboard_2",
+        "cargo_slots": 2,
+        "mass": 2400,
+        "price": 3400,
+        "trailer_type": "Trailer"
+    },
+    "semitrailer_fishing_boat": {
+        "name": "Semi-Trailer with a fishing boat",
+        "trailer_name_id": "UI_SEMITRAILER_FISHING_BOAT_NAME",
+        "trailer_id": "semitrailer_fishing_boat",
+        "mass": 20848,
+        "price": 11700,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "scout_trailer_heavy_repair": {
+        "name": "Large Service Scout Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_HEAVY_REPAIR_NAME",
+        "trailer_id": "scout_trailer_heavy_repair",
+        "fuel_capacity": 300,
+        "repair_capacity": 400,
+        "spare_wheels": 3,
+        "mass": 1040,
+        "price": 4300,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_light_repair": {
+        "name": "Service Scout Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_LIGHT_REPAIR_NAME",
+        "trailer_id": "scout_trailer_light_repair",
+        "fuel_capacity": 150,
+        "repair_capacity": 250,
+        "spare_wheels": 2,
+        "mass": 1240,
+        "price": 3400,
+        "trailer_type": "ScautTrailer"
+    },
+    "semitrailer_star": {
+        "name": "Movie Star's Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_STAR_NAME",
+        "trailer_id": "semitrailer_star",
+        "mass": 11125,
+        "price": 6800,
+        "trailer_type": "Semitrailer"
+    },
+    "semitrailer_reactor_starter": {
+        "name": "Turbo Generator Stator",
+        "trailer_name_id": "UI_SEMITRAILER_REACTOR_STARTER_NAME",
+        "trailer_id": "semitrailer_reactor_starter",
+        "mass": 33202,
+        "price": 12200,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_stepdeck_plane_02": {
+        "name": "Wide Flatbed 3-Axle Semi",
+        "trailer_name_id": "UI_SEMITRAILER_STEPDECK_PLANE_02_NAME",
+        "trailer_id": "semitrailer_stepdeck_plane_02",
+        "cargo_slots": 5,
+        "mass": 4511,
+        "price": 7500,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "trailer_log_medium": {
+        "name": "Futom-M Logging Trailer",
+        "trailer_name_id": "UI_TRAILER_LOGTRAILER_MEDIUM_NAME",
+        "trailer_id": "trailer_log_medium",
+        "cargo_slots": 1,
+        "mass": 3608,
+        "price": 16500,
+        "trailer_type": "LogTrailer"
+    },
+    "trailer_log_short": {
+        "name": "Futom-S Logging Trailer",
+        "trailer_name_id": "UI_TRAILER_LOGTRAILER_SHORT_NAME",
+        "trailer_id": "trailer_log_short",
+        "cargo_slots": 1,
+        "mass": 3608,
+        "price": 14900,
+        "trailer_type": "LogTrailer"
+    },
+    "scout_trailer_fishing_1": {
+        "name": "Fishing Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_FISHING_NAME",
+        "trailer_id": "scout_trailer_fishing_1",
+        "mass": 1200,
+        "price": 2700,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_fishing_2": {
+        "name": "Fishing Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_FISHING_NAME",
+        "trailer_id": "scout_trailer_fishing_2",
+        "mass": 1200,
+        "price": 2700,
+        "trailer_type": "ScautTrailer"
+    },
+    "semitrailer_anchor": {
+        "name": "Oil Platform Anchor",
+        "trailer_name_id": "UI_SEMITRAILER_ANCHOR_NAME",
+        "trailer_id": "semitrailer_anchor",
+        "mass": 28535,
+        "price": 0,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_flatbed_3": {
+        "name": "Short Flatbed Semi-Trailer with Parts",
+        "trailer_name_id": "UI_SEMITRAILER_FLATBED_3_NAME",
+        "trailer_id": "semitrailer_flatbed_3",
+        "fuel_capacity": 120,
+        "repair_capacity": 550,
+        "cargo_slots": 3,
+        "mass": 3410,
+        "price": 4200,
+        "trailer_type": "Semitrailer"
+    },
+    "semitrailer_flatbed_6": {
+        "name": "Flatbed Semi-Trailer Loaded with Parts",
+        "trailer_name_id": "UI_SEMITRAILER_FLATBED_6_NAME",
+        "trailer_id": "semitrailer_flatbed_6",
+        "fuel_capacity": 240,
+        "repair_capacity": 550,
+        "cargo_slots": 6,
+        "mass": 5780,
+        "price": 8300,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_log_double_hinge": {
+        "name": "Double Logging Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_DOUBLE_LOG_NAME",
+        "trailer_id": "semitrailer_log_double_hinge",
+        "cargo_slots": 1,
+        "mass": 9600,
+        "price": 25400,
+        "trailer_type": "Semitrailer"
+    },
+    "pacific_p16_trailer_log_pole": {
+        "name": "Pacific P16 Logging Trailer",
+        "trailer_name_id": "UI_TRAILER_PACIFIC_P16_LOGPOLE_NAME",
+        "trailer_id": "pacific_p16_trailer_log_pole",
+        "mass": 1008,
+        "price": 14100,
+        "trailer_type": "Trailer"
+    },
+    "semitrailer_big_crane": {
+        "name": "Special Crane Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_BIG_CRANE_NAME",
+        "trailer_id": "semitrailer_big_crane",
+        "mass": 23578,
+        "price": 12200,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_foldable_log": {
+        "name": "Foldable Logging Semi-Trailer",
+        "trailer_name_id": "UI_TRAILER_FOLDABLE_LOGS_NAME",
+        "trailer_id": "semitrailer_foldable_log",
+        "cargo_slots": 1,
+        "mass": 4800,
+        "price": 15000,
+        "trailer_type": "SemitrailerFoldableLog"
+    },
+    "semitrailer_log_double_ls": {
+        "name": "Forwood-LS Logging Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_LONG_DOUBLE_LOG_NAME",
+        "trailer_id": "semitrailer_log_double_ls",
+        "cargo_slots": 1,
+        "mass": 9410,
+        "price": 11700,
+        "trailer_type": "Semitrailer"
+    },
+    "trailer_drilling_machine": {
+        "name": "Driller Trailer",
+        "trailer_name_id": "UI_TRAILER_DRILL_NAME",
+        "trailer_id": "trailer_drilling_machine",
+        "mass": 3400,
+        "price": 3800,
+        "trailer_type": "Trailer"
+    },
+    "train_dlc_17": {
+        "name": "Diesel Locomotive",
+        "trailer_name_id": "UI_TRAIN_NAME",
+        "trailer_id": "train_dlc_17",
+        "mass": 200000,
+        "price": 18800,
+        "trailer_type": "Train"
+    },
+    "train_wagons_dlc_17": {
+        "name": "Set of Train Cars",
+        "trailer_name_id": "UI_TRAIN_CARRIAGE_NAME",
+        "trailer_id": "train_wagons_dlc_17",
+        "mass": 160200,
+        "price": 18800,
+        "trailer_type": "Train"
+    },
+    "cargo_cabin_01": {
+        "name": "Portable Cabin",
+        "trailer_name_id": "UI_TRAILER_CARGO_CABIN_01_NAME",
+        "trailer_id": "cargo_cabin_01",
+        "mass": 2200,
+        "price": null,
+        "trailer_type": "CargoCabin"
+    },
+    "scout_trailer_radar": {
+        "name": "Prototype Exploration Unit",
+        "trailer_name_id": "UI_SCOUT_TRAILER_RADAR_NAME",
+        "trailer_id": "scout_trailer_radar",
+        "fuel_capacity": 120,
+        "mass": 2051,
+        "price": 5800,
+        "trailer_type": "ScautTrailer"
+    },
+    "semitrailer_stepdeck_plane_01": {
+        "name": "Wide Flatbed Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_STEPDECK_PLANE_NAME",
+        "trailer_id": "semitrailer_stepdeck_plane_01",
+        "cargo_slots": 5,
+        "mass": 4510,
+        "price": 7500,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_cat770g": {
+        "name": "Heavy Rock Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_CAT770G_NAME",
+        "trailer_id": "semitrailer_cat770g",
+        "mass": 21166,
+        "price": 10400,
+        "trailer_type": "SemitrailerCat770g"
+    },
+    "semitrailer_gooseneck_8": {
+        "name": "Superheavy Semi-Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_GOOSENECK_8_NAME",
+        "trailer_id": "semitrailer_gooseneck_8",
+        "cargo_slots": 8,
+        "mass": 6200,
+        "price": 9400,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_oil_refinery": {
+        "name": "Turbo Generator Stator",
+        "trailer_name_id": "UI_SEMITRAILER_OIL_REFINERY_NAME",
+        "trailer_id": "semitrailer_oil_refinery",
+        "mass": 12200,
+        "price": 12200,
+        "trailer_type": "LargeSemitrailer"
+    },
+    "semitrailer_special_w_cat_770": {
+        "name": "Disassembled Caterpillar 770G",
+        "trailer_name_id": "UI_SEMITRAILER_SPECIAL_W_CAT_770_NAME",
+        "trailer_id": "semitrailer_special_w_cat_770",
+        "mass": 24109,
+        "price": 11700,
+        "trailer_type": "Semitrailer"
+    },
+    "trailer_generator": {
+        "name": "Generator",
+        "trailer_name_id": "UI_TRAILER_GENERATOR_NAME",
+        "trailer_id": "trailer_generator",
+        "fuel_capacity": 1500,
+        "mass": 4452,
+        "price": 13200,
+        "trailer_type": "Trailer"
+    },
+    "trailer_log": {
+        "name": "Log Trailer",
+        "trailer_name_id": "UI_TRAILER_LOGTRAILER_NAME",
+        "trailer_id": "trailer_log",
+        "cargo_slots": 1,
+        "mass": 3813,
+        "price": 14100,
+        "trailer_type": "Trailer"
+    },
+    "trailer_log_pole": {
+        "name": "Log Carrier Rear",
+        "trailer_name_id": "UI_TRAILER_LOGPOLE_NAME",
+        "trailer_id": "trailer_log_pole",
+        "mass": 1300,
+        "price": 14100,
+        "trailer_type": "Trailer"
+    },
+    "train": {
+        "name": "Diesel Locomotive",
+        "trailer_name_id": "UI_TRAIN_NAME",
+        "trailer_id": "train",
+        "mass": 200000,
+        "price": 18800,
+        "trailer_type": "Train"
+    },
+    "semitrailer_for_rocket": {
+        "name": "Rocket Carrier Semi-trailer",
+        "trailer_name_id": "UI_SEMITRAILER_FOR_ROCKET_NAME",
+        "trailer_id": "semitrailer_for_rocket",
+        "price": 18800,
+        "trailer_type": null
+    },
+    "semitrailer_rocket": {
+        "name": "Assembled rocket",
+        "trailer_name_id": "UI_SEMITRAILER_ROCKET_NAME",
+        "trailer_id": "semitrailer_rocket",
+        "price": 18800,
+        "trailer_type": null
+    },
+    "trailer_train_rocket": {
+        "name": "Rocket Carrier Platform",
+        "trailer_name_id": "UI_ROCKET_TRAIN_NAME",
+        "trailer_id": "trailer_train_rocket",
+        "mass": 325000,
+        "price": 18800,
+        "trailer_type": "TrailerTrainRocket"
+    },
+    "scout_trailer_offroad": {
+        "name": "Offroad Scout Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_OFFROAD_NAME",
+        "trailer_id": "scout_trailer_offroad",
+        "cargo_slots": 2,
+        "mass": 850,
+        "price": 3400,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_offroad_cargo": {
+        "name": "Offroad Scout Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_OFFROAD_NAME",
+        "trailer_id": "scout_trailer_offroad_cargo",
+        "mass": 1315,
+        "price": 3400,
+        "trailer_type": "ScautTrailer"
+    },
+    "scout_trailer_offroad_tent": {
+        "name": "Curtainside Scout Trailer",
+        "trailer_name_id": "UI_TRAILER_SCOUT_OFFROAD_TENT_NAME",
+        "trailer_id": "scout_trailer_offroad_tent",
+        "mass": 850,
+        "price": 3400,
+        "trailer_type": "ScautTrailer"
+    },
+    "trailer_cultivator": {
+        "name": "Cultivator",
+        "trailer_name_id": "UI_TRAILER_CULTIVATOR_NAME",
+        "trailer_id": "trailer_cultivator",
+        "mass": 5800,
+        "price": 4200,
+        "trailer_type": "TrailerFarm"
+    },
+    "trailer_harvester": {
+        "name": "Potato Harvester",
+        "trailer_name_id": "UI_TRAILER_HARVESTER_NAME",
+        "trailer_id": "trailer_harvester",
+        "mass": 2400,
+        "price": 2900,
+        "trailer_type": "TrailerFarm"
+    },
+    "trailer_planter": {
+        "name": "Multi-row Planter",
+        "trailer_name_id": "UI_TRAILER_PLANTER_NAME",
+        "trailer_id": "trailer_planter",
+        "mass": 5300,
+        "price": 5700,
+        "trailer_type": "TrailerFarm"
+    },
+    "semitrailer_watertank": {
+        "name": "Heavy Water Carrier Trailer",
+        "trailer_name_id": "UI_SEMITRAILER_WATERTANK_NAME",
+        "trailer_id": "semitrailer_watertank",
+        "water_capacity": 3700,
+        "full_mass": 4085,
+        "mass": 4385,
+        "price": 6000,
+        "trailer_type": "SemitrailerOiltank"
+    },
+    "trailer_log_pole_zikz_612h": {
+        "name": "Log Carrier Rear",
+        "trailer_name_id": "UI_TRAILER_LOGPOLE_NAME",
+        "trailer_id": "trailer_log_pole_zikz_612h",
+        "mass": 1300,
+        "price": 14100,
+        "trailer_type": "Trailer"
+    },
+    "trailer_watertank": {
+        "name": "Water Carrier Trailer",
+        "trailer_name_id": "UI_TRAILER_WATERTANK_NAME",
+        "trailer_id": "trailer_watertank",
+        "water_capacity": 2000,
+        "full_mass": 2600,
+        "mass": 1900,
+        "price": 4900,
+        "trailer_type": "Trailer"
+    }
+}

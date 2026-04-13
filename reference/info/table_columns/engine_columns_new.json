@@ -1,0 +1,88 @@
+{
+  "id": {
+    "name": "id",
+    "num_format": {},
+    "con_format": {}
+  },
+  "name": {
+    "name": "name",
+    "num_format": {},
+    "con_format": {}
+  },
+  "torque": {
+    "name": "torque",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "fuel_consumption": {
+    "name": "fuel_consumption",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "torque_efficiency": {
+    "name": "torque_efficiency",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "price": {
+    "name": "price",
+    "num_format": {
+      "num_format": "$#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "damage_capacity": {
+    "name": "damage_capacity",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "critical_damage_threshold": {
+    "name": "critical_damage_threshold",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "engine_file": {
+    "name": "engine_file",
+    "num_format": {},
+    "con_format": {}
+  },
+  "trucks": {
+    "name": "trucks",
+    "num_format": {},
+    "con_format": {}
+  }
+}

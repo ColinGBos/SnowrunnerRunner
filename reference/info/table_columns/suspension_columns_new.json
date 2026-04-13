@@ -1,0 +1,175 @@
+{
+  "id": {
+    "name": "id",
+    "num_format": {},
+    "con_format": {}
+  },
+  "name": {
+    "name": "name",
+    "num_format": {},
+    "con_format": {}
+  },
+  "truck": {
+    "name": "name",
+    "num_format": {},
+    "con_format": {}
+  },
+  "active": {
+    "name": "active",
+    "num_format": {},
+    "con_format": {}
+  },
+  "requires_exploration": {
+    "name": "requires_exploration",
+    "num_format": {},
+    "con_format": {}
+  },
+  "damage_capacity": {
+    "name": "damage_capacity",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "front_height": {
+    "name": "front_height",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "front_max_height": {
+    "name": "front_height",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "front_strength": {
+    "name": "front_strength",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "front_damping": {
+    "name": "front_damping",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "front_dev_delta": {
+    "name": "front_dev_delta",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rear_height": {
+    "name": "front_height",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rear_max_height": {
+    "name": "front_height",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rear_strength": {
+    "name": "front_strength",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rear_damping": {
+    "name": "front_damping",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rear_dev_delta": {
+    "name": "middle_dev_delta",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "price": {
+    "name": "price",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "critical_damage_threshold": {
+    "name": "critical_damage_threshold",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "min_color": "#ffffff",
+      "max_color": "#7EC86F"
+    }
+  },
+  "suspension_file": {
+    "name": "suspension_file",
+    "num_format": {},
+    "con_format": {}
+  }
+}

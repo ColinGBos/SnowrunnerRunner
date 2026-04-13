@@ -1,0 +1,45 @@
+{
+    "name": {
+        "name": "name",
+        "num_format": {},
+        "con_format": {}
+    },
+    "type": {
+        "name": "type",
+        "num_format": {},
+        "con_format": {}
+    },
+    "unpacked_mass": {
+        "name": "unpacked_mass",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#D57575",
+            "min_color": "#ffffff"
+        }
+    },
+    "packed_mass": {
+        "name": "packed_mass",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#D57575",
+            "min_color": "#ffffff"
+        }
+    },
+    "packed_length": {
+        "name": "packed_length",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    }
+}

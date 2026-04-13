@@ -1,0 +1,54 @@
+[
+    {
+        "cargo_type": "CargoStoneBlock",
+        "ui_name": "UI_CARGO_STONE_BLOCK_NAME",
+        "name": "",
+        "packed_mass": 7000,
+        "packed_length": 2,
+        "unpacked_mass": 7000,
+        "packed_cargo_file": "input/initial/[media]/_dlc/ru_13/classes/trucks/cargo/cargo_stone_block_2.xml",
+        "unpacked_model_file": "input/initial/[media]/_dlc/ru_13/classes/models/cargo_unit_stone_block_2.xml",
+        "unpacked_mass_count": 2,
+        "packed_mass_count": 2,
+        "approx_text_width": 0
+    },
+    {
+        "cargo_type": "CargoMetalJunk",
+        "ui_name": "UI_CARGO_JUNK_CLOSED_NAME",
+        "name": "",
+        "packed_mass": 4000,
+        "packed_length": 2,
+        "unpacked_mass": 4000,
+        "packed_cargo_file": "input/initial/[media]/_dlc/us_16/classes/trucks/cargo/cargo_metal_junk_2.xml",
+        "unpacked_model_file": "input/initial/[media]/_dlc/us_16/classes/models/cargo_unit_metal_junk_2.xml",
+        "unpacked_mass_count": 2,
+        "packed_mass_count": 2,
+        "approx_text_width": 0
+    },
+    {
+        "cargo_type": "CargoMetalJunkOpen",
+        "ui_name": "UI_CARGO_JUNK_OPEN_NAME",
+        "name": "",
+        "packed_mass": 1550,
+        "packed_length": 2,
+        "unpacked_mass": 3100,
+        "packed_cargo_file": "input/initial/[media]/_dlc/us_16/classes/trucks/cargo/cargo_metal_junk_2_open.xml",
+        "unpacked_model_file": "input/initial/[media]/_dlc/us_16/classes/models/cargo_unit_metal_junk_2_open.xml",
+        "unpacked_mass_count": 4,
+        "packed_mass_count": 3,
+        "approx_text_width": 0
+    },
+    {
+        "cargo_type": "CargoTransformer",
+        "ui_name": "UI_CARGO_TRANSFORMER_NAME",
+        "name": "",
+        "packed_mass": 2200,
+        "packed_length": 3,
+        "unpacked_mass": 5000,
+        "packed_cargo_file": "input/initial/[media]/_dlc/us_16/classes/trucks/cargo/cargo_transformer_3_us16.xml",
+        "unpacked_model_file": "input/initial/[media]/_dlc/us_16/classes/models/cargo_unit_transformer_3_us16.xml",
+        "unpacked_mass_count": 2,
+        "packed_mass_count": 3,
+        "approx_text_width": 0
+    }
+]

@@ -1,0 +1,2924 @@
+{
+    "ank_mk38_sideboard_2": {
+        "name": "Sideboard Bed",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "ank_mk38_sideboard_2",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "ankMk38FrameAddon",
+        "mass": 600
+    },
+    "azov_4220_antarctic_addon_body": {
+        "name": "EMPTY_LINE",
+        "addon_name_id": "UI_ADDON_AZOV_4220_ANTARCTIC_BODY_NAME",
+        "addon_id": "azov_4220_antarctic_addon_body",
+        "cargo_slots": 2,
+        "price": 4700,
+        "install_socket": "KamazAddonBody",
+        "mass": 600
+    },
+    "big_crane_ru": {
+        "name": "Avto-23 Heavy Crane",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_RU_NAME",
+        "addon_id": "big_crane_ru",
+        "price": 7500,
+        "install_socket": "BigCraneRu",
+        "mass": 7310
+    },
+    "big_crane_us": {
+        "name": "PC-320 Heavy Crane",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_US_NAME",
+        "addon_id": "big_crane_us",
+        "price": 7500,
+        "install_socket": "BigCraneUs",
+        "mass": 5310
+    },
+    "big_crane_us_ws4964": {
+        "name": "PC-320 Heavy Crane (White Western Star 4964)",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_US_NAME",
+        "addon_id": "big_crane_us_ws4964",
+        "price": 7500,
+        "install_socket": "BigCraneUsWS4964",
+        "mass": 5310
+    },
+    "cat_745c_container_carrier": {
+        "name": "Container Carrier (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_CAT_745C_CONTAINER_CARRIER_NAME",
+        "addon_id": "cat_745c_container_carrier",
+        "cargo_slots": 2,
+        "price": 5700,
+        "install_socket": "Cat745CContainerCarrier",
+        "mass": 405
+    },
+    "cat_745c_flatbed_2": {
+        "name": "Flatbed (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "cat_745c_flatbed_2",
+        "repair_capacity": 200,
+        "cargo_slots": 2,
+        "price": 5600,
+        "install_socket": "Cat745CFlatbed",
+        "mass": 703
+    },
+    "cat_745c_fuel_tank": {
+        "name": "Fuel Carrier (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_CAT_745C_FUEL_TANK_NAME",
+        "addon_id": "cat_745c_fuel_tank",
+        "fuel_capacity": 1600,
+        "full_mass": 4480,
+        "price": 8500,
+        "install_socket": "Cat745CFuelTank",
+        "mass": 1000
+    },
+    "cat_745c_log_bunk": {
+        "name": "Log Carrier (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_CAT_745C_LOG_BUNK_NAME",
+        "addon_id": "cat_745c_log_bunk",
+        "cargo_slots": 1,
+        "price": 7500,
+        "install_socket": "Cat745CLogBunk",
+        "mass": 1000
+    },
+    "cat_745c_service": {
+        "name": "Maintenance Frame Addon (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_NAME",
+        "addon_id": "cat_745c_service",
+        "fuel_capacity": 1100,
+        "full_mass": 3108,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "price": 7500,
+        "install_socket": "Cat745CService",
+        "mass": 2228
+    },
+    "cat_745c_water_tank": {
+        "name": "Water Tank (Caterpillar 745\u0421)",
+        "addon_name_id": "UI_ADDON_CAT_745C_WATER_TANK_NAME",
+        "addon_id": "cat_745c_water_tank",
+        "water_capacity": 2000,
+        "full_mass": 7700,
+        "price": 6000,
+        "install_socket": "Cat745CWaterTank",
+        "mass": 1000
+    },
+    "dan_96320_frame_addon_flatbed_2": {
+        "name": "Flatbed (DAN 96320)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "dan_96320_frame_addon_flatbed_2",
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "FrameAddonFlatbedDan96320",
+        "mass": 400
+    },
+    "frame_addon_flatbed_2": {
+        "name": "Flatbed",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_addon_flatbed_2",
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "FrameAddon",
+        "mass": 410
+    },
+    "frame_addon_kung": {
+        "name": "Van Body Addon",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_NAME",
+        "addon_id": "frame_addon_kung",
+        "repair_capacity": 800,
+        "spare_wheels": 6,
+        "price": 4500,
+        "install_socket": "FrameAddonKung",
+        "mass": 3012
+    },
+    "frame_addon_maintainer": {
+        "name": "Maintenance Frame Addon",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_NAME",
+        "addon_id": "frame_addon_maintainer",
+        "fuel_capacity": 1400,
+        "full_mass": 3945,
+        "repair_capacity": 300,
+        "spare_wheels": 5,
+        "price": 5300,
+        "install_socket": "FrameAddonMaintainer",
+        "mass": 3025
+    },
+    "frame_addon_maintainer_big": {
+        "name": "Large Maintenance Frame Addon",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_BIG_NAME",
+        "addon_id": "frame_addon_maintainer_big",
+        "fuel_capacity": 2000,
+        "full_mass": 5638,
+        "repair_capacity": 350,
+        "spare_wheels": 6,
+        "price": 6800,
+        "install_socket": "FrameAddonMaintainerBig",
+        "mass": 5038
+    },
+    "frame_addon_sideboard_2": {
+        "name": "Sideboard Bed",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "frame_addon_sideboard_2",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "FrameAddon",
+        "mass": 610
+    },
+    "frame_addon_tank": {
+        "name": "Fuel Tank",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_NAME",
+        "addon_id": "frame_addon_tank",
+        "fuel_capacity": 1800,
+        "full_mass": 5050,
+        "price": 5300,
+        "install_socket": "FrameAddonTank",
+        "mass": 610
+    },
+    "international_loadstar_1700_pickup": {
+        "name": "Pickup Chassis Addon (International Loadstar 1700)",
+        "addon_name_id": "UI_TUNING_INTERNATIONAL_LOADSTAR_1700_PICKUP_NAME",
+        "addon_id": "international_loadstar_1700_pickup",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "spare_wheels": 3,
+        "price": 1200,
+        "install_socket": "InternationalLoadstar1700Pickup",
+        "mass": 350
+    },
+    "international_loadstar_1700_service_body": {
+        "name": "Service Cab (International Loadstar 1700)",
+        "addon_name_id": "UI_TUNING_INTERNATIONAL_LOADSTAR_1700_SERVICE_BODY_NAME",
+        "addon_id": "international_loadstar_1700_service_body",
+        "repair_capacity": 400,
+        "price": 3800,
+        "install_socket": "InternationalLoadstar1700ServiceBody",
+        "mass": 1003
+    },
+    "minicrane_ru": {
+        "name": "IM50 Loading Crane",
+        "addon_name_id": "UI_ADDON_MINICRANE_RU_NAME",
+        "addon_id": "minicrane_ru",
+        "price": 5700,
+        "install_socket": "MinicraneRU",
+        "mass": 2050
+    },
+    "minicrane_us": {
+        "name": "LC 3.8 Loading Crane",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "minicrane_us",
+        "price": 5700,
+        "install_socket": "MinicraneUS",
+        "mass": 3960
+    },
+    "minicrane_us_navistar": {
+        "name": "LC 3.8 Loading Crane",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "minicrane_us_navistar",
+        "price": 5700,
+        "install_socket": "MinicraneNavistar",
+        "mass": 3950
+    },
+    "ank_mk38_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "ank_mk38_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "AnkMk38WheelAddon",
+        "mass": 300
+    },
+    "azov_5319_wheel_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "azov_5319_wheel_addon_1",
+        "spare_wheels": 1,
+        "price": 2500,
+        "install_socket": "Azov5319WheelAddon",
+        "mass": 300
+    },
+    "azov_64131_wheel_addon_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "azov_64131_wheel_addon_default",
+        "spare_wheels": 1,
+        "price": 2700,
+        "install_socket": "azov64131WheelAddon",
+        "mass": 300
+    },
+    "azov_73210_spare_wheel": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "azov_73210_spare_wheel",
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "Azov73210SpareWheel",
+        "mass": 200
+    },
+    "cat_ct680_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "cat_ct680_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2300,
+        "install_socket": "CatCt680SpareWheel",
+        "mass": 120
+    },
+    "chevrolet_ck1500_rooftop_trunk": {
+        "name": "Roof Rack (Chevrolet CK1500)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "chevrolet_ck1500_rooftop_trunk",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "ChevroletCK1500RooftopTrunk",
+        "mass": 312
+    },
+    "chevrolet_ck1500_rooftop_trunk_2": {
+        "name": "Small Roof Rack (Chevrolet CK1500)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "chevrolet_ck1500_rooftop_trunk_2",
+        "fuel_capacity": 40,
+        "spare_wheels": 2,
+        "price": 1000,
+        "install_socket": "ChevroletCK1500RooftopTrunk",
+        "mass": 156
+    },
+    "chevrolet_ck1500_trunk_stuff": {
+        "name": "Trunk Repair Supplies (Chevrolet CK1500)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "chevrolet_ck1500_trunk_stuff",
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 2100,
+        "install_socket": "ChevroletCk1500TrunkStuff",
+        "mass": 97
+    },
+    "chevrolet_ck1500_trunk_stuff_2": {
+        "name": "Expanded Trunk with Parts (Chevrolet CK1500)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_BIG_NAME",
+        "addon_id": "chevrolet_ck1500_trunk_stuff_2",
+        "fuel_capacity": 120,
+        "repair_capacity": 300,
+        "spare_wheels": 6,
+        "price": 3800,
+        "install_socket": "ChevroletCk1500TrunkStuff",
+        "mass": 200
+    },
+    "chevrolet_kodiakc70_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "chevrolet_kodiakc70_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "ChevroletKodiakc70SpareWheel",
+        "mass": 120
+    },
+    "dan_96320_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "dan_96320_wheel_addon",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "Dan96320WheelAddon",
+        "mass": 26
+    },
+    "derry_longhorn_3194_spare_wheel": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "derry_longhorn_3194_spare_wheel",
+        "spare_wheels": 2,
+        "price": 2700,
+        "install_socket": "DerryLonghorn3194SpareWheel",
+        "mass": 100
+    },
+    "derry_longhorn_4520_spare_wheel_01": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "derry_longhorn_4520_spare_wheel_01",
+        "spare_wheels": 1,
+        "price": 3000,
+        "install_socket": "DerryLonghorn4520SpareWheel",
+        "mass": 100
+    },
+    "don_71_roofrack_1": {
+        "name": "Small Roof Rack (DON 71)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "don_71_roofrack_1",
+        "fuel_capacity": 20,
+        "repair_capacity": 300,
+        "spare_wheels": 4,
+        "price": 1900,
+        "install_socket": "Don71Roofrack",
+        "mass": 150
+    },
+    "don_71_roofrack_2": {
+        "name": "Roof Rack (DON 71)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "don_71_roofrack_2",
+        "fuel_capacity": 40,
+        "repair_capacity": 300,
+        "spare_wheels": 4,
+        "price": 2300,
+        "install_socket": "Don71Roofrack2",
+        "mass": 170
+    },
+    "don_71_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "don_71_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "Don71SpareWheel",
+        "mass": 70
+    },
+    "ford_clt9000_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "ford_clt9000_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "FordClt9000SpareWheel",
+        "mass": 120
+    },
+    "freightliner_114sd_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "freightliner_114sd_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "Freightliner114sdSpareWheel",
+        "mass": 120
+    },
+    "gmc_9500_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "gmc_9500_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "Gmc9500SpareWheel",
+        "mass": 120
+    },
+    "hummer_h2_roofrack": {
+        "name": "Small Roof Rack (Hummer H2)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "hummer_h2_roofrack",
+        "fuel_capacity": 40,
+        "repair_capacity": 150,
+        "spare_wheels": 4,
+        "price": 1900,
+        "install_socket": "HummerH2Roofrack",
+        "mass": 240
+    },
+    "hummer_h2_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "hummer_h2_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "HummerH2SpareWheel",
+        "mass": 50
+    },
+    "hummer_h2_trunk": {
+        "name": "Trunk Repair Supplies",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "hummer_h2_trunk",
+        "fuel_capacity": 40,
+        "repair_capacity": 150,
+        "price": 1300,
+        "install_socket": "HummerH2Trunk",
+        "mass": 140
+    },
+    "international_fleetstar_f2070a_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "international_fleetstar_f2070a_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "InternationalFleetstarF2070aSpareWheel",
+        "mass": 120
+    },
+    "international_paystar_5070_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "international_paystar_5070_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "InternationalPaystar5070SpareWheel",
+        "mass": 120
+    },
+    "international_scout_800_roofrack_1": {
+        "name": "Roof Rack (Scout 800)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "international_scout_800_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 1500,
+        "install_socket": "InternationalScout800Roofrack",
+        "mass": 120
+    },
+    "international_scout_800_trunk_stuff": {
+        "name": "Expanded Trunk with Parts",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_BIG_NAME",
+        "addon_id": "international_scout_800_trunk_stuff",
+        "fuel_capacity": 120,
+        "repair_capacity": 450,
+        "spare_wheels": 6,
+        "price": 1700,
+        "install_socket": "InternationalScout800TrunkStuff",
+        "mass": 180
+    },
+    "international_scout_800_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "international_scout_800_wheel_addon",
+        "spare_wheels": 2,
+        "price": 1700,
+        "install_socket": "InternationalScout800SpareWheel",
+        "mass": 60
+    },
+    "international_transtar_4070a_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "international_transtar_4070a_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "InternationalTranstar4070aSpareWheel",
+        "mass": 120
+    },
+    "khan_39_marshall_roofrack_1": {
+        "name": "Roof Rack (KHAN 39 Marshall)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "khan_39_marshall_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "price": 2300,
+        "install_socket": "KHAN39MarshallRooftopTrunk",
+        "mass": 120
+    },
+    "khan_39_marshall_wheel_addon_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "khan_39_marshall_wheel_addon_default",
+        "spare_wheels": 2,
+        "price": 1900,
+        "install_socket": "KHAN39MarshallWheelAddon",
+        "mass": 30
+    },
+    "khan_lo4f_roofrack_1": {
+        "name": "Roof Rack (KHAN Lo4F)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "khan_lo4f_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 1700,
+        "install_socket": "Khanlo4fRoofrack",
+        "mass": 200
+    },
+    "khan_lo4f_trunk_stuff": {
+        "name": "Expanded Trunk with Parts (KHAN Lo4F)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_BIG_NAME",
+        "addon_id": "khan_lo4f_trunk_stuff",
+        "fuel_capacity": 240,
+        "repair_capacity": 450,
+        "spare_wheels": 8,
+        "price": 3900,
+        "install_socket": "Khanlo4fTrunk",
+        "mass": 520
+    },
+    "khan_lo4f_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "khan_lo4f_wheel_addon",
+        "spare_wheels": 2,
+        "price": 1700,
+        "install_socket": "Khanlo4fWheelAddon"
+    },
+    "kolob_74760_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "kolob_74760_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2300,
+        "install_socket": "Kolob74760SpareWheel",
+        "mass": 100
+    },
+    "navistar_5000mv_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "navistar_5000mv_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "Navistar5000mvSpareWheel",
+        "mass": 155
+    },
+    "pacific_p12w_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "pacific_p12w_spare_wheel",
+        "spare_wheels": 4,
+        "price": 2300,
+        "install_socket": "PacificP12wSpareWheel",
+        "mass": 200
+    },
+    "royal_bm17_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "royal_bm17_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2500,
+        "install_socket": "RoyalBm17SpareWheel",
+        "mass": 120
+    },
+    "step_310e_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "step_310e_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "Step310eSpareWheel",
+        "mass": 120
+    },
+    "tayga_6436_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "tayga_6436_wheel_addon",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "Tayga6436WheelAddon",
+        "mass": 150
+    },
+    "tuz_166_rear_bumper_spare_wheel": {
+        "name": "With Wheel Mount",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_SPAREWHEEL_NAME",
+        "addon_id": "tuz_166_rear_bumper_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1500,
+        "install_socket": "Tuz166RearBumperSpareWheel",
+        "mass": 10
+    },
+    "tuz_166_roofrack_1": {
+        "name": "Small Roof Rack (TUZ 166)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "tuz_166_roofrack_1",
+        "fuel_capacity": 40,
+        "spare_wheels": 4,
+        "price": 1500,
+        "install_socket": "Tuz166Roofrack",
+        "mass": 50
+    },
+    "tuz_420_tatarin_trunk_1": {
+        "name": "Roof Rack (TUZ 420 \"Tatarin\")",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "tuz_420_tatarin_trunk_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "spare_wheels": 4,
+        "price": 3000,
+        "install_socket": "Tuz420TatarinTrunk",
+        "mass": 300
+    },
+    "voron_ae4380_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "voron_ae4380_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "VoronAE4380WheelAddon",
+        "mass": 150
+    },
+    "voron_d53233_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "voron_d53233_wheel_addon",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "VoronD53233WheelAddon",
+        "mass": 150
+    },
+    "voron_grad_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "voron_grad_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "VoronGradSpareWheel",
+        "mass": 120
+    },
+    "ws_4964_white_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "ws_4964_white_spare_wheel",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "Ws4964WhiteSpareWheel",
+        "mass": 120
+    },
+    "ws_6900xd_twin_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "ws_6900xd_twin_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2500,
+        "install_socket": "Ws6900xdTwinSpareWheel",
+        "mass": 120
+    },
+    "yar_87_roofrack_1": {
+        "name": "Roof Rack (YAR 87)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "yar_87_roofrack_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 300,
+        "spare_wheels": 4,
+        "price": 2100,
+        "install_socket": "Yar87Roofrack",
+        "mass": 200
+    },
+    "zikz_5368_wheel_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "zikz_5368_wheel_addon_1",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "zikz_5368WheelAddon",
+        "mass": 150
+    },
+    "crane_loglift_kenworth_963": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_kenworth_963",
+        "price": 7900,
+        "install_socket": "LogLiftKenworth",
+        "mass": 3330
+    },
+    "frame_addon_log_medium_high_kenworth": {
+        "name": "Medium Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_high_kenworth",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumHighKenworth",
+        "mass": 900
+    },
+    "frame_addon_maintainer_big_kenworth_963": {
+        "name": "Large Maintenance Frame Addon",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_BIG_NAME",
+        "addon_id": "frame_addon_maintainer_big_kenworth_963",
+        "fuel_capacity": 2000,
+        "full_mass": 5638,
+        "repair_capacity": 350,
+        "spare_wheels": 6,
+        "price": 6800,
+        "install_socket": "KenworthFrameAddonMaintainerBig",
+        "mass": 5038
+    },
+    "minicrane_kenworth_963": {
+        "name": "LC 3.8 Loading Crane (Kenworth 963)",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "minicrane_kenworth_963",
+        "price": 5700,
+        "install_socket": "MinicraneKenworth",
+        "mass": 3960
+    },
+    "burlak_minicrane_ru": {
+        "name": "IM50 Loading Crane (Burlak 6x6)",
+        "addon_name_id": "UI_ADDON_MINICRANE_RU_NAME",
+        "addon_id": "burlak_minicrane_ru",
+        "price": 5700,
+        "install_socket": "BurlakMinicraneRU",
+        "mass": 720
+    },
+    "frame_addon_flatbed_kenworth_963_1": {
+        "name": "Oil Field Flatbed (Kenworth 963)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_KENWORTH_963_01_NAME",
+        "addon_id": "frame_addon_flatbed_kenworth_963_1",
+        "cargo_slots": 3,
+        "price": 5700,
+        "install_socket": "FlatbedKenworth1",
+        "mass": 1714
+    },
+    "frame_addon_flatbed_kenworth_963_2": {
+        "name": "Oil Field Flatbed (Consumables) (Kenworth 963)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_KENWORTH_963_02_NAME",
+        "addon_id": "frame_addon_flatbed_kenworth_963_2",
+        "fuel_capacity": 60,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "cargo_slots": 2,
+        "price": 6100,
+        "install_socket": "FlatbedKenworth2",
+        "mass": 1814
+    },
+    "frame_addon_heavy_repair": {
+        "name": "Multi-purpose Cargo Module",
+        "addon_name_id": "UI_ADDON_FRAME_HEAVY_REPAIR_NAME",
+        "addon_id": "frame_addon_heavy_repair",
+        "fuel_capacity": 250,
+        "full_mass": 7210,
+        "repair_capacity": 450,
+        "spare_wheels": 4,
+        "cargo_slots": 1,
+        "price": 5700,
+        "install_socket": "HeavyRepairSmall",
+        "mass": 11510
+    },
+    "frame_addon_heavy_repair_mastadon": {
+        "name": "Multi-purpose Cargo Module (ZiKZ 612H)",
+        "addon_name_id": "UI_ADDON_FRAME_HEAVY_REPAIR_NAME",
+        "addon_id": "frame_addon_heavy_repair_mastadon",
+        "fuel_capacity": 250,
+        "full_mass": 7210,
+        "repair_capacity": 450,
+        "spare_wheels": 4,
+        "cargo_slots": 1,
+        "price": 5700,
+        "install_socket": "HeavyRepair",
+        "mass": 11510
+    },
+    "femm_37at_minicrane_ru": {
+        "name": "IM50 Loading Crane (FEMM 37-AT)",
+        "addon_name_id": "UI_ADDON_MINICRANE_RU_NAME",
+        "addon_id": "femm_37at_minicrane_ru",
+        "price": 5700,
+        "install_socket": "Femm37atMinicraneRU",
+        "mass": 2050
+    },
+    "femm_37at_sideboard_4": {
+        "name": "FEMM Float Body (FEMM 37-AT)",
+        "addon_name_id": "UI_ADDON_FEMM_37AT_SIDEBOARD_4_NAME",
+        "addon_id": "femm_37at_sideboard_4",
+        "cargo_slots": 4,
+        "price": 6700,
+        "install_socket": "FemmSideboard",
+        "mass": 1100
+    },
+    "azov_670963n_frame_addon_tank": {
+        "name": "Azov General Repair & Refuel Unit (Azov 67096 \"Atom\")",
+        "addon_name_id": "UI_ADDON_AZOV67096_FRAME_TANK_NAME",
+        "addon_id": "azov_670963n_frame_addon_tank",
+        "fuel_capacity": 2500,
+        "full_mass": 7010,
+        "repair_capacity": 300,
+        "spare_wheels": 4,
+        "price": 7000,
+        "install_socket": "Azov670963nTank",
+        "mass": 3010
+    },
+    "azov_670963n_sideboard": {
+        "name": "Azov 67096 \u201cAtom\u201d Flat Body (Azov 67096 \"Atom\")",
+        "addon_name_id": "UI_ADDON_AZOV67096_SIDEBOARD_NAME",
+        "addon_id": "azov_670963n_sideboard",
+        "cargo_slots": 3,
+        "price": 5700,
+        "install_socket": "Azov670963nSideboard",
+        "mass": 1100
+    },
+    "plad_450_minicrane": {
+        "name": "LC 3.8 Loading Crane (PLAD 450)",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "plad_450_minicrane",
+        "price": 5700,
+        "install_socket": "PladMinicrane",
+        "mass": 3960
+    },
+    "plad_450_sideboard": {
+        "name": "PLAD Float Body (PLAD 450)",
+        "addon_name_id": "UI_ADDON_PLAD_450_SIDEBOARD_NAME",
+        "addon_id": "plad_450_sideboard",
+        "spare_wheels": 1,
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "Plad450Sideboard",
+        "mass": 1150
+    },
+    "ankatra_1160_crane": {
+        "name": "Ankatra Log Crane (Ankatra 1160)",
+        "addon_name_id": "UI_ADDON_CRANE_ANKATRA_1160_NAME",
+        "addon_id": "ankatra_1160_crane",
+        "price": 6800,
+        "install_socket": "Ankatra1160Crane",
+        "mass": 2700
+    },
+    "futom_7290ra_crane": {
+        "name": "Futom Log Crane (Futom 7290RA)",
+        "addon_name_id": "UI_ADDON_CRANE_FUTOM_7290RA_NAME",
+        "addon_id": "futom_7290ra_crane",
+        "price": 6800,
+        "install_socket": "Futom7290RaCrane",
+        "mass": 4170
+    },
+    "frame_addon_flatbed_2_kenworth_c500": {
+        "name": "Flatbed (Kenworth C500)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_addon_flatbed_2_kenworth_c500",
+        "cargo_slots": 2,
+        "price": 4400,
+        "install_socket": "FrameAddonFlatbedKenworthC500",
+        "mass": 400
+    },
+    "frame_addon_flatbed_3_kenworth_t880": {
+        "name": "Long Flatbed (Kenworth T880)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_3_NAME",
+        "addon_id": "frame_addon_flatbed_3_kenworth_t880",
+        "cargo_slots": 3,
+        "price": 5700,
+        "install_socket": "FlatbedKenworthT880",
+        "mass": 1010
+    },
+    "frame_addon_log_medium_kenworth_c500": {
+        "name": "Medium Logging Frame (Kenworth C500)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_kenworth_c500",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumKenworthC500",
+        "mass": 900
+    },
+    "frame_addon_log_short_kenworth_c500": {
+        "name": "Short Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME",
+        "addon_id": "frame_addon_log_short_kenworth_c500",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogShortKenworthC500",
+        "mass": 700
+    },
+    "frame_addon_log_medium_mack_pinnacle": {
+        "name": "Medium Log Carrier Addon (Mack Pinnacle)",
+        "addon_name_id": "UI_ADDON_MACK_PINNACLE_LOG_MEDIUM_NAME",
+        "addon_id": "frame_addon_log_medium_mack_pinnacle",
+        "cargo_slots": 1,
+        "price": 6400,
+        "install_socket": "FrameAddonMackPinnacleLogMedium",
+        "mass": 500
+    },
+    "frame_addon_log_short_mack_pinnacle": {
+        "name": "Short Log Carrier Addon (Mack Pinnacle)",
+        "addon_name_id": "UI_ADDON_MACK_PINNACLE_LOG_SHORT_NAME",
+        "addon_id": "frame_addon_log_short_mack_pinnacle",
+        "cargo_slots": 1,
+        "price": 6400,
+        "install_socket": "FrameAddonMackPinnacleLogsShort",
+        "mass": 500
+    },
+    "frame_addon_mack_terra_pro_sideboard_2": {
+        "name": "TerraPro Sideboard Bed (Mack TerraPro)",
+        "addon_name_id": "UI_ADDON_MACK_TERRA_PRO_SIDEBOARD_2_NAME",
+        "addon_id": "frame_addon_mack_terra_pro_sideboard_2",
+        "spare_wheels": 1,
+        "cargo_slots": 2,
+        "price": 5300,
+        "install_socket": "FrameAddonMackTerraPro",
+        "mass": 650
+    },
+    "frame_addon_mack_terra_pro_sideboard_3": {
+        "name": "Long TerraPro Sideboard Bed (Mack TerraPro)",
+        "addon_name_id": "UI_ADDON_MACK_TERRA_PRO_SIDEBOARD_3_NAME",
+        "addon_id": "frame_addon_mack_terra_pro_sideboard_3",
+        "cargo_slots": 3,
+        "price": 6400,
+        "install_socket": "FrameAddonMackTerraPro3",
+        "mass": 600
+    },
+    "mack_pinnacle_loglift": {
+        "name": "Pinnacle Log Crane (Mack Pinnacle)",
+        "addon_name_id": "UI_ADDON_CRANE_MACK_PINNACLE_NAME",
+        "addon_id": "mack_pinnacle_loglift",
+        "price": 7500,
+        "install_socket": "CraneMackPinnacle",
+        "mass": 4050
+    },
+    "mercer_k520_frame_addon_kung": {
+        "name": "Maintenance Frame Addon (Mercer K520)",
+        "addon_name_id": "UI_ADDON_MERCER_K520_KUNG_NAME",
+        "addon_id": "mercer_k520_frame_addon_kung",
+        "fuel_capacity": 220,
+        "full_mass": 3240,
+        "repair_capacity": 600,
+        "spare_wheels": 2,
+        "price": 5700,
+        "install_socket": "MercerK520Kung",
+        "mass": 3224
+    },
+    "mercer_k520_frame_addon_sideboard": {
+        "name": "Mercer Sideboard Bed (Mercer K520)",
+        "addon_name_id": "UI_ADDON_MERCER_K520_SIDEBOARD_NAME",
+        "addon_id": "mercer_k520_frame_addon_sideboard",
+        "fuel_capacity": 40,
+        "repair_capacity": 100,
+        "cargo_slots": 2,
+        "price": 5200,
+        "install_socket": "MercerK520Sideboard",
+        "mass": 740
+    },
+    "minicrane_sleiter_mfk816": {
+        "name": "SLEI-64 Loading Crane (Sleiter ST 816 \"Elephant\")",
+        "addon_name_id": "UI_ADDON_CRANE_SLEITER_MFK816_NAME",
+        "addon_id": "minicrane_sleiter_mfk816",
+        "price": 7600,
+        "install_socket": "CraneSleiterMFK816",
+        "mass": 3580
+    },
+    "frame_addon_freightliner_fld120_kung": {
+        "name": "Service Cab (Freightliner FLD 120)",
+        "addon_name_id": "UI_ADDON_FRAME_FREIGHTLINER_FLD120_KUNG_NAME",
+        "addon_id": "frame_addon_freightliner_fld120_kung",
+        "repair_capacity": 500,
+        "spare_wheels": 4,
+        "price": 5300,
+        "install_socket": "FreightlinerFLD120Kung",
+        "mass": 1250
+    },
+    "frame_addon_freightliner_fld120_repairs": {
+        "name": "Shield & Repair Supplies (Freightliner FLD 120)",
+        "addon_name_id": "UI_ADDON_FRAME_FREIGHTLINER_FLD120_REPAIRS_NAME",
+        "addon_id": "frame_addon_freightliner_fld120_repairs",
+        "fuel_capacity": 300,
+        "full_mass": 1085,
+        "repair_capacity": 360,
+        "spare_wheels": 1,
+        "price": 4200,
+        "install_socket": "FreightlinerFLD120Repairs",
+        "mass": 645
+    },
+    "frame_addon_watertank_long": {
+        "name": "Extended Water Tank",
+        "addon_name_id": "UI_ADDON_FRAME_WATER_TANK_LONG_NAME",
+        "addon_id": "frame_addon_watertank_long",
+        "water_capacity": 2800,
+        "full_mass": 9900,
+        "price": 6600,
+        "install_socket": "FrameAddonTankLong",
+        "mass": 600
+    },
+    "pacific_p16_bunk_log_addon": {
+        "name": "Pacific P16 Pole Trailer Front (Pacific P16)",
+        "addon_name_id": "UI_ADDON_PACIFIC_P16_BUNK_LOG_ADDON_NAME",
+        "addon_id": "pacific_p16_bunk_log_addon",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "PacificP16BunkLog",
+        "mass": 1121
+    },
+    "western_star_6900xd_frame_addon_tow": {
+        "name": "Vehicle Extraction Kit (Western Star 6900XD)",
+        "addon_name_id": "UI_ADDON_WS_6900XD_FRAME_TOW_PLATFORM_NAME",
+        "addon_id": "western_star_6900xd_frame_addon_tow",
+        "fuel_capacity": 180,
+        "full_mass": 2732,
+        "repair_capacity": 350,
+        "spare_wheels": 3,
+        "price": 5700,
+        "install_socket": "WS6900FrameAddonKung",
+        "mass": 8228
+    },
+    "hib_billert_1980_frame_addon_kung": {
+        "name": "HIB Billert Van Body Addon (HIB Billert 1980)",
+        "addon_name_id": "UI_ADDON_FRAME_HIB_BILLERT_KUNG_NAME",
+        "addon_id": "hib_billert_1980_frame_addon_kung",
+        "fuel_capacity": 300,
+        "full_mass": 1520,
+        "repair_capacity": 600,
+        "spare_wheels": 4,
+        "price": 4400,
+        "install_socket": "HIBBillert1980Kung",
+        "mass": 2180
+    },
+    "plad_440_frame_addon_sideboard_2": {
+        "name": "PLAD Sideboard Bed (PLAD 440 \"BUDDY\")",
+        "addon_name_id": "UI_TUNING_FRAME_ADDON_PLAD_440_SIDEBOARD_NAME",
+        "addon_id": "plad_440_frame_addon_sideboard_2",
+        "cargo_slots": 2,
+        "price": 5100,
+        "install_socket": "Plad440Sideboard2",
+        "mass": 605
+    },
+    "sleiter_st833_chimera_addon_crane": {
+        "name": "SLEI-64 Loading Crane (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_ADDON_CRANE_SLEITER_MFK816_NAME",
+        "addon_id": "sleiter_st833_chimera_addon_crane",
+        "price": 7600,
+        "install_socket": "SleiterST833ChimeraCrane",
+        "mass": 3580
+    },
+    "sleiter_st833_chimera_frame_addon_flatbed_2": {
+        "name": "Sleiter Flatbed (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_ADDON_FRAME_SLEITER_ST833_FLATBED_2_NAME",
+        "addon_id": "sleiter_st833_chimera_frame_addon_flatbed_2",
+        "fuel_capacity": 60,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "cargo_slots": 2,
+        "price": 9700,
+        "install_socket": "SleiterST833ChimeraFlatbed2",
+        "mass": 1710
+    },
+    "sleiter_st833_chimera_frame_addon_flatbed_3": {
+        "name": "Long Sleiter Flatbed (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_ADDON_FRAME_SLEITER_ST833_FLATBED_3_NAME",
+        "addon_id": "sleiter_st833_chimera_frame_addon_flatbed_3",
+        "spare_wheels": 1,
+        "cargo_slots": 3,
+        "price": 8500,
+        "install_socket": "SleiterST833ChimeraFlatbed3",
+        "mass": 1350
+    },
+    "sleiter_st833_chimera_frame_addon_sideboard_2": {
+        "name": "Sleiter Sideboard Bed (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_ADDON_FRAME_SLEITER_ST833_SIDEBOARD_2_NAME",
+        "addon_id": "sleiter_st833_chimera_frame_addon_sideboard_2",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "SleiterST833ChimeraSideboard2",
+        "mass": 656
+    },
+    "sleiter_st833_chimera_frame_addon_sideboard_3": {
+        "name": "Long Sleiter Sideboard Bed (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_ADDON_FRAME_SLEITER_ST833_SIDEBOARD_3_NAME",
+        "addon_id": "sleiter_st833_chimera_frame_addon_sideboard_3",
+        "cargo_slots": 3,
+        "price": 5700,
+        "install_socket": "SleiterST833ChimeraSideboard3",
+        "mass": 1006
+    },
+    "big_crane_us_avenhorn_a15": {
+        "name": "PC-320 Heavy Crane",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_US_NAME",
+        "addon_id": "big_crane_us_avenhorn_a15",
+        "price": 7500,
+        "install_socket": "BigCraneUsAvenhornA15",
+        "mass": 5310
+    },
+    "big_crane_us_padera_std4": {
+        "name": "PC-320 Heavy Crane (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_US_NAME",
+        "addon_id": "big_crane_us_padera_std4",
+        "price": 7500,
+        "install_socket": "BigCraneUsPaderaSTD4",
+        "mass": 5310
+    },
+    "crane_loglift_padera_std4": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_padera_std4",
+        "price": 7900,
+        "install_socket": "LogLiftPaderaSTD4",
+        "mass": 3320
+    },
+    "frame_addon_kung_avenhorn_a15": {
+        "name": "Universal Compartment",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_AVENHORN_A15_NAME",
+        "addon_id": "frame_addon_kung_avenhorn_a15",
+        "fuel_capacity": 300,
+        "full_mass": 1040,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "price": 9700,
+        "install_socket": "AvenhornA15Kung",
+        "mass": 600
+    },
+    "frame_addon_log_medium_padera_std4": {
+        "name": "Medium Logging Frame (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_padera_std4",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumPaderaSTD4",
+        "mass": 900
+    },
+    "frame_addon_log_short_padera_std4": {
+        "name": "Short Logging Frame (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME",
+        "addon_id": "frame_addon_log_short_padera_std4",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogShortPaderaSTD4",
+        "mass": 700
+    },
+    "frame_addon_maintainer_2": {
+        "name": "Maintenance Frame Addon (AVENHORN A15)",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_NAME",
+        "addon_id": "frame_addon_maintainer_2",
+        "fuel_capacity": 1400,
+        "full_mass": 3945,
+        "repair_capacity": 300,
+        "spare_wheels": 5,
+        "price": 5300,
+        "install_socket": "FrameAddonMaintainer2",
+        "mass": 3025
+    },
+    "frame_addon_padera_std4_kung": {
+        "name": "Sideboard Bed Van Body (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_PADERA_STD4_NAME",
+        "addon_id": "frame_addon_padera_std4_kung",
+        "fuel_capacity": 400,
+        "full_mass": 1220,
+        "repair_capacity": 400,
+        "spare_wheels": 4,
+        "cargo_slots": 1,
+        "price": 6700,
+        "install_socket": "PaderaSTD4Kung",
+        "mass": 1600
+    },
+    "frame_addon_padera_std4_sideboard": {
+        "name": "Padera Tow Truck Flatbed (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_FRAME_TOW_PLATFORM_PADERA_STD4_NAME",
+        "addon_id": "frame_addon_padera_std4_sideboard",
+        "repair_capacity": 120,
+        "spare_wheels": 2,
+        "price": 4800,
+        "install_socket": "PaderaSTD4Sideboard",
+        "mass": 1216
+    },
+    "minicrane_avenhorn_a15": {
+        "name": "SLEI-64 Loading Crane",
+        "addon_name_id": "UI_ADDON_CRANE_SLEITER_MFK816_NAME",
+        "addon_id": "minicrane_avenhorn_a15",
+        "price": 7600,
+        "install_socket": "CraneAvenhornA15",
+        "mass": 3580
+    },
+    "minicrane_rear_us_padera_std4": {
+        "name": "LC 3.8 Loading Crane (Padera STD-4)",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "minicrane_rear_us_padera_std4",
+        "price": 5700,
+        "install_socket": "MinicraneRearPaderaSTD4",
+        "mass": 3950
+    },
+    "frame_addon_heavy_repair_voron_g5352": {
+        "name": "Multi-purpose Cargo Module (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_FRAME_HEAVY_REPAIR_NAME",
+        "addon_id": "frame_addon_heavy_repair_voron_g5352",
+        "fuel_capacity": 200,
+        "full_mass": 570,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "cargo_slots": 1,
+        "price": 8100,
+        "install_socket": "VoronG5352HeavyRepair",
+        "mass": 4110
+    },
+    "frame_addon_jangsu_rx600_sideboard": {
+        "name": "Jangsu Sideboard Bed (Jangsu RX600)",
+        "addon_name_id": "UI_ADDON_JANGSU_RX600_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "frame_addon_jangsu_rx600_sideboard",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "JangsuRX600Sideboard",
+        "mass": 800
+    },
+    "frame_addon_jangsu_rx600_sparewheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "frame_addon_jangsu_rx600_sparewheel",
+        "spare_wheels": 2,
+        "price": 1900,
+        "install_socket": "JangsuRX600Sparewheel",
+        "mass": 20
+    },
+    "frame_addon_log_medium_high_voron_g5352": {
+        "name": "Medium Logging Frame (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_high_voron_g5352",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumHigh02",
+        "mass": 910
+    },
+    "frame_addon_log_short_voron_g5352": {
+        "name": "Short Logging Frame (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME",
+        "addon_id": "frame_addon_log_short_voron_g5352",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogShortVoronG5352",
+        "mass": 710
+    },
+    "frame_addon_tank_small_02": {
+        "name": "Small Fuel Carrier (Jangsu RX600)",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_SMALL_NAME",
+        "addon_id": "frame_addon_tank_small_02",
+        "fuel_capacity": 900,
+        "full_mass": 2520,
+        "price": 4200,
+        "install_socket": "FrameAddonTankSmall02",
+        "mass": 600
+    },
+    "frame_addon_voron_g5352_kung": {
+        "name": "Voron Maintenance Frame Addon (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_VORON_G5352_FRAME_KUNG_NAME",
+        "addon_id": "frame_addon_voron_g5352_kung",
+        "fuel_capacity": 300,
+        "full_mass": 1050,
+        "repair_capacity": 900,
+        "spare_wheels": 6,
+        "price": 7000,
+        "install_socket": "VoronG5352Kung",
+        "mass": 2490
+    },
+    "frame_addon_voron_g5352_sideboard": {
+        "name": "Voron Sideboard Bed (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_VORON_G5352_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "frame_addon_voron_g5352_sideboard",
+        "cargo_slots": 2,
+        "price": 5700,
+        "install_socket": "VoronG5352Sideboard",
+        "mass": 1050
+    },
+    "frame_addon_voron_g5352_sparewheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "frame_addon_voron_g5352_sparewheel",
+        "spare_wheels": 2,
+        "price": 1400,
+        "install_socket": "VoronG5352Sparewheel",
+        "mass": 50
+    },
+    "minicrane_ru_voron_g5352": {
+        "name": "IM50 Loading Crane (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_MINICRANE_RU_NAME",
+        "addon_id": "minicrane_ru_voron_g5352",
+        "price": 5700,
+        "install_socket": "MinicraneRUVoronG5352",
+        "mass": 2060
+    },
+    "minicrane_us_voron_g5352": {
+        "name": "LC 3.8 Loading Crane (Voron G-5352)",
+        "addon_name_id": "UI_ADDON_MINICRANE_1_NAME",
+        "addon_id": "minicrane_us_voron_g5352",
+        "price": 5700,
+        "install_socket": "MinicraneUSVoronG5352",
+        "mass": 3960
+    },
+    "big_crane_us_mercedes_zetros_6x6": {
+        "name": "PC-320 Heavy Crane (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_US_NAME",
+        "addon_id": "big_crane_us_mercedes_zetros_6x6",
+        "price": 7500,
+        "install_socket": "BigCraneUsMercedesZetros",
+        "mass": 5310
+    },
+    "bunk_log_addon_mercedes_zetros_6x6": {
+        "name": "Log Carrier Front (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_BUNK_LOG_ADDON_NAME",
+        "addon_id": "bunk_log_addon_mercedes_zetros_6x6",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "BunkLogMercedesZetros",
+        "mass": 927
+    },
+    "crane_loglift_mercedes_zetros_6x6": {
+        "name": "LP-4 Log-loader crane (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_mercedes_zetros_6x6",
+        "price": 7900,
+        "install_socket": "LogLiftMercedesZetros",
+        "mass": 3320
+    },
+    "frame_addon_flatbed_2_mercedes_zetros_6x6": {
+        "name": "Flatbed (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_addon_flatbed_2_mercedes_zetros_6x6",
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "FrameAddonMercedesZetros",
+        "mass": 410
+    },
+    "frame_addon_kung_mercedes_zetros_6x6": {
+        "name": "Van Body Addon",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_NAME",
+        "addon_id": "frame_addon_kung_mercedes_zetros_6x6",
+        "repair_capacity": 800,
+        "spare_wheels": 6,
+        "price": 4500,
+        "install_socket": "FrameAddonKungMercedesZetros",
+        "mass": 3012
+    },
+    "frame_addon_log_short_mercedes_zetros_6x6": {
+        "name": "Short Logging Frame (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME",
+        "addon_id": "frame_addon_log_short_mercedes_zetros_6x6",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogShortMercedesZetros",
+        "mass": 700
+    },
+    "frame_addon_sideboard_2_mercedes_zetros_6x6": {
+        "name": "Sideboard Bed (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "frame_addon_sideboard_2_mercedes_zetros_6x6",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "FrameAddonMercedesZetros",
+        "mass": 610
+    },
+    "frame_addon_tank_mercedes_zetros_6x6": {
+        "name": "Fuel Tank (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_NAME",
+        "addon_id": "frame_addon_tank_mercedes_zetros_6x6",
+        "fuel_capacity": 1800,
+        "full_mass": 5050,
+        "price": 5300,
+        "install_socket": "FrameAddonTankMercedesZetros",
+        "mass": 610
+    },
+    "frame_addon_watertank_mercedes_zetros_6x6": {
+        "name": "Fire Tank (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_ADDON_FRAME_WATER_TANK_NAME",
+        "addon_id": "frame_addon_watertank_mercedes_zetros_6x6",
+        "water_capacity": 1800,
+        "full_mass": 6310,
+        "price": 5300,
+        "install_socket": "FrameAddonTankMercedesZetros",
+        "mass": 1510
+    },
+    "ford_f750_pickup": {
+        "name": "Pickup Bed (Ford F 750)",
+        "addon_name_id": "UI_ADDONS_FORD_F750_PICKUP_NAME",
+        "addon_id": "ford_f750_pickup",
+        "fuel_capacity": 120,
+        "repair_capacity": 600,
+        "spare_wheels": 6,
+        "price": 4200,
+        "install_socket": "FordF750Pickup",
+        "mass": 250
+    },
+    "ford_f750_pickup_rooftrunk": {
+        "name": "Custom Pickup Bed (Ford F 750)",
+        "addon_name_id": "UI_ADDONS_FORD_F750_PICKUP_ROOFRACK_NAME",
+        "addon_id": "ford_f750_pickup_rooftrunk",
+        "fuel_capacity": 240,
+        "repair_capacity": 900,
+        "spare_wheels": 8,
+        "price": 5100,
+        "install_socket": "FordF750PickupRooftrunk",
+        "mass": 370
+    },
+    "frame_addon_flatbed_1": {
+        "name": "Flatbed",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_addon_flatbed_1",
+        "cargo_slots": 1,
+        "price": 3800,
+        "install_socket": "FrameAddonFlatbed1",
+        "mass": 200
+    },
+    "frame_addon_maintainer_small": {
+        "name": "Maintainer Frame Addon",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_SMALL_NAME",
+        "addon_id": "frame_addon_maintainer_small",
+        "repair_capacity": 500,
+        "spare_wheels": 2,
+        "price": 4700,
+        "install_socket": "FrameAddonMaintainerSmall",
+        "mass": 1000
+    },
+    "frame_addon_sideboard_1": {
+        "name": "Small Sideboard Bed",
+        "addon_name_id": "UI_TUNING_FRAME_ADDON_SIDEBOARD_1_NAME",
+        "addon_id": "frame_addon_sideboard_1",
+        "cargo_slots": 1,
+        "price": 4500,
+        "install_socket": "FrameAddonSideboard1",
+        "mass": 500
+    },
+    "frame_addon_tank_small": {
+        "name": "Small Fuel Carrier",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_SMALL_NAME",
+        "addon_id": "frame_addon_tank_small",
+        "fuel_capacity": 900,
+        "full_mass": 2520,
+        "price": 4200,
+        "install_socket": "FrameAddonTankSmall",
+        "mass": 600
+    },
+    "frame_addon_tank_small_short": {
+        "name": "Small Fuel Carrier (TUZ 108 \"Warthog\")",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_SMALL_NAME",
+        "addon_id": "frame_addon_tank_small_short",
+        "fuel_capacity": 600,
+        "full_mass": 1680,
+        "price": 4200,
+        "install_socket": "FrameAddonTankSmallShort",
+        "mass": 400
+    },
+    "cat_770g_service": {
+        "name": "Maintenance Frame Addon (Caterpillar 770G)",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_NAME",
+        "addon_id": "cat_770g_service",
+        "fuel_capacity": 900,
+        "full_mass": 2532,
+        "repair_capacity": 500,
+        "spare_wheels": 3,
+        "price": 7500,
+        "install_socket": "Cat770GService",
+        "mass": 2212
+    },
+    "cat_770g_tank": {
+        "name": "Heavy Fuel Carrier (Caterpillar 770G)",
+        "addon_name_id": "UI_ADDON_CAT_770G_TANK_NAME",
+        "addon_id": "cat_770g_tank",
+        "fuel_capacity": 2000,
+        "full_mass": 5610,
+        "price": 8500,
+        "install_socket": "Cat770gTank",
+        "mass": 1010
+    },
+    "crane_krs_58_bandit": {
+        "name": "KRS 58 Crane (KRS 58 \"Bandit\")",
+        "addon_name_id": "UI_ADDON_CRANE_KRS_58_BANDIT_NAME",
+        "addon_id": "crane_krs_58_bandit",
+        "price": 7500,
+        "install_socket": "CraneKrs58Bandit",
+        "mass": 3600
+    },
+    "bunk_log_addon": {
+        "name": "Log Carrier Front",
+        "addon_name_id": "UI_ADDON_BUNK_LOG_ADDON_NAME",
+        "addon_id": "bunk_log_addon",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "BunkLog",
+        "mass": 927
+    },
+    "crane_loglift": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift",
+        "price": 7900,
+        "install_socket": "LogLift",
+        "mass": 3330
+    },
+    "frame_addon_flatbed_3": {
+        "name": "Long Flatbed",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_3_NAME",
+        "addon_id": "frame_addon_flatbed_3",
+        "cargo_slots": 3,
+        "price": 6000,
+        "install_socket": "FrameAddon3",
+        "mass": 510
+    },
+    "frame_addon_log_short": {
+        "name": "Short Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME",
+        "addon_id": "frame_addon_log_short",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogShort",
+        "mass": 700
+    },
+    "frame_addon_sideboard_3": {
+        "name": "Long Sideboard Bed",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_3_NAME",
+        "addon_id": "frame_addon_sideboard_3",
+        "cargo_slots": 3,
+        "price": 5700,
+        "install_socket": "FrameAddonSideboard3",
+        "mass": 600
+    },
+    "frame_addon_tank_long": {
+        "name": "Expanded Fuel Tank",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_LONG_NAME",
+        "addon_id": "frame_addon_tank_long",
+        "fuel_capacity": 2800,
+        "full_mass": 7940,
+        "price": 6600,
+        "install_socket": "FrameAddonTankLong",
+        "mass": 600
+    },
+    "big_crane_zikz_605r": {
+        "name": "Avto-23 Heavy Crane (ZiKZ 605R)",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_RU_NAME",
+        "addon_id": "big_crane_zikz_605r",
+        "price": 7500,
+        "install_socket": "ZikzBigCrane",
+        "mass": 7300
+    },
+    "crane_loglift_zikz_605r": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_zikz_605r",
+        "price": 7900,
+        "install_socket": "ZikzLogLift",
+        "mass": 3320
+    },
+    "frame_flatbed_2_zikz_605r": {
+        "name": "Flatbed",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_flatbed_2_zikz_605r",
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "ZikzFrameAddon",
+        "mass": 400
+    },
+    "frame_kung_zikz_605r": {
+        "name": "Van Body Addon",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_NAME",
+        "addon_id": "frame_kung_zikz_605r",
+        "repair_capacity": 800,
+        "spare_wheels": 6,
+        "price": 4500,
+        "install_socket": "FrameAddonKungZikz",
+        "mass": 3002
+    },
+    "frame_sideboard_2_zikz_605r": {
+        "name": "Sideboard Bed",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_2_NAME",
+        "addon_id": "frame_sideboard_2_zikz_605r",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "ZikzFrameAddon",
+        "mass": 600
+    },
+    "frame_tank_zikz_605r": {
+        "name": "Fuel Tank",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_NAME",
+        "addon_id": "frame_tank_zikz_605r",
+        "fuel_capacity": 1800,
+        "full_mass": 5040,
+        "price": 5300,
+        "install_socket": "FrameAddonTankZikz",
+        "mass": 600
+    },
+    "minicrane_ru_zikz_605r": {
+        "name": "IM50 Loading Crane",
+        "addon_name_id": "UI_ADDON_MINICRANE_RU_NAME",
+        "addon_id": "minicrane_ru_zikz_605r",
+        "price": 5700,
+        "install_socket": "MinicraneRUZikz",
+        "mass": 2050
+    },
+    "tatra_805_kung": {
+        "name": "Maintainer Frame Addon (Tatra 805)",
+        "addon_name_id": "UI_ADDON_FRAME_MAINTAINER_SMALL_NAME",
+        "addon_id": "tatra_805_kung",
+        "repair_capacity": 500,
+        "spare_wheels": 2,
+        "price": 3800,
+        "install_socket": "Tatra805Kung",
+        "mass": 1000
+    },
+    "tatra_805_tank": {
+        "name": "Small Fuel Carrier (Tatra 805)",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_SMALL_NAME",
+        "addon_id": "tatra_805_tank",
+        "fuel_capacity": 900,
+        "full_mass": 2520,
+        "price": 5300,
+        "install_socket": "Tatra805Tank",
+        "mass": 600
+    },
+    "crane_loglift_cat_ct681": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_cat_ct681",
+        "price": 7900,
+        "install_socket": "LogLiftCatCt681",
+        "mass": 3320
+    },
+    "tatra_crane": {
+        "name": "TAT-12 Loading Crane",
+        "addon_name_id": "UI_ADDON_MINICRANE_TATRAFORCE_NAME",
+        "addon_id": "tatra_crane",
+        "price": 5700,
+        "install_socket": "TatraCrane",
+        "mass": 3410
+    },
+    "tatra_frame_addon_tank": {
+        "name": "TATRA Fuel Carrier",
+        "addon_name_id": "UI_ADDON_TATRA_FRAME_TANK_NAME",
+        "addon_id": "tatra_frame_addon_tank",
+        "fuel_capacity": 2000,
+        "full_mass": 5600,
+        "price": 5300,
+        "install_socket": "TatraFrameAddonTank",
+        "mass": 600
+    },
+    "tatra_frame_addon_tow": {
+        "name": "Ramped Towing Platform (Tatra FORCE T815-7)",
+        "addon_name_id": "UI_ADDON_FRAME_TOW_PLATFORM_NAME",
+        "addon_id": "tatra_frame_addon_tow",
+        "repair_capacity": 250,
+        "spare_wheels": 3,
+        "price": 4200,
+        "install_socket": "TatraFrameAddonTow",
+        "mass": 2950
+    },
+    "tatra_sideboard_2": {
+        "name": "Tatra Sideboard Bed",
+        "addon_name_id": "UI_ADDON_TATRA_SIDEBOARD_2_NAME",
+        "addon_id": "tatra_sideboard_2",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "TatraSideboard",
+        "mass": 600
+    },
+    "crane_aramatsu_forester": {
+        "name": "Log Lifter Crane (Aramatsu Forester)",
+        "addon_name_id": "UI_ADDON_CRANE_ARAMATSU_FORESTER_NAME",
+        "addon_id": "crane_aramatsu_forester",
+        "price": 7900,
+        "install_socket": "CraneAramatsuForester",
+        "mass": 2770
+    },
+    "frame_addon_log_medium": {
+        "name": "Medium Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMedium",
+        "mass": 900
+    },
+    "frame_addon_log_medium_aramatsu": {
+        "name": "Medium Logging Extension (Aramatsu Forester)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ARAMATSU_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_aramatsu",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogsMediumAramatsu",
+        "mass": 1500
+    },
+    "frame_addon_log_medium_high": {
+        "name": "Medium Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_addon_log_medium_high",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumHigh",
+        "mass": 900
+    },
+    "frame_addon_log_short_aramatsu": {
+        "name": "Short Logging Frame (Aramatsu Forester)",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_SHORT_ARAMATSU_ADDON_NAME",
+        "addon_id": "frame_addon_log_short_aramatsu",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogsShortAramatsu",
+        "mass": 1000
+    },
+    "step_3364_crocodile_kung": {
+        "name": "Van Body Addon (Step 33-64 \"Crocodile\")",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_NAME",
+        "addon_id": "step_3364_crocodile_kung",
+        "fuel_capacity": 60,
+        "repair_capacity": 500,
+        "spare_wheels": 2,
+        "price": 4900,
+        "install_socket": "Step3364CrocodileKung",
+        "mass": 700
+    },
+    "step_3364_crocodile_tank": {
+        "name": "Fuel Tank",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_NAME",
+        "addon_id": "step_3364_crocodile_tank",
+        "fuel_capacity": 900,
+        "full_mass": 2520,
+        "price": 4200,
+        "install_socket": "Step3364CrocodileTank",
+        "mass": 600
+    },
+    "kirovets_k700_kung": {
+        "name": "Van Body Addon (Kirovets K-700)",
+        "addon_name_id": "UI_ADDON_KIROVETS_K700_KUNG_NAME",
+        "addon_id": "kirovets_k700_kung",
+        "repair_capacity": 800,
+        "spare_wheels": 6,
+        "price": 4700,
+        "install_socket": "KirovetsK700Kung",
+        "mass": 2004
+    },
+    "kirovets_k700_manipulator": {
+        "name": "Manipulator crane (Kirovets K-700)",
+        "addon_name_id": "UI_ADDON_KIROVETS_K700_MANIPULATOR_NAME",
+        "addon_id": "kirovets_k700_manipulator",
+        "price": 6600,
+        "install_socket": "KirovetsK700Manipulator",
+        "mass": 1100
+    },
+    "kirovets_k7m_kung": {
+        "name": "Van Body Addon (Kirovets K-7\u041c)",
+        "addon_name_id": "UI_ADDON_KIROVETS_K7M_KUNG_NAME",
+        "addon_id": "kirovets_k7m_kung",
+        "fuel_capacity": 180,
+        "repair_capacity": 600,
+        "spare_wheels": 2,
+        "price": 5900,
+        "install_socket": "KirovetsK7MKung",
+        "mass": 2160
+    },
+    "big_crane_zikz_612h": {
+        "name": "Avto-23 Heavy Crane (ZiKZ 612H)",
+        "addon_name_id": "UI_ADDON_BIG_CRANE_RU_NAME",
+        "addon_id": "big_crane_zikz_612h",
+        "price": 7500,
+        "install_socket": "MastodonBigCrane",
+        "mass": 7300
+    },
+    "bunk_log_addon_zikz_612h": {
+        "name": "Log Carrier Front (ZiKZ 612H)",
+        "addon_name_id": "UI_ADDON_BUNK_LOG_ADDON_NAME",
+        "addon_id": "bunk_log_addon_zikz_612h",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "BunkLogMastadont",
+        "mass": 927
+    },
+    "frame_addon_watertank": {
+        "name": "Fire Tank",
+        "addon_name_id": "UI_ADDON_FRAME_WATER_TANK_NAME",
+        "addon_id": "frame_addon_watertank",
+        "water_capacity": 1800,
+        "full_mass": 6310,
+        "price": 5300,
+        "install_socket": "FrameAddonTank",
+        "mass": 1510
+    },
+    "frame_log_medium_zikz_612h": {
+        "name": "Medium Logging Frame",
+        "addon_name_id": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME",
+        "addon_id": "frame_log_medium_zikz_612h",
+        "cargo_slots": 1,
+        "price": 6000,
+        "install_socket": "FrameAddonLogMediumMastodon",
+        "mass": 900
+    },
+    "kenworth_963_roofrack_1": {
+        "name": "Trunk Repair Supplies (Kenworth 963)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "kenworth_963_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 220,
+        "price": 4400,
+        "install_socket": "Kenworth963Roofrack",
+        "mass": 80
+    },
+    "kenworth_963_wheel_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "kenworth_963_wheel_addon_1",
+        "spare_wheels": 1,
+        "price": 2900,
+        "install_socket": "Kenworth963SpareWheel",
+        "mass": 47
+    },
+    "kenworth_963_wheel_addon_2": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "kenworth_963_wheel_addon_2",
+        "spare_wheels": 2,
+        "price": 5700,
+        "install_socket": "Kenworth963SpareWheel2",
+        "mass": 139
+    },
+    "kenworth_w990_roofrack_1": {
+        "name": "Trunk Repair Supplies (Kenworth W990)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "kenworth_w990_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 300,
+        "price": 3800,
+        "install_socket": "KenworthW990Roofrack",
+        "mass": 110
+    },
+    "kenworth_w990_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "kenworth_w990_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2900,
+        "install_socket": "KenworthW990SpareWheel",
+        "mass": 20
+    },
+    "mack_defense_m917_roofrack_1": {
+        "name": "Trunk Repair Supplies (Mack Defense M917)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mack_defense_m917_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "price": 2100,
+        "install_socket": "MackDefenseM917Roofrack",
+        "mass": 210
+    },
+    "mack_defense_m917_wheel_addon": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "mack_defense_m917_wheel_addon",
+        "spare_wheels": 1,
+        "price": 0,
+        "install_socket": "MackDefenseM917SpareWheel",
+        "mass": 73
+    },
+    "burlak_6x6_bort": {
+        "name": "Flatbed (Burlak 6x6)",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "burlak_6x6_bort",
+        "repair_capacity": 120,
+        "cargo_slots": 1,
+        "price": 1900,
+        "install_socket": "BurlakBort",
+        "mass": 220
+    },
+    "burlak_6x6_repair_interior": {
+        "name": "Repair Kit Pack",
+        "addon_name_id": "UI_TUNING_BURLAK_6X6_REPAIR_INTERIOR_NAME",
+        "addon_id": "burlak_6x6_repair_interior",
+        "repair_capacity": 150,
+        "price": 1300,
+        "install_socket": "BurlakRepairInterior",
+        "mass": 40
+    },
+    "burlak_6x6_roofrack_1": {
+        "name": "Trunk Repair Supplies (Burlak 6x6)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "burlak_6x6_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 300,
+        "price": 3400,
+        "install_socket": "BurlakRoofrack",
+        "mass": 180
+    },
+    "burlak_6x6_tent": {
+        "name": "Slant Back Trunk Kit (Burlak 6x6)",
+        "addon_name_id": "UI_ADDON_HUMMER_H2_TRUNK_ROOF_NAME",
+        "addon_id": "burlak_6x6_tent",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "spare_wheels": 1,
+        "price": 3800,
+        "install_socket": "BurlakTent",
+        "mass": 531
+    },
+    "neo_falcon_2000_bumper_rear_2": {
+        "name": "With Wheel Mount",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_SPAREWHEEL_NAME",
+        "addon_id": "neo_falcon_2000_bumper_rear_2",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "NeoFalcon2000RearBumper2",
+        "mass": 41
+    },
+    "neo_falcon_2000_roofrack_1": {
+        "name": "Small Roof Rack (Neo Falcon 2000)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "neo_falcon_2000_roofrack_1",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "price": 2300,
+        "install_socket": "NeoFalcon2000Roofrack",
+        "mass": 250
+    },
+    "neo_falcon_2000_spare_wheel_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "neo_falcon_2000_spare_wheel_default",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "NeoFalcon2000SpareWheel",
+        "mass": 20
+    },
+    "femm_37at_roofrack_01": {
+        "name": "Trunk Repair Supplies (FEMM 37-AT)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "femm_37at_roofrack_01",
+        "fuel_capacity": 140,
+        "repair_capacity": 260,
+        "price": 2300,
+        "install_socket": "Femm37AtRoofrack",
+        "mass": 250
+    },
+    "mtb_8106_roofrack": {
+        "name": "Trunk Repair Supplies (MTB 8106 (Rock Grinder))",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mtb_8106_roofrack",
+        "fuel_capacity": 130,
+        "repair_capacity": 150,
+        "spare_wheels": 1,
+        "price": 2700,
+        "install_socket": "MTB8106Roofrack",
+        "mass": 325
+    },
+    "mtb_8106_spare_wheel_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "mtb_8106_spare_wheel_default",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "MTB8106SpareWheel"
+    },
+    "azov_670963n_roofrack_1": {
+        "name": "Trunk Repair Supplies (Azov 67096 \"Atom\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "azov_670963n_roofrack_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "price": 4100,
+        "install_socket": "Azov670963nRoofrack",
+        "mass": 230
+    },
+    "aac_58dw_roofrack": {
+        "name": "Small Roof Rack (AAC-58DW)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "aac_58dw_roofrack",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "price": 2300,
+        "install_socket": "Aac58DwRoofrack",
+        "mass": 325
+    },
+    "aac_58dw_spare_wheel_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "aac_58dw_spare_wheel_default",
+        "spare_wheels": 1,
+        "price": 1700,
+        "install_socket": "AAC58DWSpareWheel"
+    },
+    "plad_450_roofrack_1": {
+        "name": "Trunk Repair Supplies (PLAD 450)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "plad_450_roofrack_1",
+        "fuel_capacity": 160,
+        "repair_capacity": 150,
+        "price": 4000,
+        "install_socket": "Plad450Roofrack",
+        "mass": 230
+    },
+    "plad_450_wheel_addon": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "plad_450_wheel_addon",
+        "spare_wheels": 2,
+        "price": 5700,
+        "install_socket": "Plad450SpareWheel",
+        "mass": 115
+    },
+    "rezvani_tank_repair_box": {
+        "name": "Repair Kit Pack (Rezvani Tank)",
+        "addon_name_id": "UI_TUNING_BURLAK_6X6_REPAIR_INTERIOR_NAME",
+        "addon_id": "rezvani_tank_repair_box",
+        "repair_capacity": 250,
+        "price": 2400,
+        "install_socket": "RezvaniTankRepairBox",
+        "mass": 210
+    },
+    "rezvani_tank_roofrack_1": {
+        "name": "Small Roof Rack (Rezvani Tank)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "rezvani_tank_roofrack_1",
+        "fuel_capacity": 80,
+        "spare_wheels": 1,
+        "price": 1800,
+        "install_socket": "RezvaniTankRoofrack",
+        "mass": 230
+    },
+    "earthroamer_lti_kung_consumables": {
+        "name": "Service Kit (EarthRoamer LTi)",
+        "addon_name_id": "UI_TUNING_EARTHROAMERS_CONSUMABLES_NAME",
+        "addon_id": "earthroamer_lti_kung_consumables",
+        "fuel_capacity": 160,
+        "repair_capacity": 450,
+        "spare_wheels": 3,
+        "price": 3800,
+        "install_socket": "EarthroamerLtiKungConsumbles",
+        "mass": 300
+    },
+    "earthroamer_lti_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "earthroamer_lti_wheel",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "EarthroamerLtiSpareWheel",
+        "mass": 15
+    },
+    "earthroamer_sx_kung_consumables": {
+        "name": "Service Kit (EarthRoamer SX)",
+        "addon_name_id": "UI_TUNING_EARTHROAMERS_CONSUMABLES_NAME",
+        "addon_id": "earthroamer_sx_kung_consumables",
+        "fuel_capacity": 160,
+        "repair_capacity": 500,
+        "spare_wheels": 3,
+        "price": 4000,
+        "install_socket": "EarthroamerSxKungConsumbles",
+        "mass": 300
+    },
+    "earthroamer_sx_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "earthroamer_sx_wheel",
+        "spare_wheels": 1,
+        "price": 1900,
+        "install_socket": "EarthroamerSxSpareWheel",
+        "mass": 15
+    },
+    "kenworth_c500_roofrack_1": {
+        "name": "Trunk Repair Supplies (Kenworth C500)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "kenworth_c500_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 300,
+        "price": 3800,
+        "install_socket": "KenworthC500Roofrack",
+        "mass": 170
+    },
+    "kenworth_c500_spare_wheel_01": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "kenworth_c500_spare_wheel_01",
+        "spare_wheels": 1,
+        "price": 3000,
+        "install_socket": "KenworthC500SpareWheel1",
+        "mass": 15
+    },
+    "kenworth_c500_spare_wheel_02": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "kenworth_c500_spare_wheel_02",
+        "spare_wheels": 2,
+        "price": 6000,
+        "install_socket": "KenworthC500SpareWheel2",
+        "mass": 15
+    },
+    "kenworth_t880_roofrack_1": {
+        "name": "Trunk Repair Supplies (Kenworth T880)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "kenworth_t880_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 300,
+        "price": 3800,
+        "install_socket": "KenworthT880Roofrack",
+        "mass": 190
+    },
+    "kenworth_t880_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "kenworth_t880_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2900,
+        "install_socket": "KenworthT880SpareWheel",
+        "mass": 25
+    },
+    "mack_pinnacle_roofrack_1": {
+        "name": "Trunk Repair Supplies (Mack Pinnacle)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mack_pinnacle_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 300,
+        "price": 3800,
+        "install_socket": "MackPinnacleRoofrack",
+        "mass": 190
+    },
+    "mack_pinnacle_spare_wheel_01": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "mack_pinnacle_spare_wheel_01",
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "MackPinnacleSpareWheel1",
+        "mass": 30
+    },
+    "mack_pinnacle_spare_wheel_02": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "mack_pinnacle_spare_wheel_02",
+        "spare_wheels": 2,
+        "price": 1900,
+        "install_socket": "MackPinnacleSpareWheel2",
+        "mass": 120
+    },
+    "mack_terra_pro_roofrack_1": {
+        "name": "Roof Rack (Mack TerraPro)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "mack_terra_pro_roofrack_1",
+        "fuel_capacity": 100,
+        "repair_capacity": 200,
+        "price": 3800,
+        "install_socket": "MackTerraProRoofrack",
+        "mass": 200
+    },
+    "mack_terra_pro_spare_wheel": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "mack_terra_pro_spare_wheel",
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "MackTerraProSpareWheel",
+        "mass": 120
+    },
+    "mercer_k520_roofrack_1": {
+        "name": "Trunk Repair Supplies (Mercer K520)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mercer_k520_roofrack_1",
+        "fuel_capacity": 40,
+        "repair_capacity": 300,
+        "price": 1800,
+        "install_socket": "MercerK520Roofrack",
+        "mass": 150
+    },
+    "mercer_k520_wheel_addon": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "mercer_k520_wheel_addon",
+        "spare_wheels": 2,
+        "price": 1900,
+        "install_socket": "MercerK520SpareWheel",
+        "mass": 600
+    },
+    "sleiter_mfk816_roofrack": {
+        "name": "Trunk Repair Supplies (Sleiter ST 816 \"Elephant\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "sleiter_mfk816_roofrack",
+        "fuel_capacity": 240,
+        "repair_capacity": 600,
+        "price": 9500,
+        "install_socket": "SleiterMFK816Roofrack",
+        "mass": 270
+    },
+    "sleiter_mfk816_spare_wheels": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "sleiter_mfk816_spare_wheels",
+        "spare_wheels": 2,
+        "price": 5600,
+        "install_socket": "SleiterMFK816SpareWheels",
+        "mass": 1300
+    },
+    "western_star_6900xd_roofrack_1": {
+        "name": "Trunk Repair Supplies (Western Star 6900XD)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "western_star_6900xd_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 300,
+        "price": 3800,
+        "install_socket": "WesternStar6900XDRoofrack",
+        "mass": 178
+    },
+    "western_star_6900xd_spare_wheel_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "western_star_6900xd_spare_wheel_1",
+        "spare_wheels": 1,
+        "price": 3000,
+        "install_socket": "WesternStar6900XDSpareWheel",
+        "mass": 66
+    },
+    "hib_billert_1980_roofrack_1": {
+        "name": "Roof Rack (HIB Billert 1980)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "hib_billert_1980_roofrack_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 350,
+        "price": 3300,
+        "install_socket": "HIBBillert1980Roofrack",
+        "mass": 460
+    },
+    "hib_billert_1980_wheel_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "hib_billert_1980_wheel_addon_1",
+        "spare_wheels": 1,
+        "price": 1800,
+        "install_socket": "HIBBillert1980SpareWheel",
+        "mass": 310
+    },
+    "plad_440_roofrack_1": {
+        "name": "Trunk Repair Supplies (PLAD 440 \"BUDDY\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "plad_440_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "price": 1200,
+        "install_socket": "Plad440Roofrack",
+        "mass": 220
+    },
+    "plad_440_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "plad_440_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2000,
+        "install_socket": "Plad440SpareWheelDefault",
+        "mass": 20
+    },
+    "plad_440_wheel_addon_2": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "plad_440_wheel_addon_2",
+        "spare_wheels": 2,
+        "price": 4000,
+        "install_socket": "Plad440SpareWheel",
+        "mass": 35
+    },
+    "sleiter_st833_chimera_roofrack_1": {
+        "name": "Roof Rack (Sleiter ST 833 \"Chimera\")",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "sleiter_st833_chimera_roofrack_1",
+        "fuel_capacity": 120,
+        "price": 1800,
+        "install_socket": "SleiterST833ChimeraRoofrack",
+        "mass": 320
+    },
+    "sleiter_st833_chimera_wheel_addon": {
+        "name": "Spare Wheels and Supplies",
+        "addon_name_id": "UI_TUNING_SLEITER_ST833_SPAREPARTS_NAME",
+        "addon_id": "sleiter_st833_chimera_wheel_addon",
+        "fuel_capacity": 60,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "price": 7300,
+        "install_socket": "SleiterST833ChimeraSpareWheel",
+        "mass": 1310
+    },
+    "avenhorn_a15_bumper_1": {
+        "name": "Defender",
+        "addon_name_id": "UI_TUNING_BUMPER_DEFENDER_NAME",
+        "addon_id": "avenhorn_a15_bumper_1",
+        "fuel_capacity": 160,
+        "price": 2500,
+        "install_socket": "AvenhornA15Bumper",
+        "mass": 519
+    },
+    "avenhorn_a15_bumper_2": {
+        "name": "Heavy Duty Pipe",
+        "addon_name_id": "UI_TUNING_BUMPER_HEAVYDUTY_PIPE_NAME",
+        "addon_id": "avenhorn_a15_bumper_2",
+        "fuel_capacity": 160,
+        "price": 2900,
+        "install_socket": "AvenhornA15Bumper",
+        "mass": 469
+    },
+    "avenhorn_a15_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "avenhorn_a15_wheel_addon",
+        "spare_wheels": 2,
+        "price": 2400,
+        "install_socket": "AvenhornA15SpareWheel",
+        "mass": 351
+    },
+    "padera_std4_roofrack_1": {
+        "name": "Trunk Repair Supplies (Padera STD-4)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "padera_std4_roofrack_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "price": 1200,
+        "install_socket": "PaderaSTD4Roofrack",
+        "mass": 190
+    },
+    "padera_std4_spare_wheels": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "padera_std4_spare_wheels",
+        "spare_wheels": 4,
+        "price": 2400,
+        "install_socket": "PaderaSTD4SpareWheels",
+        "mass": 302
+    },
+    "jangsu_rx600_roofrack": {
+        "name": "Trunk Repair Supplies (Jangsu RX600)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "jangsu_rx600_roofrack",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "price": 1900,
+        "install_socket": "JangsuRX600Roofrack",
+        "mass": 160
+    },
+    "voron_g5352_roofrack_1": {
+        "name": "Trunk Repair Supplies (Voron G-5352)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "voron_g5352_roofrack_1",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "price": 2300,
+        "install_socket": "VoronG5352Roofrack",
+        "mass": 134
+    },
+    "mercedes_benz_actros_6x6_roofrack_1": {
+        "name": "Trunk Repair Supplies (Mercedes-Benz Actros 3332)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mercedes_benz_actros_6x6_roofrack_1",
+        "fuel_capacity": 260,
+        "repair_capacity": 150,
+        "price": 3800,
+        "install_socket": "MercedesBenzActrosRoofrack",
+        "mass": 200
+    },
+    "mercedes_benz_zetros_6x6_roofrack_1": {
+        "name": "Trunk Repair Supplies (Mercedes-Benz Zetros)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "mercedes_benz_zetros_6x6_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 150,
+        "price": 3200,
+        "install_socket": "MercedesBenzZetrosRoofrack",
+        "mass": 135
+    },
+    "ford_f750_rooftrunk_1": {
+        "name": "Small Roof Rack (Ford F 750)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "ford_f750_rooftrunk_1",
+        "fuel_capacity": 100,
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "FordF750Rooftrunk",
+        "mass": 150
+    },
+    "ford_f750_trunk": {
+        "name": "Utility Mount (Ford F 750)",
+        "addon_name_id": "UI_TUNING_SCOUT_SPARE_WITH_SUPPLIES_NAME",
+        "addon_id": "ford_f750_trunk",
+        "fuel_capacity": 20,
+        "repair_capacity": 50,
+        "spare_wheels": 4,
+        "price": 1400,
+        "install_socket": "FordF750Trunk",
+        "mass": 100
+    },
+    "tuz_16_actaeon_roofrack_1": {
+        "name": "Roof Rack (TUZ 16 \"Actaeon\")",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "tuz_16_actaeon_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "price": 2100,
+        "install_socket": "tuz_16_actaeonRooftopTrunk",
+        "mass": 215
+    },
+    "tuz_16_actaeon_wheel_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "tuz_16_actaeon_wheel_addon_1",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "tuz_16_actaeonWheelAddon",
+        "mass": 100
+    },
+    "chevy_apache_roofrack_1": {
+        "name": "Roof Rack (Chevrolet Apache)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "chevy_apache_roofrack_1",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "spare_wheels": 4,
+        "price": 2500,
+        "install_socket": "ChevyApacheRooftopTrunk",
+        "mass": 285
+    },
+    "chevy_apache_trunk_1": {
+        "name": "Trunk Repair Supplies (Chevrolet Apache)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "chevy_apache_trunk_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 2100,
+        "install_socket": "ChevyApacheTrunk",
+        "mass": 150
+    },
+    "chevy_apache_trunk_2": {
+        "name": "Expanded Trunk with Parts (Chevrolet Apache)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_BIG_NAME",
+        "addon_id": "chevy_apache_trunk_2",
+        "fuel_capacity": 240,
+        "repair_capacity": 450,
+        "price": 2100,
+        "install_socket": "ChevyApacheTrunk",
+        "mass": 200
+    },
+    "tuz_108_warthog_trunk": {
+        "name": "Trunk Repair Supplies (TUZ 108 \"Warthog\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "tuz_108_warthog_trunk",
+        "fuel_capacity": 60,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 1400,
+        "install_socket": "tuz108warthogTrunk",
+        "mass": 160
+    },
+    "krs_58_bandit_roofrack_1": {
+        "name": "Trunk Repair Supplies (KRS 58 \"Bandit\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "krs_58_bandit_roofrack_1",
+        "fuel_capacity": 140,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 1400,
+        "install_socket": "krs58banditRoofRack",
+        "mass": 240
+    },
+    "pacific512_spare_wheel": {
+        "name": "Spare Wheels",
+        "addon_name_id": "UI_TUNING_SPARE_WHEELS_NAME",
+        "addon_id": "pacific512_spare_wheel",
+        "spare_wheels": 2,
+        "price": 2300,
+        "install_socket": "Pacific512SpareWheel",
+        "mass": 400
+    },
+    "khan_317_sentinel_roofrack": {
+        "name": "Small Roof Rack (KHAN 317 Sentinel)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "khan_317_sentinel_roofrack",
+        "fuel_capacity": 60,
+        "spare_wheels": 2,
+        "price": 1700,
+        "install_socket": "khan317sentinelRoofRack",
+        "mass": 145
+    },
+    "khan_317_sentinel_trunk": {
+        "name": "Trunk Repair Supplies (KHAN 317 Sentinel)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "khan_317_sentinel_trunk",
+        "fuel_capacity": 40,
+        "repair_capacity": 300,
+        "spare_wheels": 2,
+        "price": 2500,
+        "install_socket": "khan317sentinelTrunk",
+        "mass": 185
+    },
+    "tatra_805_roofrack_1": {
+        "name": "Roof Rack (Tatra 805)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "tatra_805_roofrack_1",
+        "fuel_capacity": 80,
+        "repair_capacity": 200,
+        "price": 2500,
+        "install_socket": "Tatra805Roofrack",
+        "mass": 270
+    },
+    "tatra_t813_roofrack_1": {
+        "name": "Roof Rack (Tatra \u0422813)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "tatra_t813_roofrack_1",
+        "fuel_capacity": 160,
+        "repair_capacity": 450,
+        "price": 2500,
+        "install_socket": "TatraT813RooftopTrunk",
+        "mass": 47
+    },
+    "tatra_t813_sideboard_2": {
+        "name": "Tatra Sideboard Bed (Tatra \u0422813)",
+        "addon_name_id": "UI_TATRAT813_SIDEBOARD_2_NAME",
+        "addon_id": "tatra_t813_sideboard_2",
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "TatraT813Sideboard",
+        "mass": 600
+    },
+    "zikz_605r_roofrack_1": {
+        "name": "Trunk Repair Supplies (ZiKZ 605R)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "zikz_605r_roofrack_1",
+        "fuel_capacity": 200,
+        "repair_capacity": 600,
+        "price": 2500,
+        "install_socket": "zikz605rRoofRack",
+        "mass": 335
+    },
+    "zikz_605r_trunk_1": {
+        "name": "Spare Wheel (ZiKZ 605R)",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "zikz_605r_trunk_1",
+        "fuel_capacity": 40,
+        "spare_wheels": 2,
+        "price": 2500,
+        "install_socket": "zikz605rTrunk",
+        "mass": 200
+    },
+    "jeep_cj7_renegade_rear_bumper_1": {
+        "name": "Towloops",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_TOWLOOPS_NAME",
+        "addon_id": "jeep_cj7_renegade_rear_bumper_1",
+        "spare_wheels": 1,
+        "price": 1700,
+        "mass": 11
+    },
+    "jeep_cj7_renegade_rear_bumper_2": {
+        "name": "Double-Pipe",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_DOUBLEPIPE_NAME",
+        "addon_id": "jeep_cj7_renegade_rear_bumper_2",
+        "spare_wheels": 1,
+        "price": 1600,
+        "mass": 10
+    },
+    "jeep_cj7_renegade_rear_bumper_default": {
+        "name": "Stock",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_STOCK_NAME",
+        "addon_id": "jeep_cj7_renegade_rear_bumper_default",
+        "spare_wheels": 1,
+        "price": 1400,
+        "install_socket": "CJ7RearBumper",
+        "mass": 10
+    },
+    "jeep_cj7_renegade_roofrack": {
+        "name": "Trunk Repair Supplies (Jeep CJ7 Renegade)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "jeep_cj7_renegade_roofrack",
+        "fuel_capacity": 60,
+        "repair_capacity": 150,
+        "price": 2500,
+        "install_socket": "CJ7RenegadeRoofrack",
+        "mass": 240
+    },
+    "jeep_wrangler_bumper_rear_1": {
+        "name": "Towloops",
+        "addon_name_id": "UI_TUNING_REAR_BUMPER_TOWLOOPS_NAME",
+        "addon_id": "jeep_wrangler_bumper_rear_1",
+        "spare_wheels": 1,
+        "price": 1200,
+        "install_socket": "JeepWranglerRearBumper1",
+        "mass": 11
+    },
+    "jeep_wrangler_roofrack_1": {
+        "name": "Small Roof Rack (Jeep Wrangler)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "jeep_wrangler_roofrack_1",
+        "fuel_capacity": 40,
+        "repair_capacity": 150,
+        "spare_wheels": 4,
+        "price": 2300,
+        "install_socket": "JeepWranglerRoofrack",
+        "mass": 200
+    },
+    "jeep_wrangler_wheel_addon_default": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "jeep_wrangler_wheel_addon_default",
+        "spare_wheels": 1,
+        "price": 2300,
+        "install_socket": "JeepWranglerSpareWheel"
+    },
+    "tatra_force_t815_7_roofrack": {
+        "name": "Trunk Repair Supplies (Tatra FORCE T815-7)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "tatra_force_t815_7_roofrack",
+        "fuel_capacity": 160,
+        "repair_capacity": 300,
+        "price": 2700,
+        "install_socket": "TatraForceT8157Roofrack",
+        "mass": 200
+    },
+    "tatra_phoenix_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "tatra_phoenix_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2900,
+        "install_socket": "TatraPhoenixSpareWheel",
+        "mass": 10
+    },
+    "land_rover_defender_110_roofrack": {
+        "name": "Trunk Repair Supplies (Land Rover Defender 110)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "land_rover_defender_110_roofrack",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "price": 2500,
+        "install_socket": "LandRoverDef110Roofrack",
+        "mass": 215
+    },
+    "land_rover_defender_110_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "land_rover_defender_110_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "LandRoverDef110WheelAddon",
+        "mass": 50
+    },
+    "land_rover_defender_90_roofrack": {
+        "name": "Trunk Repair Supplies (Land Rover Defender 90)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "land_rover_defender_90_roofrack",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "price": 2500,
+        "install_socket": "LandRoverDef90Roofrack",
+        "mass": 285
+    },
+    "land_rover_defender_90_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "land_rover_defender_90_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "LandRoverDef90WheelAddon",
+        "mass": 50
+    },
+    "step_3364_crocodile_roofrack": {
+        "name": "Roof Rack (Step 33-64 \"Crocodile\")",
+        "addon_name_id": "UI_TUNING_FUEL_RACK_SMALL_NAME",
+        "addon_id": "step_3364_crocodile_roofrack",
+        "fuel_capacity": 60,
+        "price": 2300,
+        "install_socket": "Step3364CrocodileRoofrack",
+        "mass": 125
+    },
+    "step_3364_crocodile_sideboard": {
+        "name": "Small Sideboard Bed (Step 33-64 \"Crocodile\")",
+        "addon_name_id": "UI_TUNING_FRAME_ADDON_SIDEBOARD_1_NAME",
+        "addon_id": "step_3364_crocodile_sideboard",
+        "fuel_capacity": 60,
+        "cargo_slots": 1,
+        "price": 4900,
+        "install_socket": "Step3364CrocodileSideboard",
+        "mass": 400
+    },
+    "step_3364_crocodile_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "step_3364_crocodile_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2700,
+        "install_socket": "Step3364CrocodileWheelAddon",
+        "mass": 75
+    },
+    "tayga_6455b_roofrack": {
+        "name": "Roof Wheel Mount (Tayga 6455B)",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_ROOF_NAME",
+        "addon_id": "tayga_6455b_roofrack",
+        "spare_wheels": 1,
+        "price": 3400,
+        "install_socket": "Tayga6455bRoofrack",
+        "mass": 120
+    },
+    "tayga_6455b_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "tayga_6455b_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2700,
+        "install_socket": "Tayga6455bWheelAddon",
+        "mass": 150
+    },
+    "azov_43_191_sprinter_supplies": {
+        "name": "Internal supply storage (Azov 43-191 \"Sprinter\")",
+        "addon_name_id": "UI_TUNING_SUPPLIES_NAME",
+        "addon_id": "azov_43_191_sprinter_supplies",
+        "fuel_capacity": 200,
+        "repair_capacity": 350,
+        "spare_wheels": 4,
+        "price": 2700,
+        "install_socket": "azovSupplies",
+        "mass": 190
+    },
+    "gor_by4_defence_frame": {
+        "name": "Rollcage and spare wheel (Gor BY-4)",
+        "addon_name_id": "UI_TUNING_GOR_BY4_SAFETY_NAME",
+        "addon_id": "gor_by4_defence_frame",
+        "spare_wheels": 1,
+        "price": 2300,
+        "install_socket": "GorBy4DefenceFrame",
+        "mass": 50
+    },
+    "gor_by4_roofrack": {
+        "name": "Small Roof Rack (Gor BY-4)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "gor_by4_roofrack",
+        "fuel_capacity": 40,
+        "repair_capacity": 100,
+        "price": 1800,
+        "install_socket": "GorBy4bRoofrack",
+        "mass": 190
+    },
+    "gor_by4_roofrack_2": {
+        "name": "Roof Rack (Gor BY-4)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "gor_by4_roofrack_2",
+        "fuel_capacity": 40,
+        "repair_capacity": 100,
+        "spare_wheels": 1,
+        "price": 1800,
+        "install_socket": "GorBy4bRoofrack2",
+        "mass": 240
+    },
+    "western_star_57x_wheeld_addon_1": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "western_star_57x_wheeld_addon_1",
+        "spare_wheels": 2,
+        "price": 3800,
+        "install_socket": "ws57xWheelAddon",
+        "mass": 50
+    },
+    "rezvani_hercules_6x6_roofrack_1": {
+        "name": "Small Roof Rack (Rezvani Hercules 6x6)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "addon_id": "rezvani_hercules_6x6_roofrack_1",
+        "fuel_capacity": 100,
+        "repair_capacity": 150,
+        "price": 2700,
+        "install_socket": "Rezvani6x6RoofRrack1",
+        "mass": 230
+    },
+    "rezvani_hercules_6x6_roofrack_2": {
+        "name": "Roof Rack (Rezvani Hercules 6x6)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_REGULAR_NAME",
+        "addon_id": "rezvani_hercules_6x6_roofrack_2",
+        "fuel_capacity": 60,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 2500,
+        "install_socket": "Rezvani6x6RoofRrack2",
+        "mass": 270
+    },
+    "rezvani_hercules_6x6_trunk_1": {
+        "name": "Trunk Repair Supplies (Rezvani Hercules 6x6)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "rezvani_hercules_6x6_trunk_1",
+        "fuel_capacity": 160,
+        "repair_capacity": 150,
+        "spare_wheels": 2,
+        "price": 2900,
+        "install_socket": "Rezvani6x6Trunk",
+        "mass": 340
+    },
+    "step_39331_pike_roofrack": {
+        "name": "Trunk Repair Supplies (Step 39331 \"Pike\")",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "step_39331_pike_roofrack",
+        "fuel_capacity": 80,
+        "repair_capacity": 150,
+        "price": 2600,
+        "install_socket": "Step39331PikeRoofrack",
+        "mass": 220
+    },
+    "step_39331_pike_sideboard": {
+        "name": "Small Sideboard Bed (Step 39331 \"Pike\")",
+        "addon_name_id": "UI_TUNING_FRAME_ADDON_SIDEBOARD_1_NAME",
+        "addon_id": "step_39331_pike_sideboard",
+        "fuel_capacity": 60,
+        "cargo_slots": 2,
+        "price": 4900,
+        "install_socket": "Step39331PikeSideboard",
+        "mass": 704
+    },
+    "step_39331_pike_wheel_addon": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "step_39331_pike_wheel_addon",
+        "spare_wheels": 1,
+        "price": 2500,
+        "install_socket": "Step39331PikeWheelAddon",
+        "mass": 75
+    },
+    "western_star_nf1424_roofrack": {
+        "name": "Trunk Repair Supplies (Western Star 47X NF 1424)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "western_star_nf1424_roofrack",
+        "fuel_capacity": 120,
+        "repair_capacity": 150,
+        "spare_wheels": 4,
+        "price": 2900,
+        "install_socket": "nf1424Roofrack",
+        "mass": 200
+    },
+    "crane_loglift_zikz_612h_mastodont": {
+        "name": "LP-4 Log-loader crane",
+        "addon_name_id": "UI_ADDON_CRANE_LOGLIFT_1_NAME",
+        "addon_id": "crane_loglift_zikz_612h_mastodont",
+        "price": 7900,
+        "install_socket": "LogLiftMastodon",
+        "mass": 3320
+    },
+    "frame_addon_flatbed_2_zikz_612h_mastodont": {
+        "name": "Flatbed",
+        "addon_name_id": "UI_ADDON_FRAME_FLATBED_2_NAME",
+        "addon_id": "frame_addon_flatbed_2_zikz_612h_mastodont",
+        "cargo_slots": 2,
+        "price": 4200,
+        "install_socket": "FrameAddonMastodon",
+        "mass": 410
+    },
+    "frame_addon_kung_zikz_612h_mastodont": {
+        "name": "Van Body Addon",
+        "addon_name_id": "UI_ADDON_FRAME_KUNG_NAME",
+        "addon_id": "frame_addon_kung_zikz_612h_mastodont",
+        "repair_capacity": 800,
+        "spare_wheels": 6,
+        "price": 4500,
+        "install_socket": "FrameAddonKungMastodon",
+        "mass": 3012
+    },
+    "frame_addon_tank_zikz_612h_mastodon": {
+        "name": "Fuel Tank",
+        "addon_name_id": "UI_ADDON_FRAME_TANK_NAME",
+        "addon_id": "frame_addon_tank_zikz_612h_mastodon",
+        "fuel_capacity": 1800,
+        "full_mass": 12010,
+        "price": 5300,
+        "install_socket": "FrameAddonTankMastodon",
+        "mass": 610
+    },
+    "zikz_612h_mastodont_electricbox": {
+        "name": "Service kit (ZiKZ 612H)",
+        "addon_name_id": "UI_TUNING_ELECTRICBOX_NAME",
+        "addon_id": "zikz_612h_mastodont_electricbox",
+        "fuel_capacity": 50,
+        "repair_capacity": 300,
+        "price": 3200,
+        "install_socket": "MastodonElectricbox",
+        "mass": 165
+    },
+    "zikz_612h_mastodont_roofrack": {
+        "name": "Trunk Repair Supplies (ZiKZ 612H)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "addon_id": "zikz_612h_mastodont_roofrack",
+        "fuel_capacity": 180,
+        "repair_capacity": 300,
+        "price": 2700,
+        "install_socket": "MastodonRoofrack",
+        "mass": 360
+    },
+    "zikz_612h_mastodont_sideboard": {
+        "name": "Long Sideboard Bed (ZiKZ 612H)",
+        "addon_name_id": "UI_ADDON_FRAME_SIDEBOARD_3_NAME",
+        "addon_id": "zikz_612h_mastodont_sideboard",
+        "cargo_slots": 3,
+        "price": 4700,
+        "install_socket": "MastodonSideboard",
+        "mass": 951
+    },
+    "zikz_612h_mastodont_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "zikz_612h_mastodont_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2100,
+        "install_socket": "MastodonSpareWheel",
+        "mass": 320
+    },
+    "zikz_612h_mastodont_spare_wheel_02": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "zikz_612h_mastodont_spare_wheel_02",
+        "spare_wheels": 1,
+        "price": 3200,
+        "install_socket": "MastodonSpareWheel2",
+        "mass": 233
+    },
+    "zikz_612h_mastodont_watertank": {
+        "name": "Fire Tank (ZiKZ 612H)",
+        "addon_name_id": "UI_ADDON_FRAME_ZIKZ_566A_FIREFIGHTER_NAME",
+        "addon_id": "zikz_612h_mastodont_watertank",
+        "water_capacity": 2500,
+        "full_mass": 2661,
+        "price": 5600,
+        "install_socket": "MastodonWatertank",
+        "mass": 1161
+    },
+    "gmc_8000_spare_wheel": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "addon_id": "gmc_8000_spare_wheel",
+        "spare_wheels": 1,
+        "price": 2500,
+        "install_socket": "Gmc8000SpareWheel",
+        "mass": 120
+    }
+}

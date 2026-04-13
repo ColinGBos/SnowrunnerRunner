@@ -1,0 +1,250 @@
+{
+  "id": {
+    "name": "id",
+    "num_format": {},
+    "con_format": {}
+  },
+  "name": {
+    "name": "name",
+    "num_format": {},
+    "con_format": {}
+  },
+  "gearbox_file": {
+    "name": "gearbox_file",
+    "num_format": {},
+    "con_format": {}
+  },
+  "awd_modifier": {
+    "name": "awd_modifier",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "damage_capacity": {
+    "name": "damage_capacity",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "fuel_consumption": {
+    "name": "fuel_consumption",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "idle_f": {
+    "name": "idle_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff",
+      "min_value": 0.0,
+      "max_value": 3.0
+    }
+  },
+  "rev_v": {
+    "name": "rev_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "rev_f": {
+    "name": "rev_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff",
+      "min_value": 0.0,
+      "max_value": 3.0
+    }
+  },
+  "high_v": {
+    "name": "high_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "high_f": {
+    "name": "high_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff",
+      "min_value": 0.0,
+      "max_value": 3.0
+    }
+  },
+  "g1_v": {
+    "name": "g1_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g2_v": {
+    "name": "g2_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g3_v": {
+    "name": "g3_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g4_v": {
+    "name": "g4_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g5_v": {
+    "name": "g5_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g6_v": {
+    "name": "g6_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g7_v": {
+    "name": "g7_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g8_v": {
+    "name": "g8_v",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "g1_f": {
+    "name": "g1_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g2_f": {
+    "name": "g2_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g3_f": {
+    "name": "g3_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g4_f": {
+    "name": "g4_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g5_f": {
+    "name": "g5_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g6_f": {
+    "name": "g6_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g7_f": {
+    "name": "g7_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "g8_f": {
+    "name": "g8_f",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {}
+  },
+  "price": {
+    "name": "price",
+    "num_format": {
+      "num_format": "$#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "critical_damage_threshold": {
+    "name": "critical_damage_threshold",
+    "num_format": {
+      "num_format": "#,##0.00"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "min_color": "#ffffff",
+      "max_color": "#7EC86F"
+    }
+  },
+  "trucks": {
+    "name": "trucks",
+    "num_format": {},
+    "con_format": {}
+  }
+}

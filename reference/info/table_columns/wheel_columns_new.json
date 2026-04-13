@@ -1,0 +1,117 @@
+{
+    "Name": {
+        "name": "name",
+        "num_format": {},
+        "con_format": {}
+    },
+    "Material": {
+        "name": "material",
+        "num_format": {},
+        "con_format": {}
+    },
+    "Mass": {
+        "name": "mass",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "BodyFrictionAsphalt": {
+        "name": "BodyFrictionAsphalt",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "BodyFriction": {
+        "name": "BodyFriction",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "SubstanceFriction": {
+        "name": "SubstanceFriction",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "Width": {
+        "name": "Width",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {}
+    },
+    "WidthRear": {
+        "name": "WidthRear",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {}
+    },
+    "RadiusOffset": {
+        "name": "RadiusOffset",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {}
+    },
+    "SoftForceScale": {
+        "name": "SoftForceScale",
+        "num_format": {
+            "num_format": "#,##0.0"
+        },
+        "con_format": {}
+    },
+    "DamageCapacity": {
+        "name": "DamageCapacity",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "Price": {
+        "name": "Price",
+        "num_format": {
+            "num_format": "$#,##0"
+        },
+        "con_format": {
+            "type": "3_color_scale",
+            "min_color": "#7EC86F",
+            "max_color": "#D57575",
+            "mid_color": "#ffffff"
+        }
+    },
+    "file": {
+        "name": "file",
+        "num_format": {},
+        "con_format": {}
+    }
+}

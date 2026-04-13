@@ -1,0 +1,130 @@
+{
+    "WheelSoftness": {
+        "Stiff": {
+            "RadiusOffset": 0.02,
+            "SoftForceScale": 0.32
+        },
+        "Soft": {
+            "RadiusOffset": 0.03,
+            "SoftForceScale": 0.12
+        },
+        "ScoutStiff": {
+            "RadiusOffset": 0.02,
+            "SoftForceScale": 0.32
+        },
+        "ScoutSoft": {
+            "RadiusOffset": 0.1,
+            "SoftForceScale": 0.2
+        },
+        "ScoutDefault": {
+            "RadiusOffset": 0.025,
+            "SoftForceScale": 0.24
+        },
+        "Average": {
+            "RadiusOffset": 0.025,
+            "SoftForceScale": 0.24
+        }
+    },
+    "WheelFriction": {
+        "ScoutOffroad": {
+            "BodyFriction": 2.5,
+            "BodyFrictionAsphalt": 1.7,
+            "SubstanceFriction": 1.7,
+            "UiName": "UI_TIRE_TYPE_OFFROAD_NAME"
+        },
+        "ScoutMudtires": {
+            "BodyFriction": 3.6,
+            "BodyFrictionAsphalt": 1.2,
+            "SubstanceFriction": 2.0,
+            "UiName": "UI_TIRE_TYPE_MUDTIRES_NAME"
+        },
+        "ScoutHighway": {
+            "BodyFriction": 1.3,
+            "BodyFrictionAsphalt": 2.6,
+            "SubstanceFriction": 0.6,
+            "UiName": "UI_TIRE_TYPE_HIGHWAY_NAME"
+        },
+        "ScoutChains": {
+            "BodyFriction": 2.5,
+            "BodyFrictionAsphalt": 1.6,
+            "SubstanceFriction": 1.6,
+            "UiName": "UI_TIRE_TYPE_CHAINS_NAME"
+        },
+        "ScoutAllterrain": {
+            "BodyFriction": 1.4,
+            "BodyFrictionAsphalt": 1.7,
+            "SubstanceFriction": 1.4,
+            "UiName": "UI_TIRE_TYPE_ALLTERRAIN_NAME"
+        },
+        "Offroad": {
+            "BodyFriction": 3.6,
+            "BodyFrictionAsphalt": 1.4,
+            "SubstanceFriction": 1.9,
+            "UiName": "UI_TIRE_TYPE_OFFROAD_NAME"
+        },
+        "Mudtires": {
+            "BodyFriction": 2.5,
+            "BodyFrictionAsphalt": 1.2,
+            "SubstanceFriction": 2.4,
+            "UiName": "UI_TIRE_TYPE_MUDTIRES_NAME"
+        },
+        "Highway": {
+            "BodyFriction": 1.4,
+            "BodyFrictionAsphalt": 3.6,
+            "SubstanceFriction": 0.6,
+            "UiName": "UI_TIRE_TYPE_HIGHWAY_NAME"
+        },
+        "HeavyMudtires": {
+            "BodyFriction": 2.2,
+            "BodyFrictionAsphalt": 1.2,
+            "SubstanceFriction": 3.6,
+            "UiName": "UI_TIRE_TYPE_MUDTIRES_NAME"
+        },
+        "Chains": {
+            "BodyFriction": 3.6,
+            "BodyFrictionAsphalt": 1.9,
+            "SubstanceFriction": 1.7,
+            "UiName": "UI_TIRE_TYPE_CHAINS_NAME"
+        },
+        "Allterrain": {
+            "BodyFriction": 2.0,
+            "BodyFrictionAsphalt": 2.2,
+            "SubstanceFriction": 1.4,
+            "UiName": "UI_TIRE_TYPE_ALLTERRAIN_NAME"
+        }
+    },
+    "TruckWheel": {
+        "Superheavy": {
+            "Mass": 600
+        },
+        "Veryheavy": {
+            "Mass": 400
+        },
+        "Medium": {
+            "Mass": 100
+        },
+        "Light": {
+            "Mass": 50
+        },
+        "Heavy": {
+            "Mass": 200
+        }
+    },
+    "TruckTire": {
+        "Superheavy": {
+            "Mass": 600
+        },
+        "Veryheavy": {
+            "Mass": 400
+        },
+        "Medium": {
+            "Mass": 100
+        },
+        "Light": {
+            "Mass": 75
+        },
+        "Heavy": {
+            "Mass": 200
+        }
+    }
+}

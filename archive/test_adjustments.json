@@ -1,0 +1,97 @@
+{
+      "minicrane_us_motor_force_1": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us.xml",
+        "from": "Force=\"5000\"",
+        "to": "Force=\"8000\""
+    },
+    "minicrane_us_motor_force_2": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us.xml",
+        "from": "Force=\"4000\"",
+        "to": "Force=\"6000\""
+    },
+    "minicrane_us_motor_force_3": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us.xml",
+        "from": "Force=\"80000\"",
+        "to": "Force=\"140000\""
+    },
+    "minicrane_us_motor_force_4": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us.xml",
+        "from": "Force=\"400000\"",
+        "to": "Force=\"600000\""
+    },
+    "minicrane_us_motor_force_5": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us.xml",
+        "from": "Force=\"60000\"",
+        "to": "Force=\"100000\""
+    },
+    "minicrane_us_navistar_motor_force_1": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us_navistar.xml",
+        "from": "Force=\"5000\"",
+        "to": "Force=\"8000\""
+    },
+    "minicrane_us_navistar_motor_force_2": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us_navistar.xml",
+        "from": "Force=\"4000\"",
+        "to": "Force=\"6000\""
+    },
+    "minicrane_us_navistar_motor_force_3": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us_navistar.xml",
+        "from": "Force=\"80000\"",
+        "to": "Force=\"140000\""
+    },
+    "minicrane_us_navistar_motor_force_4": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us_navistar.xml",
+        "from": "Force=\"400000\"",
+        "to": "Force=\"600000\""
+    },
+    "minicrane_us_navistar_motor_force_5": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_us_navistar.xml",
+        "from": "Force=\"60000\"",
+        "to": "Force=\"100000\""
+    },
+    "minicrane_ru_motor_force_1": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_ru.xml",
+        "from": "Force=\"4000\"",
+        "to": "Force=\"6000\""
+    },
+    "minicrane_ru_motor_force_2": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_ru.xml",
+        "from": "Force=\"2000\"",
+        "to": "Force=\"3000\""
+    },
+    "minicrane_ru_motor_force_3": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_ru.xml",
+        "from": "Force=\"8000\"",
+        "to": "Force=\"12000\""
+    },
+    "minicrane_ru_motor_force_4": {
+        "path": "input/initial/[media]/classes/trucks/addons/minicrane_ru.xml",
+        "from": "Force=\"800000\"",
+        "to": "Force=\"1200000\""
+    },
+    "crane_krs_58_bandit_motor_force_1": {
+        "path": "input/initial/[media]/_dlc/dlc_2_2/classes/trucks/addons/crane_krs_58_bandit.xml",
+        "from": "Force=\"5000\"",
+        "to": "Force=\"7000\""
+    },
+    "crane_krs_58_bandit_motor_force_2": {
+        "path": "input/initial/[media]/_dlc/dlc_2_2/classes/trucks/addons/crane_krs_58_bandit.xml",
+        "from": "Force=\"4000\"",
+        "to": "Force=\"6000\""
+    },
+    "crane_krs_58_bandit_motor_force_3": {
+        "path": "input/initial/[media]/_dlc/dlc_2_2/classes/trucks/addons/crane_krs_58_bandit.xml",
+        "from": "Force=\"8000\"",
+        "to": "Force=\"12000\""
+    },
+    "crane_krs_58_bandit_motor_force_4": {
+        "path": "input/initial/[media]/_dlc/dlc_2_2/classes/trucks/addons/crane_krs_58_bandit.xml",
+        "from": "Force=\"400000\"",
+        "to": "Force=\"600000\""
+    },
+    "crane_krs_58_bandit_motor_force_5": {
+        "path": "input/initial/[media]/_dlc/dlc_2_2/classes/trucks/addons/crane_krs_58_bandit.xml",
+        "from": "Force=\"60000\"",
+        "to": "Force=\"80000\""
+    }
+}

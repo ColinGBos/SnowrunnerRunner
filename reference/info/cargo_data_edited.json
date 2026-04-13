@@ -1,0 +1,488 @@
+{
+    "CargoLogsMedium_Burnt": {
+        "type": "CargoLogsMedium_Burnt",
+        "packed_mass": 8250,
+        "packed_length": 1,
+        "name": "Burnt logs"
+    },
+    "CargoLogsMedium": {
+        "type": "CargoLogsMedium",
+        "packed_mass": 8250,
+        "packed_length": 1,
+        "name": "Medium Logs"
+    },
+    "CargoLogsShort": {
+        "type": "CargoLogsShort",
+        "packed_mass": 4050,
+        "packed_length": 1,
+        "name": "Short Logs"
+    },
+    "CargoLogsLong": {
+        "type": "CargoLogsLong",
+        "packed_mass": 12000,
+        "packed_length": 1,
+        "name": "Long Logs"
+    },
+    "CargoBA20": {
+        "type": "CargoBA20",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "BA-20 armored car"
+    },
+    "CargoBA20Add": {
+        "type": "CargoBA20Add",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "BA-20 armored car"
+    },
+    "CargoPlane": {
+        "type": "CargoPlane",
+        "packed_mass": 10000,
+        "packed_length": 5,
+        "unpacked_mass": 7000,
+        "name": "Part of the airplane fuselage"
+    },
+    "CargoWing1": {
+        "type": "CargoWing1",
+        "packed_mass": 2000,
+        "packed_length": 5,
+        "unpacked_mass": 2000,
+        "name": "Wing fragments with the engine"
+    },
+    "CargoWing2": {
+        "type": "CargoWing2",
+        "packed_mass": 2000,
+        "packed_length": 4,
+        "unpacked_mass": 2000,
+        "name": "Piece of the airplane wing"
+    },
+    "CargoForcklift": {
+        "type": "CargoForcklift",
+        "packed_mass": 10000,
+        "packed_length": 4,
+        "unpacked_mass": 7000,
+        "name": "Cabin"
+    },
+    "CargoMetalRoll": {
+        "type": "CargoMetalRoll",
+        "packed_mass": 1000,
+        "packed_length": 1,
+        "unpacked_mass": 1000,
+        "name": "Metal Rolls"
+    },
+    "CargoBags2": {
+        "type": "CargoBags2",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Packaged Sand"
+    },
+    "CargoCellulose": {
+        "type": "CargoCellulose",
+        "packed_mass": 1500,
+        "packed_length": 1,
+        "unpacked_mass": 1500,
+        "name": "Cellulose"
+    },
+    "CargoRailway": {
+        "type": "CargoRailway",
+        "packed_mass": 1000,
+        "packed_length": 5,
+        "unpacked_mass": 1000,
+        "name": "Rail Section"
+    },
+    "CargoSequoia": {
+        "type": "CargoSequoia",
+        "packed_mass": 8000,
+        "packed_length": 5,
+        "unpacked_mass": 8000,
+        "name": "Sequoia"
+    },
+    "CargoRocketEngine": {
+        "type": "CargoRocketEngine",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Engine Assembly"
+    },
+    "CargoRocketPart1": {
+        "type": "CargoRocketPart1",
+        "packed_mass": 2100,
+        "packed_length": 3,
+        "unpacked_mass": 2100,
+        "name": "Stage 3 Fuel Tank"
+    },
+    "CargoRocketPart2": {
+        "type": "CargoRocketPart2",
+        "packed_mass": 1500,
+        "packed_length": 3,
+        "unpacked_mass": 1500,
+        "name": "Stage 2 Fuel Tank"
+    },
+    "CargoStack": {
+        "type": "CargoStack",
+        "packed_mass": 1500,
+        "packed_length": 1,
+        "unpacked_mass": 1500,
+        "name": "Hay Bale"
+    },
+    "CargoBoiler": {
+        "type": "CargoBoiler",
+        "packed_mass": 10000,
+        "packed_length": 5,
+        "unpacked_mass": 7000,
+        "name": "Industrial boiler"
+    },
+    "CargoIronRoad": {
+        "type": "CargoIronRoad",
+        "packed_mass": 10000,
+        "packed_length": 4,
+        "unpacked_mass": 7000,
+        "name": "Rails"
+    },
+    "CargoBarrelsChemicals": {
+        "type": "CargoBarrelsChemicals",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Chemical Barrels"
+    },
+    "CargoBigbar": {
+        "type": "CargoBigbar",
+        "packed_mass": 1000,
+        "packed_length": 5,
+        "unpacked_mass": 1700,
+        "name": "Cistern"
+    },
+    "CargoPotato": {
+        "type": "CargoPotato",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Potatoes"
+    },
+    "CargoPotatoGmo": {
+        "type": "CargoPotatoGmo",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Potato Samples"
+    },
+    "CargoTrash": {
+        "type": "CargoTrash",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "Garbage"
+    },
+    "CargoMinecart": {
+        "type": "CargoMinecart",
+        "packed_mass": 4500,
+        "packed_length": 2,
+        "unpacked_mass": 4500,
+        "name": "Mine Cart"
+    },
+    "CargoSilver": {
+        "type": "CargoSilver",
+        "packed_mass": 3120,
+        "packed_length": 1,
+        "unpacked_mass": 3120,
+        "name": "Silver"
+    },
+    "CargoStoneBlock": {
+        "type": "CargoStoneBlock",
+        "packed_mass": 7000,
+        "packed_length": 2,
+        "unpacked_mass": 7000,
+        "name": "Slate Blocks"
+    },
+    "CargoChiller": {
+        "type": "CargoChiller",
+        "packed_mass": 5000,
+        "packed_length": 6,
+        "unpacked_mass": 5000,
+        "name": "Industrial Chiller"
+    },
+    "CargoReeferContainer": {
+        "type": "CargoReeferContainer",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "Freezer"
+    },
+    "CargoSolarPanel": {
+        "type": "CargoSolarPanel",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Solar Panels"
+    },
+    "CargoGold": {
+        "type": "CargoGold",
+        "packed_mass": 3120,
+        "packed_length": 1,
+        "unpacked_mass": 3120,
+        "name": "Gold"
+    },
+    "CargoCableCar": {
+        "type": "CargoCableCar",
+        "packed_mass": 4500,
+        "packed_length": 2,
+        "unpacked_mass": 4500,
+        "name": "Cable Car"
+    },
+    "CargoNPPPump": {
+        "type": "CargoNPPPump",
+        "packed_mass": 5750,
+        "packed_length": 2,
+        "unpacked_mass": 5750,
+        "name": "Multistage Pump"
+    },
+    "CargoSensoryBuoy": {
+        "type": "CargoSensoryBuoy",
+        "packed_mass": 2341,
+        "packed_length": 2,
+        "unpacked_mass": 2341,
+        "name": "Data Buoy"
+    },
+    "CargoFertilizer": {
+        "type": "CargoFertilizer",
+        "packed_mass": 1500,
+        "packed_length": 1,
+        "unpacked_mass": 1500,
+        "name": "Fertilizer"
+    },
+    "CargoSoyabean": {
+        "type": "CargoSoyabean",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Soybeans"
+    },
+    "CargoWaterPipe": {
+        "type": "CargoWaterPipe",
+        "packed_mass": 6000,
+        "packed_length": 3,
+        "unpacked_mass": 6000,
+        "name": "Water Pipe"
+    },
+    "CargoMetalJunk": {
+        "type": "CargoMetalJunk",
+        "packed_mass": 4000,
+        "packed_length": 2,
+        "unpacked_mass": 4000,
+        "name": "Filled Container"
+    },
+    "CargoMetalJunkOpen": {
+        "type": "CargoMetalJunkOpen",
+        "packed_mass": 1550,
+        "packed_length": 2,
+        "unpacked_mass": 3100,
+        "name": "Empty Container"
+    },
+    "CargoPotatoUS": {
+        "type": "CargoPotatoUS",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Potatoes"
+    },
+    "CargoSensoryBuoyAdd2": {
+        "type": "CargoSensoryBuoyAdd2",
+        "packed_mass": 2341,
+        "packed_length": 2,
+        "unpacked_mass": 2341,
+        "name": "Data Buoy"
+    },
+    "CargoSensoryBuoyAdd3": {
+        "type": "CargoSensoryBuoyAdd3",
+        "packed_mass": 2341,
+        "packed_length": 2,
+        "unpacked_mass": 2341,
+        "name": "Data Buoy"
+    },
+    "CargoSensoryBuoyAdd4": {
+        "type": "CargoSensoryBuoyAdd4",
+        "packed_mass": 2341,
+        "packed_length": 2,
+        "unpacked_mass": 2341,
+        "name": "Data Buoy"
+    },
+    "CargoTransformer": {
+        "type": "CargoTransformer",
+        "packed_mass": 2200,
+        "packed_length": 3,
+        "unpacked_mass": 5000,
+        "name": "Transformer"
+    },
+    "CargoBags": {
+        "type": "CargoBags",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Cement"
+    },
+    "CargoBarrels": {
+        "type": "CargoBarrels",
+        "packed_mass": 1500,
+        "packed_length": 1,
+        "unpacked_mass": 1500,
+        "name": "Fuel"
+    },
+    "CargoBarrelsOil": {
+        "type": "CargoBarrelsOil",
+        "packed_mass": 1500,
+        "packed_length": 1,
+        "unpacked_mass": 1500,
+        "name": "Oil Barrels"
+    },
+    "CargoBigDrill": {
+        "type": "CargoBigDrill",
+        "packed_mass": 10000,
+        "packed_length": 5,
+        "unpacked_mass": 7000,
+        "name": "Oil Rig Drill"
+    },
+    "CargoBricks": {
+        "type": "CargoBricks",
+        "packed_mass": 1000,
+        "packed_length": 1,
+        "unpacked_mass": 1000,
+        "name": "Bricks"
+    },
+    "CargoConcreteBlocks": {
+        "type": "CargoConcreteBlocks",
+        "packed_mass": 3000,
+        "packed_length": 1,
+        "unpacked_mass": 3000,
+        "name": "Concrete Blocks"
+    },
+    "CargoConcreteSlab": {
+        "type": "CargoConcreteSlab",
+        "packed_mass": 6000,
+        "packed_length": 2,
+        "unpacked_mass": 6000,
+        "name": "Concrete Slab"
+    },
+    "CargoContainerLarge": {
+        "type": "CargoContainerLarge",
+        "packed_mass": 10000,
+        "packed_length": 4,
+        "unpacked_mass": 7000,
+        "name": "Oversized Cargo"
+    },
+    "CargoContainerLargeDrilling": {
+        "type": "CargoContainerLargeDrilling",
+        "packed_mass": 10000,
+        "packed_length": 4,
+        "unpacked_mass": 7000,
+        "name": "Drilling Equipment"
+    },
+    "CargoContainerSmall": {
+        "type": "CargoContainerSmall",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "Cargo Container"
+    },
+    "CargoContainerSmallSpecial": {
+        "type": "CargoContainerSmallSpecial",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "Special Cargo"
+    },
+    "CargoCrateLarge": {
+        "type": "CargoCrateLarge",
+        "packed_mass": 2500,
+        "packed_length": 1,
+        "unpacked_mass": 2500,
+        "name": "Consumables"
+    },
+    "CargoForkliftCaravanContainer2": {
+        "type": "CargoForkliftCaravanContainer2",
+        "packed_mass": 3000,
+        "packed_length": 2,
+        "unpacked_mass": 3000,
+        "name": "Cabin"
+    },
+    "CargoMetalPlanks": {
+        "type": "CargoMetalPlanks",
+        "packed_mass": 5000,
+        "packed_length": 2,
+        "unpacked_mass": 5000,
+        "name": "Metal Beams"
+    },
+    "CargoPipesMedium": {
+        "type": "CargoPipesMedium",
+        "packed_mass": 4500,
+        "packed_length": 2,
+        "unpacked_mass": 4500,
+        "name": "Medium Pipes"
+    },
+    "CargoPipesSmall": {
+        "type": "CargoPipesSmall",
+        "packed_mass": 3500,
+        "packed_length": 2,
+        "unpacked_mass": 3500,
+        "name": "Small Pipes"
+    },
+    "CargoPipeLarge": {
+        "type": "CargoPipeLarge",
+        "packed_mass": 8000,
+        "packed_length": 4,
+        "unpacked_mass": 7000,
+        "name": "Large Pipe"
+    },
+    "CargoRadioactive": {
+        "type": "CargoRadioactive",
+        "packed_mass": 1000,
+        "packed_length": 1,
+        "unpacked_mass": 1000,
+        "name": "Secure Container"
+    },
+    "CargoServiceSpareParts": {
+        "type": "CargoServiceSpareParts",
+        "packed_mass": 1200,
+        "packed_length": 1,
+        "unpacked_mass": 1200,
+        "name": "Service Spare Parts"
+    },
+    "CargoServiceSparePartsSpecial": {
+        "type": "CargoServiceSparePartsSpecial",
+        "packed_mass": 1000,
+        "packed_length": 1,
+        "unpacked_mass": 1000,
+        "name": "Drilling Spare Parts"
+    },
+    "CargoVehiclesSpareParts": {
+        "type": "CargoVehiclesSpareParts",
+        "packed_mass": 1200,
+        "packed_length": 1,
+        "unpacked_mass": 1200,
+        "name": "Vehicle Spare Parts"
+    },
+    "CargoWoodenPlanks": {
+        "type": "CargoWoodenPlanks",
+        "packed_mass": 500,
+        "packed_length": 1,
+        "unpacked_mass": 500,
+        "name": "Wooden Planks"
+    },
+    "CargoWoodenPlanks2": {
+        "type": "CargoWoodenPlanks2",
+        "packed_mass": 1000,
+        "packed_length": 2,
+        "unpacked_mass": 1000,
+        "name": "Medium Planks"
+    },
+    "CargoWoodenPlanks4": {
+        "type": "CargoWoodenPlanks4",
+        "packed_mass": 2000,
+        "packed_length": 4,
+        "unpacked_mass": 2000,
+        "name": "Long Planks"
+    }
+}

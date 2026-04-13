@@ -1,0 +1,103 @@
+{
+    "name": {
+        "name": "name",
+        "num_format": {},
+        "con_format": {}
+    },
+    "addon_id": {
+        "name": "addon_id",
+        "num_format": {},
+        "con_format": {}
+    },
+    "install_socket": {
+        "name": "install_socket",
+        "num_format": {},
+        "con_format": {}
+    },
+    "fuel_capacity": {
+        "name": "fuel_capacity",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    },
+    "water_capacity": {
+        "name": "water_capacity",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    },
+    "repair_capacity": {
+        "name": "repair_capacity",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    },
+    "spare_wheels": {
+        "name": "spare_wheels",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    },
+    "cargo_slots": {
+        "name": "cargo_slots",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#7EC86F",
+            "min_color": "#ffffff"
+        }
+    },
+    "mass": {
+        "name": "mass",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#D57575",
+            "min_color": "#ffffff"
+        }
+    },
+    "full_mass": {
+        "name": "full_mass",
+        "num_format": {
+            "num_format": "#,##0"
+        },
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#D57575",
+            "min_color": "#ffffff"
+        }
+    },
+    "price": {
+        "name": "price",
+        "num_format": {"num_format": "$#,##0"},
+        "con_format": {
+            "type": "2_color_scale",
+            "max_color": "#D57575",
+            "min_color": "#ffffff"
+        }
+    }
+}

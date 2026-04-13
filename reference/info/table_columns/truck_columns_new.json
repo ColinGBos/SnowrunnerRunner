@@ -1,0 +1,516 @@
+{
+  "name": {
+    "name": "name",
+    "num_format": {},
+    "con_format": {}
+  },
+  "dlc": {
+    "name": "dlc",
+    "num_format": {},
+    "con_format": {}
+  },
+  "class": {
+    "name": "class",
+    "num_format": {},
+    "con_format": {}
+  },
+  "fuel_capacity": {
+    "name": "fuel_capacity",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "fuel_use_rate": {
+    "name": "fuel_use_rate",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "min_color": "#7EC86F",
+      "max_color": "#ffffff"
+    }
+  },
+  "engine_on_time": {
+    "name": "engine_on_time",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "3_color_scale",
+      "max_color": "#7EC86F",
+      "mid_color": "#A3D49C",
+      "min_color": "#ffffff"
+    }
+  },
+  "offroad_high_speed": {
+    "name": "offroad_high_speed",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "mass": {
+    "name": "mass",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "3_color_scale",
+      "mid_color": "#7EC86F",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "max_engine_torque": {
+    "name": "max_engine_torque",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "wheel_adj_power": {
+    "name": "wheel_adj_power",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "pulling_quotient": {
+    "name": "pulling_quotient",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "awd": {
+    "name": "awd",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "difflock": {
+    "name": "difflock",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "dead_axle": {
+    "name": "dead_axle",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "max_wheel_mass": {
+    "name": "max_wheel_mass",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "has_doubles": {
+    "name": "has_doubles",
+    "num_format": {},
+    "con_format": {}
+  },
+  "steering_angle_1": {
+    "name": "steering_angle_1",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "steering_angle_2": {
+    "name": "steering_angle_2",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {}
+  },
+  "min_engine_torque": {
+    "name": "min_engine_torque",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "price": {
+    "name": "price",
+    "num_format": {
+      "num_format": "$#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "min_wheel_size": {
+    "name": "min_wheel_size",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "max_wheel_size": {
+    "name": "max_wheel_size",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "wheel_count": {
+    "name": "wheel_count",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "drive_wheel_count": {
+    "name": "drive_wheel_count",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "pure_p/w": {
+    "name": "pure_p/w",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "adj_p/w": {
+    "name": "adj_p/w",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "adj_p/w+": {
+    "name": "adj_p/w+",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "adj_p/w++": {
+    "name": "adj_p/w++",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "low_saddle": {
+    "name": "low_saddle",
+    "num_format": {},
+    "con_format": {}
+  },
+  "low_saddle_height": {
+    "name": "low_saddle_height",
+    "num_format": {},
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "high_saddle": {
+    "name": "high_saddle",
+    "num_format": {},
+    "con_format": {}
+  },
+  "high_saddle_height": {
+    "name": "high_saddle_height",
+    "num_format": {},
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "cargo_slots": {
+    "name": "cargo_slots",
+    "num_format": {
+      "num_format": "#,##0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "minicrane": {
+    "name": "minicrane",
+    "num_format": {},
+    "con_format": {}
+  },
+  "heavy_crane": {
+    "name": "heavy_crane",
+    "num_format": {},
+    "con_format": {}
+  },
+  "truck_trailer": {
+    "name": "truck_trailer",
+    "num_format": {},
+    "con_format": {}
+  },
+  "futom_trailer": {
+    "name": "futom_trailer",
+    "num_format": {},
+    "con_format": {}
+  },
+  "scout_trailer": {
+    "name": "scout_trailer",
+    "num_format": {},
+    "con_format": {}
+  },
+  "fuel_tank": {
+    "name": "fuel_tank",
+    "num_format": {},
+    "con_format": {}
+  },
+  "water_tank": {
+    "name": "water_tank",
+    "num_format": {},
+    "con_format": {}
+  },
+  "extended_fuel_tank": {
+    "name": "extended_fuel_tank",
+    "num_format": {},
+    "con_format": {}
+  },
+  "extended_water_tank": {
+    "name": "extended_water_tank",
+    "num_format": {},
+    "con_format": {}
+  },
+  "seismic_vibrator": {
+    "name": "seismic_vibrator",
+    "num_format": {},
+    "con_format": {}
+  },
+  "long_logs": {
+    "name": "long_logs",
+    "num_format": {},
+    "con_format": {}
+  },
+  "short_logs": {
+    "name": "short_logs",
+    "num_format": {},
+    "con_format": {}
+  },
+  "medium_logs": {
+    "name": "medium_logs",
+    "num_format": {},
+    "con_format": {}
+  },
+  "repair_supplies": {
+    "name": "repair_supplies",
+    "num_format": {},
+    "con_format": {}
+  },
+  "log_crane": {
+    "name": "log_crane",
+    "num_format": {},
+    "con_format": {}
+  },
+  "van_body": {
+    "name": "van_body",
+    "num_format": {},
+    "con_format": {}
+  },
+  "tow_platform": {
+    "name": "tow_platform",
+    "num_format": {},
+    "con_format": {}
+  },
+  "hydrolift_saddle": {
+    "name": "hydrolift_saddle",
+    "num_format": {},
+    "con_format": {}
+  },
+  "maintainer_frame": {
+    "name": "maintainer_frame",
+    "num_format": {},
+    "con_format": {}
+  },
+  "big_maintainer_frame": {
+    "name": "big_maintainer_frame",
+    "num_format": {},
+    "con_format": {}
+  },
+  "metal_detector": {
+    "name": "metal_detector",
+    "num_format": {},
+    "con_format": {}
+  },
+  "steer_speed": {
+    "name": "steer_speed",
+    "num_format": {
+      "num_format": "#,##0.000"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "back_steer_speed": {
+    "name": "back_steer_speed",
+    "num_format": {
+      "num_format": "#,##0.000"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "region": {
+    "name": "region",
+    "num_format": {},
+    "con_format": {}
+  },
+  "requires_exploration": {
+    "name": "requires_exploration",
+    "num_format": {},
+    "con_format": {}
+  },
+  "unlock_rank": {
+    "name": "unlock_rank",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "responsiveness": {
+    "name": "responsiveness",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#7EC86F",
+      "min_color": "#ffffff"
+    }
+  },
+  "engine_start_delay": {
+    "name": "engine_start_delay",
+    "num_format": {
+      "num_format": "#,##0.0"
+    },
+    "con_format": {
+      "type": "2_color_scale",
+      "max_color": "#D57575",
+      "min_color": "#ffffff"
+    }
+  },
+  "wheel_types": {
+    "name": "wheel_types",
+    "num_format": {},
+    "con_format": {}
+  },
+  "engine_default": {
+    "name": "engine_default",
+    "num_format": {},
+    "con_format": {}
+  },
+  "engine_types": {
+    "name": "engine_types",
+    "num_format": {},
+    "con_format": {}
+  },
+  "gearbox_type": {
+    "name": "gearbox_type",
+    "num_format": {},
+    "con_format": {}
+  },
+  "gearbox_options": {
+    "name": "gearbox_options",
+    "num_format": {},
+    "con_format": {}
+  },
+  "gearbox_default": {
+    "name": "gearbox_default",
+    "num_format": {},
+    "con_format": {}
+  },
+  "addon_sockets": {
+    "name": "addon_sockets",
+    "num_format": {},
+    "con_format": {}
+  }
+}

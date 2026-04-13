@@ -1,0 +1,34 @@
+<Gearbox
+    AWDConsumptionModifier="{awd_modifier}"
+    CriticalDamageThreshold="{damage_threshold}"
+    DamageCapacity="{damage_capacity}"
+    DamagedConsumptionModifier="{damaged_consumption_modifier}"
+    FuelConsumption="{fuel_consumption}"
+    IdleFuelModifier="{idle_fuel_modifier}"
+    Name="{id}"
+    MinBreakFreq="{min_break_frequency}"
+    MaxBreakFreq="{max_break_frequency}"
+>
+    <ReverseGear AngVel="{reverse_vel}" FuelModifier="{reverse_fuel_modifier}" />
+    <HighGear AngVel="{high_vel}" FuelModifier="{high_fuel_modifier}" />
+    {gears}
+    <GameData
+        Price="{price}"
+        UnlockByExploration="false"
+        UnlockByRank="30"
+    >
+        <GearboxParams
+            IsHighGearExists="true"
+            IsLowerGearExists="true"
+            IsLowerPlusGearExists="true"
+            IsLowerMinusGearExists="true"
+            IsManualLowGear="false"
+        />
+        <UiDesc
+            UiDesc="{description}"
+            UiIcon30x30=""
+            UiIcon40x40=""
+            UiName="{name}"
+        />
+    </GameData>
+</Gearbox>
