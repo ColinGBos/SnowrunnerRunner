@@ -5,6 +5,7 @@ from lxml import etree  # ty:ignore[unresolved-import]
 from pathlib import Path
 from statistics import mean
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
     find_regex_in,
@@ -87,8 +88,8 @@ def get_difflock_status(contents, truck_id) -> str:
     elif diff_lock == "None":
         return "None"
     else:
-        trucks_folder = Path("input/initial/[media]/classes/trucks")
-        dlc_folder = Path("input/initial/[media]/_dlc")
+        trucks_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks")
+        dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
         if Path(f"{trucks_folder}/{truck_id}_tuning").exists():
             for dest in Path(f"{trucks_folder}/{truck_id}_tuning").glob("*diff*"):
                 if "diff_lock" or "difflock" in str(dest):
@@ -395,22 +396,26 @@ def get_dlc_from_file_path(file_path: Path) -> str:
     return "Base Game"
 
 
-def get_offroad_gearbox_info(
+def get_avg_gearbox_info(
     gearbox_dict: dict[str, dict[str,Any]], gearbox_files: list[str]
 ) -> tuple[float, float, float]:
+    consumptions = []
+    high_vels = []
+    awd_modifiers = []
     for _, gearbox_data in gearbox_dict.items():
         if gearbox_data["gearbox_file"] in gearbox_files:
-            if "offroad" in gearbox_data["id"].lower():
-                high_vel = gearbox_data["high_v"]
-                awd_modifier = gearbox_data["awd_modifier"]
-                base_fuel_consumption = gearbox_data["fuel_consumption"]
-                high_fuel_consumption = gearbox_data["high_f"]
-                gears_fuel = []
-                for i in range(1, 9):
-                    if f"g{i}_f" in gearbox_data:
-                        gears_fuel.append(gearbox_data[f"g{i}_f"])
-                return mean([high_fuel_consumption, mean(gears_fuel)]) * base_fuel_consumption, high_vel, awd_modifier
-
+            # if "offroad" in gearbox_data["id"].lower():
+            high_vels.append(gearbox_data["high_v"])
+            awd_modifiers.append(gearbox_data["awd_modifier"])
+            base_fuel_consumption = gearbox_data["fuel_consumption"]
+            high_fuel_consumption = gearbox_data["high_f"]
+            gears_fuel = []
+            for i in range(1, 9):
+                if f"g{i}_f" in gearbox_data:
+                    gears_fuel.append(gearbox_data[f"g{i}_f"])
+            consumptions.append(mean([high_fuel_consumption, mean(gears_fuel)]) * base_fuel_consumption)
+    if len(consumptions) > 0 and len(high_vels) > 0 and len(awd_modifiers) > 0:
+        return mean(consumptions), mean(high_vels), mean(awd_modifiers)
     return 0.0, 0.0, 0.0
 
 
@@ -578,7 +583,7 @@ def get_truck_data(
         gearbox_files = gearbox_type.split(", ")
         truck_data["gearbox_type"] = gearbox_files
         gearbox_options = get_gearbox_options(gearbox_dict, gearbox_files)
-        gearbox_fuel, high_vel, awd_modifier = get_offroad_gearbox_info(gearbox_dict, gearbox_files)
+        gearbox_fuel, high_vel, awd_modifier = get_avg_gearbox_info(gearbox_dict, gearbox_files)
         truck_data["gearbox_options"] = gearbox_options
 
     truck_data["gearbox_default"] = xml_result(
@@ -586,7 +591,7 @@ def get_truck_data(
     )
 
     if high_vel > 0 and max_wheel_size > 0:
-        truck_data["offroad_high_speed"] = round(0.0585 * max_wheel_size * high_vel, 1)
+        truck_data["avg_high_speed"] = round(0.0585 * max_wheel_size * high_vel, 1)
 
     net_fuel_consumption = engine_fuel * gearbox_fuel
     if awd_modifier > 0 and truck_data["awd"] is not None and truck_data["awd"] == "Always":
@@ -626,8 +631,8 @@ def get_all_truck_data(
     use_initial_files: bool, engine_dict: dict[str, dict], gearbox_dict: dict[str, dict], wheel_dict: dict[str, dict], sus_dict: dict[str, dict],ui_dict: dict[str, str],
 ) -> dict[str, dict]:
     all_truck_data: dict[str, dict] = {}
-    trucks_folder = Path("input/initial/[media]/classes/trucks")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    trucks_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in trucks_folder.glob("*.xml"):
@@ -651,6 +656,6 @@ def process_truck_data(engine_dict: dict[str, dict], gearbox_dict: dict[str, dic
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/trucks_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/trucks_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(truck_dict, f, indent=4)
     return truck_dict

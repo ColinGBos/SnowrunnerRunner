@@ -2,6 +2,7 @@ import json
 
 from pathlib import Path
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
     find_regex_in,
@@ -100,8 +101,8 @@ def get_addon_data(file_path, use_initial_files, truck_data:dict[str,dict], ui_d
 
 def get_all_addon_data(use_initial_files, truck_data:dict[str,dict], ui_dict: dict[str, str]) -> dict[str, dict]:
     all_addon_data: dict[str, dict] = {}
-    truck_folder = Path("input/initial/[media]/classes/trucks")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    truck_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     for file_path in truck_folder.glob("addons/*.xml"):
         addon_name, addon_data = get_addon_data(
@@ -143,6 +144,6 @@ def process_addon_data(use_initial_files, truck_data:dict[str, dict],ui_dict: di
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/addon_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/addon_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(data_dict, f, indent=4)
     return data_dict

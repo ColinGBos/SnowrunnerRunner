@@ -14,7 +14,7 @@
         "WidthRear": 1.24,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_P12_JAT_ATHD_I__PACIFIC_P12__DESC",
         "Name": "JAT ATHD I"
     },
     "wheels_heavy_allterrain_double_p12-JAT ATHD II": {
@@ -32,7 +32,7 @@
         "WidthRear": 1.24,
         "Price": 5300.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_P12_JAT_ATHD_I__PACIFIC_P12__DESC",
         "Name": "JAT ATHD II"
     },
     "wheels_heavy_allterrain_double_p12-JAT ATHD III": {
@@ -50,7 +50,7 @@
         "WidthRear": 1.24,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_P12_JAT_ATHD_I__PACIFIC_P12__DESC",
         "Name": "JAT ATHD III"
     },
     "wheels_heavy_double1-highway_1": {
@@ -68,7 +68,7 @@
         "WidthRear": 1.132,
         "Price": 3600.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_HMD_I_DESC",
         "Name": "HMD I"
     },
     "wheels_heavy_double1-highway_2": {
@@ -86,7 +86,7 @@
         "WidthRear": 1.132,
         "Price": 4000.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_HMD_I_DESC",
         "Name": "HMD II"
     },
     "wheels_heavy_double1-highway_3": {
@@ -104,7 +104,7 @@
         "WidthRear": 1.132,
         "Price": 4400.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_HMD_I_DESC",
         "Name": "HMD III"
     },
     "wheels_heavy_double1-allterrain_1": {
@@ -122,7 +122,7 @@
         "WidthRear": 1.132,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_ATMD_I_DESC",
         "Name": "ATMD I"
     },
     "wheels_heavy_double1-allterrain_2": {
@@ -140,7 +140,7 @@
         "WidthRear": 1.132,
         "Price": 5300.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_ATMD_I_DESC",
         "Name": "ATMD II"
     },
     "wheels_heavy_double1-allterrain_3": {
@@ -158,7 +158,7 @@
         "WidthRear": 1.132,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_ATMD_I_DESC",
         "Name": "ATMD III"
     },
     "wheels_heavy_double2-offroad_1": {
@@ -176,7 +176,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_OHD_I_DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_double2-offroad_2": {
@@ -194,7 +194,7 @@
         "WidthRear": 1.213,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_OHD_I_DESC",
         "Name": "OHD II"
     },
     "wheels_heavy_double2-offroad_3": {
@@ -212,7 +212,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_OHD_I_DESC",
         "Name": "OHD III"
     },
     "wheels_heavy_double2-chains_2": {
@@ -230,7 +230,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_OHD_II_ALL_CHAINS_DESC",
         "Name": "OHD II All Chains"
     },
     "wheels_heavy_double2_p12-offroad_1": {
@@ -248,7 +248,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_P12_OHD_I__PACIFIC_P12__DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_double2_p12-offroad_2": {
@@ -266,7 +266,7 @@
         "WidthRear": 1.213,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_P12_OHD_I__PACIFIC_P12__DESC",
         "Name": "OHD II"
     },
     "wheels_heavy_double2_p12-offroad_3": {
@@ -284,7 +284,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_P12_OHD_I__PACIFIC_P12__DESC",
         "Name": "OHD III"
     },
     "wheels_heavy_double2_p12-chains_2": {
@@ -302,7 +302,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_P12_OHD_II_ALL_CHAINS__PACIFIC_P12__DESC",
         "Name": "OHD II All Chains"
     },
     "wheels_heavy_double_p16-offroad_1": {
@@ -320,7 +320,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE_P16_OHD_I__PACIFIC_P16__DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_mudtires_single2_p12-JAT MHS IV": {
@@ -338,7 +338,7 @@
         "WidthRear": 0.79,
         "Price": 5200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_13_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_P12_JAT_MHS_IV__PACIFIC_P12__DESC",
         "Name": "JAT MHS IV"
     },
     "wheels_heavy_mudtires_single2_p12-JAT MHS V": {
@@ -356,7 +356,7 @@
         "WidthRear": 0.79,
         "Price": 5600.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_14_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_P12_JAT_MHS_IV__PACIFIC_P12__DESC",
         "Name": "JAT MHS V"
     },
     "wheels_heavy_mudtires_single2_p12-JAT MHS VI": {
@@ -374,7 +374,7 @@
         "WidthRear": 0.79,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_15_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_P12_JAT_MHS_IV__PACIFIC_P12__DESC",
         "Name": "JAT MHS VI"
     },
     "wheels_heavy_mudtires_single_p12-JAT MHS I": {
@@ -392,7 +392,7 @@
         "WidthRear": 0.79,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_P12_JAT_MHS_I__PACIFIC_P12__DESC",
         "Name": "JAT MHS I"
     },
     "wheels_heavy_mudtires_single_p12-JAT MHS II": {
@@ -410,7 +410,7 @@
         "WidthRear": 0.79,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_P12_JAT_MHS_I__PACIFIC_P12__DESC",
         "Name": "JAT MHS II"
     },
     "wheels_heavy_mudtires_single_p12-JAT MHS III": {
@@ -428,7 +428,7 @@
         "WidthRear": 0.79,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_P12_JAT_MHS_I__PACIFIC_P12__DESC",
         "Name": "JAT MHS III"
     },
     "wheels_heavy_mudtires_tayga-mudtires": {
@@ -446,7 +446,7 @@
         "WidthRear": 1.118,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_TAYGA_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_TAYGA_TMHS_I_DESC",
         "Name": "TMHS I"
     },
     "wheels_heavy_offroad_double_p12-JAT OHD I": {
@@ -464,7 +464,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P12_JAT_OHD_I__PACIFIC_P12__DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double_p12-JAT OHD II": {
@@ -482,7 +482,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P12_JAT_OHD_I__PACIFIC_P12__DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double_p12-JAT OHD III": {
@@ -500,7 +500,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P12_JAT_OHD_I__PACIFIC_P12__DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_offroad_double_p16-JAT OHD I": {
@@ -518,7 +518,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P16_JAT_OHD_I__PACIFIC_P16__DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double_p16-JAT OHD II": {
@@ -536,7 +536,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P16_JAT_OHD_I__PACIFIC_P16__DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double_p16-JAT OHD III": {
@@ -554,7 +554,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_P16_JAT_OHD_I__PACIFIC_P16__DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_offroad_p12-allterrain": {
@@ -572,7 +572,7 @@
         "WidthRear": 0.622,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_P12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_P12_P12_AT__PACIFIC_P12__DESC",
         "Name": "P12 AT"
     },
     "wheels_heavy_offroad_single_p12-JAT OHS I": {
@@ -590,7 +590,7 @@
         "WidthRear": 0.62,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_P12_JAT_OHS_I__PACIFIC_P12__DESC",
         "Name": "JAT OHS I"
     },
     "wheels_heavy_offroad_single_p12-JAT OHS II": {
@@ -608,7 +608,7 @@
         "WidthRear": 0.62,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_14_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_P12_JAT_OHS_I__PACIFIC_P12__DESC",
         "Name": "JAT OHS II"
     },
     "wheels_heavy_offroad_single_p12-JAT OHS III": {
@@ -626,7 +626,7 @@
         "WidthRear": 0.62,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_15_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_P12_JAT_OHS_I__PACIFIC_P12__DESC",
         "Name": "JAT OHS III"
     },
     "wheels_heavy_single-allterrain_1": {
@@ -644,7 +644,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ATHS_I_DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single-offroad_1": {
@@ -662,7 +662,7 @@
         "WidthRear": 0.65,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_OHS_I_DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single-offroad_2": {
@@ -680,7 +680,7 @@
         "WidthRear": 0.65,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_OHS_I_DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single-mudtires_1": {
@@ -698,7 +698,7 @@
         "WidthRear": 0.65,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MHS_I_DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single-chains_1": {
@@ -716,7 +716,7 @@
         "WidthRear": 0.65,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MHS_I_ALL_CHAINS_DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single-mudtires_2": {
@@ -734,7 +734,7 @@
         "WidthRear": 0.65,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MHS_I_DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single-mudtires_3": {
@@ -752,7 +752,7 @@
         "WidthRear": 0.65,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MHS_I_DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single-mudtires_4": {
@@ -770,7 +770,7 @@
         "WidthRear": 0.65,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MHS_I_DESC",
         "Name": "DMHS III"
     },
     "wheels_heavy_single2-mudtires_2": {
@@ -788,7 +788,7 @@
         "WidthRear": 0.84,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_MHS_II_DESC",
         "Name": "MHS II"
     },
     "wheels_heavy_single2-mudtires_3": {
@@ -806,7 +806,7 @@
         "WidthRear": 0.84,
         "Price": 7700.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_MHS_II_DESC",
         "Name": "MHS III"
     },
     "wheels_heavy_single_p12-allterrain_1": {
@@ -824,7 +824,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_ATHS_I__PACIFIC_P12__DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single_p12-offroad_1": {
@@ -842,7 +842,7 @@
         "WidthRear": 0.65,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_OHS_I__PACIFIC_P12__DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single_p12-offroad_2": {
@@ -860,7 +860,7 @@
         "WidthRear": 0.65,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_OHS_I__PACIFIC_P12__DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single_p12-mudtires_1": {
@@ -878,7 +878,7 @@
         "WidthRear": 0.65,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_MHS_I__PACIFIC_P12__DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single_p12-chains_1": {
@@ -896,7 +896,7 @@
         "WidthRear": 0.65,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_MHS_I_ALL_CHAINS__PACIFIC_P12__DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single_p12-mudtires_2": {
@@ -914,7 +914,7 @@
         "WidthRear": 0.65,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_MHS_I__PACIFIC_P12__DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single_p12-mudtires_3": {
@@ -932,7 +932,7 @@
         "WidthRear": 0.65,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_MHS_I__PACIFIC_P12__DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single_p12-mudtires_4": {
@@ -950,7 +950,7 @@
         "WidthRear": 0.65,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_P12_MHS_I__PACIFIC_P12__DESC",
         "Name": "DMHS III"
     },
     "wheels_invisible_heavy_single-invisible": {
@@ -968,7 +968,7 @@
         "WidthRear": 0.65,
         "Price": 1300.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_INVISIBLE_HEAVY_SINGLE_HS_III_DESC",
         "Name": "HS III"
     },
     "wheels_medium_ank_mk38-offroad_ank_nk38_1": {
@@ -986,7 +986,7 @@
         "WidthRear": 0.706,
         "Price": 5700.0,
         "name_id": "UI_TIRE_ANK_MK38_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_ANK_MK38_ANKO_I_DESC",
         "Name": "ANKO I"
     },
     "wheels_medium_double-highway_1": {
@@ -1004,7 +1004,7 @@
         "WidthRear": 1.132,
         "Price": 2300.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UHD_I_DESC",
         "Name": "UHD I"
     },
     "wheels_medium_double-highway_2": {
@@ -1022,7 +1022,7 @@
         "WidthRear": 1.132,
         "Price": 2500.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UHD_I_DESC",
         "Name": "UHD II"
     },
     "wheels_medium_double-highway_3": {
@@ -1040,7 +1040,7 @@
         "WidthRear": 1.132,
         "Price": 2900.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UHD_I_DESC",
         "Name": "UHD III"
     },
     "wheels_medium_double-allterrain_1": {
@@ -1058,7 +1058,7 @@
         "WidthRear": 1.132,
         "Price": 3800.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UAD_I_DESC",
         "Name": "UAD I"
     },
     "wheels_medium_double-allterrain_2": {
@@ -1076,7 +1076,7 @@
         "WidthRear": 1.132,
         "Price": 4200.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UAD_I_DESC",
         "Name": "UAD II"
     },
     "wheels_medium_double-allterrain_3": {
@@ -1094,7 +1094,7 @@
         "WidthRear": 1.132,
         "Price": 4500.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UAD_I_DESC",
         "Name": "UAD III"
     },
     "wheels_medium_double-offroad_1": {
@@ -1112,7 +1112,7 @@
         "WidthRear": 1.132,
         "Price": 4900.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UOD_I_DESC",
         "Name": "UOD I"
     },
     "wheels_medium_double-offroad_2": {
@@ -1130,7 +1130,7 @@
         "WidthRear": 1.132,
         "Price": 5100.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UOD_I_DESC",
         "Name": "UOD II"
     },
     "wheels_medium_double-offroad_3": {
@@ -1148,7 +1148,7 @@
         "WidthRear": 1.132,
         "Price": 5700.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UOD_I_DESC",
         "Name": "UOD III"
     },
     "wheels_medium_double-chains_rear": {
@@ -1166,7 +1166,7 @@
         "WidthRear": 1.132,
         "Price": 6100.0,
         "name_id": "UI_TIRE_CHAINS_REAR_DOUBLE_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UAD_III_REAR_CHAINS_DESC",
         "Name": "UAD III Rear Chains"
     },
     "wheels_medium_double-chains_all": {
@@ -1184,7 +1184,7 @@
         "WidthRear": 1.132,
         "Price": 6400.0,
         "name_id": "UI_TIRE_CHAINS_ALL_DOUBLE_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_UAD_III_REAR_CHAINS_DESC",
         "Name": "UAD III All Chains"
     },
     "wheels_medium_double_front-highway_1": {
@@ -1202,7 +1202,7 @@
         "WidthRear": 0.58,
         "Price": 2300.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UHD_I_DESC",
         "Name": "UHD I"
     },
     "wheels_medium_double_front-highway_2": {
@@ -1220,7 +1220,7 @@
         "WidthRear": 0.58,
         "Price": 2500.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UHD_I_DESC",
         "Name": "UHD II"
     },
     "wheels_medium_double_front-highway_3": {
@@ -1238,7 +1238,7 @@
         "WidthRear": 0.58,
         "Price": 2900.0,
         "name_id": "UI_TIRE_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UHD_I_DESC",
         "Name": "UHD III"
     },
     "wheels_medium_double_front-allterrain_1": {
@@ -1256,7 +1256,7 @@
         "WidthRear": 0.58,
         "Price": 3800.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UAD_I_DESC",
         "Name": "UAD I"
     },
     "wheels_medium_double_front-allterrain_2": {
@@ -1274,7 +1274,7 @@
         "WidthRear": 0.58,
         "Price": 4200.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UAD_I_DESC",
         "Name": "UAD II"
     },
     "wheels_medium_double_front-allterrain_3": {
@@ -1292,7 +1292,7 @@
         "WidthRear": 0.58,
         "Price": 4500.0,
         "name_id": "UI_TIRE_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UAD_I_DESC",
         "Name": "UAD III"
     },
     "wheels_medium_double_front-offroad_1": {
@@ -1310,7 +1310,7 @@
         "WidthRear": 0.58,
         "Price": 4900.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UOD_I_DESC",
         "Name": "UOD I"
     },
     "wheels_medium_double_front-offroad_2": {
@@ -1328,7 +1328,7 @@
         "WidthRear": 0.58,
         "Price": 5100.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UOD_I_DESC",
         "Name": "UOD II"
     },
     "wheels_medium_double_front-offroad_3": {
@@ -1346,7 +1346,7 @@
         "WidthRear": 0.58,
         "Price": 5700.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UOD_I_DESC",
         "Name": "UOD III"
     },
     "wheels_medium_double_front-chains_all": {
@@ -1364,7 +1364,7 @@
         "WidthRear": 0.58,
         "Price": 6400.0,
         "name_id": "UI_TIRE_CHAINS_ALL_DOUBLE_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_MEDIUM_DOUBLE_FRONT_UAD_III_ALL_CHAINS_DESC",
         "Name": "UAD III All Chains"
     },
     "wheels_scout1-highway_1": {
@@ -1382,7 +1382,7 @@
         "WidthRear": 0.509,
         "Price": 1000.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_SCOUT1_HS_I_DESC",
         "Name": "HS I"
     },
     "wheels_scout1-highway_2": {
@@ -1400,7 +1400,7 @@
         "WidthRear": 0.509,
         "Price": 1200.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_SCOUT1_HS_I_DESC",
         "Name": "HS II"
     },
     "wheels_scout1-highway_3": {
@@ -1418,7 +1418,7 @@
         "WidthRear": 0.509,
         "Price": 1400.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_SCOUT1_HS_I_DESC",
         "Name": "HS III"
     },
     "wheels_scout2-allterrain_1": {
@@ -1436,7 +1436,7 @@
         "WidthRear": 0.66,
         "Price": 2300.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT2_AS_I_DESC",
         "Name": "AS I"
     },
     "wheels_scout2-allterrain_2": {
@@ -1454,7 +1454,7 @@
         "WidthRear": 0.66,
         "Price": 2500.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT2_AS_I_DESC",
         "Name": "AS II"
     },
     "wheels_scout2-allterrain_3": {
@@ -1472,7 +1472,7 @@
         "WidthRear": 0.66,
         "Price": 2900.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT2_AS_I_DESC",
         "Name": "AS III"
     },
     "wheels_scout2-offroad_1": {
@@ -1490,7 +1490,7 @@
         "WidthRear": 0.66,
         "Price": 4200.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT2_OS_I_DESC",
         "Name": "OS I"
     },
     "wheels_scout2-mudtires_1": {
@@ -1508,7 +1508,7 @@
         "WidthRear": 0.66,
         "Price": 5100.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT2_MS_I_DESC",
         "Name": "MS I"
     },
     "wheels_scout2-chain_1": {
@@ -1526,7 +1526,7 @@
         "WidthRear": 0.66,
         "Price": 5700.0,
         "name_id": "UI_TIRE_SCOUT_CHAIN_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_SCOUT2_CS_I_DESC",
         "Name": "CS I"
     },
     "wheels_scout_btr-offroad_btr_1": {
@@ -1543,9 +1543,9 @@
         "Width": 0.67,
         "WidthRear": 0.67,
         "Price": 7200.0,
-        "name_id": "UI_TIRE_SCOUT_BTR_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
-        "Name": "TO I"
+        "name_id": null,
+        "desc_id": "WHEELS_SCOUT_BTR_TO_I__TUZ_420_",
+        "Name": null
     },
     "wheels_scout_yar_87-allterrain_1": {
         "file": "wheels_scout_yar_87",
@@ -1562,7 +1562,7 @@
         "WidthRear": 0.65,
         "Price": 3400.0,
         "name_id": "UI_TIRE_YAR_87_ALLTERRAIN_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_87_TRAT_I__YAR_87__DESC",
         "Name": "TrAT I"
     },
     "wheels_scout_yar_87-offroad_1": {
@@ -1580,7 +1580,7 @@
         "WidthRear": 0.65,
         "Price": 4700.0,
         "name_id": "UI_TIRE_YAR_87_OFFROAD_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_87_TRO_I__YAR_87__DESC",
         "Name": "TrO I"
     },
     "wheels_scout_yar_87-mudtires_1": {
@@ -1598,7 +1598,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_YAR_87_MUDTIRES_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_87_TRM_I__YAR_87__DESC",
         "Name": "TrM I"
     },
     "wheels_scout_yar_87-chains_1": {
@@ -1616,7 +1616,7 @@
         "WidthRear": 0.65,
         "Price": 6000.0,
         "name_id": "UI_TIRE_YAR_87_CHAINS_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_87_TRC_I__YAR_87__DESC",
         "Name": "TrC I"
     },
     "wheels_scout_yar_871-mudtires_1": {
@@ -1634,7 +1634,7 @@
         "WidthRear": 0.863,
         "Price": 4900.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_YAR_87_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_871_TM_I_DESC",
         "Name": "TM I"
     },
     "wheels_scout_yar_871-mudtires_2": {
@@ -1652,7 +1652,7 @@
         "WidthRear": 0.863,
         "Price": 5300.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_YAR_87_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR_871_TM_I_DESC",
         "Name": "TM II"
     },
     "wheels_superheavy_single-mudtires_1": {
@@ -1670,7 +1670,7 @@
         "WidthRear": 0.78,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_SINGLE_MSH_I_DESC",
         "Name": "MSH I"
     },
     "wheels_superheavy_single-mudtires_2": {
@@ -1688,7 +1688,7 @@
         "WidthRear": 0.78,
         "Price": 8100.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_SINGLE_MSH_I_DESC",
         "Name": "MSH II"
     },
     "wheels_superheavy_single-mudtires_3": {
@@ -1706,7 +1706,7 @@
         "WidthRear": 0.78,
         "Price": 9000.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_SINGLE_MSH_I_DESC",
         "Name": "MSH III"
     },
     "wheels_superheavy_single-mudtires_cat745": {
@@ -1724,7 +1724,7 @@
         "WidthRear": 0.78,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_4_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_SINGLE_MSH_I_DESC",
         "Name": "MSH IV"
     },
     "wheels_kenworth_963-allterrain_1": {
@@ -1742,7 +1742,7 @@
         "WidthRear": 0.84,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_KENWORTH_963_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_KENWORTH_963_KENWORTH_963_TIRES__KENWORTH_963__DESC",
         "Name": "Kenworth 963 tires"
     },
     "wheels_kenworth_990-offroad": {
@@ -1760,7 +1760,7 @@
         "WidthRear": 1.254,
         "Price": 6000.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_KENWORTH_990_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_KENWORTH_990_KENWORTH_W990_TIRES__KENWORTH_W990__DESC",
         "Name": "Kenworth W990 tires"
     },
     "wheels_mack_defense_m917-offroad": {
@@ -1778,7 +1778,7 @@
         "WidthRear": 0.706,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MACK_DEFENSE_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MACK_DEFENSE_M917_MACK_DEFENSE_M917_TIRES__MACK_DEFENSE_M917__DESC",
         "Name": "Mack Defense M917 tires"
     },
     "wheels_heavy_allterrain_double-JAT ATHD I": {
@@ -1796,7 +1796,7 @@
         "WidthRear": 1.24,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD I"
     },
     "wheels_heavy_allterrain_double-JAT ATHD II": {
@@ -1814,7 +1814,7 @@
         "WidthRear": 1.24,
         "Price": 5300.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD II"
     },
     "wheels_heavy_allterrain_double-JAT ATHD III": {
@@ -1832,7 +1832,7 @@
         "WidthRear": 1.24,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD III"
     },
     "wheels_heavy_highway_double-JAT HHD I": {
@@ -1850,7 +1850,7 @@
         "WidthRear": 0.9,
         "Price": 3600.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_JAT_HHD_I_DESC",
         "Name": "JAT HHD I"
     },
     "wheels_heavy_highway_double-JAT HHD II": {
@@ -1868,7 +1868,7 @@
         "WidthRear": 0.9,
         "Price": 4000.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_JAT_HHD_I_DESC",
         "Name": "JAT HHD II"
     },
     "wheels_heavy_highway_double-JAT HHD III": {
@@ -1886,7 +1886,7 @@
         "WidthRear": 0.9,
         "Price": 4400.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_JAT_HHD_I_DESC",
         "Name": "JAT HHD III"
     },
     "wheels_heavy_mudtires_single-JAT MHS I": {
@@ -1904,7 +1904,7 @@
         "WidthRear": 0.79,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_JAT_MHS_I_DESC",
         "Name": "JAT MHS I"
     },
     "wheels_heavy_mudtires_single-JAT MHS II": {
@@ -1922,7 +1922,7 @@
         "WidthRear": 0.79,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_JAT_MHS_I_DESC",
         "Name": "JAT MHS II"
     },
     "wheels_heavy_mudtires_single-JAT MHS III": {
@@ -1940,7 +1940,7 @@
         "WidthRear": 0.79,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_JAT_MHS_I_DESC",
         "Name": "JAT MHS III"
     },
     "wheels_heavy_mudtires_single2-JAT MHS IV": {
@@ -1958,7 +1958,7 @@
         "WidthRear": 0.79,
         "Price": 5200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_13_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_JAT_MHS_IV_DESC",
         "Name": "JAT MHS IV"
     },
     "wheels_heavy_mudtires_single2-JAT MHS V": {
@@ -1976,7 +1976,7 @@
         "WidthRear": 0.79,
         "Price": 5600.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_14_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_JAT_MHS_IV_DESC",
         "Name": "JAT MHS V"
     },
     "wheels_heavy_mudtires_single2-JAT MHS VI": {
@@ -1994,7 +1994,7 @@
         "WidthRear": 0.79,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_15_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_JAT_MHS_IV_DESC",
         "Name": "JAT MHS VI"
     },
     "wheels_heavy_offroad_double-JAT OHD I": {
@@ -2012,7 +2012,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_JAT_OHD_I_DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double-JAT OHD II": {
@@ -2030,7 +2030,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_JAT_OHD_I_DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double-JAT OHD III": {
@@ -2048,7 +2048,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_JAT_OHD_I_DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_offroad_single-JAT OHS I": {
@@ -2066,7 +2066,7 @@
         "WidthRear": 0.62,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_JAT_OHS_I_DESC",
         "Name": "JAT OHS I"
     },
     "wheels_heavy_offroad_single-JAT OHS II": {
@@ -2084,7 +2084,7 @@
         "WidthRear": 0.62,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_14_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_JAT_OHS_I_DESC",
         "Name": "JAT OHS II"
     },
     "wheels_heavy_offroad_single-JAT OHS III": {
@@ -2102,7 +2102,7 @@
         "WidthRear": 0.62,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_15_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_JAT_OHS_I_DESC",
         "Name": "JAT OHS III"
     },
     "wheels_medium_allterrain_double-JAT ATMD I": {
@@ -2120,7 +2120,7 @@
         "WidthRear": 1.3,
         "Price": 3800.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_DOUBLE_JAT_ATMD_I_DESC",
         "Name": "JAT ATMD I"
     },
     "wheels_medium_allterrain_double-JAT ATMD II": {
@@ -2138,7 +2138,7 @@
         "WidthRear": 1.3,
         "Price": 4200.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_DOUBLE_JAT_ATMD_I_DESC",
         "Name": "JAT ATMD II"
     },
     "wheels_medium_allterrain_double-JAT ATMD III": {
@@ -2156,7 +2156,7 @@
         "WidthRear": 1.3,
         "Price": 4500.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_DOUBLE_JAT_ATMD_I_DESC",
         "Name": "JAT ATMD III"
     },
     "wheels_medium_allterrain_single-JAT ATMS I": {
@@ -2174,7 +2174,7 @@
         "WidthRear": 0.65,
         "Price": 3800.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_SINGLE_JAT_ATMS_I__TATRA_805__DESC",
         "Name": "JAT ATMS I"
     },
     "wheels_medium_allterrain_single-JAT ATMS II": {
@@ -2192,7 +2192,7 @@
         "WidthRear": 0.65,
         "Price": 4200.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_SINGLE_JAT_ATMS_I__TATRA_805__DESC",
         "Name": "JAT ATMS II"
     },
     "wheels_medium_allterrain_single-JAT ATMS III": {
@@ -2210,7 +2210,7 @@
         "WidthRear": 0.65,
         "Price": 4500.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MEDIUM_ALLTERRAIN_SINGLE_JAT_ATMS_I__TATRA_805__DESC",
         "Name": "JAT ATMS III"
     },
     "wheels_medium_highway_double-JAT HMD I": {
@@ -2228,7 +2228,7 @@
         "WidthRear": 1.3,
         "Price": 2300.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_DOUBLE_JAT_HMD_I_DESC",
         "Name": "JAT HMD I"
     },
     "wheels_medium_highway_double-JAT HMD II": {
@@ -2246,7 +2246,7 @@
         "WidthRear": 1.3,
         "Price": 2500.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_DOUBLE_JAT_HMD_I_DESC",
         "Name": "JAT HMD II"
     },
     "wheels_medium_highway_double-JAT HMD III": {
@@ -2264,7 +2264,7 @@
         "WidthRear": 1.3,
         "Price": 2900.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_DOUBLE_JAT_HMD_I_DESC",
         "Name": "JAT HMD III"
     },
     "wheels_medium_highway_single-JAT HMS I": {
@@ -2282,7 +2282,7 @@
         "WidthRear": 0.65,
         "Price": 2300.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_SINGLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_SINGLE_JAT_HMS_I__TATRA_805__DESC",
         "Name": "JAT HMS I"
     },
     "wheels_medium_highway_single-JAT HMS II": {
@@ -2300,7 +2300,7 @@
         "WidthRear": 0.65,
         "Price": 2500.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_SINGLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_SINGLE_JAT_HMS_I__TATRA_805__DESC",
         "Name": "JAT HMS II"
     },
     "wheels_medium_highway_single-JAT HMS III": {
@@ -2318,7 +2318,7 @@
         "WidthRear": 0.65,
         "Price": 2900.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_SINGLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_MEDIUM_HIGHWAY_SINGLE_JAT_HMS_I__TATRA_805__DESC",
         "Name": "JAT HMS III"
     },
     "wheels_medium_mudtires_double-JAT MMD I": {
@@ -2336,7 +2336,7 @@
         "WidthRear": 1.3,
         "Price": 5200.0,
         "name_id": "UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MEDIUM_MUDTIRES_DOUBLE_JAT_MMD_I_DESC",
         "Name": "JAT MMD I"
     },
     "wheels_medium_mudtires_double-JAT MMD II": {
@@ -2354,7 +2354,7 @@
         "WidthRear": 1.3,
         "Price": 5600.0,
         "name_id": "UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MEDIUM_MUDTIRES_DOUBLE_JAT_MMD_I_DESC",
         "Name": "JAT MMD II"
     },
     "wheels_medium_mudtires_double-JAT MMD III": {
@@ -2372,7 +2372,7 @@
         "WidthRear": 1.3,
         "Price": 5900.0,
         "name_id": "UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MEDIUM_MUDTIRES_DOUBLE_JAT_MMD_I_DESC",
         "Name": "JAT MMD III"
     },
     "wheels_medium_offroad_double-JAT OMD I": {
@@ -2390,7 +2390,7 @@
         "WidthRear": 1.3,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_DOUBLE_JAT_OMD_I_DESC",
         "Name": "JAT OMD I"
     },
     "wheels_medium_offroad_double-JAT OMD II": {
@@ -2408,7 +2408,7 @@
         "WidthRear": 1.3,
         "Price": 5100.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_DOUBLE_JAT_OMD_I_DESC",
         "Name": "JAT OMD II"
     },
     "wheels_medium_offroad_double-JAT OMD III": {
@@ -2426,7 +2426,7 @@
         "WidthRear": 1.3,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_DOUBLE_JAT_OMD_I_DESC",
         "Name": "JAT OMD III"
     },
     "wheels_medium_offroad_single-JAT OMS I": {
@@ -2444,7 +2444,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_SINGLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_SINGLE_JAT_OMS_I__TATRA_805__DESC",
         "Name": "JAT OMS I"
     },
     "wheels_medium_offroad_single-JAT OMS II": {
@@ -2462,7 +2462,7 @@
         "WidthRear": 0.65,
         "Price": 5100.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_SINGLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_SINGLE_JAT_OMS_I__TATRA_805__DESC",
         "Name": "JAT OMS II"
     },
     "wheels_medium_offroad_single-JAT OMS III": {
@@ -2480,7 +2480,7 @@
         "WidthRear": 0.65,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_SINGLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MEDIUM_OFFROAD_SINGLE_JAT_OMS_I__TATRA_805__DESC",
         "Name": "JAT OMS III"
     },
     "wheels_scout_apache_offroad-JAT OS I": {
@@ -2498,7 +2498,7 @@
         "WidthRear": 0.76,
         "Price": 4200.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "JAT OS I"
     },
     "wheels_scout_apache_offroad-JAT OS II": {
@@ -2516,7 +2516,7 @@
         "WidthRear": 0.76,
         "Price": 4600.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "JAT OS II"
     },
     "wheels_scout_apache_offroad-JAT OS III": {
@@ -2534,7 +2534,7 @@
         "WidthRear": 0.76,
         "Price": 5000.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "JAT OS III"
     },
     "wheels_scout_apache_offroad-JAT OS IV": {
@@ -2552,7 +2552,7 @@
         "WidthRear": 0.76,
         "Price": 5200.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "JAT OS IV"
     },
     "wheels_scout_apache_offroad-Ultima AT I": {
@@ -2570,7 +2570,7 @@
         "WidthRear": 0.76,
         "Price": 4200.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "Ultima AT I"
     },
     "wheels_scout_apache_offroad-Ultima AT II": {
@@ -2588,7 +2588,7 @@
         "WidthRear": 0.76,
         "Price": 4600.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "Ultima AT II"
     },
     "wheels_scout_apache_offroad-Ultima AT III": {
@@ -2606,7 +2606,7 @@
         "WidthRear": 0.76,
         "Price": 5000.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "Ultima AT III"
     },
     "wheels_scout_apache_offroad-Ultima AT IV": {
@@ -2624,7 +2624,7 @@
         "WidthRear": 0.76,
         "Price": 5000.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_OFFROAD_JAT_OS_I__CHEVROLET_APACHE__DESC",
         "Name": "Ultima AT IV"
     },
     "wheels_scout_burlak_offroad-tire": {
@@ -2642,7 +2642,7 @@
         "WidthRear": 0.79,
         "Price": 2300.0,
         "name_id": "UI_TIRE_BURLAK_6X6_TIRE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_BURLAK_OFFROAD_BURLAK_6X6_TIRES__BURLAK_6X6__DESC",
         "Name": "Burlak 6x6 Tires"
     },
     "wheels_scout_highway-JAT HS I": {
@@ -2660,7 +2660,7 @@
         "WidthRear": 0.57,
         "Price": 1200.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_SCOUT_HIGHWAY_JAT_HS_I_DESC",
         "Name": "JAT HS I"
     },
     "wheels_scout_highway-JAT HS II": {
@@ -2678,7 +2678,7 @@
         "WidthRear": 0.57,
         "Price": 1400.0,
         "name_id": "UI_TIRE_SCOUT_HIGHWAY_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_SCOUT_HIGHWAY_JAT_HS_I_DESC",
         "Name": "JAT HS II"
     },
     "wheels_scout_mudtires-JAT MS I": {
@@ -2696,7 +2696,7 @@
         "WidthRear": 0.93,
         "Price": 5100.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS I"
     },
     "wheels_scout_mudtires-JAT MS II": {
@@ -2714,7 +2714,7 @@
         "WidthRear": 0.93,
         "Price": 5500.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS II"
     },
     "wheels_scout_mudtires-JAT MS III": {
@@ -2732,7 +2732,7 @@
         "WidthRear": 0.93,
         "Price": 5900.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS III"
     },
     "wheels_scout_offroad-JAT OS I": {
@@ -2750,7 +2750,7 @@
         "WidthRear": 0.76,
         "Price": 4200.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_OFFROAD_JAT_OS_I_DESC",
         "Name": "JAT OS I"
     },
     "wheels_scout_offroad-JAT OS II": {
@@ -2768,7 +2768,7 @@
         "WidthRear": 0.76,
         "Price": 4600.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_OFFROAD_JAT_OS_I_DESC",
         "Name": "JAT OS II"
     },
     "wheels_scout_offroad-JAT OS III": {
@@ -2786,7 +2786,7 @@
         "WidthRear": 0.76,
         "Price": 5000.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_OFFROAD_JAT_OS_I_DESC",
         "Name": "JAT OS III"
     },
     "wheels_scout_offroad-JAT OS IV": {
@@ -2804,7 +2804,7 @@
         "WidthRear": 0.76,
         "Price": 5200.0,
         "name_id": "UI_TIRE_SCOUT_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_OFFROAD_JAT_OS_I_DESC",
         "Name": "JAT OS IV"
     },
     "wheels_scout_yar87_mudtires-JAT MS I": {
@@ -2822,7 +2822,7 @@
         "WidthRear": 0.93,
         "Price": 5100.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS I"
     },
     "wheels_scout_yar87_mudtires-JAT MS II": {
@@ -2840,7 +2840,7 @@
         "WidthRear": 0.93,
         "Price": 5500.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS II"
     },
     "wheels_scout_yar87_mudtires-JAT MS III": {
@@ -2858,7 +2858,7 @@
         "WidthRear": 0.93,
         "Price": 5900.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_MUDTIRES_JAT_MS_I_DESC",
         "Name": "JAT MS III"
     },
     "wheels_superheavy_mudtires-JAT MSH I": {
@@ -2876,7 +2876,7 @@
         "WidthRear": 0.95,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_MUDTIRES_JAT_MSH_I_DESC",
         "Name": "JAT MSH I"
     },
     "wheels_superheavy_mudtires-JAT MSH II": {
@@ -2894,7 +2894,7 @@
         "WidthRear": 0.95,
         "Price": 8100.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_MUDTIRES_JAT_MSH_I_DESC",
         "Name": "JAT MSH II"
     },
     "wheels_superheavy_mudtires-JAT MSH III": {
@@ -2912,7 +2912,7 @@
         "WidthRear": 0.95,
         "Price": 9000.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_MUDTIRES_JAT_MSH_I_DESC",
         "Name": "JAT MSH III"
     },
     "wheels_femm_37at-tire": {
@@ -2930,7 +2930,7 @@
         "WidthRear": 1.26,
         "Price": 4900.0,
         "name_id": "UI_TIRE_FEMM_37AT_NAME",
-        "desc_id": "UI_TIRE_FEMM_37AT_DESC",
+        "desc_id": "WHEELS_FEMM_37AT_UI_TIRE_FEMM_37AT_NAME_DESC",
         "Name": "UI_TIRE_FEMM_37AT_NAME"
     },
     "wheels_azov_670963n-tire": {
@@ -2947,9 +2947,9 @@
         "Width": 0.665,
         "WidthRear": 0.665,
         "Price": 7500.0,
-        "name_id": "UI_TIRE_AZOV_67096_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
-        "Name": "Azov 67096 \u201cAtom\u201d Tires"
+        "name_id": null,
+        "desc_id": "WHEELS_AZOV_670963N_AZOV_67096_\u201cATOM\u201d_TIRES__AZOV_67096_",
+        "Name": null
     },
     "wheels_aac_58dw-tire": {
         "file": "wheels_aac_58dw",
@@ -2966,7 +2966,7 @@
         "WidthRear": 0.7,
         "Price": 4200.0,
         "name_id": "UI_TIRE_AAC_58DW_TIRE_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_AAC_58DW_AAC-58DW_TIRES__AAC-58DW__DESC",
         "Name": "AAC-58DW Tires"
     },
     "wheels_heavy_mudtires_single2_s-JAT MHS IV": {
@@ -2984,7 +2984,7 @@
         "WidthRear": 0.79,
         "Price": 5200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_13_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_S_JAT_MHS_IV__PLAD_450__DESC",
         "Name": "JAT MHS IV"
     },
     "wheels_heavy_mudtires_single2_s-JAT MHS V": {
@@ -3002,7 +3002,7 @@
         "WidthRear": 0.79,
         "Price": 5600.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_14_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_S_JAT_MHS_IV__PLAD_450__DESC",
         "Name": "JAT MHS V"
     },
     "wheels_heavy_mudtires_single2_s-JAT MHS VI": {
@@ -3020,7 +3020,7 @@
         "WidthRear": 0.79,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_15_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_S_JAT_MHS_IV__PLAD_450__DESC",
         "Name": "JAT MHS VI"
     },
     "wheels_heavy_mudtires_single_s-JAT MHS I": {
@@ -3038,7 +3038,7 @@
         "WidthRear": 0.79,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_S_JAT_MHS_I__PLAD_450__DESC",
         "Name": "JAT MHS I"
     },
     "wheels_heavy_mudtires_single_s-JAT MHS II": {
@@ -3056,7 +3056,7 @@
         "WidthRear": 0.79,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_S_JAT_MHS_I__PLAD_450__DESC",
         "Name": "JAT MHS II"
     },
     "wheels_heavy_mudtires_single_s-JAT MHS III": {
@@ -3074,7 +3074,7 @@
         "WidthRear": 0.79,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_S_JAT_MHS_I__PLAD_450__DESC",
         "Name": "JAT MHS III"
     },
     "wheels_heavy_offroad_single_s-JAT OHS I": {
@@ -3092,7 +3092,7 @@
         "WidthRear": 0.62,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_S_JAT_OHS_I__PLAD_450__DESC",
         "Name": "JAT OHS I"
     },
     "wheels_heavy_offroad_single_s-JAT OHS II": {
@@ -3110,7 +3110,7 @@
         "WidthRear": 0.62,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_14_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_S_JAT_OHS_I__PLAD_450__DESC",
         "Name": "JAT OHS II"
     },
     "wheels_heavy_offroad_single_s-JAT OHS III": {
@@ -3128,7 +3128,7 @@
         "WidthRear": 0.62,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_15_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_S_JAT_OHS_I__PLAD_450__DESC",
         "Name": "JAT OHS III"
     },
     "wheels_heavy_single_s-allterrain_1": {
@@ -3146,7 +3146,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_ATHS_I__PLAD_450__DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single_s-offroad_1": {
@@ -3164,7 +3164,7 @@
         "WidthRear": 0.65,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_OHS_I__PLAD_450__DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single_s-offroad_2": {
@@ -3182,7 +3182,7 @@
         "WidthRear": 0.65,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_OHS_I__PLAD_450__DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single_s-mudtires_1": {
@@ -3200,7 +3200,7 @@
         "WidthRear": 0.65,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_MHS_I__PLAD_450__DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single_s-chains_1": {
@@ -3218,7 +3218,7 @@
         "WidthRear": 0.65,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_MHS_I_ALL_CHAINS__PLAD_450__DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single_s-mudtires_2": {
@@ -3236,7 +3236,7 @@
         "WidthRear": 0.65,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_MHS_I__PLAD_450__DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single_s-mudtires_3": {
@@ -3254,7 +3254,7 @@
         "WidthRear": 0.65,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_MHS_I__PLAD_450__DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single_s-mudtires_4": {
@@ -3272,7 +3272,7 @@
         "WidthRear": 0.65,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_S_MHS_I__PLAD_450__DESC",
         "Name": "DMHS III"
     },
     "wheels_plad_450-offroad": {
@@ -3290,7 +3290,7 @@
         "WidthRear": 0.69,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_PLAD_450_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_PLAD_450_PLAD_450_TIRES__PLAD_450__DESC",
         "Name": "PLAD 450 Tires"
     },
     "wheels_scout_allterrain-Ultima AT I": {
@@ -3308,7 +3308,7 @@
         "WidthRear": 0.73,
         "Price": 2800.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_ALLTERRAIN_ULTIMA_AT_I_DESC",
         "Name": "Ultima AT I"
     },
     "wheels_scout_allterrain-Ultima AT II": {
@@ -3326,7 +3326,7 @@
         "WidthRear": 0.73,
         "Price": 3100.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_ALLTERRAIN_ULTIMA_AT_I_DESC",
         "Name": "Ultima AT II"
     },
     "wheels_scout_allterrain-Ultima AT III": {
@@ -3344,7 +3344,7 @@
         "WidthRear": 0.73,
         "Price": 3400.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_ALLTERRAIN_ULTIMA_AT_I_DESC",
         "Name": "Ultima AT III"
     },
     "wheels_scout_allterrain-Ultima AT IV": {
@@ -3362,7 +3362,7 @@
         "WidthRear": 0.73,
         "Price": 2800.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_ALLTERRAIN_ULTIMA_AT_I_DESC",
         "Name": "Ultima AT IV"
     },
     "wheels_scout_allterrain_chain-Ultima CS I": {
@@ -3380,7 +3380,7 @@
         "WidthRear": 0.746,
         "Price": 5200.0,
         "name_id": "UI_TIRE_SCOUT_CHAINS_10_NAME",
-        "desc_id": "UI_TIRE_SCOUT_CHAINS_10_DESC",
+        "desc_id": "WHEELS_SCOUT_ALLTERRAIN_CHAIN_ULTIMA_CS_I_DESC",
         "Name": "Ultima CS I"
     },
     "wheels_scout_yar87_allterrain-Ultima AT I": {
@@ -3398,7 +3398,7 @@
         "WidthRear": 0.93,
         "Price": 2800.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_ALLTERRAIN_ULTIMA_AT_I__YAR_87__DESC",
         "Name": "Ultima AT I"
     },
     "wheels_scout_yar87_allterrain-Ultima AT II": {
@@ -3416,7 +3416,7 @@
         "WidthRear": 0.93,
         "Price": 3100.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_ALLTERRAIN_ULTIMA_AT_I__YAR_87__DESC",
         "Name": "Ultima AT II"
     },
     "wheels_scout_yar87_allterrain-Ultima AT III": {
@@ -3434,7 +3434,7 @@
         "WidthRear": 0.93,
         "Price": 3400.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_ALLTERRAIN_ULTIMA_AT_I__YAR_87__DESC",
         "Name": "Ultima AT III"
     },
     "wheels_scout_yar87_allterrain-Ultima AT IV": {
@@ -3452,7 +3452,7 @@
         "WidthRear": 0.93,
         "Price": 2800.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_ALLTERRAIN_ULTIMA_AT_I__YAR_87__DESC",
         "Name": "Ultima AT IV"
     },
     "wheels_scout_yar87_allterrain_chain-Ultima CS I": {
@@ -3470,7 +3470,7 @@
         "WidthRear": 0.93,
         "Price": 5200.0,
         "name_id": "UI_TIRE_SCOUT_CHAINS_10_NAME",
-        "desc_id": "UI_TIRE_SCOUT_CHAINS_10_DESC",
+        "desc_id": "WHEELS_SCOUT_YAR87_ALLTERRAIN_CHAIN_ULTIMA_CS_I_DESC",
         "Name": "Ultima CS I"
     },
     "wheels_ankatra_1160-tire": {
@@ -3488,7 +3488,7 @@
         "WidthRear": 0.67,
         "Price": 5500.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_ANKATRA_1160_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_ANKATRA_1160_ANKATRA_MHS_I__ANKATRA_1160__DESC",
         "Name": "Ankatra MHS I"
     },
     "wheels_earthroamer-earthroamer_offroad": {
@@ -3506,7 +3506,7 @@
         "WidthRear": 0.676,
         "Price": 4500.0,
         "name_id": "UI_TIRE_MEDIUM_OFFROAD_EARTHROAMER_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_EARTHROAMER_EARTHROAMER_TIRES_DESC",
         "Name": "EarthRoamer Tires"
     },
     "wheels_extend_ankatra_1160-tire_double": {
@@ -3524,7 +3524,7 @@
         "WidthRear": 1.36,
         "Price": 7200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_DOUBLE_ANKATRA_1160_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_EXTEND_ANKATRA_1160_ANKATRA_MHS_II__ANKATRA_1160__DESC",
         "Name": "Ankatra MHS II"
     },
     "wheels_extend_futom_7290ra-tire_double": {
@@ -3542,7 +3542,7 @@
         "WidthRear": 1.5,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_DOUBLE_FUTOM_7290RA_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_EXTEND_FUTOM_7290RA_FUTOM_MHS_II__FUTOM_7290RA__DESC",
         "Name": "Futom MHS II"
     },
     "wheels_futom_7290ra-tire": {
@@ -3560,7 +3560,7 @@
         "WidthRear": 0.73,
         "Price": 6600.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_FUTOM_7290RA_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_FUTOM_7290RA_FUTOM_MHS_I__FUTOM_7290RA__DESC",
         "Name": "Futom MHS I"
     },
     "wheels_kenworth_c500-tire_1": {
@@ -3578,7 +3578,7 @@
         "WidthRear": 1.05,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_KENWORTH_C500_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_KENWORTH_C500_KENWORTH_C500_TIRES__KENWORTH_C500__DESC",
         "Name": "Kenworth C500 Tires"
     },
     "wheels_kenworth_t880-tire_1": {
@@ -3596,7 +3596,7 @@
         "WidthRear": 1.3,
         "Price": 6600.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_KENWORTH_T880_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_KENWORTH_T880_KENWORTH_T880_TIRES__KENWORTH_T880__DESC",
         "Name": "Kenworth T880 Tires"
     },
     "wheels_mack_pinnacle-tire_mack": {
@@ -3614,7 +3614,7 @@
         "WidthRear": 1.254,
         "Price": 6600.0,
         "name_id": "UI_TIRE_MACK_PINNACLE_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_MACK_PINNACLE_MACK_ZES_TIRES_DESC",
         "Name": "Mack ZES Tires"
     },
     "wheels_mercer_k520-tire_1": {
@@ -3632,7 +3632,7 @@
         "WidthRear": 0.706,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MERCER_K520_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_MERCER_K520_MERCER_K520_TIRES__MERCER_K520__DESC",
         "Name": "Mercer K520 Tires"
     },
     "wheels_mirror_test-tire_1": {
@@ -3650,7 +3650,7 @@
         "WidthRear": 0.725,
         "Price": 6500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MIRROR_TEST_UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME_DESC",
         "Name": "UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME"
     },
     "wheels_mirror_test-tire_2": {
@@ -3668,7 +3668,7 @@
         "WidthRear": 0.725,
         "Price": 6500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MIRROR_TEST_UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME_DESC",
         "Name": "UI_TIRE_SUPERHEAVY_OFFROAD_MIRROR_NAME"
     },
     "wheels_superheavy_single_sleiter_mfk816-sleiter_tire_1": {
@@ -3685,9 +3685,9 @@
         "Width": 0.973,
         "WidthRear": 0.973,
         "Price": 6500.0,
-        "name_id": "UI_TIRE_SUPERHEAVY_OFFROAD_SLEITER_MFK816_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
-        "Name": "Sleiter ST 816 Tires"
+        "name_id": null,
+        "desc_id": "WHEELS_SUPERHEAVY_SINGLE_SLEITER_MFK816_SLEITER_ST_816_TIRES__SLEITER_ST_816_",
+        "Name": null
     },
     "wheels_freightliner_fld120-allterrain": {
         "file": "wheels_freightliner_fld120",
@@ -3704,7 +3704,7 @@
         "WidthRear": 1.184,
         "Price": 6000.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_FREIGHTLINER_FLD120_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_FREIGHTLINER_FLD120_FREIGHTLINER_FLD_120_TIRES__FREIGHTLINER_FLD_120__DESC",
         "Name": "Freightliner FLD 120 Tires"
     },
     "wheels_western_star_6900xd-allterrain_ws": {
@@ -3722,7 +3722,7 @@
         "WidthRear": 1.28,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_WS_6900XD_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_WESTERN_STAR_6900XD_WESTERN_STAR_6900XD_TIRES__WESTERN_STAR_6900XD__DESC",
         "Name": "Western Star 6900XD Tires"
     },
     "wheels_offroad_double_faun-tire_1": {
@@ -3739,9 +3739,9 @@
         "Width": 0.767,
         "WidthRear": 1.3,
         "Price": 7500.0,
-        "name_id": "faun_tires",
-        "desc_id": "faun_tires",
-        "Name": "faun_tires"
+        "name_id": "WHEELS_OFFROAD_DOUBLE_FAUN_FAUN_TIRES_DESC",
+        "desc_id": "WHEELS_OFFROAD_DOUBLE_FAUN_FAUN_TIRES_DESC",
+        "Name": "WHEELS_OFFROAD_DOUBLE_FAUN_FAUN_TIRES_DESC"
     },
     "wheels_offroad_single_hib_billert_1980-tire_billert_1": {
         "file": "wheels_offroad_single_hib_billert_1980",
@@ -3758,7 +3758,7 @@
         "WidthRear": 0.657,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_HIB_BILLERT_1980_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_OFFROAD_SINGLE_HIB_BILLERT_1980_HIB_BILLERT_1980_TIRES__HIB_BILLERT_1980__DESC",
         "Name": "HIB Billert 1980 Tires"
     },
     "wheels_offroad_single_sleiter_st833_chimera-tire_1": {
@@ -3775,9 +3775,9 @@
         "Width": 0.794,
         "WidthRear": 0.794,
         "Price": 7500.0,
-        "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_SLEITER_ST833_CHIMERA_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
-        "Name": "Sleiter ST 833 Tires"
+        "name_id": null,
+        "desc_id": "WHEELS_OFFROAD_SINGLE_SLEITER_ST833_CHIMERA_SLEITER_ST_833_TIRES__SLEITER_ST_833_",
+        "Name": null
     },
     "wheels_plad_440-offroad_plad_440": {
         "file": "wheels_plad_440",
@@ -3793,9 +3793,9 @@
         "Width": 0.622,
         "WidthRear": 1.27,
         "Price": 5700.0,
-        "name_id": "UI_TIRE_MEDIUM_OFFROAD_PLAD_440_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
-        "Name": "PLAD 440 Tires"
+        "name_id": null,
+        "desc_id": "WHEELS_PLAD_440_PLAD_440_TIRES__PLAD_440_",
+        "Name": null
     },
     "wheels_avenhorn_a15-offroad": {
         "file": "wheels_avenhorn_a15",
@@ -3812,7 +3812,7 @@
         "WidthRear": 1.51,
         "Price": 7500.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_AVENHORN_A15_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_AVENHORN_A15_AVENHORN_A15_TIRES__AVENHORN_A15__DESC",
         "Name": "AVENHORN A15 Tires"
     },
     "wheels_heavy_allterrain_double_avenhorn_a15-JAT ATHD I": {
@@ -3830,7 +3830,7 @@
         "WidthRear": 1.24,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_AVENHORN_A15_JAT_ATHD_I__AVENHORN_A15__DESC",
         "Name": "JAT ATHD I"
     },
     "wheels_heavy_allterrain_double_avenhorn_a15-JAT ATHD II": {
@@ -3848,7 +3848,7 @@
         "WidthRear": 1.24,
         "Price": 5300.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_AVENHORN_A15_JAT_ATHD_I__AVENHORN_A15__DESC",
         "Name": "JAT ATHD II"
     },
     "wheels_heavy_allterrain_double_avenhorn_a15-JAT ATHD III": {
@@ -3866,7 +3866,7 @@
         "WidthRear": 1.24,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_AVENHORN_A15_JAT_ATHD_I__AVENHORN_A15__DESC",
         "Name": "JAT ATHD III"
     },
     "wheels_heavy_allterrain_double_padera_std4-JAT ATHD I": {
@@ -3884,7 +3884,7 @@
         "WidthRear": 1.24,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_PADERA_STD4_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD I"
     },
     "wheels_heavy_allterrain_double_padera_std4-JAT ATHD II": {
@@ -3902,7 +3902,7 @@
         "WidthRear": 1.24,
         "Price": 5300.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_PADERA_STD4_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD II"
     },
     "wheels_heavy_allterrain_double_padera_std4-JAT ATHD III": {
@@ -3920,7 +3920,7 @@
         "WidthRear": 1.24,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_PADERA_STD4_JAT_ATHD_I_DESC",
         "Name": "JAT ATHD III"
     },
     "wheels_heavy_double1_avenhorn_a15-highway_1": {
@@ -3938,7 +3938,7 @@
         "WidthRear": 1.132,
         "Price": 3600.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_HMD_I__AVENHORN_A15__DESC",
         "Name": "HMD I"
     },
     "wheels_heavy_double1_avenhorn_a15-highway_2": {
@@ -3956,7 +3956,7 @@
         "WidthRear": 1.132,
         "Price": 4000.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_HMD_I__AVENHORN_A15__DESC",
         "Name": "HMD II"
     },
     "wheels_heavy_double1_avenhorn_a15-highway_3": {
@@ -3974,7 +3974,7 @@
         "WidthRear": 1.132,
         "Price": 4400.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_HMD_I__AVENHORN_A15__DESC",
         "Name": "HMD III"
     },
     "wheels_heavy_double1_avenhorn_a15-allterrain_1": {
@@ -3992,7 +3992,7 @@
         "WidthRear": 1.132,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_ATMD_I__AVENHORN_A15__DESC",
         "Name": "ATMD I"
     },
     "wheels_heavy_double1_avenhorn_a15-allterrain_2": {
@@ -4010,7 +4010,7 @@
         "WidthRear": 1.132,
         "Price": 5300.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_ATMD_I__AVENHORN_A15__DESC",
         "Name": "ATMD II"
     },
     "wheels_heavy_double1_avenhorn_a15-allterrain_3": {
@@ -4028,7 +4028,7 @@
         "WidthRear": 1.132,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_AVENHORN_A15_ATMD_I__AVENHORN_A15__DESC",
         "Name": "ATMD III"
     },
     "wheels_heavy_double1_padera_std4-highway_1": {
@@ -4046,7 +4046,7 @@
         "WidthRear": 1.132,
         "Price": 3600.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_HMD_I_DESC",
         "Name": "HMD I"
     },
     "wheels_heavy_double1_padera_std4-highway_2": {
@@ -4064,7 +4064,7 @@
         "WidthRear": 1.132,
         "Price": 4000.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_HMD_I_DESC",
         "Name": "HMD II"
     },
     "wheels_heavy_double1_padera_std4-highway_3": {
@@ -4082,7 +4082,7 @@
         "WidthRear": 1.132,
         "Price": 4400.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_HMD_I_DESC",
         "Name": "HMD III"
     },
     "wheels_heavy_double1_padera_std4-allterrain_1": {
@@ -4100,7 +4100,7 @@
         "WidthRear": 1.132,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_ATMD_I_DESC",
         "Name": "ATMD I"
     },
     "wheels_heavy_double1_padera_std4-allterrain_2": {
@@ -4118,7 +4118,7 @@
         "WidthRear": 1.132,
         "Price": 5300.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_ATMD_I_DESC",
         "Name": "ATMD II"
     },
     "wheels_heavy_double1_padera_std4-allterrain_3": {
@@ -4136,7 +4136,7 @@
         "WidthRear": 1.132,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_PADERA_STD4_ATMD_I_DESC",
         "Name": "ATMD III"
     },
     "wheels_heavy_double2_avenhorn_a15-offroad_1": {
@@ -4154,7 +4154,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_AVENHORN_A15_OHD_I__AVENHORN_A15__DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_double2_avenhorn_a15-offroad_2": {
@@ -4172,7 +4172,7 @@
         "WidthRear": 1.213,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_AVENHORN_A15_OHD_I__AVENHORN_A15__DESC",
         "Name": "OHD II"
     },
     "wheels_heavy_double2_avenhorn_a15-offroad_3": {
@@ -4190,7 +4190,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_AVENHORN_A15_OHD_I__AVENHORN_A15__DESC",
         "Name": "OHD III"
     },
     "wheels_heavy_double2_avenhorn_a15-chains_2": {
@@ -4208,7 +4208,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_AVENHORN_A15_OHD_II_ALL_CHAINS__AVENHORN_A15__DESC",
         "Name": "OHD II All Chains"
     },
     "wheels_heavy_double2_padera_std4-offroad_1": {
@@ -4226,7 +4226,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_PADERA_STD4_OHD_I_DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_double2_padera_std4-offroad_2": {
@@ -4244,7 +4244,7 @@
         "WidthRear": 1.213,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_PADERA_STD4_OHD_I_DESC",
         "Name": "OHD II"
     },
     "wheels_heavy_double2_padera_std4-offroad_3": {
@@ -4262,7 +4262,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_PADERA_STD4_OHD_I_DESC",
         "Name": "OHD III"
     },
     "wheels_heavy_double2_padera_std4-chains_2": {
@@ -4280,7 +4280,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_PADERA_STD4_OHD_II_ALL_CHAINS_DESC",
         "Name": "OHD II All Chains"
     },
     "wheels_heavy_highway_double_avenhorn_a15-JAT HHD I": {
@@ -4298,7 +4298,7 @@
         "WidthRear": 0.9,
         "Price": 3600.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_AVENHORN_A15_JAT_HHD_I__AVENHORN_A15__DESC",
         "Name": "JAT HHD I"
     },
     "wheels_heavy_highway_double_avenhorn_a15-JAT HHD II": {
@@ -4316,7 +4316,7 @@
         "WidthRear": 0.9,
         "Price": 4000.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_AVENHORN_A15_JAT_HHD_I__AVENHORN_A15__DESC",
         "Name": "JAT HHD II"
     },
     "wheels_heavy_highway_double_avenhorn_a15-JAT HHD III": {
@@ -4334,7 +4334,7 @@
         "WidthRear": 0.9,
         "Price": 4400.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_AVENHORN_A15_JAT_HHD_I__AVENHORN_A15__DESC",
         "Name": "JAT HHD III"
     },
     "wheels_heavy_highway_double_padera_std4-JAT HHD I": {
@@ -4352,7 +4352,7 @@
         "WidthRear": 0.9,
         "Price": 3600.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_PADERA_STD4_JAT_HHD_I_DESC",
         "Name": "JAT HHD I"
     },
     "wheels_heavy_highway_double_padera_std4-JAT HHD II": {
@@ -4370,7 +4370,7 @@
         "WidthRear": 0.9,
         "Price": 4000.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_PADERA_STD4_JAT_HHD_I_DESC",
         "Name": "JAT HHD II"
     },
     "wheels_heavy_highway_double_padera_std4-JAT HHD III": {
@@ -4388,7 +4388,7 @@
         "WidthRear": 0.9,
         "Price": 4400.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_PADERA_STD4_JAT_HHD_I_DESC",
         "Name": "JAT HHD III"
     },
     "wheels_heavy_offroad_double_avenhorn_a15-JAT OHD I": {
@@ -4406,7 +4406,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_AVENHORN_A15_JAT_OHD_I__AVENHORN_A15__DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double_avenhorn_a15-JAT OHD II": {
@@ -4424,7 +4424,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_AVENHORN_A15_JAT_OHD_I__AVENHORN_A15__DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double_avenhorn_a15-JAT OHD III": {
@@ -4442,7 +4442,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_AVENHORN_A15_JAT_OHD_I__AVENHORN_A15__DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_offroad_double_padera_std4-JAT OHD I": {
@@ -4460,7 +4460,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_PADERA_STD4_JAT_OHD_I_DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double_padera_std4-JAT OHD II": {
@@ -4478,7 +4478,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_PADERA_STD4_JAT_OHD_I_DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double_padera_std4-JAT OHD III": {
@@ -4496,7 +4496,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_PADERA_STD4_JAT_OHD_I_DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_padera_std4-offroad_1": {
@@ -4514,7 +4514,7 @@
         "WidthRear": 0.993,
         "Price": 7500.0,
         "name_id": "UI_TIRE_PADERA_STD4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_PADERA_STD4_PADERA_STD-4_TIRES__PADERA_STD-4__DESC",
         "Name": "Padera STD-4 Tires"
     },
     "wheels_heavy_mudtires_single2_voron_g5352-JAT MHS IV": {
@@ -4532,7 +4532,7 @@
         "WidthRear": 0.79,
         "Price": 5200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_13_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_VORON_G5352_JAT_MHS_IV_DESC",
         "Name": "JAT MHS IV"
     },
     "wheels_heavy_mudtires_single2_voron_g5352-JAT MHS V": {
@@ -4550,7 +4550,7 @@
         "WidthRear": 0.79,
         "Price": 5600.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_14_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_VORON_G5352_JAT_MHS_IV_DESC",
         "Name": "JAT MHS V"
     },
     "wheels_heavy_mudtires_single2_voron_g5352-JAT MHS VI": {
@@ -4568,7 +4568,7 @@
         "WidthRear": 0.79,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_15_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_VORON_G5352_JAT_MHS_IV_DESC",
         "Name": "JAT MHS VI"
     },
     "wheels_heavy_mudtires_single_voron_g5352-JAT MHS I": {
@@ -4586,7 +4586,7 @@
         "WidthRear": 0.79,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_VORON_G5352_JAT_MHS_I_DESC",
         "Name": "JAT MHS I"
     },
     "wheels_heavy_mudtires_single_voron_g5352-JAT MHS II": {
@@ -4604,7 +4604,7 @@
         "WidthRear": 0.79,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_VORON_G5352_JAT_MHS_I_DESC",
         "Name": "JAT MHS II"
     },
     "wheels_heavy_mudtires_single_voron_g5352-JAT MHS III": {
@@ -4622,7 +4622,7 @@
         "WidthRear": 0.79,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_VORON_G5352_JAT_MHS_I_DESC",
         "Name": "JAT MHS III"
     },
     "wheels_heavy_offroad_single_voron_g5352-JAT OHS I": {
@@ -4640,7 +4640,7 @@
         "WidthRear": 0.62,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_VORON_G5352_JAT_OHS_I_DESC",
         "Name": "JAT OHS I"
     },
     "wheels_heavy_offroad_single_voron_g5352-JAT OHS II": {
@@ -4658,7 +4658,7 @@
         "WidthRear": 0.62,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_14_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_VORON_G5352_JAT_OHS_I_DESC",
         "Name": "JAT OHS II"
     },
     "wheels_heavy_offroad_single_voron_g5352-JAT OHS III": {
@@ -4676,7 +4676,7 @@
         "WidthRear": 0.62,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_15_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_VORON_G5352_JAT_OHS_I_DESC",
         "Name": "JAT OHS III"
     },
     "wheels_heavy_single2_voron_g5352-mudtires_2": {
@@ -4694,7 +4694,7 @@
         "WidthRear": 0.84,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_VORON_G5352_MHS_II_DESC",
         "Name": "MHS II"
     },
     "wheels_heavy_single2_voron_g5352-mudtires_3": {
@@ -4712,7 +4712,7 @@
         "WidthRear": 0.84,
         "Price": 7700.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_VORON_G5352_MHS_II_DESC",
         "Name": "MHS III"
     },
     "wheels_heavy_single_voron_g5352-allterrain_1": {
@@ -4730,7 +4730,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_ATHS_I_DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single_voron_g5352-offroad_1": {
@@ -4748,7 +4748,7 @@
         "WidthRear": 0.65,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_OHS_I_DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single_voron_g5352-offroad_2": {
@@ -4766,7 +4766,7 @@
         "WidthRear": 0.65,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_OHS_I_DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single_voron_g5352-mudtires_1": {
@@ -4784,7 +4784,7 @@
         "WidthRear": 0.65,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_MHS_I_DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single_voron_g5352-chains_1": {
@@ -4802,7 +4802,7 @@
         "WidthRear": 0.65,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_MHS_I_ALL_CHAINS_DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single_voron_g5352-mudtires_2": {
@@ -4820,7 +4820,7 @@
         "WidthRear": 0.65,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_MHS_I_DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single_voron_g5352-mudtires_3": {
@@ -4838,7 +4838,7 @@
         "WidthRear": 0.65,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_MHS_I_DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single_voron_g5352-mudtires_4": {
@@ -4856,7 +4856,7 @@
         "WidthRear": 0.65,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_VORON_G5352_MHS_I_DESC",
         "Name": "DMHS III"
     },
     "wheels_jangsu_rx600-jangsu_offroad_1": {
@@ -4874,7 +4874,7 @@
         "WidthRear": 0.56,
         "Price": 5700.0,
         "name_id": "UI_TIRE_JANGSU_RX600_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_JANGSU_RX600_JANGSU_RX600_TIRES__JANGSU_RX600__DESC",
         "Name": "Jangsu RX600 Tires"
     },
     "wheels_voron_g5352-tire": {
@@ -4892,7 +4892,7 @@
         "WidthRear": 0.66,
         "Price": 7500.0,
         "name_id": "UI_TIRE_VORON_G5352_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_VORON_G5352_VORON_G-5352_TIRES__VORON_G-5352__DESC",
         "Name": "Voron G-5352 Tires"
     },
     "wheels_heavy_allterrain_double_mercedes_actros-JAT ATHD I": {
@@ -4910,7 +4910,7 @@
         "WidthRear": 1.24,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_MERCEDES_ACTROS_JAT_ATHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT ATHD I"
     },
     "wheels_heavy_allterrain_double_mercedes_actros-JAT ATHD II": {
@@ -4928,7 +4928,7 @@
         "WidthRear": 1.24,
         "Price": 5300.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_MERCEDES_ACTROS_JAT_ATHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT ATHD II"
     },
     "wheels_heavy_allterrain_double_mercedes_actros-JAT ATHD III": {
@@ -4946,7 +4946,7 @@
         "WidthRear": 1.24,
         "Price": 5700.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_ALLTERRAIN_DOUBLE_MERCEDES_ACTROS_JAT_ATHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT ATHD III"
     },
     "wheels_heavy_double1_mercedes_actros-highway_1": {
@@ -4964,7 +4964,7 @@
         "WidthRear": 1.132,
         "Price": 3600.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_HMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "HMD I"
     },
     "wheels_heavy_double1_mercedes_actros-highway_2": {
@@ -4982,7 +4982,7 @@
         "WidthRear": 1.132,
         "Price": 4000.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_HMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "HMD II"
     },
     "wheels_heavy_double1_mercedes_actros-highway_3": {
@@ -5000,7 +5000,7 @@
         "WidthRear": 1.132,
         "Price": 4400.0,
         "name_id": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_HMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "HMD III"
     },
     "wheels_heavy_double1_mercedes_actros-allterrain_1": {
@@ -5018,7 +5018,7 @@
         "WidthRear": 1.132,
         "Price": 4900.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_ATMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "ATMD I"
     },
     "wheels_heavy_double1_mercedes_actros-allterrain_2": {
@@ -5036,7 +5036,7 @@
         "WidthRear": 1.132,
         "Price": 5300.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_ATMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "ATMD II"
     },
     "wheels_heavy_double1_mercedes_actros-allterrain_3": {
@@ -5054,7 +5054,7 @@
         "WidthRear": 1.132,
         "Price": 5700.0,
         "name_id": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE1_MERCEDES_ACTROS_ATMD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "ATMD III"
     },
     "wheels_heavy_double2_mercedes_actros-offroad_1": {
@@ -5072,7 +5072,7 @@
         "WidthRear": 1.213,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_MERCEDES_ACTROS_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "OHD I"
     },
     "wheels_heavy_double2_mercedes_actros-offroad_2": {
@@ -5090,7 +5090,7 @@
         "WidthRear": 1.213,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_MERCEDES_ACTROS_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "OHD II"
     },
     "wheels_heavy_double2_mercedes_actros-offroad_3": {
@@ -5108,7 +5108,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_MERCEDES_ACTROS_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "OHD III"
     },
     "wheels_heavy_double2_mercedes_actros-chains_2": {
@@ -5126,7 +5126,7 @@
         "WidthRear": 1.213,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_DOUBLE2_MERCEDES_ACTROS_OHD_II_ALL_CHAINS__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "OHD II All Chains"
     },
     "wheels_heavy_highway_double_mercedes_actros-JAT HHD I": {
@@ -5144,7 +5144,7 @@
         "WidthRear": 0.9,
         "Price": 3600.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_MERCEDES_ACTROS_JAT_HHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT HHD I"
     },
     "wheels_heavy_highway_double_mercedes_actros-JAT HHD II": {
@@ -5162,7 +5162,7 @@
         "WidthRear": 0.9,
         "Price": 4000.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_MERCEDES_ACTROS_JAT_HHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT HHD II"
     },
     "wheels_heavy_highway_double_mercedes_actros-JAT HHD III": {
@@ -5180,7 +5180,7 @@
         "WidthRear": 0.9,
         "Price": 4400.0,
         "name_id": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_HEAVY_HIGHWAY_DOUBLE_MERCEDES_ACTROS_JAT_HHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT HHD III"
     },
     "wheels_heavy_mercedes_benz_actros_6x6-mb_actros_offroad_1": {
@@ -5198,7 +5198,7 @@
         "WidthRear": 1.26,
         "Price": 7200.0,
         "name_id": "UI_TIRE_MERCEDES_BENZ_ACTROS_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_MERCEDES_BENZ_ACTROS_6X6_MERCEDES-BENZ_ACTROS_3332_TIRES__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "Mercedes-Benz Actros 3332 Tires"
     },
     "wheels_heavy_mercedes_benz_zetros_6x6-mb_zetros_mudtires_1": {
@@ -5216,7 +5216,7 @@
         "WidthRear": 0.65,
         "Price": 7200.0,
         "name_id": "UI_TIRE_MERCEDES_BENZ_ZETROS_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_MERCEDES_BENZ_ZETROS_6X6_MERCEDES-BENZ_ZETROS_TIRES__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "Mercedes-Benz Zetros Tires"
     },
     "wheels_heavy_mudtires_single2_mercedes_zetros-JAT MHS IV": {
@@ -5234,7 +5234,7 @@
         "WidthRear": 0.79,
         "Price": 5200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_13_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_MERCEDES_ZETROS_JAT_MHS_IV__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS IV"
     },
     "wheels_heavy_mudtires_single2_mercedes_zetros-JAT MHS V": {
@@ -5252,7 +5252,7 @@
         "WidthRear": 0.79,
         "Price": 5600.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_14_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_MERCEDES_ZETROS_JAT_MHS_IV__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS V"
     },
     "wheels_heavy_mudtires_single2_mercedes_zetros-JAT MHS VI": {
@@ -5270,7 +5270,7 @@
         "WidthRear": 0.79,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_15_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE2_MERCEDES_ZETROS_JAT_MHS_IV__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS VI"
     },
     "wheels_heavy_mudtires_single_mercedes_zetros-JAT MHS I": {
@@ -5288,7 +5288,7 @@
         "WidthRear": 0.79,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_10_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_MERCEDES_ZETROS_JAT_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS I"
     },
     "wheels_heavy_mudtires_single_mercedes_zetros-JAT MHS II": {
@@ -5306,7 +5306,7 @@
         "WidthRear": 0.79,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_11_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_MERCEDES_ZETROS_JAT_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS II"
     },
     "wheels_heavy_mudtires_single_mercedes_zetros-JAT MHS III": {
@@ -5324,7 +5324,7 @@
         "WidthRear": 0.79,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_12_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_SINGLE_MERCEDES_ZETROS_JAT_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT MHS III"
     },
     "wheels_heavy_mudtires_tayga_mercedes_zetros-mudtires": {
@@ -5342,7 +5342,7 @@
         "WidthRear": 1.118,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_TAYGA_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_MUDTIRES_TAYGA_MERCEDES_ZETROS_TMHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "TMHS I"
     },
     "wheels_heavy_offroad_double_mercedes_actros-JAT OHD I": {
@@ -5360,7 +5360,7 @@
         "WidthRear": 1.24,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_MERCEDES_ACTROS_JAT_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT OHD I"
     },
     "wheels_heavy_offroad_double_mercedes_actros-JAT OHD II": {
@@ -5378,7 +5378,7 @@
         "WidthRear": 1.24,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_MERCEDES_ACTROS_JAT_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT OHD II"
     },
     "wheels_heavy_offroad_double_mercedes_actros-JAT OHD III": {
@@ -5396,7 +5396,7 @@
         "WidthRear": 1.24,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_DOUBLE_MERCEDES_ACTROS_JAT_OHD_I__MERCEDES-BENZ_ACTROS_3332__DESC",
         "Name": "JAT OHD III"
     },
     "wheels_heavy_offroad_single_mercedes_zetros-JAT OHS I": {
@@ -5414,7 +5414,7 @@
         "WidthRear": 0.62,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_13_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_MERCEDES_ZETROS_JAT_OHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT OHS I"
     },
     "wheels_heavy_offroad_single_mercedes_zetros-JAT OHS II": {
@@ -5432,7 +5432,7 @@
         "WidthRear": 0.62,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_14_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_MERCEDES_ZETROS_JAT_OHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT OHS II"
     },
     "wheels_heavy_offroad_single_mercedes_zetros-JAT OHS III": {
@@ -5450,7 +5450,7 @@
         "WidthRear": 0.62,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_15_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_SINGLE_MERCEDES_ZETROS_JAT_OHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "JAT OHS III"
     },
     "wheels_heavy_single2_mercedes_zetros-mudtires_2": {
@@ -5468,7 +5468,7 @@
         "WidthRear": 0.84,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_MERCEDES_ZETROS_MHS_II__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "MHS II"
     },
     "wheels_heavy_single2_mercedes_zetros-mudtires_3": {
@@ -5486,7 +5486,7 @@
         "WidthRear": 0.84,
         "Price": 7700.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_MERCEDES_ZETROS_MHS_II__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "MHS III"
     },
     "wheels_heavy_single_mercedes_zetros-allterrain_1": {
@@ -5504,7 +5504,7 @@
         "WidthRear": 0.65,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_ATHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single_mercedes_zetros-offroad_1": {
@@ -5522,7 +5522,7 @@
         "WidthRear": 0.65,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_OHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single_mercedes_zetros-offroad_2": {
@@ -5540,7 +5540,7 @@
         "WidthRear": 0.65,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_OHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single_mercedes_zetros-mudtires_1": {
@@ -5558,7 +5558,7 @@
         "WidthRear": 0.65,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single_mercedes_zetros-chains_1": {
@@ -5576,7 +5576,7 @@
         "WidthRear": 0.65,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_MHS_I_ALL_CHAINS__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single_mercedes_zetros-mudtires_2": {
@@ -5594,7 +5594,7 @@
         "WidthRear": 0.65,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single_mercedes_zetros-mudtires_3": {
@@ -5612,7 +5612,7 @@
         "WidthRear": 0.65,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single_mercedes_zetros-mudtires_4": {
@@ -5630,7 +5630,7 @@
         "WidthRear": 0.65,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_MERCEDES_ZETROS_MHS_I__MERCEDES-BENZ_ZETROS__DESC",
         "Name": "DMHS III"
     },
     "wheels_ford_f750-highway_ford_f750": {
@@ -5648,7 +5648,7 @@
         "WidthRear": 1.158,
         "Price": 2300.0,
         "name_id": "UI_TIRE_FORD_F750_1_NAME",
-        "desc_id": "UI_TIRE_HIGHWAY_DESC",
+        "desc_id": "WHEELS_FORD_F750_FHMD_I__FORD_F_750__DESC",
         "Name": "FHMD I"
     },
     "wheels_ford_f750-offroad_1": {
@@ -5666,7 +5666,7 @@
         "WidthRear": 1.158,
         "Price": 4400.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_FORD_F750_UOD_I__FORD_F_750__DESC",
         "Name": "UOD I"
     },
     "wheels_ford_f750-offroad_2": {
@@ -5684,7 +5684,7 @@
         "WidthRear": 1.158,
         "Price": 4900.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_2_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_FORD_F750_UOD_I__FORD_F_750__DESC",
         "Name": "UOD II"
     },
     "wheels_ford_f750-offroad_3": {
@@ -5702,7 +5702,7 @@
         "WidthRear": 1.158,
         "Price": 5700.0,
         "name_id": "UI_TIRE_OFFROAD_DOUBLE_3_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_FORD_F750_UOD_I__FORD_F_750__DESC",
         "Name": "UOD III"
     },
     "wheels_ford_f750-chains_all": {
@@ -5720,7 +5720,7 @@
         "WidthRear": 1.158,
         "Price": 6000.0,
         "name_id": "UI_TIRE_CHAINS_ALL_DOUBLE_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_FORD_F750_UAD_III_ALL_CHAINS__FORD_F_750__DESC",
         "Name": "UAD III All Chains"
     },
     "wheels_medium_mudtires_actaeon-mudtires": {
@@ -5738,7 +5738,7 @@
         "WidthRear": 1.118,
         "Price": 7000.0,
         "name_id": "UI_TIRE_MEDIUM_MUDTIRES_SINGLE_ACTAEON_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MEDIUM_MUDTIRES_ACTAEON_AMHS_I_DESC",
         "Name": "AMHS I"
     },
     "wheels_scout_apache_1-offroad_apache_1": {
@@ -5756,7 +5756,7 @@
         "WidthRear": 0.67,
         "Price": 4700.0,
         "name_id": "UI_TIRE_SCOUT_BTR_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_TO_I__CHEVROLET_APACHE__DESC",
         "Name": "TO I"
     },
     "wheels_scout_apache_1-allterrain_1": {
@@ -5774,7 +5774,7 @@
         "WidthRear": 0.67,
         "Price": 2700.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_AS_I__CHEVROLET_APACHE__DESC",
         "Name": "AS I"
     },
     "wheels_scout_apache_1-allterrain_2": {
@@ -5792,7 +5792,7 @@
         "WidthRear": 0.67,
         "Price": 3000.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_2_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_AS_I__CHEVROLET_APACHE__DESC",
         "Name": "AS II"
     },
     "wheels_scout_apache_1-allterrain_3": {
@@ -5810,7 +5810,7 @@
         "WidthRear": 0.67,
         "Price": 3400.0,
         "name_id": "UI_TIRE_SCOUT_ALLTERRAIN_3_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_AS_I__CHEVROLET_APACHE__DESC",
         "Name": "AS III"
     },
     "wheels_scout_apache_1-mudtires_1": {
@@ -5828,7 +5828,7 @@
         "WidthRear": 0.67,
         "Price": 5300.0,
         "name_id": "UI_TIRE_SCOUT_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_MS_I__CHEVROLET_APACHE__DESC",
         "Name": "MS I"
     },
     "wheels_scout_apache_1-chain_1": {
@@ -5846,7 +5846,7 @@
         "WidthRear": 0.67,
         "Price": 6000.0,
         "name_id": "UI_TIRE_SCOUT_CHAIN_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_SCOUT_APACHE_1_CS_I__CHEVROLET_APACHE__DESC",
         "Name": "CS I"
     },
     "wheels_cat_th357_single-mudtires_1": {
@@ -5864,7 +5864,7 @@
         "WidthRear": 0.762,
         "Price": 8300.0,
         "name_id": "UI_TIRE_CAT_TH357_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_CAT_TH357_SINGLE_CATERPILLAR_TH357_TIRES__CATERPILLAR_TH357__DESC",
         "Name": "Caterpillar TH357 Tires"
     },
     "wheels_superheavy_cat770g_double-mudtires_1": {
@@ -5882,7 +5882,7 @@
         "WidthRear": 1.2,
         "Price": 7900.0,
         "name_id": "UI_TIRE_MUDTIRES_SUPERHEAVY_CAT770G_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_SUPERHEAVY_CAT770G_DOUBLE_CATERPILLAR_770G_TIRES__CATERPILLAR_770G__DESC",
         "Name": "Caterpillar 770G Tires"
     },
     "wheels_medium_mudtires_ankmk38-mudtires": {
@@ -5900,7 +5900,7 @@
         "WidthRear": 1.118,
         "Price": 9400.0,
         "name_id": "UI_TIRE_MEDIUM_MUDTIRES_SINGLE_ACTAEON_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_MEDIUM_MUDTIRES_ANKMK38_AMHS_I_DESC",
         "Name": "AMHS I"
     },
     "wheels_heavy_offroad_p512-offroad": {
@@ -5918,7 +5918,7 @@
         "WidthRear": 1.092,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_OFFROAD_P512_OHD_I__PACIFIC_P512_PF__DESC",
         "Name": "OHD I"
     },
     "wheels_tatra_t813-tire": {
@@ -5936,7 +5936,7 @@
         "WidthRear": 0.78,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_TATRA_T813_MSH_I__TATRA_\u0422813__DESC",
         "Name": "MSH I"
     },
     "wheels_train_rocket-tire": {
@@ -5954,7 +5954,7 @@
         "WidthRear": 1.17,
         "Price": 9400.0,
         "name_id": "UI_TIRE_TRAIN_ROCKET_NAME",
-        "desc_id": "UI_TIRE_TRAIN_ROCKET_DESC",
+        "desc_id": "WHEELS_TRAIN_ROCKET_EMPTY_LINE_DESC",
         "Name": "EMPTY_LINE"
     },
     "wheels_zikz_605r_1-mudtires_zikz605r_1": {
@@ -5972,7 +5972,7 @@
         "WidthRear": 1.0,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_ZIKZ605_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_ZIKZ_605R_1_ZHM_TIRES__ZIKZ_605R__DESC",
         "Name": "ZHM Tires"
     },
     "wheels_tatra_force_815_7-tire": {
@@ -5990,7 +5990,7 @@
         "WidthRear": 0.58,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_TATRA_FORCE_815_7_MSH_I__TATRA_FORCE_T815-7__DESC",
         "Name": "MSH I"
     },
     "wheels_tatra_phoenix-tire": {
@@ -6008,7 +6008,7 @@
         "WidthRear": 0.706,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_TATRA_PHOENIX_MSH_I__TATRA_PHOENIX__DESC",
         "Name": "MSH I"
     },
     "wheels_step_3364_crocodile-tire_1": {
@@ -6025,9 +6025,9 @@
         "Width": 0.459,
         "WidthRear": 0.974,
         "Price": 4900.0,
-        "name_id": "UI_TIRE_STEP_3364_CROCODILE_NAME",
-        "desc_id": "UI_TIRE_STEP_3364_CROCODILE_DESC",
-        "Name": "UCD I"
+        "name_id": null,
+        "desc_id": "WHEELS_STEP_3364_CROCODILE_UCD_I__STEP_33-64_",
+        "Name": null
     },
     "wheels_azov_43_191_sprinter-tire": {
         "file": "wheels_azov_43_191_sprinter",
@@ -6043,9 +6043,9 @@
         "Width": 0.715,
         "WidthRear": 0.715,
         "Price": 4900.0,
-        "name_id": "UI_TIRE_AZOV_SPRINTER_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
-        "Name": "SPO I"
+        "name_id": null,
+        "desc_id": "WHEELS_AZOV_43_191_SPRINTER_SPO_I__AZOV_43-191_",
+        "Name": null
     },
     "wheels_gor_by4-tire_1": {
         "file": "wheels_gor_by4",
@@ -6062,7 +6062,7 @@
         "WidthRear": 0.715,
         "Price": 4900.0,
         "name_id": "UI_TIRE_GOR_BY4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_GOR_BY4_OG_I__GOR_BY-4__DESC",
         "Name": "OG I"
     },
     "wheels_base_kirovets_k7m-tire": {
@@ -6080,7 +6080,7 @@
         "WidthRear": 0.731,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_BASE_KIROVETS_K7M_MSH_I__KIROVETS_K-7\u041c__DESC",
         "Name": "MSH I"
     },
     "wheels_extend_kirovets_k7m-tire": {
@@ -6098,7 +6098,7 @@
         "WidthRear": 1.57,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_2_NAME",
-        "desc_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_2_DESC",
+        "desc_id": "WHEELS_EXTEND_KIROVETS_K7M_MSH_II__KIROVETS_K-7\u041c__DESC",
         "Name": "MSH II"
     },
     "wheels_kirovets_k700-tire": {
@@ -6116,7 +6116,7 @@
         "WidthRear": 0.731,
         "Price": 7500.0,
         "name_id": "UI_TIRE_KIROVETS_SUPERHEAVY_MUDTIRES_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_KIROVETS_K700_STOCK_TRACTOR_TIRES__KIROVETS_K-700__DESC",
         "Name": "Stock tractor tires"
     },
     "wheels_step_39331_pike-tire_1": {
@@ -6133,9 +6133,9 @@
         "Width": 0.459,
         "WidthRear": 0.974,
         "Price": 4900.0,
-        "name_id": "UI_TIRE_STEP_3364_CROCODILE_NAME",
-        "desc_id": "UI_TIRE_STEP_3364_CROCODILE_DESC",
-        "Name": "UCD I"
+        "name_id": null,
+        "desc_id": "WHEELS_STEP_39331_PIKE_UCD_I__STEP_39331_",
+        "Name": null
     },
     "wheels_derry_special_15c177-tire": {
         "file": "wheels_derry_special_15c177",
@@ -6152,7 +6152,7 @@
         "WidthRear": 0.65,
         "Price": 5500.0,
         "name_id": "UI_TIRE_DERRY_SPECIAL_15C177_NAME",
-        "desc_id": "UI_TIRE_DERRY_SPECIAL_15C177_DESC",
+        "desc_id": "WHEELS_DERRY_SPECIAL_15C177_TIRES_DERRY_SPECIAL_15C-177__DERRY_SPECIAL_15C-177__DESC",
         "Name": "Tires Derry Special 15C-177"
     },
     "wheels_heavy_single2_zikz_612h-mudtires_2": {
@@ -6170,7 +6170,7 @@
         "WidthRear": 0.84,
         "Price": 7400.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_ZIKZ_612H_MHS_II__ZIKZ_612H__DESC",
         "Name": "MHS II"
     },
     "wheels_heavy_single2_zikz_612h-mudtires_3": {
@@ -6188,7 +6188,7 @@
         "WidthRear": 0.84,
         "Price": 7700.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE2_ZIKZ_612H_MHS_II__ZIKZ_612H__DESC",
         "Name": "MHS III"
     },
     "wheels_heavy_single_zikz_612h-allterrain_1": {
@@ -6206,7 +6206,7 @@
         "WidthRear": 0.75,
         "Price": 4900.0,
         "name_id": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_ALLTERRAIN_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_ATHS_I__ZIKZ_612H__DESC",
         "Name": "ATHS I"
     },
     "wheels_heavy_single_zikz_612h-offroad_1": {
@@ -6224,7 +6224,7 @@
         "WidthRear": 0.75,
         "Price": 5900.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_OHS_I__ZIKZ_612H__DESC",
         "Name": "OHS I"
     },
     "wheels_heavy_single_zikz_612h-offroad_2": {
@@ -6242,7 +6242,7 @@
         "WidthRear": 0.75,
         "Price": 6200.0,
         "name_id": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME",
-        "desc_id": "UI_TIRE_OFFROAD_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_OHS_I__ZIKZ_612H__DESC",
         "Name": "OHS II"
     },
     "wheels_heavy_single_zikz_612h-mudtires_1": {
@@ -6260,7 +6260,7 @@
         "WidthRear": 0.75,
         "Price": 7000.0,
         "name_id": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_MHS_I__ZIKZ_612H__DESC",
         "Name": "MHS I"
     },
     "wheels_heavy_single_zikz_612h-chains_1": {
@@ -6278,7 +6278,7 @@
         "WidthRear": 0.75,
         "Price": 6800.0,
         "name_id": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_CHAINS_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_MHS_I_ALL_CHAINS__ZIKZ_612H__DESC",
         "Name": "MHS I All Chains"
     },
     "wheels_heavy_single_zikz_612h-mudtires_2": {
@@ -6296,7 +6296,7 @@
         "WidthRear": 0.75,
         "Price": 8500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_MHS_I__ZIKZ_612H__DESC",
         "Name": "DMHS I"
     },
     "wheels_heavy_single_zikz_612h-mudtires_3": {
@@ -6314,7 +6314,7 @@
         "WidthRear": 0.75,
         "Price": 7900.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_MHS_I__ZIKZ_612H__DESC",
         "Name": "DMHS II"
     },
     "wheels_heavy_single_zikz_612h-mudtires_4": {
@@ -6332,7 +6332,7 @@
         "WidthRear": 0.75,
         "Price": 7500.0,
         "name_id": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_HEAVY_SINGLE_ZIKZ_612H_MHS_I__ZIKZ_612H__DESC",
         "Name": "DMHS III"
     },
     "wheels_zikz_566a-zikz_566_tire": {
@@ -6350,7 +6350,7 @@
         "WidthRear": 0.618,
         "Price": 7500.0,
         "name_id": "UI_TIRE_ZiKZ_566A2_NAME",
-        "desc_id": "UI_TIRE_ZiKZ_566A_DESC",
+        "desc_id": "WHEELS_ZIKZ_566A_TIRES_ZIKZ_566A__ZIKZ_566A__DESC",
         "Name": "Tires ZiKZ 566A"
     },
     "wheels_zikz_612h_mastodont-mudtires_zikz605r_1": {
@@ -6368,7 +6368,7 @@
         "WidthRear": 0.8,
         "Price": 7500.0,
         "name_id": "UI_TIRE_SUPERHEAVY_MUDTIRES_ZIKZ605_NAME",
-        "desc_id": "UI_TIRE_MUDTIRES_DESC",
+        "desc_id": "WHEELS_ZIKZ_612H_MASTODONT_ZHM_TIRES__ZIKZ_612H__DESC",
         "Name": "ZHM Tires"
     }
 }

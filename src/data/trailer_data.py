@@ -1,16 +1,13 @@
 import json
 
-from lxml import etree  # ty:ignore[unresolved-import]
 from pathlib import Path
-from statistics import mean
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
     find_regex_in,
     xml_result,
     find_sum_of_regex,
-    xml_result_count,
-    xml_result_list,
 )
 
 
@@ -83,8 +80,8 @@ def get_trailer_data(file_path, use_initial_files, ui_dict: dict[str, str]) -> t
 
 def get_all_trailer_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str, dict]:
     all_trailer_data: dict[str, dict] = {}
-    trailer_folder = Path("input/initial/[media]/classes/trucks/trailers")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    trailer_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks/trailers")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in trailer_folder.glob("*.xml"):
@@ -108,6 +105,6 @@ def process_trailer_data(use_initial_files, ui_dict: dict[str, str]):
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/trailer_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/trailer_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(data_dict, f, indent=4)
     return data_dict

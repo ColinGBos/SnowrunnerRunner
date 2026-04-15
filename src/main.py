@@ -14,10 +14,11 @@ import tkinter as tk
 from tkinter import font as tk_font
 import xml.etree.ElementTree as et
 
+import utils
 from data_process import TruckDataProcessor
 from src.adjust import gearbox_adjust, engine_adjust
 from src.gearbox_math import generate_exp_func
-from src.adjust.cargo_adjust import cargo_mass_information, update_cargo_names, dump_cargo_info
+from src.adjust.cargo_adjust import cargo_mass_information, update_cargo_names
 from src.models import Cargo
 from src.utils import xml_result, write_to_output
 
@@ -25,13 +26,16 @@ from src.utils import xml_result, write_to_output
 root = tk.Tk()
 root.withdraw()
 
+root_path = Path(__file__).parent.parent
+
 def get_modified_file_if_possible(file_path) -> str:
-    output_file_path = str(file_path).replace("input", "output", 1)
+    path_from_root = Path(root_path, file_path)
+    output_file_path = str(path_from_root).replace("input", "output", 1)
     if os.path.exists(output_file_path) and os.path.isfile(output_file_path):
         with open(Path(output_file_path), "r", encoding="utf-8") as file:
             return file.read()
     else:
-        with open(file_path, "r") as file:
+        with open(path_from_root, "r") as file:
             return file.read()
 
 
@@ -72,8 +76,8 @@ def buff_fuel_in_file(file_path, multiplier):
 
 
 def buff_fuel_for_all_trucks(multiplier):
-    trucks_folder = Path("input/initial/[media]/classes/trucks")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    trucks_folder = Path(root_path, "input/initial/[media]/classes/trucks")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     for file_path in trucks_folder.glob("*.xml"):
         buff_fuel_in_file(file_path, multiplier)
@@ -119,8 +123,8 @@ def buff_steering_speed_in_file(file_path):
 
 
 def buff_steering_speed_for_all_trucks():
-    trucks_folder = Path("input/initial/[media]/classes/trucks")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    trucks_folder = Path(root_path, "input/initial/[media]/classes/trucks")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     for file_path in trucks_folder.glob("*.xml"):
         buff_steering_speed_in_file(file_path)
@@ -151,8 +155,8 @@ def buff_steering_angle_in_file(file_path):
 
 
 def buff_steering_angle_for_all_trucks():
-    trucks_folder = Path("input/initial/[media]/classes/trucks")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    trucks_folder = Path(root_path, "input/initial/[media]/classes/trucks")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     for file_path in trucks_folder.glob("*.xml"):
         buff_steering_angle_in_file(file_path)
@@ -195,11 +199,11 @@ def buff_wheel_friction_value_in_file(
 def buff_friction_type_for_all_wheels(
     friction_type="BodyFrictionAsphalt", weight=2, base: float = 3.0
 ):
-    wheels_folder = Path("input/initial/[media]/classes/wheels")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    wheels_folder = Path(root_path, "input/initial/[media]/classes/wheels")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     buff_wheel_friction_value_in_file(
-        Path("input/initial/[media]/_templates/trucks.xml"), friction_type, weight, base
+        Path(root_path, "input/initial/[media]/_templates/trucks.xml"), friction_type, weight, base
     )
 
     # Iterate through all XML files in the folder
@@ -249,8 +253,8 @@ def add_grip_to_rock_file(file_path, friction=1.8):
 
 
 def add_grip_to_rocks():
-    rocks_models_folder = Path("input/initial/[media]/classes/models")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    rocks_models_folder = Path(root_path, "input/initial/[media]/classes/models")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in rocks_models_folder.glob("rock_*.xml"):
@@ -289,8 +293,8 @@ def buff_suspension_damping(file_path: Path):
 
 
 def buff_all_suspension_damping():
-    suspension_main_folder = Path("input/initial/[media]/classes/suspensions")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    suspension_main_folder = Path(root_path, "input/initial/[media]/classes/suspensions")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in suspension_main_folder.glob("*.xml"):
@@ -303,7 +307,7 @@ def buff_all_suspension_damping():
 
 
 def camera_clipping_fixes():
-    with open("reference/clipping.json", "r") as file:
+    with open("../reference/clipping.json", "r") as file:
         clipping_adjustments: list[str] = json.load(file)
 
     for file_path in clipping_adjustments:
@@ -422,8 +426,8 @@ def get_gearboxes_from_xml(file_path) -> None | dict:
 
 def dump_gearbox_info() -> dict:
     gear_boxes = {}
-    models_main_folder = Path("input/initial/[media]/classes/gearboxes")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    models_main_folder = Path(root_path, "input/initial/[media]/classes/gearboxes")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in models_main_folder.glob("*.xml"):
@@ -436,7 +440,7 @@ def dump_gearbox_info() -> dict:
         if gearboxes:
             gear_boxes[file_path.stem] = gearboxes
 
-    with open("reference/info/gear_boxes_info.json", "w") as file:
+    with open("../reference/info/gear_boxes_info.json", "w") as file:
         json.dump(gear_boxes, file, indent=4)
 
     return gear_boxes
@@ -445,7 +449,7 @@ def dump_gearbox_info() -> dict:
 def add_custom_gearboxes(gearboxes: dict):
     for file_name, gbs in gearboxes.items():
         template = ""
-        with open("reference/gearbox_template.xml", "r") as file:
+        with open("../reference/gearbox_template.xml", "r") as file:
             template = file.read()
         lowest_vel = 10
         highest_vel = 0
@@ -586,11 +590,11 @@ def get_split_color(c_str_1: str) -> dict[str, float]:
 
 def add_custom_colours():
     colours = []
-    with open(Path("reference/colours_to_add.json"), "r") as f:
+    with open(Path("../reference/colours_to_add.json"), "r") as f:
         colours = json.load(f)
 
     tree = et.parse(
-        "input/initial/[media]/classes/customization_presets/customization_preset.xml"
+        "../input/initial/[media]/classes/customization_presets/customization_preset.xml"
     )
     root = tree.getroot()
     for truck in root.findall("Truck"):
@@ -633,7 +637,7 @@ def add_custom_colours():
 
     et.indent(tree)
     output_file_path = Path(
-        "output/initial/[media]/classes/customization_presets/customization_preset.xml"
+        root_path, "output/initial/[media]/classes/customization_presets/customization_preset.xml"
     )
     directory = os.path.dirname(output_file_path)
     os.makedirs(directory, exist_ok=True)
@@ -765,14 +769,15 @@ def add_cargo_model_attach_points(cargo_model_path: Path):
     )
 
     et.indent(root)
-    output_path = Path(str(cargo_model_path).replace("input", "output", 1))
+    output_path = Path(root_path, str(cargo_model_path).replace("input", "output", 1))
+    os.makedirs(output_path.parent, exist_ok=True)
     print(f"Adding winch and crane sockets to: {cargo_model_path.stem}")
     et.ElementTree(root).write(output_path, encoding="utf-8")
 
 
 def add_all_cargo_attach_points():
-    cargo_models_path = Path("input/initial/[media]/classes/models")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    cargo_models_path = Path(root_path, "input/initial/[media]/classes/models")
+    dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
     for cargo_model_path in cargo_models_path.glob(
         "*cargo_*.xml", case_sensitive=False
     ):
@@ -784,10 +789,11 @@ def add_all_cargo_attach_points():
 
 
 def make_ui_appends(adj_dict: dict[str, str], entire_file=True):
-    for file_name in Path("input/initial/[strings]").glob("*.str"):
+    for file_name in Path(root_path, "input/initial/[strings]").glob("*.str"):
         new_file_content = ""
         file_entries: dict[str, str] = {}
         new_entries: dict[str, str] = {}
+
         with open(file_name, "r", encoding="utf-16LE") as f:
             lines = f.readlines()
         for line in lines:
@@ -795,13 +801,20 @@ def make_ui_appends(adj_dict: dict[str, str], entire_file=True):
             file_ui_id = elements[0]
             file_ui_entry = elements[-1].strip().replace("\n", "")
             file_entries[file_ui_id] = file_ui_entry
+
         for ui_id, to_append in adj_dict.items():
+            found = False
             if ui_id in file_entries:
+                found = True
                 new_entry = f'"{file_entries[ui_id].replace('"', "")}{to_append}"'
                 if entire_file:
                     file_entries[ui_id] = new_entry
                 else:
                     new_entries[ui_id] = new_entry
+            if not found:
+                new_entries[ui_id] = f"\"{to_append}\""
+                file_entries[ui_id] = f"\"{to_append}\""
+
         if entire_file:
             for ui_id, entry in file_entries.items():
                 new_file_content += f"{ui_id}\t\t\t\t{entry}\n"
@@ -835,75 +848,72 @@ def get_hex_color_scale(
     return f'<font color=\\"{hex_str}\\">{value}</font>'
 
 
-def get_updated_tire_names(game_data: TruckDataProcessor) -> dict[str, str]:
-    ui_appends: dict[str, str] = {}
+def get_updated_tire_names(game_data: TruckDataProcessor) -> None:
     wheel_dict: dict = game_data.wheel_dict
     for _, wheel_data in wheel_dict.items():
         ui_name = str(wheel_data["name_id"])
-        if ui_name not in ui_appends:
-            body_asphalt = get_hex_color_scale(wheel_data["BodyFrictionAsphalt"])
-            body = get_hex_color_scale(wheel_data["BodyFriction"])
-            substance = get_hex_color_scale(wheel_data["SubstanceFriction"])
-            ui_appends[ui_name] = f" - {body_asphalt}|{body}|{substance}"
+        if ui_name not in game_data.lang_registry.new_entries:
+            body_asphalt = wheel_data["BodyFrictionAsphalt"]
+            body = wheel_data["BodyFriction"]
+            substance = wheel_data["SubstanceFriction"]
+            value = f" - {body_asphalt}|{body}|{substance}"
+            game_data.lang_registry.add_entry(ui_name, value)
 
-    return ui_appends
 
-
-def get_updated_tire_desc(game_data: TruckDataProcessor) -> dict[str, str]:
-    ui_appends = {}
+def get_updated_tire_desc(game_data: TruckDataProcessor) -> None:
     wheel_data: dict = game_data.wheel_dict
-    for _, wheel in wheel_data.items():
-        ui_descr = wheel["desc_id"]
-        if ui_descr not in ui_appends:
-            # mass = wheel["Mass"]
-            softness = wheel["SoftForceScale"]
-            # damage = wheel["DamageCapacity"]
-            width = wheel["Width"]
+    for _, wheel_data in wheel_data.items():
+        contents = utils.get_modified_file_if_possible(Path(root_path, wheel_data["full_file"]), False)
+        new_ui_desc_id = f"{wheel_data["file"]}_{wheel_data['Name']}_desc".replace(" ","_").replace("(","_").replace(")","_").upper()
+        mass = wheel_data["Mass"]
+        softness = wheel_data["SoftForceScale"]
+        damage = wheel_data["DamageCapacity"]
+        width = wheel_data["Width"]
+        body_asphalt = get_hex_color_scale(wheel_data["BodyFrictionAsphalt"])
+        body = get_hex_color_scale(wheel_data["BodyFriction"])
+        substance = get_hex_color_scale(wheel_data["SubstanceFriction"])
+        value = f"{body_asphalt}|{body}|{substance}"
+        value += f"\\nSoftness: {softness} | Width: {width}"
+        value += f"\\nMass: {mass} | Damage Capacity: {damage}"
+        game_data.lang_registry.add_entry(new_ui_desc_id, value)
+        utils.write_to_output(Path(root_path, wheel_data["full_file"]), contents.replace(wheel_data["desc_id"], new_ui_desc_id))
 
-            ui_appends[ui_descr] = f"\\nSoftness: {softness} | Width: {width}"
 
-    return ui_appends
-
-
-def get_updated_truck_descs(game_data: TruckDataProcessor) -> dict[str, str]:
-    ui_appends = {}
+def get_updated_truck_descs(game_data: TruckDataProcessor) -> None:
     truck_data: dict = game_data.truck_data
     for _, truck in truck_data.items():
         ui_descr = truck["desc_ui_id"]
-        if ui_descr not in ui_appends:
+        if ui_descr not in game_data.lang_registry.new_entries:
             min_t = int(truck["min_engine_torque"] / 100)
             max_t = int(truck["max_engine_torque"] / 100)
-            ui_appends[ui_descr] = (
+            value = (
                 f"\\nTorque Range: {min_t:,}-{max_t:,}\\nNm. Mass: {truck['mass']:,} kg."
             )
+            game_data.lang_registry.add_entry(ui_descr, value)
 
-    return ui_appends
 
-
-def get_updated_engine_descs(game_data: TruckDataProcessor) -> dict[str, str]:
-    ui_appends = {}
+def get_updated_engine_descs(game_data: TruckDataProcessor) -> None:
     engine_data: dict = game_data.engine_dict
     for _, engine in engine_data.items():
         ui_descr = engine["ui_desc_id"]
-        if ui_descr not in ui_appends:
+        if ui_descr not in game_data.lang_registry.new_entries:
             torque = int(engine["torque"] / 100)
             torque_efficiency = engine["torque_efficiency"]
-            ui_appends[ui_descr] = (
+            value = (
                 f"\\nTorque: {torque:,} Nm. Fuel Use: {round(engine['fuel_consumption'], 1)}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
             )
-
-    return ui_appends
+            game_data.lang_registry.add_entry(ui_descr, value)
 
 
 def main():
-    output_folder = Path("output/initial")
+    output_folder = Path(root_path, "output/initial")
     shutil.rmtree(output_folder)
     os.makedirs(output_folder)
     time.sleep(0.5)
 
     adjustments = {}
     performed_adjustments = []
-    with open("reference/adjustments.json", "r") as f:
+    with open("../reference/adjustments.json", "r") as f:
         adjustments = json.load(f)
 
     for name, adj in adjustments.items():
@@ -974,34 +984,32 @@ def main():
         performed_adjustments.append("add_cargo_attach_points")
 
     game_data: TruckDataProcessor = TruckDataProcessor(False)
-    ui_appends: dict[str, str] = {}
 
     if "update_tire_names" not in performed_adjustments:
-        ui_appends.update(get_updated_tire_names(game_data))
+        get_updated_tire_names(game_data)
         performed_adjustments.append("update_tire_names")
 
     if "update_tire_desc" not in performed_adjustments:
-        ui_appends.update(get_updated_tire_desc(game_data))
+        get_updated_tire_desc(game_data)
         performed_adjustments.append("update_tire_desc")
 
     if "cargo_name_updates" not in performed_adjustments:
-        cargo_list, to_append_ui = update_cargo_names(cargo_list, game_data)
-        ui_appends.update(to_append_ui)
+        cargo_list = update_cargo_names(cargo_list, game_data)
         # dump_cargo_info(cargo_list)
         performed_adjustments.append("cargo_name_updates")
 
     if "truck_description_updates" not in performed_adjustments:
-        ui_appends.update(get_updated_truck_descs(game_data))
+        get_updated_truck_descs(game_data)
         performed_adjustments.append("truck_description_updates")
 
     if "engine_description_updates" not in performed_adjustments:
-        ui_appends.update(get_updated_engine_descs(game_data))
+        get_updated_engine_descs(game_data)
         performed_adjustments.append("engine_description_updates")
 
-    if ui_appends != {}:
-        make_ui_appends(ui_appends)
+    if game_data.lang_registry.new_entries != {}:
+        make_ui_appends(game_data.lang_registry.new_entries)
 
-    with open("reference/performed_adjustments.json", "w") as f:
+    with open("../reference/performed_adjustments.json", "w") as f:
         json.dump(performed_adjustments, f, indent=4)
 
 

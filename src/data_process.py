@@ -14,11 +14,13 @@ from src.data.suspension_data import (
 from src.data.trailer_data import process_trailer_data
 from src.data.truck_data import process_truck_data, update_trucks_with_cargo_slots
 from src.data.wheel_data import process_wheel_data, update_wheel_data_with_truck_data
+from src.lang_handler import LangRegistry
 
 
 class TruckDataProcessor:
     def __init__(self, use_initial_files: bool = False):
-        self.ui_dict: dict[str, str] = get_english_names()
+        self.lang_registry = LangRegistry(Path("../input/initial/[strings]/strings_english.str"))
+        self.ui_dict: dict[str, str] = self.lang_registry.entries
         self.ui_id_list: list[str] = list(self.ui_dict.keys())
         self.engine_dict: dict = process_engine_data(use_initial_files, self.ui_dict)
         self.gearbox_dict: dict = process_gearbox_data(use_initial_files, self.ui_dict)
@@ -53,22 +55,15 @@ class TruckDataProcessor:
 
 
 def get_english_names() -> dict[str,str]:
-    strings_path = Path("input/initial/[strings]/strings_english.str")
-    ui_dictionary: dict[str, str] = {}
-    with open(strings_path, "r", encoding="utf-16LE") as f:
-        lines = f.readlines()
-        for line in lines:
-            ui_id: str = line.split("\t")[0].strip()
-            name: str = line.split('"', 1)[1].strip()[:-1]
-            ui_dictionary[ui_id] = name
-    return ui_dictionary
+    registry = LangRegistry(Path("../input/initial/[strings]/strings_english.str"))
+    return registry.entries
 
 
 def output_data(data_set: TruckDataProcessor, use_initial_files: bool) -> None:
     if use_initial_files:
-        name = "reference/info/data_initial.xlsx"
+        name = "../reference/info/data_initial.xlsx"
     else:
-        name = "reference/info/data_edited.xlsx"
+        name = "../reference/info/data_edited.xlsx"
 
     workbook: xlsxwriter.Workbook
     with xlsxwriter.Workbook(name) as workbook:
@@ -76,7 +71,7 @@ def output_data(data_set: TruckDataProcessor, use_initial_files: bool) -> None:
             df = pl.DataFrame(list(data.values()))
             df_columns = df.columns
             dict_columns:dict[str, dict] = {}
-            with open(f"reference/info/table_columns/{name}_columns_new.json", "r", encoding="utf-8") as f:
+            with open(f"../reference/info/table_columns/{name}_columns_new.json", "r", encoding="utf-8") as f:
                 dict_columns = json.load(f)
             con_formats = {}
             num_formats = {}
@@ -90,6 +85,7 @@ def output_data(data_set: TruckDataProcessor, use_initial_files: bool) -> None:
                 if column not in dict_columns:
                     print(f"Warning: {name} does not have column {column} in columns.json.")
             col_names = list(dict_columns.keys())
+            print(col_names)
             df = df.select(col_names)
             df.write_excel(workbook=workbook, worksheet=name, autofit=True,table_style="Table Style Medium 6", float_precision=2, conditional_formats=con_formats, column_formats=num_formats)
             if name == "gearbox":

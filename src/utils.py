@@ -6,8 +6,12 @@ import re
 from lxml import etree  # ty:ignore[unresolved-import]
 
 
+root_path = Path(__file__).parent.parent
+
+
 def write_to_output(file_path, file_data: str, encoding="utf-8"):
-    output_file_path = str(file_path).replace("input", "output", 1)
+    path_from_root = Path(root_path, file_path)
+    output_file_path = str(path_from_root).replace("input", "output", 1)
     directory = os.path.dirname(output_file_path)
     os.makedirs(directory, exist_ok=True)
     with open(Path(output_file_path), "w", encoding=encoding) as file:
@@ -15,12 +19,13 @@ def write_to_output(file_path, file_data: str, encoding="utf-8"):
 
 
 def get_modified_file_if_possible(file_path, use_initial_files) -> str:
-    output_file_path = str(file_path).replace("input", "output", 1)
+    path_from_root = Path(root_path, file_path)
+    output_file_path = str(path_from_root).replace("input", "output", 1)
     if not use_initial_files and os.path.exists(output_file_path) and os.path.isfile(output_file_path):
         with open(Path(output_file_path), "r", encoding="utf-8") as file:
             return file.read()
     else:
-        with open(file_path, "r") as file:
+        with open(path_from_root, "r") as file:
             return file.read()
 
 

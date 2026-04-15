@@ -2,15 +2,10 @@ import json
 
 from lxml import etree  # ty:ignore[unresolved-import]
 from pathlib import Path
-from statistics import mean
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
-    find_regex_in,
-    xml_result,
-    find_sum_of_regex,
-    xml_result_count,
-    xml_result_list,
 )
 
 
@@ -110,7 +105,7 @@ def get_wheel_data(
     else:
         width_rear = width
     for truck_tire in truck_wheels.find("TruckTires").findall("TruckTire"):
-        tire_data: dict = {"file": wheel_file, "full_file": str(file_path)}
+        tire_data: dict = {"file": wheel_file, "full_file": str(file_path.relative_to(utils.root_path))}
         if "_template" in truck_tire.attrib:
             if truck_tire.attrib["_template"] in template_data:
                 tire_data.update(template_data[truck_tire.attrib["_template"]])
@@ -224,15 +219,15 @@ def get_wheel_template_info(use_initial_files: bool) -> dict:
 
 def get_all_wheel_data(use_initial_files, ui_dict: dict[str, str]):
     all_wheel_data: dict[str, dict] = {}
-    gearbox_folder = Path("input/initial/[media]/classes/wheels")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    gearbox_folder = Path(utils.root_path, "input/initial/[media]/classes/wheels")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     wheel_template_dict = get_wheel_template_info(use_initial_files)
     addition = ""
     if not use_initial_files:
         addition = "_edited"
     with open(
-        f"reference/info/wheel_template_data{addition}.json", "w", encoding="utf-8"
+        f"../reference/info/wheel_template_data{addition}.json", "w", encoding="utf-8"
     ) as f:
         json.dump(wheel_template_dict, f, indent=4)
 
@@ -257,7 +252,7 @@ def process_wheel_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str, 
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/wheel_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/wheel_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(wheel_dict, f, indent=4)
     return wheel_dict
 

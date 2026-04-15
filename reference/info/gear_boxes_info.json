@@ -1,6 +1,6 @@
 {
     "gearboxes_scouts": {
-        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -206,7 +206,7 @@
         ]
     },
     "gearboxes_scouts_tuz": {
-        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts_tuz.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\classes\\gearboxes\\gearboxes_scouts_tuz.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -255,7 +255,7 @@
         ]
     },
     "gearboxes_special": {
-        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_special.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\classes\\gearboxes\\gearboxes_special.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -406,7 +406,7 @@
         ]
     },
     "gearboxes_trucks": {
-        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -612,7 +612,7 @@
         ]
     },
     "gearboxes_trucks_unique_offroad": {
-        "file_path": "input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks_unique_offroad.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\classes\\gearboxes\\gearboxes_trucks_unique_offroad.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -665,7 +665,7 @@
         ]
     },
     "gearboxes_special_kenworth_963": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_kenworth_963.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_kenworth_963.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -867,7 +867,7 @@
         ]
     },
     "gearboxes_special_mack_defense": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_mack_defense.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_10\\classes\\gearboxes\\gearboxes_special_mack_defense.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -1077,7 +1077,7 @@
         ]
     },
     "gearboxes_offroad_burlak_6x6": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_11\\classes\\gearboxes\\gearboxes_offroad_burlak_6x6.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_11\\classes\\gearboxes\\gearboxes_offroad_burlak_6x6.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1181,7 +1181,7 @@
         ]
     },
     "gearboxes_special_aac_58dw": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_aac_58dw.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_aac_58dw.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1230,7 +1230,7 @@
         ]
     },
     "gearboxes_special_plad_450": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_plad_450.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_13\\classes\\gearboxes\\gearboxes_special_plad_450.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1283,7 +1283,7 @@
         ]
     },
     "gearboxes_special_rezvani_tank": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_13_5\\classes\\gearboxes\\gearboxes_special_rezvani_tank.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_13_5\\classes\\gearboxes\\gearboxes_special_rezvani_tank.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1344,7 +1344,7 @@
         ]
     },
     "gearboxes_mack_pinnacle": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_pinnacle.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_pinnacle.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -1562,7 +1562,7 @@
         ]
     },
     "gearboxes_mack_terra_pro": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_terra_pro.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\gearboxes\\gearboxes_mack_terra_pro.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -1780,7 +1780,7 @@
         ]
     },
     "gearboxes_special_mercer_k520": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_mercer_k520.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_mercer_k520.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1833,7 +1833,7 @@
         ]
     },
     "gearboxes_special_sleiter_mfk816": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_sleiter_mfk816.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_15\\classes\\gearboxes\\gearboxes_special_sleiter_mfk816.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -1886,7 +1886,7 @@
         ]
     },
     "gearboxes_special_modern_padera_std4": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_modern_padera_std4.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_modern_padera_std4.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -2096,7 +2096,7 @@
         ]
     },
     "gearboxes_special_old_avenhorn_a15": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_old_avenhorn_a15.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\gearboxes\\gearboxes_special_old_avenhorn_a15.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -2251,7 +2251,7 @@
         ]
     },
     "gearboxes_jangsu_rx_600": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_jangsu_rx_600.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_jangsu_rx_600.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -2457,7 +2457,7 @@
         ]
     },
     "gearboxes_voron_g5352": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_voron_g5352.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_17\\classes\\gearboxes\\gearboxes_voron_g5352.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -2608,7 +2608,7 @@
         ]
     },
     "gearboxes_mercedes_benz_actros_6x6": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_actros_6x6.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_actros_6x6.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -2814,7 +2814,7 @@
         ]
     },
     "gearboxes_mercedes_benz_zetros_6x6": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_zetros_6x6.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\gearboxes\\gearboxes_mercedes_benz_zetros_6x6.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -3020,7 +3020,7 @@
         ]
     },
     "gearboxes_scouts_f750": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_1_1\\classes\\gearboxes\\gearboxes_scouts_f750.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_1_1\\classes\\gearboxes\\gearboxes_scouts_f750.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -3073,7 +3073,7 @@
         ]
     },
     "gearboxes_special_kolob": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_2_2\\classes\\gearboxes\\gearboxes_special_kolob.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_2_2\\classes\\gearboxes\\gearboxes_special_kolob.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -3122,7 +3122,7 @@
         ]
     },
     "gearboxes_trucks_unique_m916a1_finetune": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_6\\classes\\gearboxes\\gearboxes_trucks_unique_m916a1_finetune.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_6\\classes\\gearboxes\\gearboxes_trucks_unique_m916a1_finetune.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -3183,7 +3183,7 @@
         ]
     },
     "gearboxes_azov_sprinter": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_7\\classes\\gearboxes\\gearboxes_azov_sprinter.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_7\\classes\\gearboxes\\gearboxes_azov_sprinter.xml",
         "hauler_candidate": false,
         "gearboxes": [
             {
@@ -3236,7 +3236,7 @@
         ]
     },
     "gearboxes_special_zikz_612h": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_special_zikz_612h.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_special_zikz_612h.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {
@@ -3387,7 +3387,7 @@
         ]
     },
     "gearboxes_zikz_566a": {
-        "file_path": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_zikz_566a.xml",
+        "file_path": "C:\\Users\\colin\\Docs\\Dev\\Python\\SnowrunnerRunner\\input\\initial\\[media]\\_dlc\\dlc_9\\classes\\gearboxes\\gearboxes_zikz_566a.xml",
         "hauler_candidate": true,
         "gearboxes": [
             {

@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+import utils
 from src.utils import get_modified_file_if_possible
 
 
@@ -49,15 +50,15 @@ def update_cargos_with_type(cargo_type_path: Path, cargo_dict:dict[str, dict[str
 
 def get_all_cargo_data(ui_dict: dict[str, str], use_initial=False) -> dict[str, dict]:
 
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
     cargo_dict: dict[str, dict] = {}
 
     # contains the packed information (model connected to trailer)
-    cargo_path = Path("input/initial/[media]/classes/trucks/cargo")
+    cargo_path = Path(utils.root_path, "input/initial/[media]/classes/trucks/cargo")
     # contains the ui_name_id, name is the cargo type
-    cargo_types_path = Path("input/initial/[media]/classes/cargo_types")
+    cargo_types_path = Path(utils.root_path, "input/initial/[media]/classes/cargo_types")
     # contains the unpacked information (model not connected to trailer)
-    cargo_models_path = Path("input/initial/[media]/classes/models")
+    cargo_models_path = Path(utils.root_path, "input/initial/[media]/classes/models")
 
     for cargo_file_path in dlc_folder.glob(
         "*/classes/trucks/cargo/*.xml", case_sensitive=False
@@ -97,6 +98,6 @@ def process_cargo_data(use_initial_files: bool, ui_dict: dict[str, str]) -> dict
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/cargo_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/cargo_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(data_dict, f, indent=4)
     return data_dict

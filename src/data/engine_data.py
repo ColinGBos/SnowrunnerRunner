@@ -3,13 +3,14 @@ import json
 from lxml import etree  # ty:ignore[unresolved-import]
 from pathlib import Path
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
 )
 
 
 
-def get_engine_data(file_path: Path, ui_dict:dict[str,str],use_initial_files: bool) -> dict[str, dict]:
+def get_engine_data(file_path: Path, ui_dict:dict[str,str], use_initial_files: bool) -> dict[str, dict]:
     rets: dict[str, dict] = {}
     engine_file = file_path.stem
     contents = get_modified_file_if_possible(file_path, use_initial_files)
@@ -49,12 +50,12 @@ def get_engine_data(file_path: Path, ui_dict:dict[str,str],use_initial_files: bo
 
 def get_all_engine_data(use_initial_files: bool, ui_dict:dict[str,str]) -> dict[str, dict]:
     all_engine_data: dict[str, dict] = {}
-    engine_folder = Path("input/initial/[media]/classes/engines")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    engine_folder = Path(utils.root_path, "input/initial/[media]/classes/engines")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in engine_folder.glob("*.xml"):
-        all_engine_data.update(get_engine_data(file_path, ui_dict,use_initial_files))
+        all_engine_data.update(get_engine_data(file_path, ui_dict, use_initial_files))
 
     for file_path in dlc_folder.glob(
         "dlc_*/classes/engines/*.xml", case_sensitive=False
@@ -69,7 +70,7 @@ def process_engine_data(use_initial_files: bool, ui_dict:dict[str,str]) -> dict[
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/engine_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/engine_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(engine_dict, f, indent=4)
     return engine_dict
 

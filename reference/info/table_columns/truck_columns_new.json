@@ -48,8 +48,8 @@
       "min_color": "#ffffff"
     }
   },
-  "offroad_high_speed": {
-    "name": "offroad_high_speed",
+  "avg_high_speed": {
+    "name": "avg_high_speed",
     "num_format": {
       "num_format": "#,##0.0"
     },

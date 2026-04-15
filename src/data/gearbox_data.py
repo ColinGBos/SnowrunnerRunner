@@ -2,47 +2,85 @@ import json
 
 from lxml import etree  # ty:ignore[unresolved-import]
 from pathlib import Path
-from statistics import mean
 
+import utils
 from src.utils import (
     get_modified_file_if_possible,
-    find_regex_in,
-    xml_result,
-    find_sum_of_regex,
-    xml_result_count,
-    xml_result_list,
 )
 
 
-def get_gearbox_data(file_path: Path, use_initial_files: bool, ui_dict: dict[str, str]) -> dict[str, dict]:
+def get_gearbox_data(file_path: Path, use_initial_files: bool, ui_dict: dict[str, str], existing_gearboxes=None) -> dict[str, dict]:
     rets: dict[str, dict] = {}
     gearbox_file = file_path.stem
     contents = get_modified_file_if_possible(file_path, use_initial_files)
 
+    templates: list[dict] = []
+
     parser = etree.XMLParser(recover=True)
-    gearbox_variants = etree.fromstring(contents, parser=parser)
+    wrapped_xml_data = f"<fake_root>{contents}</fake_root>"
+    root = etree.fromstring(wrapped_xml_data, parser=parser)
+    parent_template = root.find("_parent")
+    if parent_template is not None:
+        template_name = parent_template.get("File")
+        if existing_gearboxes is not None:
+            for existing_gearbox_id, existing_gearbox_data in existing_gearboxes.items():
+                if existing_gearbox_data["gearbox_file"] == template_name:
+                    templates.append(existing_gearbox_data)
+
+    gearbox_variants = root.find("GearboxVariants")
+
+    index = 0
     for gearbox in gearbox_variants.findall("Gearbox"):
-        gearbox_data: dict = {}
-        gearbox_id = gearbox.get("Name")
-        gearbox_data["id"] = gearbox_id
-        gearbox_data["gearbox_file"] = gearbox_file
-        gearbox_data["awd_modifier"] = float(gearbox.get("AWDConsumptionModifier"))
-        gearbox_data["critical_damage_threshold"] = float(gearbox.get("CriticalDamageThreshold"))
-        gearbox_data["damage_capacity"] = int(gearbox.get("DamageCapacity"))
-        gearbox_data["fuel_consumption"] = float(gearbox.get("FuelConsumption"))
-        gearbox_data["idle_f"] = float(gearbox.get("IdleFuelModifier"))
-        gearbox_data["price"] = int(gearbox.find("GameData").get("Price"))
-        gearbox_ui_name = gearbox.find("GameData").find("UiDesc").get("UiName")
-        if gearbox_ui_name in ui_dict:
-            gearbox_data["name"] = ui_dict[gearbox_ui_name]
+        if len(templates) > 0:
+            gearbox_data: dict = templates[index]
+            index += 1
         else:
-            gearbox_data["name"] = gearbox_ui_name
-        gearbox_data["rev_v"] = float(gearbox.find("ReverseGear").get("AngVel"))
-        gearbox_data["rev_f"] = float(gearbox.find("ReverseGear").get("FuelModifier"))
-        gearbox_data["high_v"] = float(gearbox.find("HighGear").get("AngVel"))
-        gearbox_data["high_f"] = float(gearbox.find("HighGear").get(
-            "FuelModifier"
-        ))
+            gearbox_data: dict = {}
+        gearbox_id = gearbox.get("Name")
+        if gearbox_id is None and "id" in gearbox_data:
+            gearbox_data["id"] = f"{gearbox_data["id"]}_{gearbox_file}"
+        else:
+            gearbox_data["id"] = gearbox_id
+        gearbox_data["gearbox_file"] = gearbox_file
+        awd_modifier = gearbox.get("AWDConsumptionModifier")
+        if awd_modifier is not None:
+            gearbox_data["awd_modifier"] = float(awd_modifier)
+
+        critical_damage_threshold = gearbox.get("CriticalDamageThreshold")
+        if critical_damage_threshold is not None:
+            gearbox_data["critical_damage_threshold"] = float(critical_damage_threshold)
+
+        damage_capacity = gearbox.get("DamageCapacity")
+        if damage_capacity is not None:
+            gearbox_data["damage_capacity"] = int(damage_capacity)
+
+        fuel_consumption = gearbox.get("FuelConsumption")
+        if fuel_consumption is not None:
+            gearbox_data["fuel_consumption"] = float(fuel_consumption)
+
+        idle_f = gearbox.get("IdleFuelModifier")
+        if idle_f is not None:
+            gearbox_data["idle_f"] = float(idle_f)
+
+        game_data = gearbox.find("GameData")
+        if game_data is not None:
+            gearbox_data["price"] = int(game_data.get("Price"))
+            gearbox_ui_name = game_data.find("UiDesc").get("UiName")
+            if gearbox_ui_name in ui_dict:
+                gearbox_data["name"] = ui_dict[gearbox_ui_name]
+            else:
+                gearbox_data["name"] = gearbox_ui_name
+
+        rev_gear = gearbox.find("ReverseGear")
+        if rev_gear is not None:
+            gearbox_data["rev_v"] = float(rev_gear.get("AngVel"))
+            gearbox_data["rev_f"] = float(rev_gear.get("FuelModifier"))
+        high_gear = gearbox.find("HighGear")
+        if high_gear is not None:
+            gearbox_data["high_v"] = float(high_gear.get("AngVel"))
+            gearbox_data["high_f"] = float(high_gear.get(
+                "FuelModifier"
+            ))
         lowest_vel = 10.0
         highest_vel = 0.0
         gear_count = 1
@@ -67,8 +105,8 @@ def get_gearbox_data(file_path: Path, use_initial_files: bool, ui_dict: dict[str
 
 def get_all_gearbox_data(use_initial_files, ui_dict: dict[str, str]):
     all_gearbox_data: dict[str, dict] = {}
-    gearbox_folder = Path("input/initial/[media]/classes/gearboxes")
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    gearbox_folder = Path(utils.root_path, "input/initial/[media]/classes/gearboxes")
+    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in gearbox_folder.glob("*.xml"):
@@ -77,7 +115,7 @@ def get_all_gearbox_data(use_initial_files, ui_dict: dict[str, str]):
     for file_path in dlc_folder.glob(
         "dlc_*/classes/gearboxes/*.xml", case_sensitive=False
     ):
-        all_gearbox_data.update(get_gearbox_data(file_path, use_initial_files, ui_dict))
+        all_gearbox_data.update(get_gearbox_data(file_path, use_initial_files, ui_dict, all_gearbox_data))
 
     return all_gearbox_data
 
@@ -87,7 +125,7 @@ def process_gearbox_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str
     addition = ""
     if not use_initial_files:
         addition = "_edited"
-    with open(f"reference/info/gearbox_data{addition}.json", "w", encoding="utf-8") as f:
+    with open(f"../reference/info/gearbox_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(gearbox_dict, f, indent=4)
     return gearbox_dict
 

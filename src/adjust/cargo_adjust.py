@@ -1,5 +1,4 @@
-from pathlib import Path
-
+import utils
 from src.utils import get_modified_file_if_possible, write_to_output
 import json
 import re
@@ -147,15 +146,15 @@ def append_cargo(cargo_list: list[Cargo], cargo: None | Cargo) -> list[Cargo]:
 
 def cargo_mass_information(requires_change=True, use_initial=False) -> list[Cargo]:
 
-    dlc_folder = Path("input/initial/[media]/_dlc")
+    dlc_folder = Path(utils.root_path,"input/initial/[media]/_dlc")
     cargo_list: list[Cargo] = []
 
     # contains the packed information (model connected to trailer)
-    cargo_path = Path("input/initial/[media]/classes/trucks/cargo")
+    cargo_path = Path(utils.root_path,"input/initial/[media]/classes/trucks/cargo")
     # contains the ui_name_id, name is the cargo type
-    cargo_types_path = Path("input/initial/[media]/classes/cargo_types")
+    cargo_types_path = Path(utils.root_path,"input/initial/[media]/classes/cargo_types")
     # contains the unpacked information (model not connected to trailer)
-    cargo_models_path = Path("input/initial/[media]/classes/models")
+    cargo_models_path = Path(utils.root_path,"input/initial/[media]/classes/models")
 
     for cargo_file_path in dlc_folder.glob(
         "*/classes/trucks/cargo/*.xml", case_sensitive=False
@@ -202,8 +201,7 @@ def cargo_mass_information(requires_change=True, use_initial=False) -> list[Carg
 
 def update_cargo_names(
     cargo_list: list[Cargo], game_data: TruckDataProcessor
-) -> tuple[list[Cargo], dict[str, str]]:
-    ui_appends: dict[str, str] = {}
+) -> list[Cargo]:
     for ui_ids in game_data.ui_id_list:
         for cargo in cargo_list:
             if cargo.ui_name != "" and cargo.ui_name in ui_ids and "DESC" not in ui_ids:
@@ -211,9 +209,10 @@ def update_cargo_names(
                 packed_mass = float(max(cargo.packed_mass, 1000) / 1000.0)
                 net_mass = round(max(unpacked_mass, packed_mass), 1)
                 if "_LOGS_" not in cargo.ui_name:
-                    ui_appends[cargo.ui_name] = f" {net_mass}t|{cargo.packed_length}s"
+                    value = f" {net_mass}t|{cargo.packed_length}s"
                 else:
-                    ui_appends[cargo.ui_name] = f" {net_mass}t"
+                    value = f" {net_mass}t"
+                game_data.lang_registry.add_entry(cargo.ui_name, value)
                 break
 
-    return cargo_list, ui_appends
+    return cargo_list
