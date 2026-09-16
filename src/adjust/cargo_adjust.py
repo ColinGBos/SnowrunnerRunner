@@ -64,8 +64,8 @@ def update_cargos_with_type(cargo_type_path: Path, cargo_list, use_initial) -> l
     return cargo_list
 
 
-def update_cargo_unpacked_mass(unpacked_model_file, packed_mass, unpacked_mass) -> int:
-    final_mass = min(7000.0, max(unpacked_mass, packed_mass))
+def update_cargo_unpacked_mass(unpacked_model_file, packed_mass: int, unpacked_mass: int) -> int:
+    final_mass: int = min(7000, max(unpacked_mass, packed_mass))
     content = get_modified_file_if_possible(unpacked_model_file, False)
 
     mass_list = re.findall(r'Mass="(\d+(?:\.\d+)?)"', content)

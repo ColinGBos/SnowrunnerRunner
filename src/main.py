@@ -316,8 +316,8 @@ def get_gearboxes_from_xml(file_path) -> None | dict:
         print(f"Warning, parented gearbox file: {file_path}, skipping.")
     else:
         wrapped_xml_data = f"<fake_root>{xml_data}</fake_root>"
-        root = et.fromstring(wrapped_xml_data)
-        gearbox_variants = root.find("GearboxVariants")
+        xml_root = et.fromstring(wrapped_xml_data)
+        gearbox_variants = xml_root.find("GearboxVariants")
         if gearbox_variants is not None:
             hauler_candidate = False
             if ("finetune" or "highway" in xml_data) and "offroad" in xml_data:
@@ -586,8 +586,8 @@ def add_custom_colours():
     tree = et.parse(
         "../input/initial/[media]/classes/customization_presets/customization_preset.xml"
     )
-    root = tree.getroot()
-    for truck in root.findall("Truck"):
+    xml_root = tree.getroot()
+    for truck in xml_root.findall("Truck"):
         name = truck.attrib["Name"]
         ids: list[int] = []
         existing_colours: list[dict] = []
@@ -660,11 +660,9 @@ def add_cargo_model_attach_points(cargo_model_path: Path):
     if "<_templates" in contents:
         print(f"Skipping {cargo_model_path} as it is incorrect data")
         return
-    root = et.fromstring(contents)
+    xml_root = et.fromstring(contents)
 
-    if root is None:
-        return
-    game_data = root.find("GameData")
+    game_data = xml_root.find("GameData")
     if game_data is None:
         return
     slots = game_data.get("PackSlotsNumber")
@@ -758,11 +756,11 @@ def add_cargo_model_attach_points(cargo_model_path: Path):
         {"Pos": f"({x}; {half_height}; {-side_pos})"},
     )
 
-    et.indent(root)
+    et.indent(xml_root)
     output_path = Path(root_path, str(cargo_model_path).replace("input", "output", 1))
     os.makedirs(output_path.parent, exist_ok=True)
     print(f"Adding winch and crane sockets to: {cargo_model_path.stem}")
-    et.ElementTree(root).write(output_path, encoding="utf-8")
+    et.ElementTree(xml_root).write(output_path, encoding="utf-8")
 
 
 def add_all_cargo_attach_points():
@@ -1058,8 +1056,9 @@ def main():
         performed_adjustments.append("update_tire_desc")
 
     if "cargo_name_updates" not in performed_adjustments:
-        cargo_list = update_cargo_names(cargo_list, game_data)
+        # cargo_list = update_cargo_names(cargo_list, game_data)
         # dump_cargo_info(cargo_list)
+        update_cargo_names(cargo_list, game_data)
         performed_adjustments.append("cargo_name_updates")
 
     if "truck_description_updates" not in performed_adjustments:

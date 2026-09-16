@@ -564,12 +564,15 @@ def get_truck_data(
     wheel_types = xml_result_list(
         contents, True, ["Truck", "TruckData", "CompatibleWheels", "Type"], "str"
     )
-    truck_data["wheel_types"] = wheel_types
-    has_doubles = get_truck_has_doubles(wheel_types, truck_name)
-    if has_doubles:
-        truck_data["has_doubles"] = True
-    max_wheel_mass = get_max_wheel_mass(wheel_types, wheel_dict)
-    truck_data["max_wheel_mass"] = max_wheel_mass
+    max_wheel_mass = 100
+    has_doubles = False
+    if wheel_types is not None:
+        truck_data["wheel_types"] = wheel_types
+        has_doubles = get_truck_has_doubles(wheel_types, truck_name)
+        if has_doubles:
+            truck_data["has_doubles"] = True
+        max_wheel_mass = get_max_wheel_mass(wheel_types, wheel_dict)
+        truck_data["max_wheel_mass"] = max_wheel_mass
     truck_data["engine_default"] = xml_result(
         contents, True, ["Truck", "TruckData", "EngineSocket", "Default"], "str"
     )

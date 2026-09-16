@@ -47,7 +47,6 @@ def modify_engine(file_path: Path):
             top_efficiency = engine_profiles[-1]["efficiency"]
             top_consumption = engine_profiles[-1]["consumption"]
             top_torque = engine_profiles[-1]["torque"]
-            min_torque = engine_profiles[0]["torque"]
             if "scout" in file_path.name.lower():
                 new_percent_decrease = (percent_decrease + 0.42 * engine_count) / engine_count
             else:

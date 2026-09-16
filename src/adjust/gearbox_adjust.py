@@ -1,5 +1,3 @@
-import os
-
 import src.gearbox_math
 import json
 from pathlib import Path
@@ -41,7 +39,7 @@ def find_avg_gearbox_values(gearboxes) -> tuple[float, float, float, float, floa
     return sum(fuels) / len(fuels), avg_awd, sum(mins) / len(mins), sum(maxs) / len(maxs), sum(maxs_fuels) / len(maxs_fuels)
 
 
-def get_gears_for_gearbox(gearbox, name:str, gears_dict: dict[str, dict], min_vel_avg:float, max_vel_avg:float, max_fuel_modifier:float, og_count:int):
+def get_gears_for_gearbox(name:str, gears_dict: dict[str, dict], min_vel_avg:float, max_vel_avg:float, max_fuel_modifier:float, og_count:int):
     gb_types = ["offroad", "high", "fine"]
     min_vel = min_vel_avg
     max_vel = min(max(max_vel_avg,6),14)
@@ -111,7 +109,7 @@ def modify_gearbox(file_path: Path, gears_dict: dict[str, dict]):
                 print(f"Fuel Consumption for {name}: {fuel_consumption} -> {new_fuel}")
                 print(f"Modified {name}")
                 if replace:
-                    gears: list[dict[str, float]] = get_gears_for_gearbox(gearbox, name, gears_dict, min_vel_avg,
+                    gears: list[dict[str, float]] = get_gears_for_gearbox(name, gears_dict, min_vel_avg,
                                                                           max_vel_avg, max_fuel, og_gear_count)
                     gear_vels = [gear["ang_vel"] for gear in gears]
                     highest_vel = max(gear_vels)
