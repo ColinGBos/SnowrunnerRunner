@@ -48,29 +48,29 @@ def update_cargos_with_type(cargo_type_path: Path, cargo_dict:dict[str, dict[str
     return cargo_dict
 
 
-def get_all_cargo_data(ui_dict: dict[str, str], use_initial=False) -> dict[str, dict]:
+def get_all_cargo_data(ui_dict: dict[str, str], use_initial=False, input_folder: str="input") -> dict[str, dict]:
 
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
     cargo_dict: dict[str, dict] = {}
 
     # contains the packed information (model connected to trailer)
-    cargo_path = Path(utils.root_path, "input/initial/[media]/classes/trucks/cargo")
+    cargo_path = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/trucks/cargo")
     # contains the ui_name_id, name is the cargo type
-    cargo_types_path = Path(utils.root_path, "input/initial/[media]/classes/cargo_types")
+    cargo_types_path = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/cargo_types")
     # contains the unpacked information (model not connected to trailer)
-    cargo_models_path = Path(utils.root_path, "input/initial/[media]/classes/models")
+    cargo_models_path = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/models")
 
     for cargo_file_path in dlc_folder.glob(
         "*/classes/trucks/cargo/*.xml", case_sensitive=False
     ):
         cargo_file, cargo_type, packed_mass, packed_length = get_cargo_info(cargo_file_path, use_initial)
         if cargo_type != "None" and cargo_type not in cargo_dict:
-            cargo_dict[cargo_type] = {"type": cargo_type, "packed_mass": packed_mass, "packed_length": packed_length}
+            cargo_dict[cargo_type] = {"id":cargo_file_path.stem, "type": cargo_type, "packed_mass": packed_mass, "packed_length": packed_length}
 
     for cargo_file_path in cargo_path.glob("cargo_*.xml", case_sensitive=False):
         cargo_file, cargo_type, packed_mass, packed_length = get_cargo_info(cargo_file_path, use_initial)
         if cargo_type != "None" and cargo_type not in cargo_dict:
-            cargo_dict[cargo_type] = {"type": cargo_type, "packed_mass": packed_mass, "packed_length": packed_length}
+            cargo_dict[cargo_type] = {"id":cargo_file_path.stem, "type": cargo_type, "packed_mass": packed_mass, "packed_length": packed_length}
 
     for cargo_model_path in dlc_folder.glob(
         "*/classes/models/cargo_*.xml", case_sensitive=False
@@ -93,8 +93,8 @@ def get_all_cargo_data(ui_dict: dict[str, str], use_initial=False) -> dict[str, 
     return {cargo_name: cargo_data for cargo_name, cargo_data in cargo_dict.items() if "name" in cargo_data}
 
 
-def process_cargo_data(use_initial_files: bool, ui_dict: dict[str, str]) -> dict:
-    data_dict: dict[str, dict] = get_all_cargo_data(ui_dict, use_initial_files, )
+def process_cargo_data(use_initial_files: bool, ui_dict: dict[str, str], input_folder: str) -> dict:
+    data_dict: dict[str, dict] = get_all_cargo_data(ui_dict, use_initial_files, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

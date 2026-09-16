@@ -23,11 +23,14 @@ def add_steering_info(contents: str, truck_data: dict, front_wheel: str) -> dict
     wrapped_xml_data = f"<fake_root>{contents}</fake_root>"
     parser = etree.XMLParser(recover=True)
     root = etree.fromstring(wrapped_xml_data, parser=parser)
-    wheel_templates = root.find("_templates").find("Wheel")
-    for wheel in wheel_templates:
-        if wheel.tag != front_wheel:
-            if wheel.get("SteeringAngle") is not None:
-                truck_data["steering_angle_2"] = float(wheel.get("SteeringAngle"))
+    templates = root.find("_templates")
+    if templates is not None:
+        wheel_templates = templates.find("Wheel")
+        if wheel_templates is not None:
+            for wheel in wheel_templates:
+                if wheel.tag != front_wheel:
+                    if wheel.get("SteeringAngle") is not None:
+                        truck_data["steering_angle_2"] = float(wheel.get("SteeringAngle"))
 
     return truck_data
 
@@ -328,11 +331,18 @@ def get_front_wheel(contents: str, truck_name: str) -> str:
     wrapped_xml_data = f"<fake_root>{contents}</fake_root>"
     parser = etree.XMLParser(recover=True)
     root = etree.fromstring(wrapped_xml_data, parser=parser)
-    wheels = root.find("_templates").find("Wheel")
+    templates = root.find("_templates")
+    if templates is not None and templates.find("Wheel") is not None:
+        wheels = templates.find("Wheel")
+    else:
+        wheels = root.find("Truck").find("TruckData").find("Wheels")
     wheel_names = [wheel.tag for wheel in wheels]
     for wheel_name in wheel_names:
         if wheel_name in front_wheel_names:
             return wheel_name
+    for wheel in wheels:
+        if wheel.get("Location").lower() == "front":
+            return wheel.tag
     print(f"No front wheel found for {truck_name}, wheel names: {wheel_names}")
     return "None"
 
@@ -341,23 +351,27 @@ def get_drive_wheel_count(contents, truck_name) -> int:
     wrapped_xml_data = f"<fake_root>{contents}</fake_root>"
     parser = etree.XMLParser(recover=True)
     root = etree.fromstring(wrapped_xml_data, parser=parser)
-    wheel_templates = root.find("_templates").find("Wheel")
-    drive_flags = ["default", "full", "connectable"]
-    powered_template = []
-    for wheel in wheel_templates:
-        template = wheel.get("_template")
-        if template is not None:
-            torque = wheel_templates.find(template).get("Torque")
-        else:
-            torque = wheel.get("Torque")
-        if torque is not None and torque.lower() in drive_flags:
-            powered_template.append(wheel.tag)
-    count = 0
-    wheels = root.find("Truck").find("TruckData").find("Wheels").findall("Wheel")
-    for wheel in wheels:
-        if wheel.get("_template") in powered_template:
-            count += 1
-    return count
+    templates = root.find("_templates")
+    if templates is not None:
+        wheel_templates = templates.find("Wheel")
+        if wheel_templates is not None:
+            drive_flags = ["default", "full", "connectable"]
+            powered_template = []
+            for wheel in wheel_templates:
+                template = wheel.get("_template")
+                if template is not None:
+                    torque = wheel_templates.find(template).get("Torque")
+                else:
+                    torque = wheel.get("Torque")
+                if torque is not None and torque.lower() in drive_flags:
+                    powered_template.append(wheel.tag)
+            count = 0
+            wheels = root.find("Truck").find("TruckData").find("Wheels").findall("Wheel")
+            for wheel in wheels:
+                if wheel.get("_template") in powered_template:
+                    count += 1
+            return count
+    return 0
 
 
 def get_truck_has_doubles(wheel_types, truck_name):
@@ -393,6 +407,8 @@ def get_dlc_from_file_path(file_path: Path) -> str:
     }
     if "_dlc" in str(file_path).lower():
         return "DLC"
+    if "mods" in str(file_path).lower():
+        return "Mod"
     return "Base Game"
 
 
@@ -465,14 +481,23 @@ def get_truck_data(
     ui_dict: dict[str, str],
 ) -> tuple[str, dict]:
     truck_id = file_path.stem
+    print(f"Processing {truck_id}")
     truck_data: dict = {}
     contents = get_modified_file_if_possible(file_path, use_initial_files)
 
-    truck_name: str = str(find_regex_in(contents, "UiName=", "str"))
+    truck_name: str = str(xml_result(
+        contents, True, ["Truck", "GameData", "UiDesc", "UiName"], "str"
+    ))
+    if truck_name == "" or truck_name == "None":
+        truck_name = str(find_regex_in(contents, "UiName=", "str"))
     if truck_name in ui_dict:
         truck_data["name"] = clean_name(ui_dict[truck_name])
-    else:
+    elif truck_name != "" and truck_name != "None":
+        print(f"No Ui Lang found for {truck_name}, using file name")
         truck_data["name"] = truck_name
+    else:
+        truck_data["name"] = truck_id
+    truck_data["id"] = truck_id
     truck_data["dlc"] = get_dlc_from_file_path(file_path)
     truck_data["class"] = xml_result(
         contents, True, ["Truck", "TruckData", "TruckType"], "str"
@@ -628,16 +653,23 @@ def get_truck_data(
 
 
 def get_all_truck_data(
-    use_initial_files: bool, engine_dict: dict[str, dict], gearbox_dict: dict[str, dict], wheel_dict: dict[str, dict], sus_dict: dict[str, dict],ui_dict: dict[str, str],
+    use_initial_files: bool, engine_dict: dict[str, dict], gearbox_dict: dict[str, dict], wheel_dict: dict[str, dict], sus_dict: dict[str, dict],ui_dict: dict[str, str], input_folder: str
 ) -> dict[str, dict]:
     all_truck_data: dict[str, dict] = {}
-    trucks_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    trucks_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/trucks")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in trucks_folder.glob("*.xml"):
         truck_name, truck_data = get_truck_data(
             file_path, use_initial_files, engine_dict, gearbox_dict, wheel_dict, sus_dict, ui_dict
+        )
+        all_truck_data[truck_name] = truck_data
+
+    for file_path in mod_folder.glob("*/classes/trucks/*.xml"):
+        truck_name, truck_data = get_truck_data(
+            file_path, True, engine_dict, gearbox_dict, wheel_dict, sus_dict, ui_dict
         )
         all_truck_data[truck_name] = truck_data
 
@@ -651,8 +683,8 @@ def get_all_truck_data(
     return all_truck_data
 
 
-def process_truck_data(engine_dict: dict[str, dict], gearbox_dict: dict[str, dict], wheel_dict: dict[str, dict], sus_dict: dict[str, dict], ui_dict: dict[str, str],use_initial_files=True) -> dict[str, dict]:
-    truck_dict: dict[str, dict] = get_all_truck_data(use_initial_files, engine_dict, gearbox_dict, wheel_dict, sus_dict,ui_dict)
+def process_truck_data(engine_dict: dict[str, dict], gearbox_dict: dict[str, dict], wheel_dict: dict[str, dict], sus_dict: dict[str, dict], ui_dict: dict[str, str],use_initial_files=True, input_folder: str="input") -> dict[str, dict]:
+    truck_dict: dict[str, dict] = get_all_truck_data(use_initial_files, engine_dict, gearbox_dict, wheel_dict, sus_dict,ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

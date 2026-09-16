@@ -3,7 +3,7 @@
         "path": "input/initial/[media]/classes/engines/e_us_truck_old_heavy.xml",
         "from": "Torque=\"210000\"",
         "to": "Torque=\"240000\"",
-        "enabled": true
+        "enabled": false
     },
     "buddy_plad_engine_torque_buff": {
         "path": "input/initial/[media]/_dlc/dlc_16/classes/engines/e_us_truck_old_plad_440.xml",
@@ -57,6 +57,42 @@
         "path": "input/initial/[media]/_dlc/dlc_10/classes/engines/e_us_truck_modern_mack_defense_m917.xml",
         "from": "FuelConsumption=\"10.0\"",
         "to": "FuelConsumption=\"8.25\"",
+        "enabled": true
+    },
+    "e_us_truck_modern_engine_buff": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_modern.xml",
+        "from": "Torque=\"192000\"",
+        "to": "Torque=\"200000\"",
+        "enabled": true
+    },
+    "e_us_truck_military_navistar_engine_buff_1": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_military_navistar.xml",
+        "from": "Torque=\"175000\"",
+        "to": "Torque=\"182000\"",
+        "enabled": true
+    },
+    "e_us_truck_military_navistar_engine_buff_2": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_military_navistar.xml",
+        "from": "Torque=\"210000\"",
+        "to": "Torque=\"215000\"",
+        "enabled": true
+    },
+    "e_us_truck_old_engine_buff_1": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_old.xml",
+        "from": "Torque=\"135000\"",
+        "to": "Torque=\"140000\"",
+        "enabled": true
+    },
+    "e_us_truck_old_engine_fuel_buff_1": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_old.xml",
+        "from": "FuelConsumption=\"5.5\"",
+        "to": "FuelConsumption=\"5.25\"",
+        "enabled": true
+    },
+    "e_us_truck_old_engine_buff_2": {
+        "path": "input/initial/[media]/classes/engines/e_us_truck_old.xml",
+        "from": "Torque=\"145000\"",
+        "to": "Torque=\"152500\"",
         "enabled": true
     },
     "e_us_truck_old_plad_450_top_engine": {
@@ -386,19 +422,19 @@
     "frame_addon_heavy_repair_mastadon_body_mass_1": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair_mastadon.xml",
         "from": "Mass=\"5000\"",
-        "to": "Mass=\"4000\"",
+        "to": "Mass=\"3000\"",
         "enabled": true
     },
     "frame_addon_heavy_repair_mastadon_body_mass_2": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair_mastadon.xml",
         "from": "Mass=\"3000\"",
-        "to": "Mass=\"2500\"",
+        "to": "Mass=\"2000\"",
         "enabled": true
     },
     "frame_addon_heavy_repair_mastadon_fuel_mass": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair_mastadon.xml",
         "from": "Mass=\"700\"",
-        "to": "Mass=\"5500\"",
+        "to": "Mass=\"4500\"",
         "enabled": true
     },
     "frame_addon_tank_zikz_612h_mastodon_fuel_mass": {
@@ -416,19 +452,19 @@
     "frame_addon_heavy_repair_body_mass_1": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair.xml",
         "from": "Mass=\"5000\"",
-        "to": "Mass=\"4000\"",
+        "to": "Mass=\"3000\"",
         "enabled": true
     },
     "frame_addon_heavy_repair_body_mass_2": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair.xml",
         "from": "Mass=\"3000\"",
-        "to": "Mass=\"2500\"",
+        "to": "Mass=\"2000\"",
         "enabled": true
     },
     "frame_addon_heavy_repair_fuel_mass": {
         "path": "input/initial/[media]/_dlc/dlc_11/classes/trucks/addons/frame_addon_heavy_repair.xml",
         "from": "Mass=\"700\"",
-        "to": "Mass=\"5500\"",
+        "to": "Mass=\"4500\"",
         "enabled": true
     },
     "frame_addon_maintainer_big_kenworth_963_fuel_mass": {
@@ -523,8 +559,8 @@
     },
     "padera_second_axle": {
         "path": "input/initial/[media]/_dlc/dlc_16_5/classes/trucks/padera_std4.xml",
-        "from": "SteeringAngle=\"32\"\n\t\t\tSteeringCastor=\"5\"",
-        "to": "SteeringAngle=\"26\"\n\t\t\tSteeringCastor=\"5\"",
+        "from": "SteeringAngle=\"21\"\n\t\t\tSteeringCastor=\"0\"",
+        "to": "SteeringAngle=\"24\"\n\t\t\tSteeringCastor=\"0\"",
         "enabled": true
     },
     "padera_cabin_mass": {
@@ -560,31 +596,19 @@
     "p12w_price": {
         "path": "input/initial/[media]/classes/trucks/pacific_p12w.xml",
         "from": "Price=\"104400\"",
-        "to": "Price=\"146200\"",
-        "enabled": true
-    },
-    "p12w_three_slot_bed": {
-        "path": "input/initial/[media]/classes/trucks/pacific_p12w.xml",
-        "from": "<Socket Names=\"HeavyRepairSmall\" NamesBlock=\"LogLift, MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector\" Offset=\"(-3.45; 2; 0)\">\n\t\t\t\t<AddonsShift Offset=\"(-0.15; 0; 0)\" Types=\"PacificP12wExhaust\" />\n\t\t\t</Socket>",
-        "to": "<Socket Names=\"HeavyRepairSmall\" NamesBlock=\"LogLift, MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector\" Offset=\"(-3.45; 2; 0)\">\n\t\t\t\t<AddonsShift Offset=\"(-0.15; 0; 0)\" Types=\"PacificP12wExhaust\" />\n\t\t\t</Socket>\n\t\t\t<Socket\n\t\t\t\tNames=\"FrameAddonSideboard3\"\n\t\t\t\tNamesBlock=\"LogLift, MetalDetector, PacificP12wSpareWheel\"\n\t\t\t\tOffset=\"(-3.5; 1.82; 0)\"\n\t\t\t\tParentFrame=\"BoneChassis_cdt\"\n\t\t\t/>\n\t\t\t<Socket\n\t\t\t\tNames=\"FrameAddonTankLong\"\n\t\t\t\tNamesBlock=\"LogLift, MetalDetector, PacificP12wSpareWheel\"\n\t\t\t\tOffset=\"(-3.65; 1.82; 0)\"\n\t\t\t\tParentFrame=\"BoneChassis_cdt\"\n\t\t\t/>\n\t\t\t<Socket\n\t\t\t\tNames=\"FrameAddon3\"\n\t\t\t\tNamesBlock=\"LogLift, MetalDetector, PacificP12wSpareWheel\"\n\t\t\t\tOffset=\"(-3.5; 1.82; 0)\"\n\t\t\t\tParentFrame=\"BoneChassis_cdt\"\n\t\t\t/>",
+        "to": "Price=\"126200\"",
         "enabled": true
     },
     "p12w_big_crane_us_offset": {
         "path": "input/initial/[media]/classes/trucks/pacific_p12w.xml",
         "from": "<Socket Names=\"BigCraneUs\" NamesBlock=\"MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector\" Offset=\"(-3.064; 1.921; 0)\">",
         "to": "<Socket Names=\"BigCraneUs\" NamesBlock=\"MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector\" Offset=\"(-3.125; 1.921; 0)\">",
-        "enabled": true
-    },
-    "p12w_heavy_maintainer_removal": {
-        "path": "input/initial/[media]/classes/trucks/pacific_p12w.xml",
-        "from": "<Socket Names=\"FrameAddonMaintainerBig\" NamesBlock=\"PacificP12wSpareWheel, Trailer, LogTrailer, PacificP12WCabinProtector\" Offset=\"(0; 1.82; 0)\" />",
-        "to": "",
         "enabled": false
     },
     "p12w_suspension": {
         "path": "input/initial/[media]/classes/suspensions/s_pacific_p12w.xml",
-        "from": "<Suspension Damping=\"0.41\" Height=\"0.15\" Strength=\"0.042\" WheelType=\"front\" BrokenSuspensionMax=\"0.2\" SuspensionMin=\"-0.55\" />\n\t\t<Suspension Damping=\"0.344\" Height=\"0.05\" Strength=\"0.055\" WheelType=\"rear\" BrokenSuspensionMax=\"0.3\" SuspensionMin=\"-0.4\" />",
-        "to": "<Suspension Damping=\"0.41\" Height=\"0.175\" Strength=\"0.055\" WheelType=\"front\" BrokenSuspensionMax=\"0.2\" SuspensionMin=\"-0.4\" />\n\t\t<Suspension Damping=\"0.344\" Height=\"0.05\" Strength=\"0.055\" WheelType=\"rear\" BrokenSuspensionMax=\"0.3\" SuspensionMin=\"-0.4\" />",
+        "from": "<Suspension Damping=\"0.41\" Height=\"0.15\" Strength=\"0.042\" WheelType=\"front\" BrokenSuspensionMax=\"0.2\" SuspensionMin=\"-0.55\" />",
+        "to": "<Suspension Damping=\"0.41\" Height=\"0.18\" Strength=\"0.06\" WheelType=\"front\" BrokenSuspensionMax=\"0.2\" SuspensionMin=\"-0.35\" />",
         "enabled": true
     },
     "p16_front_suspension": {
@@ -596,7 +620,7 @@
     "p16_cabin_mass": {
         "path": "input/initial/[media]/classes/trucks/pacific_p16.xml",
         "from": "Mass=\"15000\"",
-        "to": "Mass=\"12500\"",
+        "to": "Mass=\"11000\"",
         "enabled": true
     },
     "western_star_6900xd_cabin_mass_position": {
@@ -699,6 +723,12 @@
         "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/addons/cat_770g_service.xml",
         "from": "FuelCapacity=\"900\"\n\t\tRepairsCapacity=\"500\"",
         "to": "FuelCapacity=\"1250\"\n\t\tRepairsCapacity=\"750\"",
+        "enabled": true
+    },
+    "cat_770g_service_addon_fuel_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/addons/cat_770g_service.xml",
+        "from": "<Body Mass=\"2520\" />",
+        "to": "<Body Mass=\"3520\" />",
         "enabled": true
     },
     "mack_terra_pro_awd": {
@@ -992,38 +1022,38 @@
     "derry_special_15c177_mass_1": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177.xml",
         "from": "Mass=\"11000\"",
-        "to": "Mass=\"8500\"",
+        "to": "Mass=\"9500\"",
         "enabled": true
     },
     "derry_special_15c177_mass_2": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177.xml",
         "from": "Mass=\"14000\"",
-        "to": "Mass=\"12000\"",
+        "to": "Mass=\"13000\"",
         "enabled": true
     },
     "derry_special_voron_wheels": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177.xml",
         "from": "<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single2\" />\n\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_offroad_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single2\" />",
         "to": "<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single2_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_offroad_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single2_voron_g5352\" />",
-        "enabled": true
+        "enabled": false
     },
     "derry_special_15c177_wheel_template": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/wheels/wheels_derry_special_15c177.xml",
         "from": "_template=\"Heavy\"",
         "to": "Mass=\"300\"",
-        "enabled": true
+        "enabled": false
     },
     "derry_special_15c177_suspension_strength": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
         "from": "Strength=\"0.15\"",
         "to": "Strength=\"0.08\"",
-        "enabled": true
+        "enabled": false
     },
     "derry_special_15c177_suspension_strength_rear": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
         "from": "Strength=\"0.1\"",
         "to": "Strength=\"0.08\"",
-        "enabled": true
+        "enabled": false
     },
     "derry_longhorn_3194_mass_1": {
         "path": "input/initial/[media]/classes/trucks/derry_longhorn_3194.xml",
@@ -1191,19 +1221,19 @@
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6.xml",
         "from": "Pos=\"(-1.727; 0.650; 0.997)",
         "to": "Pos=\"(-1.738; 0.650; 0.997)",
-        "enabled": true
+        "enabled": false
     },
     "zetros_semi_socket_shift": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6.xml",
         "from": "(-2.075; 1.725; 0)",
         "to": "(-2.2; 1.68; 0)",
-        "enabled": true
+        "enabled": false
     },
     "zetros_semi_addon_shift": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6.xml",
         "from": "(-2.075; 1.335; 0)",
         "to": "(-2.2; 1.335; 0)",
-        "enabled": true
+        "enabled": false
     },
     "zetros_tire_mass_buff_1": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/wheels/wheels_heavy_single_mercedes_zetros.xml",
@@ -1247,28 +1277,46 @@
         "to": "Mass=\"250\"",
         "enabled": true
     },
+    "frame_addon_heavy_repair_mercedes_zetros_6x6_mass_reduction": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_heavy_repair_mercedes_zetros_6x6.xml",
+        "from": "Mass=\"2000\"",
+        "to": "Mass=\"1250\"",
+        "enabled": true
+    },
+    "frame_addon_heavy_repair_mercedes_zetros_6x6_fuel_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_heavy_repair_mercedes_zetros_6x6.xml",
+        "from": "Mass=\"1120\"",
+        "to": "Mass=\"1850\"",
+        "enabled": true
+    },
+    "e_us_truck_modern_mercedes_benz_zetros_6x6_engine_fuel_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/engines/e_us_truck_modern_mercedes_benz_zetros_6x6.xml",
+        "from": "FuelConsumption=\"7.4\"",
+        "to": "FuelConsumption=\"7.1\"",
+        "enabled": true
+    },
     "actros_high_suspension_front_strength": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/suspensions/s_mercedes_benz_actros_6x6.xml",
         "from": "Strength=\"0.032\"",
         "to": "Strength=\"0.045\"",
-        "enabled": true
+        "enabled": false
     },
     "actros_high_suspension_front_height": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/suspensions/s_mercedes_benz_actros_6x6.xml",
         "from": "Height=\"0.37\"",
         "to": "Height=\"0.32\"",
-        "enabled": true
+        "enabled": false
     },
     "actros_cabin_weight_reduction": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6.xml",
-        "from": "Mass=\"4950\"",
-        "to": "Mass=\"4350\"",
+        "from": "Mass=\"4050\"",
+        "to": "Mass=\"3250\"",
         "enabled": true
     },
     "actros_chassis_weight_addition": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6.xml",
-        "from": "Mass=\"2700\"",
-        "to": "Mass=\"3300\"",
+        "from": "Mass=\"3250\"",
+        "to": "Mass=\"4200\"",
         "enabled": true
     },
     "actros_price_reduction": {
@@ -1317,6 +1365,90 @@
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_spot_light_1.xml",
         "from": "<MainHeadLight _template=\"Multiply1\" />",
         "to": "<HeadLight _template=\"Multiply1\" />",
+        "enabled": true
+    },
+    "frame_addon_mantainer_mercedes_actros_6x6_fuel_weight_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_mantainer_mercedes_actros_6x6.xml",
+        "from": "<Body Mass=\"3920\" />",
+        "to": "<Body Mass=\"5000\" />",
+        "enabled": true
+    },
+    "frame_addon_mantainer_mercedes_actros_6x6_fuel_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_mantainer_mercedes_actros_6x6.xml",
+        "from": "FuelCapacity=\"1400\"",
+        "to": "FuelCapacity=\"1000\"",
+        "enabled": true
+    },
+    "frame_addon_mantainer_mercedes_actros_6x6_mass_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_mantainer_mercedes_actros_6x6.xml",
+        "from": "<Body Mass=\"3150\">",
+        "to": "<Body Mass=\"2500\">",
+        "enabled": true
+    },
+    "frame_addon_maintainer_fuel_mass_increase": {
+        "path": "input/initial/[media]/classes/trucks/addons/frame_addon_maintainer.xml",
+        "from": "<Body Mass=\"3920\" />",
+        "to": "<Body Mass=\"5000\" />",
+        "enabled": true
+    },
+    "frame_addon_maintainer_fuel_decrease": {
+        "path": "input/initial/[media]/classes/trucks/addons/frame_addon_maintainer.xml",
+        "from": "FuelCapacity=\"1400\"",
+        "to": "FuelCapacity=\"1000\"",
+        "enabled": true
+    },
+    "frame_addon_maintainer_body_mass_decrease": {
+        "path": "input/initial/[media]/classes/trucks/addons/frame_addon_maintainer.xml",
+        "from": "<Body Mass=\"3000\">",
+        "to": "<Body Mass=\"2500\">",
+        "enabled": true
+    },
+    "frame_addon_maintainer2_fuel_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_16_5/classes/trucks/addons/frame_addon_maintainer_2.xml",
+        "from": "<Body Mass=\"3920\" />",
+        "to": "<Body Mass=\"5000\" />",
+        "enabled": true
+    },
+    "frame_addon_maintainer2_fuel_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_16_5/classes/trucks/addons/frame_addon_maintainer_2.xml",
+        "from": "FuelCapacity=\"1400\"",
+        "to": "FuelCapacity=\"1000\"",
+        "enabled": true
+    },
+    "frame_addon_maintainer2_mass_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_16_5/classes/trucks/addons/frame_addon_maintainer_2.xml",
+        "from": "<Body Mass=\"3000\">",
+        "to": "<Body Mass=\"2500\">",
+        "enabled": true
+    },
+    "frame_addon_mercedes_3850_service_fuel_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_3850_service.xml",
+        "from": "<Body Mass=\"3080\" />",
+        "to": "<Body Mass=\"4500\" />",
+        "enabled": true
+    },
+    "frame_addon_mercedes_3850_service_fuel_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_3850_service.xml",
+        "from": "FuelCapacity=\"1350\"",
+        "to": "FuelCapacity=\"1000\"",
+        "enabled": true
+    },
+    "frame_addon_mercedes_3850_service_mass_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_3850_service.xml",
+        "from": "Mass=\"2750\"",
+        "to": "Mass=\"2250\"",
+        "enabled": true
+    },
+    "frame_addon_maintainer_big_fuel_decrease": {
+        "path": "input/initial/[media]/classes/trucks/addons/frame_addon_maintainer_big.xml",
+        "from": "FuelCapacity=\"2000\"",
+        "to": "FuelCapacity=\"1500\"",
+        "enabled": true
+    },
+    "frame_addon_maintainer_big_kenworth_963_fuel_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_10/classes/trucks/addons/frame_addon_maintainer_big_kenworth_963.xml",
+        "from": "FuelCapacity=\"2000\"",
+        "to": "FuelCapacity=\"1500\"",
         "enabled": true
     },
     "freightliner_114sd_engine_addition": {
@@ -1415,64 +1547,76 @@
         "to": "Torque=\"165000\"",
         "enabled": true
     },
-    "e_us_truck_old_engine_buff": {
-        "path": "input/initial/[media]/classes/engines/e_us_truck_old.xml",
-        "from": "Torque=\"145000\"",
-        "to": "Torque=\"150000\"",
-        "enabled": true
-    },
-    "e_us_truck_old_engine_fuel_nerf_1": {
-        "path": "input/initial/[media]/classes/engines/e_us_truck_old.xml",
-        "from": "FuelConsumption=\"5.5\"",
-        "to": "FuelConsumption=\"5.25\"",
-        "enabled": true
-    },
     "wheels_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
         "enabled": true
     },
     "wheels_heavy_mudtires_single2_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_heavy_mudtires_single2_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
         "enabled": true
     },
-    "wheels_heavy_mudtires_single_mass_increase": {
+    "wheels_heavy_mudtires_single_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_heavy_mudtires_single_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
         "enabled": true
     },
-    "wheels_heavy_offroad_single_mass_increase": {
+    "wheels_heavy_offroad_single_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_heavy_offroad_single_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
         "enabled": true
     },
-    "wheels_heavy_single2_mass_increase": {
+    "wheels_heavy_single2_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_heavy_single2_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
         "enabled": true
     },
-    "wheels_heavy_single_mass_increase": {
+    "wheels_heavy_single_voron_g5352_mass_increase": {
         "path": "input/initial/[media]/_dlc/dlc_17/classes/wheels/wheels_heavy_single_voron_g5352.xml",
-        "from": "Mass=\"250\"",
+        "from": "Mass=\"285\"",
         "to": "Mass=\"300\"",
+        "enabled": true
+    },
+    "s_voron_g5352_suspension_strength_decrease_1": {
+        "path": "input/initial/[media]/_dlc/dlc_17/classes/suspensions/s_voron_g5352.xml",
+        "from": "Height=\"0.085\"\n\t\t\tStrength=\"0.028\"",
+        "to": "Height=\"0.085\"\n\t\t\tStrength=\"0.024\"",
+        "enabled": true
+    },
+    "s_voron_g5352_suspension_strength_decrease_2": {
+        "path": "input/initial/[media]/_dlc/dlc_17/classes/suspensions/s_voron_g5352.xml",
+        "from": "Height=\"0.065\"\n\t\t\tStrength=\"0.024\"",
+        "to": "Height=\"0.075\"\n\t\t\tStrength=\"0.021\"",
+        "enabled": true
+    },
+    "s_voron_g5352_suspension_strength_decrease_3": {
+        "path": "input/initial/[media]/_dlc/dlc_17/classes/suspensions/s_voron_g5352.xml",
+        "from": "Height=\"0.17\"\n\t\t\tStrength=\"0.048\"",
+        "to": "Height=\"0.17\"\n\t\t\tStrength=\"0.044\"",
+        "enabled": true
+    },
+    "s_voron_g5352_suspension_strength_decrease_5": {
+        "path": "input/initial/[media]/_dlc/dlc_17/classes/suspensions/s_voron_g5352.xml",
+        "from": "Height=\"0.15\"\n\t\t\tStrength=\"0.055\"",
+        "to": "Height=\"0.15\"\n\t\t\tStrength=\"0.048\"",
         "enabled": true
     },
     "e_us_truck_old_gmc8000_torque_buff": {
         "path": "input/initial/[media]/_dlc/DLC_trial_6/classes/engines/e_us_truck_old_gmc8000.xml",
         "from": "Torque=\"170000\"",
-        "to": "Torque=\"175000\"",
+        "to": "Torque=\"185000\"",
         "enabled": true
     },
     "e_us_truck_old_gmc8000_fuel_buff": {
         "path": "input/initial/[media]/_dlc/DLC_trial_6/classes/engines/e_us_truck_old_gmc8000.xml",
         "from": "FuelConsumption=\"9.5\"",
-        "to": "FuelConsumption=\"7.5\"",
+        "to": "FuelConsumption=\"7.75\"",
         "enabled": true
     },
     "e_ru_truck_old_zikz_566a_fuel_buff": {
@@ -1509,6 +1653,174 @@
         "path": "input/initial/[media]/_dlc/DLC_trial_6/classes/trucks/gmc_8000.xml",
         "from": "Price=\"90000\"",
         "to": "Price=\"74000\"",
+        "enabled": true
+    },
+    "kenworth_t880_saddle_placement": {
+        "path": "input/initial/[media]/_dlc/dlc_14_1/classes/trucks/kenworth_t880.xml",
+        "from": "(-2.580; 1.018; 0)",
+        "to": "(-2.35; 1.018; 0)",
+        "enabled": true
+    },
+    "kenworth_t880_semi_placement": {
+        "path": "input/initial/[media]/_dlc/dlc_14_1/classes/trucks/kenworth_t880.xml",
+        "from": "(-2.583; 1.4; 0)",
+        "to": "(-2.353; 1.4; 0)",
+        "enabled": true
+    },
+    "kenworth_t880_large_semi_placement": {
+        "path": "input/initial/[media]/_dlc/dlc_14_1/classes/trucks/kenworth_t880.xml",
+        "from": "(-2.583; 1.53; 0)",
+        "to": "(-2.353; 1.53; 0)",
+        "enabled": true
+    },
+    "kenworth_t880_cabin_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_14_1/classes/trucks/kenworth_t880.xml",
+        "from": "Mass=\"2000\"",
+        "to": "Mass=\"2600\"",
+        "enabled": true
+    },
+    "hib_billert_m816_cabin_mass_decrease": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/trucks/hib_billert_m816.xml",
+        "from": "Mass=\"5000\"\n\t\t\t\tModelFrame=\"BoneCabin_cdt\"",
+        "to": "Mass=\"3700\"\n\t\t\t\tModelFrame=\"BoneCabin_cdt\"",
+        "enabled": true
+    },
+    "hib_billert_m816_body_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/trucks/hib_billert_m816.xml",
+        "from": "Mass=\"3000\"\n\t\t\tModelFrame=\"BoneChassis_cdt\"",
+        "to": "Mass=\"4500\"\n\t\t\tModelFrame=\"BoneChassis_cdt\"",
+        "enabled": true
+    },
+    "hib_billert_m816_high_suspension_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/suspensions/s_hib_billert_m816.xml",
+        "from": "Height=\"0.180\"\n\t\t\tStrength=\"0.07\"",
+        "to": "Height=\"0.22\"\n\t\t\tStrength=\"0.075\"",
+        "enabled": true
+    },
+    "hib_billert_m816_high_suspension_buff_rear": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/suspensions/s_hib_billert_m816.xml",
+        "from": "Height=\"0.135\" \n\t\t\tStrength=\"0.0575\"",
+        "to": "Height=\"0.14\" \n\t\t\tStrength=\"0.06\"",
+        "enabled": true
+    },
+    "hib_billert_m816_regular_suspension_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/suspensions/s_hib_billert_m816.xml",
+        "from": "Height=\"0.120\"\n\t\t\tStrength=\"0.065\"",
+        "to": "Height=\"0.145\"\n\t\t\tStrength=\"0.07\"",
+        "enabled": true
+    },
+    "hib_billert_m816_regular_suspension_buff_rear": {
+        "path": "input/initial/[media]/_dlc/dlc_18/classes/suspensions/s_hib_billert_m816.xml",
+        "from": "Height=\"0.075\" \n\t\t\tStrength=\"0.05\"",
+        "to": "Height=\"0.08\" \n\t\t\tStrength=\"0.055\"",
+        "enabled": true
+    },
+    "e_truck_engine_mercedes_3850_engine_fuel_use_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/engines/e_truck_engine_mercedes_3850.xml",
+        "from": "FuelConsumption=\"8.1\"",
+        "to": "FuelConsumption=\"7.5\"",
+        "enabled": true
+    },
+    "e_truck_engine_mercedes_3850_engine_torque_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/engines/e_truck_engine_mercedes_3850.xml",
+        "from": "Torque=\"192320\"",
+        "to": "Torque=\"205000\"",
+        "enabled": true
+    },
+    "e_truck_engine_mercedes_mamute_1519_engine_torque_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/engines/e_truck_engine_mercedes_mamute_1519.xml",
+        "from": "Torque=\"186300\"",
+        "to": "Torque=\"196000\"",
+        "enabled": true
+    },
+    "mercedes_3850_chassis_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+        "from": "Mass=\"2950\"",
+        "to": "Mass=\"4500\"",
+        "enabled": true
+    },
+    "mercedes_3850_low_saddle_adjustment": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+        "from": "<Socket Names=\"SaddleLow2Mercedes3850\" ParentFrame=\"BoneChassis_cdt\" NamesBlock=\"Mercedes3850Wings, Mercedes3850FrameExtended\" Offset=\"(0; 0; 0)\" >\n\t\t\t\t<ExtraParent Frame=\"BoneChassis_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t\t<ExtraParent Frame=\"BoneChassis_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t\t<ExtraParent Frame=\"BoneCabin_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t</Socket>",
+        "to": "",
+        "enabled": false
+    },
+    "mercedes_3850_low_saddle_reference": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+        "from": "SaddleLow2Mercedes3850",
+        "to": "SaddleLow",
+        "enabled": false
+    },
+    "mercedes_3850_suspension_increase_1": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/suspensions/s_mercedes_3850.xml",
+        "from": "Height=\"0.05\"\n\t\t\tStrength=\"0.068\"",
+        "to": "Height=\"0.055\"\n\t\t\tStrength=\"0.072\"",
+        "enabled": true
+    },
+    "mercedes_3850_suspension_increase_2": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/suspensions/s_mercedes_3850.xml",
+        "from": "Height=\"0.195\"\n\t\t\tStrength=\"0.12\"",
+        "to": "Height=\"0.21\"\n\t\t\tStrength=\"0.14\"",
+        "enabled": true
+    },
+    "sleiter_st833_chimera_cabin_mass_reduce": {
+        "path": "input/initial/[media]/_dlc/dlc_16/classes/trucks/sleiter_st833_chimera.xml",
+        "from": "Mass=\"9700\"",
+        "to": "Mass=\"8000\"",
+        "enabled": true
+    },
+    "sleiter_st833_chimera_body_mass_reduce": {
+        "path": "input/initial/[media]/_dlc/dlc_16/classes/trucks/sleiter_st833_chimera.xml",
+        "from": "Mass=\"9000\"",
+        "to": "Mass=\"8600\"",
+        "enabled": true
+    },
+    "sleiter_mfk816_mass_reduce": {
+        "path": "input/initial/[media]/_dlc/dlc_15/classes/trucks/sleiter_mfk816.xml",
+        "from": "Mass=\"16000\"",
+        "to": "Mass=\"14500\"",
+        "enabled": true
+    },
+    "sleiter_mfk816_cabin_mass_reduce": {
+        "path": "input/initial/[media]/_dlc/dlc_15/classes/trucks/sleiter_mfk816.xml",
+        "from": "Mass=\"8000\"",
+        "to": "Mass=\"6800\"",
+        "enabled": true
+    },
+    "tuz_16_actaeon_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_1_1/classes/trucks/tuz_16_actaeon.xml",
+        "from": "Mass=\"2000\"",
+        "to": "Mass=\"2800\"",
+        "enabled": true
+    },
+    "step_3364_crocodile_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_6/classes/trucks/step_3364_crocodile.xml",
+        "from": "Mass=\"2000\"",
+        "to": "Mass=\"2800\"",
+        "enabled": true
+    },
+    "tuz_108_warthog_mass_increase": {
+        "path": "input/initial/[media]/_dlc/dlc_1_2/classes/trucks/tuz_108_warthog.xml",
+        "from": "Mass=\"2500\"",
+        "to": "Mass=\"3200\"",
+        "enabled": true
+    },
+    "tatra_sideboard_2_cargo_location_fix": {
+        "path": "input/initial/[media]/_dlc/dlc_5/classes/trucks/addons/tatra_sideboard_2.xml",
+        "from": "(-0.297; 1.513; 0)",
+        "to": "(-0.40; 1.513; 0)",
+        "enabled": true
+    },
+    "trucks_actros_low_saddle_fix": {
+        "path": "input/initial/[media]/_templates/trucks.xml",
+        "from": "alt_saddle_low_mercedes_actros_6x6",
+        "to": "s_saddle_low_mercedes_actros_6x6",
+        "enabled": true
+    },
+    "minicrane_mercedes_actros_6x6_low_saddle_fix": {
+        "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/minicrane_mercedes_actros_6x6.xml",
+        "from": "alt_saddle_low_mercedes_actros_6x6",
+        "to": "s_saddle_low_mercedes_actros_6x6",
         "enabled": true
     }
 }

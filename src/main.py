@@ -20,23 +20,13 @@ from src.adjust import gearbox_adjust, engine_adjust
 from src.gearbox_math import generate_exp_func
 from src.adjust.cargo_adjust import cargo_mass_information, update_cargo_names
 from src.models import Cargo
-from src.utils import xml_result, write_to_output
+from src.utils import xml_result, write_to_output, get_modified_file_if_possible
 
 # Initialize Tkinter without opening a window (optional but clean)
 root = tk.Tk()
 root.withdraw()
 
 root_path = Path(__file__).parent.parent
-
-def get_modified_file_if_possible(file_path) -> str:
-    path_from_root = Path(root_path, file_path)
-    output_file_path = str(path_from_root).replace("input", "output", 1)
-    if os.path.exists(output_file_path) and os.path.isfile(output_file_path):
-        with open(Path(output_file_path), "r", encoding="utf-8") as file:
-            return file.read()
-    else:
-        with open(path_from_root, "r") as file:
-            return file.read()
 
 
 def replace_string_in_file(file_path, old_string, new_string):
@@ -489,8 +479,8 @@ def add_custom_gearboxes(gearboxes: dict):
                         max((gb["awd_modifier"] * 4.0 + 1.3) / 5.0, 1.0), 2
                     )
                     damaged_consumption_modifier = gb["damage_consumption_modifier"]
-                    fuel_consumption = gb["fuel_consumption"] * 0.9
-                    idle_fuel_modifier = gb["idle_fuel_modifier"] * 0.85
+                    fuel_consumption = gb["fuel_consumption"]
+                    idle_fuel_modifier = gb["idle_fuel_modifier"] * 0.9
                     min_break_frequency = gb["min_break_frequency"]
                     max_break_frequency = gb["max_break_frequency"]
                     price = int(gb["price"] * 1.5)
@@ -861,22 +851,44 @@ def get_updated_tire_names(game_data: TruckDataProcessor) -> None:
 
 
 def get_updated_tire_desc(game_data: TruckDataProcessor) -> None:
-    wheel_data: dict = game_data.wheel_dict
-    for _, wheel_data in wheel_data.items():
-        contents = utils.get_modified_file_if_possible(Path(root_path, wheel_data["full_file"]), False)
-        new_ui_desc_id = f"{wheel_data["file"]}_{wheel_data['Name']}_desc".replace(" ","_").replace("(","_").replace(")","_").upper()
-        mass = wheel_data["Mass"]
-        softness = wheel_data["SoftForceScale"]
-        damage = wheel_data["DamageCapacity"]
-        width = wheel_data["Width"]
-        body_asphalt = get_hex_color_scale(wheel_data["BodyFrictionAsphalt"])
-        body = get_hex_color_scale(wheel_data["BodyFriction"])
-        substance = get_hex_color_scale(wheel_data["SubstanceFriction"])
-        value = f"{body_asphalt}|{body}|{substance}"
-        value += f"\\nSoftness: {softness} | Width: {width}"
-        value += f"\\nMass: {mass} | Damage Capacity: {damage}"
-        game_data.lang_registry.add_entry(new_ui_desc_id, value)
-        utils.write_to_output(Path(root_path, wheel_data["full_file"]), contents.replace(wheel_data["desc_id"], new_ui_desc_id))
+    wheel_data_dict: dict = game_data.wheel_dict
+    for _, wheel_data in wheel_data_dict.items():
+        if "mods" not in wheel_data["full_file"]:
+            contents = utils.get_modified_file_if_possible(Path(root_path, wheel_data["full_file"]), False)
+            new_ui_desc_id = f"{wheel_data["file"]}_{wheel_data['name']}_desc".replace(" ","_").replace("(","_").replace(")","_").upper()
+            if "Mass" in wheel_data:
+                mass = wheel_data["Mass"]
+            else:
+                mass = "Unknown"
+            if "SoftForceScale" in wheel_data:
+                softness = wheel_data["SoftForceScale"]
+            else:
+                softness = "Unknown"
+            if "DamageCapacity" in wheel_data:
+                damage = wheel_data["DamageCapacity"]
+            else:
+                damage = "Unknown"
+            if "Width" in wheel_data:
+                width = wheel_data["Width"]
+            else:
+                width = "Unknown"
+            if "BodyFrictionAsphalt" in wheel_data:
+                body_asphalt = wheel_data["BodyFrictionAsphalt"]
+            else:
+                body_asphalt = "Unknown"
+            if "BodyFriction" in wheel_data:
+                body = wheel_data["BodyFriction"]
+            else:
+                body = "Unknown"
+            if "SubstanceFriction" in wheel_data:
+                substance = wheel_data["SubstanceFriction"]
+            else:
+                substance = "Unknown"
+            value = f"Asphalt: {body_asphalt}| Surface: {body}| Substance: {substance}"
+            value += f"\\nSoftness: {softness} | Width: {width}"
+            value += f"\\nMass: {mass} | Damage Capacity: {damage}"
+            game_data.lang_registry.add_entry(new_ui_desc_id, value)
+            utils.write_to_output(Path(root_path, wheel_data["full_file"]), contents.replace(wheel_data["desc_id"], new_ui_desc_id))
 
 
 def get_updated_truck_descs(game_data: TruckDataProcessor) -> None:
@@ -887,22 +899,48 @@ def get_updated_truck_descs(game_data: TruckDataProcessor) -> None:
             min_t = int(truck["min_engine_torque"] / 100)
             max_t = int(truck["max_engine_torque"] / 100)
             value = (
-                f"\\nTorque Range: {min_t:,}-{max_t:,}\\nNm. Mass: {truck['mass']:,} kg."
+                f"\\nTorques: {min_t:,}-{max_t:,} | Nm. Mass: {truck['mass']:,} kg."
             )
             game_data.lang_registry.add_entry(ui_descr, value)
 
 
 def get_updated_engine_descs(game_data: TruckDataProcessor) -> None:
-    engine_data: dict = game_data.engine_dict
-    for _, engine in engine_data.items():
-        ui_descr = engine["ui_desc_id"]
-        if ui_descr not in game_data.lang_registry.new_entries:
-            torque = int(engine["torque"] / 100)
-            torque_efficiency = engine["torque_efficiency"]
+    engine_data_dict: dict = game_data.engine_dict
+    for _, engine_data in engine_data_dict.items():
+        contents = utils.get_modified_file_if_possible(Path(root_path, engine_data["full_file"]), False)
+        new_ui_desc_id = f"{engine_data["engine_file"]}_{engine_data['id']}_desc".replace(" ", "_").replace("(", "_").replace(
+            ")", "_").upper()
+        ui_descr = engine_data["ui_desc_id"]
+        torque = int(engine_data["torque"] / 100)
+        torque_efficiency = engine_data["torque_efficiency"]
+        value = (
+            f"Torque: {torque:,} Nm. Fuel Use: {round(engine_data['fuel_consumption'], 1)}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
+        )
+        game_data.lang_registry.add_entry(new_ui_desc_id, value)
+        utils.write_to_output(Path(root_path, engine_data["full_file"]),
+                              contents.replace(ui_descr, new_ui_desc_id))
+
+
+def get_updated_gearbox_descs(game_data: TruckDataProcessor) -> None:
+    gearbox_dict: dict = game_data.gearbox_dict
+    for _, gearbox_data in gearbox_dict.items():
+        if "ui_desc_id" in gearbox_data:
+            contents = utils.get_modified_file_if_possible(Path(root_path, gearbox_data["full_file"]), False)
+            new_ui_desc_id = f"{gearbox_data["gearbox_file"]}_{gearbox_data['id']}_desc".replace(" ", "_").replace("(", "_").replace(
+                ")", "_").upper()
+            ui_descr = gearbox_data["ui_desc_id"]
+            awd_modifier = gearbox_data["awd_modifier"]
+            fuel_consumption = gearbox_data["fuel_consumption"]
+            high_v = gearbox_data["high_v"]
+            gear_count = gearbox_data["gear_count"]
+            top_v = gearbox_data[f"g{gear_count}_v"]
+
             value = (
-                f"\\nTorque: {torque:,} Nm. Fuel Use: {round(engine['fuel_consumption'], 1)}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
+                f"Gear Count: {gear_count}\\nAWD: {round(awd_modifier, 2)} | Fuel Use: {round(fuel_consumption, 2)}\\nHigh AV: {high_v} | Top AV: {top_v}"
             )
-            game_data.lang_registry.add_entry(ui_descr, value)
+            game_data.lang_registry.add_entry(new_ui_desc_id, value)
+            utils.write_to_output(Path(root_path, gearbox_data["full_file"]),
+                                  contents.replace(ui_descr, new_ui_desc_id))
 
 
 def main():
@@ -1002,9 +1040,13 @@ def main():
         get_updated_truck_descs(game_data)
         performed_adjustments.append("truck_description_updates")
 
-    if "engine_description_updates" not in performed_adjustments:
-        get_updated_engine_descs(game_data)
-        performed_adjustments.append("engine_description_updates")
+    # if "engine_description_updates" not in performed_adjustments:
+    #     get_updated_engine_descs(game_data)
+    #     performed_adjustments.append("engine_description_updates")
+
+    if "gearbox_description_updates" not in performed_adjustments:
+        get_updated_gearbox_descs(game_data)
+        performed_adjustments.append("gearbox_description_updates")
 
     if game_data.lang_registry.new_entries != {}:
         make_ui_appends(game_data.lang_registry.new_entries)

@@ -22,7 +22,7 @@ def get_trailer_data(file_path, use_initial_files, ui_dict: dict[str, str]) -> t
     else:
         trailer_data["name"] = trailer_name_id
     trailer_data["trailer_name_id"] = trailer_name_id
-    trailer_data["trailer_id"] = trailer_id
+    trailer_data["id"] = trailer_id
     addon_mass = find_sum_of_regex(contents, "Mass=", "int")
     fuel_capacity = xml_result(
         contents, True, ["Truck", "TruckData", "FuelCapacity"], "int"
@@ -78,15 +78,22 @@ def get_trailer_data(file_path, use_initial_files, ui_dict: dict[str, str]) -> t
     return trailer_id, trailer_data
 
 
-def get_all_trailer_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str, dict]:
+def get_all_trailer_data(use_initial_files, ui_dict: dict[str, str], input_folder: str) -> dict[str, dict]:
     all_trailer_data: dict[str, dict] = {}
-    trailer_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks/trailers")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    trailer_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/trucks/trailers")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in trailer_folder.glob("*.xml"):
         trailer_name, trailer_data = get_trailer_data(
             file_path, use_initial_files, ui_dict
+        )
+        all_trailer_data[trailer_name] = trailer_data
+
+    for file_path in mod_folder.glob("*/classes/trucks/trailers/*.xml"):
+        trailer_name, trailer_data = get_trailer_data(
+            file_path, True, ui_dict
         )
         all_trailer_data[trailer_name] = trailer_data
 
@@ -100,8 +107,8 @@ def get_all_trailer_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str
     return all_trailer_data
 
 
-def process_trailer_data(use_initial_files, ui_dict: dict[str, str]):
-    data_dict: dict[str, dict] = get_all_trailer_data(use_initial_files, ui_dict)
+def process_trailer_data(use_initial_files, ui_dict: dict[str, str], input_folder: str):
+    data_dict: dict[str, dict] = get_all_trailer_data(use_initial_files, ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

@@ -79,14 +79,18 @@ def get_suspension_data(file_path, use_initial_files, ui_dict: dict[str, str]) -
     return rets
 
 
-def get_all_suspension_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str, dict]:
+def get_all_suspension_data(use_initial_files, ui_dict: dict[str, str], input_folder: str) -> dict[str, dict]:
     all_suspension_dict: dict[str, dict] = {}
-    suspension_folder = Path(utils.root_path, "input/initial/[media]/classes/suspensions")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    suspension_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/suspensions")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in suspension_folder.glob("*.xml"):
         all_suspension_dict.update(get_suspension_data(file_path, use_initial_files, ui_dict))
+
+    for file_path in mod_folder.glob("*/classes/suspensions/*.xml"):
+        all_suspension_dict.update(get_suspension_data(file_path, True, ui_dict))
 
     for file_path in dlc_folder.glob(
         "dlc_*/classes/suspensions/*.xml", case_sensitive=False
@@ -95,8 +99,8 @@ def get_all_suspension_data(use_initial_files, ui_dict: dict[str, str]) -> dict[
     return all_suspension_dict
 
 
-def process_suspension_data(use_initial_files, ui_dict: dict[str, str]):
-    data_dict: dict[str, dict] = get_all_suspension_data(use_initial_files, ui_dict)
+def process_suspension_data(use_initial_files, ui_dict: dict[str, str], input_folder: str):
+    data_dict: dict[str, dict] = get_all_suspension_data(use_initial_files, ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

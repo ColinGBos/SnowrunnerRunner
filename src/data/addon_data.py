@@ -32,7 +32,7 @@ def get_addon_data(file_path, use_initial_files, truck_data:dict[str,dict], ui_d
         return "None", {}
     addon_data["name"] = addon_name
     addon_data["addon_name_id"] = addon_name_id
-    addon_data["addon_id"] = addon_id
+    addon_data["id"] = addon_id
 
     addon_mass = find_sum_of_regex(contents, "Mass=", "int")
     worth_adding=False
@@ -99,14 +99,22 @@ def get_addon_data(file_path, use_initial_files, truck_data:dict[str,dict], ui_d
     return addon_id, addon_data
 
 
-def get_all_addon_data(use_initial_files, truck_data:dict[str,dict], ui_dict: dict[str, str]) -> dict[str, dict]:
+def get_all_addon_data(use_initial_files, truck_data:dict[str,dict], ui_dict: dict[str, str], input_folder: str) -> dict[str, dict]:
     all_addon_data: dict[str, dict] = {}
-    truck_folder = Path(utils.root_path, "input/initial/[media]/classes/trucks")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    truck_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/trucks")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
     for file_path in truck_folder.glob("addons/*.xml"):
         addon_name, addon_data = get_addon_data(
             file_path, use_initial_files, truck_data, ui_dict
+        )
+        if addon_name != "None":
+            all_addon_data[addon_name] = addon_data
+
+    for file_path in mod_folder.glob("*/classes/addons/*.xml"):
+        addon_name, addon_data = get_addon_data(
+            file_path, True, truck_data, ui_dict
         )
         if addon_name != "None":
             all_addon_data[addon_name] = addon_data
@@ -139,8 +147,8 @@ def get_all_addon_data(use_initial_files, truck_data:dict[str,dict], ui_dict: di
     return all_addon_data
 
 
-def process_addon_data(use_initial_files, truck_data:dict[str, dict],ui_dict: dict[str, str]) -> dict[str, dict]:
-    data_dict: dict[str, dict] = get_all_addon_data(use_initial_files, truck_data, ui_dict)
+def process_addon_data(use_initial_files, truck_data:dict[str, dict],ui_dict: dict[str, str], input_folder: str) -> dict[str, dict]:
+    data_dict: dict[str, dict] = get_all_addon_data(use_initial_files, truck_data, ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

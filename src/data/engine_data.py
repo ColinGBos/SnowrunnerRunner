@@ -13,6 +13,7 @@ from src.utils import (
 def get_engine_data(file_path: Path, ui_dict:dict[str,str], use_initial_files: bool) -> dict[str, dict]:
     rets: dict[str, dict] = {}
     engine_file = file_path.stem
+    full_file: str = str(file_path.relative_to(utils.root_path))
     contents = get_modified_file_if_possible(file_path, use_initial_files)
 
     parser = etree.XMLParser(recover=True)
@@ -25,9 +26,10 @@ def get_engine_data(file_path: Path, ui_dict:dict[str,str], use_initial_files: b
         for engine in engine_variants.findall("Engine"):
             engine_data: dict = {}
             engine_id = engine.get("Name")
-            engine_data["id"] = engine_id
+            engine_data["id"] = f"{engine_file}_{engine_id}"
             engine_data["ui_desc_id"] = engine.find("GameData").find("UiDesc").get("UiDesc")
             engine_data["engine_file"] = engine_file
+            engine_data["full_file"] = full_file
             torque = int(engine.get("Torque"))
             engine_data["torque"] = torque
             engine_data["critical_damage_threshold"] = float(engine.get("CriticalDamageThreshold"))
@@ -48,14 +50,19 @@ def get_engine_data(file_path: Path, ui_dict:dict[str,str], use_initial_files: b
     return rets
 
 
-def get_all_engine_data(use_initial_files: bool, ui_dict:dict[str,str]) -> dict[str, dict]:
+def get_all_engine_data(use_initial_files: bool, ui_dict:dict[str,str], input_folder: str) -> dict[str, dict]:
     all_engine_data: dict[str, dict] = {}
-    engine_folder = Path(utils.root_path, "input/initial/[media]/classes/engines")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    engine_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/engines")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
     # Iterate through all XML files in the folder
     for file_path in engine_folder.glob("*.xml"):
         all_engine_data.update(get_engine_data(file_path, ui_dict, use_initial_files))
+
+    for file_path in mod_folder.glob("*/classes/engines/*.xml"):
+        print(f"Processing mod file: {file_path}")
+        all_engine_data.update(get_engine_data(file_path, ui_dict, True))
 
     for file_path in dlc_folder.glob(
         "dlc_*/classes/engines/*.xml", case_sensitive=False
@@ -65,8 +72,8 @@ def get_all_engine_data(use_initial_files: bool, ui_dict:dict[str,str]) -> dict[
     return all_engine_data
 
 
-def process_engine_data(use_initial_files: bool, ui_dict:dict[str,str]) -> dict[str, dict]:
-    engine_dict: dict[str, dict] = get_all_engine_data(use_initial_files, ui_dict)
+def process_engine_data(use_initial_files: bool, ui_dict:dict[str,str], input_folder: str) -> dict[str, dict]:
+    engine_dict: dict[str, dict] = get_all_engine_data(use_initial_files, ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"

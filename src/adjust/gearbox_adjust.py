@@ -4,6 +4,7 @@ import src.gearbox_math
 import json
 from pathlib import Path
 
+import utils
 from src.utils import get_modified_file_if_possible
 import lxml.etree as etree
 
@@ -36,22 +37,22 @@ def find_avg_gearbox_values(gearboxes) -> tuple[float, float, float, float, floa
         mins.append(min_vel)
         maxs.append(max_vel)
         maxs_fuels.append(max_fuel)
-    avg_awd = ((sum(awd) / len(awd))+1.3)/2.0
+    avg_awd = (2*(sum(awd) / len(awd))+1.3)/3.0
     return sum(fuels) / len(fuels), avg_awd, sum(mins) / len(mins), sum(maxs) / len(maxs), sum(maxs_fuels) / len(maxs_fuels)
 
 
-def get_gears_for_gearbox(gearbox, name:str, gears_dict: dict[str, dict], min_vel_avg:float, max_vel_avg:float, max_fuel_modifier:float):
+def get_gears_for_gearbox(gearbox, name:str, gears_dict: dict[str, dict], min_vel_avg:float, max_vel_avg:float, max_fuel_modifier:float, og_count:int):
     gb_types = ["offroad", "high", "fine"]
     min_vel = min_vel_avg
     max_vel = min(max(max_vel_avg,6),14)
     max_fuel_mod = min(max_fuel_modifier,2.5)
-    count = 6
     curve = 1.1
+    count = og_count
     for gb_type in gb_types:
         if gb_type in name:
             min_vel = (min_vel*gears_dict[gb_type]["velocity"]*2.0+1)/3.0
             max_vel = min(max_vel*gears_dict[gb_type]["velocity"], 20)
-            count = gears_dict[gb_type]["gears_count"]
+            count = max(gears_dict[gb_type]["gears_count"], og_count)
             curve = gears_dict[gb_type]["curve"]
             break
     print(f"Gearbox: {name}, min_vel: {min_vel}, max_vel: {max_vel}, count: {count}, curve: {curve}")
@@ -70,15 +71,20 @@ def get_gears_for_gearbox(gearbox, name:str, gears_dict: dict[str, dict], min_ve
 
 def modify_gearbox(file_path: Path, gears_dict: dict[str, dict]):
     contents = get_modified_file_if_possible(file_path, True)
+
     if "_parent" in contents:
         print(f"Warning, parented gearbox file: {file_path}, skipping.")
     else:
-        root = etree.fromstring(contents)
-        # gearbox_variants = root.find("GearboxVariants")
-        if root is not None:
-            gearboxes = root.findall("Gearbox")
+        parser = etree.XMLParser(recover=True)
+        wrapped_xml_data = f"<fake_root>{contents}</fake_root>"
+        root = etree.fromstring(wrapped_xml_data, parser=parser)
+
+        gearbox_variants = root.find("GearboxVariants")
+        if gearbox_variants is not None:
+            gearboxes = gearbox_variants.findall("Gearbox")
             avg_fuel, avg_awd, min_vel_avg, max_vel_avg, max_fuel = find_avg_gearbox_values(gearboxes)
-            for gearbox in root.findall("Gearbox"):
+            for gearbox in gearbox_variants.findall("Gearbox"):
+                og_gear_count = len(gearbox.findall("Gear"))
                 replace = False
                 awd_modifier:float = float(gearbox.get("AWDConsumptionModifier"))
                 fuel_consumption:float = float(gearbox.get("FuelConsumption"))
@@ -106,7 +112,7 @@ def modify_gearbox(file_path: Path, gears_dict: dict[str, dict]):
                 print(f"Modified {name}")
                 if replace:
                     gears: list[dict[str, float]] = get_gears_for_gearbox(gearbox, name, gears_dict, min_vel_avg,
-                                                                          max_vel_avg, max_fuel)
+                                                                          max_vel_avg, max_fuel, og_gear_count)
                     gear_vels = [gear["ang_vel"] for gear in gears]
                     highest_vel = max(gear_vels)
                     for gear in gearbox.findall("Gear"):
@@ -136,11 +142,16 @@ def modify_gearbox(file_path: Path, gears_dict: dict[str, dict]):
                 gearbox.set("IdleFuelModifier", str(round(min(0.35, idle_f), 2)))
 
 
+        # etree.indent(root)
+        # output_file_path = str(file_path).replace("input", "output",1)
+        # directory = os.path.dirname(output_file_path)
+        # os.makedirs(directory, exist_ok=True)
+        # etree.ElementTree(root).write(output_file_path, encoding="utf-8")
+
         etree.indent(root)
-        output_file_path = str(file_path).replace("input", "output",1)
-        directory = os.path.dirname(output_file_path)
-        os.makedirs(directory, exist_ok=True)
-        etree.ElementTree(root).write(output_file_path, encoding="utf-8")
+        new_contents: str = etree.tostring(root, pretty_print=True).decode("utf-8")
+        new_contents = new_contents.replace("<fake_root>", "").replace("</fake_root>", "")
+        utils.write_to_output(file_path, new_contents.strip())
 
 
 def modify_all_gearbox():

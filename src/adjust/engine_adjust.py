@@ -1,6 +1,3 @@
-from turtle import towards
-import src.gearbox_math
-import json
 from pathlib import Path
 
 from src import utils
@@ -76,9 +73,9 @@ def modify_engine(file_path: Path):
                             file_engine.set("FuelConsumption", str(engine_profile["new_consumption"]))
 
             etree.indent(root)
-            new_contents = etree.tostring(root, pretty_print=True).decode("utf-8")
+            new_contents: str = etree.tostring(root, pretty_print=True).decode("utf-8")
             new_contents = new_contents.replace("<fake_root>", "").replace("</fake_root>", "")
-            utils.write_to_output(file_path, new_contents)
+            utils.write_to_output(file_path, new_contents.strip())
 
 
 if __name__ == "__main__":

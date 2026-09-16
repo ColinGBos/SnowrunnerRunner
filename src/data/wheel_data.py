@@ -11,18 +11,18 @@ from src.utils import (
 
 def update_wheel_data_with_truck_data(truck_dict, wheel_dict) -> dict[str, dict]:
     for _, wheel_data in wheel_dict.items():
-        wheel_file:str = wheel_data["file"]
+        wheel_file: str = wheel_data["file"]
         truck_names_for_wheel: list[str] = []
         for _, truck_data in truck_dict.items():
             if wheel_file in truck_data["wheel_types"]:
                 truck_names_for_wheel.append(truck_data["name"])
         if len(truck_names_for_wheel) == 1:
-            wheel_data["Name"] = f"{wheel_data['Name']} ({truck_names_for_wheel[0]})"
+            wheel_data["name"] = f"{wheel_data['name']} ({truck_names_for_wheel[0]})"
     return wheel_dict
 
 
 def get_wheel_data(
-    file_path: Path, use_initial_files: bool, wheel_template_dict: dict, ui_dict: dict[str, str]
+        file_path: Path, use_initial_files: bool, wheel_template_dict: dict, ui_dict: dict[str, str]
 ) -> dict[str, dict]:
     rets: dict[str, dict] = {}
     wheel_file = file_path.stem
@@ -105,6 +105,8 @@ def get_wheel_data(
     else:
         width_rear = width
     for truck_tire in truck_wheels.find("TruckTires").findall("TruckTire"):
+        if mass == 0 and truck_tire.get("Mass") is not None:
+            mass = int(truck_tire.get("Mass"))
         tire_data: dict = {"file": wheel_file, "full_file": str(file_path.relative_to(utils.root_path))}
         if "_template" in truck_tire.attrib:
             if truck_tire.attrib["_template"] in template_data:
@@ -147,27 +149,23 @@ def get_wheel_data(
             desc_id = truck_tire.find("GameData").find("UiDesc").get("UiDesc")
             tire_data["desc_id"] = desc_id
             if name_id in ui_dict:
-                tire_data["Name"] = ui_dict[name_id]
+                tire_data["name"] = ui_dict[name_id]
             else:
-                tire_data["Name"] = name_id
+                tire_data["name"] = name_id
                 print(f"No name for {name_id}")
         if "BodyFriction" not in tire_data:
             print(f"No friction for {wheel_file}-{truck_tire.get('Name')}")
         elif tire_data["BodyFriction"] == 0:
             print(f"Body friction for {wheel_file}-{truck_tire.get('Name')} is 0")
-        if (
-            "Name" in tire_data
-            and tire_data["Name"] != ""
-            and "Material" in tire_data
-            and tire_data["Material"] != ""
-        ):
+        if "name" in tire_data and tire_data["name"] != "":
+            tire_data["id"] = f"{wheel_file}_{tire_data["name"]}"
             rets[f"{wheel_file}-{truck_tire.get('Name')}"] = tire_data
 
     return rets
 
 
-def get_wheel_template_info(use_initial_files: bool) -> dict:
-    file_path = Path("input/initial/[media]/_templates/trucks.xml")
+def get_wheel_template_info(use_initial_files: bool, input_folder: str) -> dict:
+    file_path = Path(f"{input_folder}/initial/[media]/_templates/trucks.xml")
     contents = get_modified_file_if_possible(file_path, use_initial_files)
 
     parser = etree.XMLParser(recover=True)
@@ -217,17 +215,18 @@ def get_wheel_template_info(use_initial_files: bool) -> dict:
     return ret_dict
 
 
-def get_all_wheel_data(use_initial_files, ui_dict: dict[str, str]):
+def get_all_wheel_data(use_initial_files, ui_dict: dict[str, str], input_folder: str):
     all_wheel_data: dict[str, dict] = {}
-    gearbox_folder = Path(utils.root_path, "input/initial/[media]/classes/wheels")
-    dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
+    gearbox_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/classes/wheels")
+    mod_folder = Path(utils.root_path, "input/mods")
+    dlc_folder = Path(utils.root_path, f"{input_folder}/initial/[media]/_dlc")
 
-    wheel_template_dict = get_wheel_template_info(use_initial_files)
+    wheel_template_dict = get_wheel_template_info(use_initial_files, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"
     with open(
-        f"../reference/info/wheel_template_data{addition}.json", "w", encoding="utf-8"
+            f"../reference/info/wheel_template_data{addition}.json", "w", encoding="utf-8"
     ) as f:
         json.dump(wheel_template_dict, f, indent=4)
 
@@ -236,9 +235,13 @@ def get_all_wheel_data(use_initial_files, ui_dict: dict[str, str]):
         all_wheel_data.update(
             get_wheel_data(file_path, use_initial_files, wheel_template_dict, ui_dict)
         )
+    for file_path in mod_folder.glob("*/classes/wheels/*.xml"):
+        all_wheel_data.update(
+            get_wheel_data(file_path, True, wheel_template_dict, ui_dict)
+        )
 
     for file_path in dlc_folder.glob(
-        "dlc_*/classes/wheels/*.xml", case_sensitive=False
+            "dlc_*/classes/wheels/*.xml", case_sensitive=False
     ):
         all_wheel_data.update(
             get_wheel_data(file_path, use_initial_files, wheel_template_dict, ui_dict)
@@ -247,14 +250,11 @@ def get_all_wheel_data(use_initial_files, ui_dict: dict[str, str]):
     return all_wheel_data
 
 
-def process_wheel_data(use_initial_files, ui_dict: dict[str, str]) -> dict[str, dict]:
-    wheel_dict: dict[str, dict] = get_all_wheel_data(use_initial_files, ui_dict)
+def process_wheel_data(use_initial_files, ui_dict: dict[str, str], input_folder: str) -> dict[str, dict]:
+    wheel_dict: dict[str, dict] = get_all_wheel_data(use_initial_files, ui_dict, input_folder)
     addition = ""
     if not use_initial_files:
         addition = "_edited"
     with open(f"../reference/info/wheel_data{addition}.json", "w", encoding="utf-8") as f:
         json.dump(wheel_dict, f, indent=4)
     return wheel_dict
-
-
-

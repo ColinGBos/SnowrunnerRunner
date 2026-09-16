@@ -1,8 +1,9 @@
 {
     "e_ru_scout_modern-ru_scout_modern_engine_0": {
-        "id": "ru_scout_modern_engine_0",
+        "id": "e_ru_scout_modern_ru_scout_modern_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_MODERN_0_DESC",
         "engine_file": "e_ru_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_modern.xml",
         "torque": 60000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 120,
@@ -12,9 +13,10 @@
         "name": "Kr 135-T"
     },
     "e_ru_scout_modern-ru_scout_modern_engine_1": {
-        "id": "ru_scout_modern_engine_1",
+        "id": "e_ru_scout_modern_ru_scout_modern_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_MODERN_1_DESC",
         "engine_file": "e_ru_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_modern.xml",
         "torque": 75000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 150,
@@ -24,9 +26,10 @@
         "name": "Azov AM-4v 146"
     },
     "e_ru_scout_modern-ru_scout_modern_engine_2": {
-        "id": "ru_scout_modern_engine_2",
+        "id": "e_ru_scout_modern_ru_scout_modern_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_MODERN_2_DESC",
         "engine_file": "e_ru_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_modern.xml",
         "torque": 90000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 170,
@@ -36,9 +39,10 @@
         "name": "Azov AM-4v 160"
     },
     "e_ru_scout_old-ru_scout_old_engine_0": {
-        "id": "ru_scout_old_engine_0",
+        "id": "e_ru_scout_old_ru_scout_old_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_0_DESC",
         "engine_file": "e_ru_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old.xml",
         "torque": 41000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 120,
@@ -48,9 +52,10 @@
         "name": "Kr 104"
     },
     "e_ru_scout_old-ru_scout_old_engine_1": {
-        "id": "ru_scout_old_engine_1",
+        "id": "e_ru_scout_old_ru_scout_old_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_1_DESC",
         "engine_file": "e_ru_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old.xml",
         "torque": 52000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 120,
@@ -60,9 +65,10 @@
         "name": "Kr 115"
     },
     "e_ru_scout_old-ru_scout_old_engine_2": {
-        "id": "ru_scout_old_engine_2",
+        "id": "e_ru_scout_old_ru_scout_old_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_2_DESC",
         "engine_file": "e_ru_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old.xml",
         "torque": 62000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 170,
@@ -72,9 +78,10 @@
         "name": "Kr 120-\u0410\u0422"
     },
     "e_ru_scout_old-ru_scout_old_engine_3": {
-        "id": "ru_scout_old_engine_3",
+        "id": "e_ru_scout_old_ru_scout_old_engine_3",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_3_DESC",
         "engine_file": "e_ru_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old.xml",
         "torque": 72000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 70,
@@ -84,9 +91,10 @@
         "name": "Kr 'Kastom' 160"
     },
     "e_ru_scout_old_don-ru_scout_old_engine_don": {
-        "id": "ru_scout_old_engine_don",
+        "id": "e_ru_scout_old_don_ru_scout_old_engine_don",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_DON_DESC",
         "engine_file": "e_ru_scout_old_don",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old_don.xml",
         "torque": 25000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 100,
@@ -96,9 +104,10 @@
         "name": "Kr 71.C"
     },
     "e_ru_scout_old_tuz-ru_scout_old_engine_tuz": {
-        "id": "ru_scout_old_engine_tuz",
+        "id": "e_ru_scout_old_tuz_ru_scout_old_engine_tuz",
         "ui_desc_id": "UI_ENGINE_RU_SCOUT_OLD_TUZ_DESC",
         "engine_file": "e_ru_scout_old_tuz",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_scout_old_tuz.xml",
         "torque": 20000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 80,
@@ -108,9 +117,10 @@
         "name": "Kr 37 model 166"
     },
     "e_ru_special-ru_special_engine_0": {
-        "id": "ru_special_engine_0",
+        "id": "e_ru_special_ru_special_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_0_DESC",
         "engine_file": "e_ru_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_special.xml",
         "torque": 204000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 220,
@@ -120,9 +130,10 @@
         "name": "KZGT-8 490"
     },
     "e_ru_special-ru_special_engine_1": {
-        "id": "ru_special_engine_1",
+        "id": "e_ru_special_ru_special_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_1_DESC",
         "engine_file": "e_ru_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_special.xml",
         "torque": 232000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 270,
@@ -132,9 +143,10 @@
         "name": "IMZ-8 520 AT"
     },
     "e_ru_special-ru_special_engine_2": {
-        "id": "ru_special_engine_2",
+        "id": "e_ru_special_ru_special_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_2_DESC",
         "engine_file": "e_ru_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_special.xml",
         "torque": 260000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 300,
@@ -144,9 +156,10 @@
         "name": "KZGT-8 530 T"
     },
     "e_ru_truck_modern-ru_truck_modern_engine_0": {
-        "id": "ru_truck_modern_engine_0",
+        "id": "e_ru_truck_modern_ru_truck_modern_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_0_DESC",
         "engine_file": "e_ru_truck_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_modern.xml",
         "torque": 166000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 210,
@@ -156,9 +169,10 @@
         "name": "Azov AM-8 14"
     },
     "e_ru_truck_modern-ru_truck_modern_engine_1": {
-        "id": "ru_truck_modern_engine_1",
+        "id": "e_ru_truck_modern_ru_truck_modern_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_1_DESC",
         "engine_file": "e_ru_truck_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_modern.xml",
         "torque": 188000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 230,
@@ -168,9 +182,10 @@
         "name": "Azov AM-8 15,3"
     },
     "e_ru_truck_modern-ru_truck_modern_engine_2": {
-        "id": "ru_truck_modern_engine_2",
+        "id": "e_ru_truck_modern_ru_truck_modern_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_2_DESC",
         "engine_file": "e_ru_truck_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_modern.xml",
         "torque": 210000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 250,
@@ -180,9 +195,10 @@
         "name": "Azov AM-8 16,1"
     },
     "e_ru_truck_old-ru_truck_old_engine_0": {
-        "id": "ru_truck_old_engine_0",
+        "id": "e_ru_truck_old_ru_truck_old_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_0_DESC",
         "engine_file": "e_ru_truck_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old.xml",
         "torque": 140000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 180,
@@ -192,9 +208,10 @@
         "name": "LAZ 6 T60"
     },
     "e_ru_truck_old-ru_truck_old_engine_1": {
-        "id": "ru_truck_old_engine_1",
+        "id": "e_ru_truck_old_ru_truck_old_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_1_DESC",
         "engine_file": "e_ru_truck_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old.xml",
         "torque": 155000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 200,
@@ -204,9 +221,10 @@
         "name": "LAZ 6 T195"
     },
     "e_ru_truck_old-ru_truck_old_engine_2": {
-        "id": "ru_truck_old_engine_2",
+        "id": "e_ru_truck_old_ru_truck_old_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_2_DESC",
         "engine_file": "e_ru_truck_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old.xml",
         "torque": 170000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 240,
@@ -216,9 +234,10 @@
         "name": "IMZ-6 210"
     },
     "e_ru_truck_old-ru_truck_old_engine_3": {
-        "id": "ru_truck_old_engine_3",
+        "id": "e_ru_truck_old_ru_truck_old_engine_3",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_3_DESC",
         "engine_file": "e_ru_truck_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old.xml",
         "torque": 185000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 120,
@@ -228,9 +247,10 @@
         "name": "LAZ 6 TA240"
     },
     "e_ru_truck_old_heavy-ru_truck_old_heavy_engine_0": {
-        "id": "ru_truck_old_heavy_engine_0",
+        "id": "e_ru_truck_old_heavy_ru_truck_old_heavy_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_HEAVY_0_DESC",
         "engine_file": "e_ru_truck_old_heavy",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old_heavy.xml",
         "torque": 158000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 200,
@@ -240,9 +260,10 @@
         "name": "LAZ 8 T260"
     },
     "e_ru_truck_old_heavy-ru_truck_old_heavy_engine_1": {
-        "id": "ru_truck_old_heavy_engine_1",
+        "id": "e_ru_truck_old_heavy_ru_truck_old_heavy_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_HEAVY_1_DESC",
         "engine_file": "e_ru_truck_old_heavy",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old_heavy.xml",
         "torque": 179000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 260,
@@ -252,9 +273,10 @@
         "name": "LAZ 8 T290"
     },
     "e_ru_truck_old_heavy-ru_truck_old_heavy_engine_2": {
-        "id": "ru_truck_old_heavy_engine_2",
+        "id": "e_ru_truck_old_heavy_ru_truck_old_heavy_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_HEAVY_2_DESC",
         "engine_file": "e_ru_truck_old_heavy",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old_heavy.xml",
         "torque": 200000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 300,
@@ -264,9 +286,10 @@
         "name": "IMZ-8 330-T"
     },
     "e_ru_truck_old_step_310e-ru_truck_old_engine_step_310e": {
-        "id": "ru_truck_old_engine_step_310e",
+        "id": "e_ru_truck_old_step_310e_ru_truck_old_engine_step_310e",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_STEP_310E_DESC",
         "engine_file": "e_ru_truck_old_step_310e",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_truck_old_step_310e.xml",
         "torque": 160000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 150,
@@ -276,9 +299,10 @@
         "name": "LAZ 6T173 \\\"Voin\\\""
     },
     "e_ru_tuz_tatarin-ru_tuz_tatarin": {
-        "id": "ru_tuz_tatarin",
+        "id": "e_ru_tuz_tatarin_ru_tuz_tatarin",
         "ui_desc_id": "UI_ENGINE_RU_TUZ_TATARIN_DESC",
         "engine_file": "e_ru_tuz_tatarin",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_ru_tuz_tatarin.xml",
         "torque": 200000,
         "critical_damage_threshold": 0.99,
         "damage_capacity": 300,
@@ -288,9 +312,10 @@
         "name": "IMZ-12 1000T"
     },
     "e_us_scout_modern-us_scout_modern_engine_0": {
-        "id": "us_scout_modern_engine_0",
+        "id": "e_us_scout_modern_us_scout_modern_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_MODERN_0_DESC",
         "engine_file": "e_us_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_modern.xml",
         "torque": 80000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 100,
@@ -300,9 +325,10 @@
         "name": "Het/8V 5,8"
     },
     "e_us_scout_modern-us_scout_modern_engine_1": {
-        "id": "us_scout_modern_engine_1",
+        "id": "e_us_scout_modern_us_scout_modern_engine_1",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_MODERN_1_DESC",
         "engine_file": "e_us_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_modern.xml",
         "torque": 100000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 120,
@@ -312,9 +338,10 @@
         "name": "Het/8V 6,2"
     },
     "e_us_scout_modern-us_scout_modern_engine_2": {
-        "id": "us_scout_modern_engine_2",
+        "id": "e_us_scout_modern_us_scout_modern_engine_2",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_MODERN_2_DESC",
         "engine_file": "e_us_scout_modern",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_modern.xml",
         "torque": 120000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 140,
@@ -324,9 +351,10 @@
         "name": "Het/8V 6,2T"
     },
     "e_us_scout_old-us_scout_old_engine_0": {
-        "id": "us_scout_old_engine_0",
+        "id": "e_us_scout_old_us_scout_old_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_0_DESC",
         "engine_file": "e_us_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_old.xml",
         "torque": 38000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 100,
@@ -336,9 +364,10 @@
         "name": "AAT-6V 4,0"
     },
     "e_us_scout_old-us_scout_old_engine_1": {
-        "id": "us_scout_old_engine_1",
+        "id": "e_us_scout_old_us_scout_old_engine_1",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_1_DESC",
         "engine_file": "e_us_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_old.xml",
         "torque": 49000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 100,
@@ -348,9 +377,10 @@
         "name": "AAT-6V 4,4"
     },
     "e_us_scout_old-us_scout_old_engine_2": {
-        "id": "us_scout_old_engine_2",
+        "id": "e_us_scout_old_us_scout_old_engine_2",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_2_DESC",
         "engine_file": "e_us_scout_old",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_old.xml",
         "torque": 60000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 150,
@@ -360,9 +390,10 @@
         "name": "Het/6V 5,0"
     },
     "e_us_scout_old_ck1500-us_scout_old_engine_ck1500": {
-        "id": "us_scout_old_engine_ck1500",
+        "id": "e_us_scout_old_ck1500_us_scout_old_engine_ck1500",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_CK1500_DESC",
         "engine_file": "e_us_scout_old_ck1500",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_scout_old_ck1500.xml",
         "torque": 70000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 100,
@@ -372,9 +403,10 @@
         "name": "AAT-8V 5,2 Custom"
     },
     "e_us_special-us_special_engine_0": {
-        "id": "us_special_engine_0",
+        "id": "e_us_special_us_special_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_0_DESC",
         "engine_file": "e_us_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_special.xml",
         "torque": 197000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 240,
@@ -384,9 +416,10 @@
         "name": "A16V-2000"
     },
     "e_us_special-us_special_engine_1": {
-        "id": "us_special_engine_1",
+        "id": "e_us_special_us_special_engine_1",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_1_DESC",
         "engine_file": "e_us_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_special.xml",
         "torque": 224000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 260,
@@ -396,9 +429,36 @@
         "name": "Westline V16 M2300"
     },
     "e_us_special-us_special_engine_2": {
-        "id": "us_special_engine_2",
+        "id": "e_us_special_us_special_engine_2",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_2_DESC",
         "engine_file": "e_us_special",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_special.xml",
+        "torque": 250000,
+        "critical_damage_threshold": 0.5,
+        "damage_capacity": 280,
+        "fuel_consumption": 12.5,
+        "torque_efficiency": 20.0,
+        "price": 22500,
+        "name": "Westline V16 M2450"
+    },
+    "e_us_special_pacifics-us_special_engine_1": {
+        "id": "e_us_special_pacifics_us_special_engine_1",
+        "ui_desc_id": "UI_ENGINE_US_SPECIAL_1_DESC",
+        "engine_file": "e_us_special_pacifics",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_special_pacifics.xml",
+        "torque": 220000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 260,
+        "fuel_consumption": 11.0,
+        "torque_efficiency": 20.0,
+        "price": 18800,
+        "name": "Westline V16 M2300"
+    },
+    "e_us_special_pacifics-us_special_engine_2": {
+        "id": "e_us_special_pacifics_us_special_engine_2",
+        "ui_desc_id": "UI_ENGINE_US_SPECIAL_2_DESC",
+        "engine_file": "e_us_special_pacifics",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_special_pacifics.xml",
         "torque": 250000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 280,
@@ -408,69 +468,75 @@
         "name": "Westline V16 M2450"
     },
     "e_us_truck_military_navistar-us_truck_military_navistar_0": {
-        "id": "us_truck_military_navistar_0",
+        "id": "e_us_truck_military_navistar_us_truck_military_navistar_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MILITARY_NAVISTAR_0_DESC",
         "engine_file": "e_us_truck_military_navistar",
-        "torque": 175000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_military_navistar.xml",
+        "torque": 182000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 240,
         "fuel_consumption": 8.5,
-        "torque_efficiency": 20.6,
+        "torque_efficiency": 21.4,
         "price": 5700,
         "name": "NavGlobal D12-T 900"
     },
     "e_us_truck_military_navistar-us_truck_military_navistar_1": {
-        "id": "us_truck_military_navistar_1",
+        "id": "e_us_truck_military_navistar_us_truck_military_navistar_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MILITARY_NAVISTAR_1_DESC",
         "engine_file": "e_us_truck_military_navistar",
-        "torque": 210000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_military_navistar.xml",
+        "torque": 215000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 360,
         "fuel_consumption": 11.5,
-        "torque_efficiency": 18.3,
+        "torque_efficiency": 18.7,
         "price": 24400,
         "name": "AZ-12 1400DTA"
     },
     "e_us_truck_modern-us_truck_modern_engine_0": {
-        "id": "us_truck_modern_engine_0",
+        "id": "e_us_truck_modern_us_truck_modern_engine_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_0_DESC",
         "engine_file": "e_us_truck_modern",
-        "torque": 153000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_modern.xml",
+        "torque": 158000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 160,
-        "fuel_consumption": 5.44,
-        "torque_efficiency": 28.1,
+        "fuel_consumption": 5.36,
+        "torque_efficiency": 29.5,
         "price": 3000,
         "name": "Si-8V/2300"
     },
     "e_us_truck_modern-us_truck_modern_engine_1": {
-        "id": "us_truck_modern_engine_1",
+        "id": "e_us_truck_modern_us_truck_modern_engine_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_1_DESC",
         "engine_file": "e_us_truck_modern",
-        "torque": 172000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_modern.xml",
+        "torque": 179000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
-        "fuel_consumption": 6.47,
-        "torque_efficiency": 26.6,
+        "fuel_consumption": 6.43,
+        "torque_efficiency": 27.8,
         "price": 10400,
         "name": "Gb-8V 2600TTA"
     },
     "e_us_truck_modern-us_truck_modern_engine_2": {
-        "id": "us_truck_modern_engine_2",
+        "id": "e_us_truck_modern_us_truck_modern_engine_2",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_2_DESC",
         "engine_file": "e_us_truck_modern",
-        "torque": 192000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_modern.xml",
+        "torque": 200000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 220,
         "fuel_consumption": 7.5,
-        "torque_efficiency": 25.6,
+        "torque_efficiency": 26.7,
         "price": 11300,
         "name": "Gb-8V 2700T"
     },
     "e_us_truck_modern_catroyal-us_truck_modern_engine_cat_royal": {
-        "id": "us_truck_modern_engine_cat_royal",
+        "id": "e_us_truck_modern_catroyal_us_truck_modern_engine_cat_royal",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_CAT_ROYAL_DESC",
         "engine_file": "e_us_truck_modern_catroyal",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_modern_catroyal.xml",
         "torque": 160000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 150,
@@ -480,33 +546,36 @@
         "name": "Gb-8V 2300c"
     },
     "e_us_truck_old-us_truck_old_engine_0": {
-        "id": "us_truck_old_engine_0",
+        "id": "e_us_truck_old_us_truck_old_engine_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_0_DESC",
         "engine_file": "e_us_truck_old",
-        "torque": 135000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old.xml",
+        "torque": 140000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 160,
         "fuel_consumption": 5.25,
-        "torque_efficiency": 25.7,
+        "torque_efficiency": 26.7,
         "price": 2500,
         "name": "Si-6V/1900"
     },
     "e_us_truck_old-us_truck_old_engine_1": {
-        "id": "us_truck_old_engine_1",
+        "id": "e_us_truck_old_us_truck_old_engine_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_1_DESC",
         "engine_file": "e_us_truck_old",
-        "torque": 150000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old.xml",
+        "torque": 152500,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 190,
         "fuel_consumption": 6.0,
-        "torque_efficiency": 25.0,
+        "torque_efficiency": 25.4,
         "price": 7500,
         "name": "Si-6V/2100T"
     },
     "e_us_truck_old_4070-us_truck_old_engine_4070": {
-        "id": "us_truck_old_engine_4070",
+        "id": "e_us_truck_old_4070_us_truck_old_engine_4070",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_4070_DESC",
         "engine_file": "e_us_truck_old_4070",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_4070.xml",
         "torque": 160000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 200,
@@ -516,9 +585,10 @@
         "name": "Si-6V/2380"
     },
     "e_us_truck_old_clt-us_truck_old_engine_clt": {
-        "id": "us_truck_old_engine_clt",
+        "id": "e_us_truck_old_clt_us_truck_old_engine_clt",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_CLT_DESC",
         "engine_file": "e_us_truck_old_clt",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_clt.xml",
         "torque": 155000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -528,9 +598,10 @@
         "name": "Gb-6V 2400A"
     },
     "e_us_truck_old_gmc9500-us_truck_old_engine_gmc9500": {
-        "id": "us_truck_old_engine_gmc9500",
+        "id": "e_us_truck_old_gmc9500_us_truck_old_engine_gmc9500",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_GMC9500_DESC",
         "engine_file": "e_us_truck_old_gmc9500",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_gmc9500.xml",
         "torque": 140000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 240,
@@ -540,45 +611,49 @@
         "name": "Westline V6 2420"
     },
     "e_us_truck_old_heavy-us_truck_old_heavy_engine_0": {
-        "id": "us_truck_old_heavy_engine_0",
+        "id": "e_us_truck_old_heavy_us_truck_old_heavy_engine_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HEAVY_0_DESC",
         "engine_file": "e_us_truck_old_heavy",
-        "torque": 186000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_heavy.xml",
+        "torque": 167000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
-        "fuel_consumption": 6.94,
-        "torque_efficiency": 26.8,
+        "fuel_consumption": 7.25,
+        "torque_efficiency": 23.0,
         "price": 5700,
         "name": "A12V-780"
     },
     "e_us_truck_old_heavy-us_truck_old_heavy_engine_1": {
-        "id": "us_truck_old_heavy_engine_1",
+        "id": "e_us_truck_old_heavy_us_truck_old_heavy_engine_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HEAVY_1_DESC",
         "engine_file": "e_us_truck_old_heavy",
-        "torque": 213000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_heavy.xml",
+        "torque": 189000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 240,
-        "fuel_consumption": 8.47,
-        "torque_efficiency": 25.1,
+        "fuel_consumption": 8.62,
+        "torque_efficiency": 21.9,
         "price": 13200,
         "name": "A12V-850TTA"
     },
     "e_us_truck_old_heavy-us_truck_old_heavy_engine_2": {
-        "id": "us_truck_old_heavy_engine_2",
+        "id": "e_us_truck_old_heavy_us_truck_old_heavy_engine_2",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HEAVY_2_DESC",
         "engine_file": "e_us_truck_old_heavy",
-        "torque": 240000,
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_heavy.xml",
+        "torque": 210000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 280,
         "fuel_consumption": 10.0,
-        "torque_efficiency": 24.0,
+        "torque_efficiency": 21.0,
         "price": 15000,
         "name": "Westline V12 M900"
     },
     "e_us_truck_old_paystar5070-us_truck_old_paystar5070": {
-        "id": "us_truck_old_paystar5070",
+        "id": "e_us_truck_old_paystar5070_us_truck_old_paystar5070",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_PAYSTAR5070_DESC",
         "engine_file": "e_us_truck_old_paystar5070",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_paystar5070.xml",
         "torque": 165000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -588,9 +663,10 @@
         "name": "Gb-8V 31 Special"
     },
     "e_us_truck_old_top-us_truck_old_engine_2": {
-        "id": "us_truck_old_engine_2",
+        "id": "e_us_truck_old_top_us_truck_old_engine_2",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_2_DESC",
         "engine_file": "e_us_truck_old_top",
+        "full_file": "input\\initial\\[media]\\classes\\engines\\e_us_truck_old_top.xml",
         "torque": 165000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 220,
@@ -599,10 +675,193 @@
         "price": 8500,
         "name": "Westline V6 2350T"
     },
+    "e_mtvr_mk23-mtvr_mk23_engine_0": {
+        "id": "e_mtvr_mk23_mtvr_mk23_engine_0",
+        "ui_desc_id": "Advanced Diesel Engine Management (ADEM) III 11.9-litre six-cylinder diesel engine that develops 425 hp at 1,800 rpm and 1,550 ft-lb of torque at 1,200 rpm.",
+        "engine_file": "e_mtvr_mk23",
+        "full_file": "input\\mods\\mtvr_mk23\\classes\\engines\\e_mtvr_mk23.xml",
+        "torque": 210000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 300,
+        "fuel_consumption": 8.5,
+        "torque_efficiency": 24.7,
+        "price": 14500,
+        "name": "K23 C-12"
+    },
+    "e_mtvr_mk27-mtvr_mk27_engine_0": {
+        "id": "e_mtvr_mk27_mtvr_mk27_engine_0",
+        "ui_desc_id": "Advanced Diesel Engine Management (ADEM) III 11.9-litre six-cylinder diesel engine that develops 425 hp at 1,800 rpm and 1,550 ft-lb of torque at 1,200 rpm.",
+        "engine_file": "e_mtvr_mk27",
+        "full_file": "input\\mods\\mtvr_mk27\\classes\\engines\\e_mtvr_mk27.xml",
+        "torque": 220000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 300,
+        "fuel_consumption": 8.5,
+        "torque_efficiency": 25.9,
+        "price": 14500,
+        "name": "M-8092 C-12"
+    },
+    "e_mtvr_mk31-mtvr_mk31_engine_0": {
+        "id": "e_mtvr_mk31_mtvr_mk31_engine_0",
+        "ui_desc_id": "Advanced Diesel Engine Management (ADEM) III 11.9-litre six-cylinder diesel engine that develops 425 hp at 1,800 rpm and 1,550 ft-lb of torque at 1,200 rpm.",
+        "engine_file": "e_mtvr_mk31",
+        "full_file": "input\\mods\\mtvr_mk31\\classes\\engines\\e_mtvr_mk31.xml",
+        "torque": 210000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 300,
+        "fuel_consumption": 8.5,
+        "torque_efficiency": 24.7,
+        "price": 14500,
+        "name": "K31 C-12"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_0": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_0",
+        "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_0_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 170000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 210,
+        "fuel_consumption": 4.3,
+        "torque_efficiency": 39.5,
+        "price": 1700,
+        "name": "Azov AM-8 14"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_1": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_1",
+        "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_1_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 190000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 230,
+        "fuel_consumption": 4.7,
+        "torque_efficiency": 40.4,
+        "price": 1900,
+        "name": "Azov AM-8 15,3"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_2": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_2",
+        "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_2_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 210000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 250,
+        "fuel_consumption": 5.5,
+        "torque_efficiency": 38.2,
+        "price": 2100,
+        "name": "Azov AM-8 16,1"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_3": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_3",
+        "ui_desc_id": "UI_ENGINE_RU_SPECIAL_0_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 255000,
+        "critical_damage_threshold": 0.3,
+        "damage_capacity": 220,
+        "fuel_consumption": 6.0,
+        "torque_efficiency": 42.5,
+        "price": 2700,
+        "name": "KZGT-8 490"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_4": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_4",
+        "ui_desc_id": "UI_ENGINE_RU_SPECIAL_1_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 300000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 270,
+        "fuel_consumption": 6.5,
+        "torque_efficiency": 46.2,
+        "price": 3700,
+        "name": "UI_ENGINE_RU_300_1_NAME"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_5": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_5",
+        "ui_desc_id": "UI_ENGINE_RU_SPECIAL_2_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 360000,
+        "critical_damage_threshold": 0.9,
+        "damage_capacity": 300,
+        "fuel_consumption": 7.0,
+        "torque_efficiency": 51.4,
+        "price": 4400,
+        "name": "UI_ENGINE_RU_360_NAME"
+    },
+    "e_ru_truck_Mustang-ru_truck_mustang_engine_6": {
+        "id": "e_ru_truck_Mustang_ru_truck_mustang_engine_6",
+        "ui_desc_id": "UI_ENGINE_RU_SPECIAL_2_DESC",
+        "engine_file": "e_ru_truck_Mustang",
+        "full_file": "input\\mods\\mustang_4310_rsk\\classes\\engines\\e_ru_truck_Mustang.xml",
+        "torque": 420000,
+        "critical_damage_threshold": 0.9,
+        "damage_capacity": 300,
+        "fuel_consumption": 7.5,
+        "torque_efficiency": 56.0,
+        "price": 5400,
+        "name": "UI_ENGINE_RU_420_NAME"
+    },
+    "e_rng_lmv-rng_lmv_engine_0": {
+        "id": "e_rng_lmv_rng_lmv_engine_0",
+        "ui_desc_id": "The CTA C7 TD 370 bhp engine is an line 6 cylinder diesel fueled engine.",
+        "engine_file": "e_rng_lmv",
+        "full_file": "input\\mods\\rng_lmv\\classes\\engines\\e_rng_lmv.xml",
+        "torque": 200000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 180,
+        "fuel_consumption": 3.5,
+        "torque_efficiency": 57.1,
+        "price": 4900,
+        "name": "CTA C7 TD 370 bhp"
+    },
+    "e_rng_lmv-rng_lmv_engine_1": {
+        "id": "e_rng_lmv_rng_lmv_engine_1",
+        "ui_desc_id": "The CTA C8 TD 420 bhp engine is an line 6 cylinder diesel fueled engine. Perfect for most jobs.",
+        "engine_file": "e_rng_lmv",
+        "full_file": "input\\mods\\rng_lmv\\classes\\engines\\e_rng_lmv.xml",
+        "torque": 220000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 240,
+        "fuel_consumption": 3.4,
+        "torque_efficiency": 64.7,
+        "price": 12800,
+        "name": "CTA C8 TD 420 bhp"
+    },
+    "e_mp500-mp500_engine_0": {
+        "id": "e_mp500_mp500_engine_0",
+        "ui_desc_id": "Standard Unipog MP500 engine. Output/Fuel Consumption: 160k/2",
+        "engine_file": "e_mp500",
+        "full_file": "input\\mods\\unipog\\classes\\engines\\e_mp500.xml",
+        "torque": 160000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 120,
+        "fuel_consumption": 2.0,
+        "torque_efficiency": 80.0,
+        "price": 6000,
+        "name": "Standard"
+    },
+    "e_mp500-mp500_engine_1": {
+        "id": "e_mp500_mp500_engine_1",
+        "ui_desc_id": "Modified Unipog MP500 engine with an aftermarket ECU. More power at the cost of reliabilty and fuel efficiency. Output/Fuel Consumption: 200k/4.5",
+        "engine_file": "e_mp500",
+        "full_file": "input\\mods\\unipog\\classes\\engines\\e_mp500.xml",
+        "torque": 200000,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 70,
+        "fuel_consumption": 4.5,
+        "torque_efficiency": 44.4,
+        "price": 8000,
+        "name": "Aftermarket ECU"
+    },
     "e_us_truck_modern_kenworth_990-us_truck_modern_engine_prime_c13": {
-        "id": "us_truck_modern_engine_prime_c13",
+        "id": "e_us_truck_modern_kenworth_990_us_truck_modern_engine_prime_c13",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_KENWORTH_990_DESC",
         "engine_file": "e_us_truck_modern_kenworth_990",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_modern_kenworth_990.xml",
         "torque": 228000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 180,
@@ -612,9 +871,10 @@
         "name": "Prime \u042113"
     },
     "e_us_truck_modern_mack_defense_m917-us_special_mack_defense_mcv6": {
-        "id": "us_special_mack_defense_mcv6",
+        "id": "e_us_truck_modern_mack_defense_m917_us_special_mack_defense_mcv6",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV6_DESC",
         "engine_file": "e_us_truck_modern_mack_defense_m917",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_modern_mack_defense_m917.xml",
         "torque": 181000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -624,9 +884,10 @@
         "name": "MC-V6 11.OT"
     },
     "e_us_truck_modern_mack_defense_m917-us_special_mack_defense_mcv8": {
-        "id": "us_special_mack_defense_mcv8",
+        "id": "e_us_truck_modern_mack_defense_m917_us_special_mack_defense_mcv8",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV8_DESC",
         "engine_file": "e_us_truck_modern_mack_defense_m917",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_modern_mack_defense_m917.xml",
         "torque": 232000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 300,
@@ -636,9 +897,10 @@
         "name": "MC-V8 13.OT"
     },
     "e_us_truck_modern_mack_defense_m917-us_special_mack_defense_mcv8fm": {
-        "id": "us_special_mack_defense_mcv8fm",
+        "id": "e_us_truck_modern_mack_defense_m917_us_special_mack_defense_mcv8fm",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV8FM_DESC",
         "engine_file": "e_us_truck_modern_mack_defense_m917",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_modern_mack_defense_m917.xml",
         "torque": 206000,
         "critical_damage_threshold": 0.75,
         "damage_capacity": 280,
@@ -648,9 +910,10 @@
         "name": "MC-V8 FuelMiser"
     },
     "e_us_truck_old_kenworth_963-us_truck_old_heavy_engine_0": {
-        "id": "us_truck_old_heavy_engine_0",
+        "id": "e_us_truck_old_kenworth_963_us_truck_old_heavy_engine_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HEAVY_0_DESC",
         "engine_file": "e_us_truck_old_kenworth_963",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_old_kenworth_963.xml",
         "torque": 201000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -660,9 +923,10 @@
         "name": "A12V-780"
     },
     "e_us_truck_old_kenworth_963-us_truck_old_heavy_engine_1": {
-        "id": "us_truck_old_heavy_engine_1",
+        "id": "e_us_truck_old_kenworth_963_us_truck_old_heavy_engine_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HEAVY_1_DESC",
         "engine_file": "e_us_truck_old_kenworth_963",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_old_kenworth_963.xml",
         "torque": 233000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 240,
@@ -672,9 +936,10 @@
         "name": "A12V-850TTA"
     },
     "e_us_truck_old_kenworth_963-us_truck_old_heavy_engine_kenworth_963": {
-        "id": "us_truck_old_heavy_engine_kenworth_963",
+        "id": "e_us_truck_old_kenworth_963_us_truck_old_heavy_engine_kenworth_963",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_KENWORTH_963_DESC",
         "engine_file": "e_us_truck_old_kenworth_963",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_10\\classes\\engines\\e_us_truck_old_kenworth_963.xml",
         "torque": 265000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 250,
@@ -684,9 +949,10 @@
         "name": "H6 15.OL Wanderer"
     },
     "e_ru_offroad_burlak_6x6-ru_offroad_burlak_engine": {
-        "id": "ru_offroad_burlak_engine",
+        "id": "e_ru_offroad_burlak_6x6_ru_offroad_burlak_engine",
         "ui_desc_id": "UI_ENGINE_RU_OFFROAD_BURLAK_6X6_DESC",
         "engine_file": "e_ru_offroad_burlak_6x6",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_11\\classes\\engines\\e_ru_offroad_burlak_6x6.xml",
         "torque": 80000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 150,
@@ -696,9 +962,10 @@
         "name": "TAG-404"
     },
     "e_ru_special_femm_37at-ru_special_femm_37at_sbr_r1": {
-        "id": "ru_special_femm_37at_sbr_r1",
+        "id": "e_ru_special_femm_37at_ru_special_femm_37at_sbr_r1",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_SBR_R1_DESC",
         "engine_file": "e_ru_special_femm_37at",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_12\\classes\\engines\\e_ru_special_femm_37at.xml",
         "torque": 245000,
         "critical_damage_threshold": 0.58,
         "damage_capacity": 200,
@@ -708,9 +975,10 @@
         "name": "SBR6-250-R1"
     },
     "e_ru_special_femm_37at-ru_special_femm_37at_sbr_r2": {
-        "id": "ru_special_femm_37at_sbr_r2",
+        "id": "e_ru_special_femm_37at_ru_special_femm_37at_sbr_r2",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_SBR_R2_DESC",
         "engine_file": "e_ru_special_femm_37at",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_12\\classes\\engines\\e_ru_special_femm_37at.xml",
         "torque": 288000,
         "critical_damage_threshold": 0.33,
         "damage_capacity": 240,
@@ -720,9 +988,10 @@
         "name": "SBR6-250-R2"
     },
     "e_us_special_mtb_8106-us_special_mtb_8106_gf4v": {
-        "id": "us_special_mtb_8106_gf4v",
+        "id": "e_us_special_mtb_8106_us_special_mtb_8106_gf4v",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_GF4V_DESC",
         "engine_file": "e_us_special_mtb_8106",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_12\\classes\\engines\\e_us_special_mtb_8106.xml",
         "torque": 58000,
         "critical_damage_threshold": 0.65,
         "damage_capacity": 130,
@@ -732,9 +1001,10 @@
         "name": "GForce-4V 11.0T"
     },
     "e_us_special_aac_58dw-us_special_aac_58dw_alto_4110": {
-        "id": "us_special_aac_58dw_alto_4110",
+        "id": "e_us_special_aac_58dw_us_special_aac_58dw_alto_4110",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_ALTO_4110_DESC",
         "engine_file": "e_us_special_aac_58dw",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\engines\\e_us_special_aac_58dw.xml",
         "torque": 80000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 120,
@@ -744,9 +1014,10 @@
         "name": "Alto 4-110"
     },
     "e_us_special_aac_58dw-us_special_aac_58dw_alto_6190": {
-        "id": "us_special_aac_58dw_alto_6190",
+        "id": "e_us_special_aac_58dw_us_special_aac_58dw_alto_6190",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_ALTO_6190_DESC",
         "engine_file": "e_us_special_aac_58dw",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\engines\\e_us_special_aac_58dw.xml",
         "torque": 110000,
         "critical_damage_threshold": 0.65,
         "damage_capacity": 140,
@@ -756,9 +1027,10 @@
         "name": "Alto 6-190"
     },
     "e_us_truck_old_plad_450-us_special_plad_450_fanis19": {
-        "id": "us_special_plad_450_fanis19",
+        "id": "e_us_truck_old_plad_450_us_special_plad_450_fanis19",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PLAD_450_FANIS19_DESC",
         "engine_file": "e_us_truck_old_plad_450",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\engines\\e_us_truck_old_plad_450.xml",
         "torque": 275000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 220,
@@ -768,9 +1040,10 @@
         "name": "Fanis 19-450KT"
     },
     "e_us_truck_old_plad_450-us_special_plad_450_datz12l": {
-        "id": "us_special_plad_450_datz12l",
+        "id": "e_us_truck_old_plad_450_us_special_plad_450_datz12l",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PLAD_450_DATZ12L_DESC",
         "engine_file": "e_us_truck_old_plad_450",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_13\\classes\\engines\\e_us_truck_old_plad_450.xml",
         "torque": 250000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 260,
@@ -780,9 +1053,10 @@
         "name": "Datz 12-513C"
     },
     "e_us_ankatra_1160_special-us_ankatra_1160_engine_0": {
-        "id": "us_ankatra_1160_engine_0",
+        "id": "e_us_ankatra_1160_special_us_ankatra_1160_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_METRAV51_DESC",
         "engine_file": "e_us_ankatra_1160_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14\\classes\\engines\\e_us_ankatra_1160_special.xml",
         "torque": 115000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 110,
@@ -792,9 +1066,10 @@
         "name": "METRA V51-D70"
     },
     "e_us_ankatra_1160_special-us_ankatra_1160_engine_1": {
-        "id": "us_ankatra_1160_engine_1",
+        "id": "e_us_ankatra_1160_special_us_ankatra_1160_engine_1",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_METRAV52_DESC",
         "engine_file": "e_us_ankatra_1160_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14\\classes\\engines\\e_us_ankatra_1160_special.xml",
         "torque": 150000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 160,
@@ -804,9 +1079,10 @@
         "name": "METRA V52-D85"
     },
     "e_us_futom_7290ra_special-us_futom_7290ra_engine_0": {
-        "id": "us_futom_7290ra_engine_0",
+        "id": "e_us_futom_7290ra_special_us_futom_7290ra_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PASS500_DESC",
         "engine_file": "e_us_futom_7290ra_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14\\classes\\engines\\e_us_futom_7290ra_special.xml",
         "torque": 130000,
         "critical_damage_threshold": 0.35,
         "damage_capacity": 210,
@@ -816,9 +1092,10 @@
         "name": "Pass 500L12"
     },
     "e_us_futom_7290ra_special-us_futom_7290ra_engine_1": {
-        "id": "us_futom_7290ra_engine_1",
+        "id": "e_us_futom_7290ra_special_us_futom_7290ra_engine_1",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PASS530_DESC",
         "engine_file": "e_us_futom_7290ra_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14\\classes\\engines\\e_us_futom_7290ra_special.xml",
         "torque": 180000,
         "critical_damage_threshold": 0.65,
         "damage_capacity": 290,
@@ -828,9 +1105,10 @@
         "name": "Pass 530L14"
     },
     "e_us_truck_modern_kenworth_t880-us_truck_modern_engine_kenworth_880_0": {
-        "id": "us_truck_modern_engine_kenworth_880_0",
+        "id": "e_us_truck_modern_kenworth_t880_us_truck_modern_engine_kenworth_880_0",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_KENWORTH_880_0_DESC",
         "engine_file": "e_us_truck_modern_kenworth_t880",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14_1\\classes\\engines\\e_us_truck_modern_kenworth_t880.xml",
         "torque": 255000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 180,
@@ -840,9 +1118,10 @@
         "name": "Prime \u042111"
     },
     "e_us_truck_modern_kenworth_t880-us_truck_modern_engine_kenworth_880_1": {
-        "id": "us_truck_modern_engine_kenworth_880_1",
+        "id": "e_us_truck_modern_kenworth_t880_us_truck_modern_engine_kenworth_880_1",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_KENWORTH_880_1_DESC",
         "engine_file": "e_us_truck_modern_kenworth_t880",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14_1\\classes\\engines\\e_us_truck_modern_kenworth_t880.xml",
         "torque": 288000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 210,
@@ -852,9 +1131,10 @@
         "name": "Wanderer 605A6"
     },
     "e_us_truck_modern_mack_trucks-us_special_mack_mcv6": {
-        "id": "us_special_mack_mcv6",
+        "id": "e_us_truck_modern_mack_trucks_us_special_mack_mcv6",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV6_DESC",
         "engine_file": "e_us_truck_modern_mack_trucks",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\engines\\e_us_truck_modern_mack_trucks.xml",
         "torque": 181000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -864,9 +1144,10 @@
         "name": "MC-V6 11.OT"
     },
     "e_us_truck_modern_mack_trucks-us_special_mack_mcv8": {
-        "id": "us_special_mack_mcv8",
+        "id": "e_us_truck_modern_mack_trucks_us_special_mack_mcv8",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV8_DESC",
         "engine_file": "e_us_truck_modern_mack_trucks",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\engines\\e_us_truck_modern_mack_trucks.xml",
         "torque": 232000,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 300,
@@ -876,9 +1157,10 @@
         "name": "MC-V8 13.OT"
     },
     "e_us_truck_modern_mack_trucks-us_special_mack_mcv8fm": {
-        "id": "us_special_mack_mcv8fm",
+        "id": "e_us_truck_modern_mack_trucks_us_special_mack_mcv8fm",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_MACK_DEFENSE_MCV8FM_DESC",
         "engine_file": "e_us_truck_modern_mack_trucks",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_14_2\\classes\\engines\\e_us_truck_modern_mack_trucks.xml",
         "torque": 206000,
         "critical_damage_threshold": 0.75,
         "damage_capacity": 280,
@@ -888,9 +1170,10 @@
         "name": "MC-V8 FuelMiser"
     },
     "e_us_truck_old_heavy_sleiter_mfk816-us_truck_old_heavy_sleiter_mfk816_1": {
-        "id": "us_truck_old_heavy_sleiter_mfk816_1",
+        "id": "e_us_truck_old_heavy_sleiter_mfk816_us_truck_old_heavy_sleiter_mfk816_1",
         "ui_desc_id": "UI_ENGINE_US_OLD_HEAVY_SLEITER_MFK816_1_DESC",
         "engine_file": "e_us_truck_old_heavy_sleiter_mfk816",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\engines\\e_us_truck_old_heavy_sleiter_mfk816.xml",
         "torque": 255000,
         "critical_damage_threshold": 0.73,
         "damage_capacity": 250,
@@ -900,9 +1183,10 @@
         "name": "Tb-12V 816"
     },
     "e_us_truck_old_mercer_k520-us_truck_old_mercer_k520": {
-        "id": "us_truck_old_mercer_k520",
+        "id": "e_us_truck_old_mercer_k520_us_truck_old_mercer_k520",
         "ui_desc_id": "UI_ENGINE_US_OLD_MERCER_K520_DESC",
         "engine_file": "e_us_truck_old_mercer_k520",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_15\\classes\\engines\\e_us_truck_old_mercer_k520.xml",
         "torque": 165000,
         "critical_damage_threshold": 0.38,
         "damage_capacity": 180,
@@ -912,9 +1196,10 @@
         "name": "CIMA 5-520"
     },
     "e_us_truck_old_hib_billert-us_truck_old_engine_hib_billert": {
-        "id": "us_truck_old_engine_hib_billert",
+        "id": "e_us_truck_old_hib_billert_us_truck_old_engine_hib_billert",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_HIB_BILLERT_DESC",
         "engine_file": "e_us_truck_old_hib_billert",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16\\classes\\engines\\e_us_truck_old_hib_billert.xml",
         "torque": 162500,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 170,
@@ -924,9 +1209,10 @@
         "name": "HB-I6/1900E"
     },
     "e_us_truck_old_plad_440-us_truck_old_engine_plad_440": {
-        "id": "us_truck_old_engine_plad_440",
+        "id": "e_us_truck_old_plad_440_us_truck_old_engine_plad_440",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_PLAD_440_DESC",
         "engine_file": "e_us_truck_old_plad_440",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16\\classes\\engines\\e_us_truck_old_plad_440.xml",
         "torque": 180000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 210,
@@ -936,9 +1222,10 @@
         "name": "Datz 8-383C"
     },
     "e_us_truck_modern_heavy_padera_std4-us_truck_modern_engine_padera_std4_0": {
-        "id": "us_truck_modern_engine_padera_std4_0",
+        "id": "e_us_truck_modern_heavy_padera_std4_us_truck_modern_engine_padera_std4_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PADERA_STD4_0_DESC",
         "engine_file": "e_us_truck_modern_heavy_padera_std4",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_modern_heavy_padera_std4.xml",
         "torque": 171000,
         "critical_damage_threshold": 0.62,
         "damage_capacity": 180,
@@ -948,9 +1235,10 @@
         "name": "KoRDA-820B"
     },
     "e_us_truck_modern_heavy_padera_std4-us_truck_modern_engine_padera_std4_1": {
-        "id": "us_truck_modern_engine_padera_std4_1",
+        "id": "e_us_truck_modern_heavy_padera_std4_us_truck_modern_engine_padera_std4_1",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PADERA_STD4_1_DESC",
         "engine_file": "e_us_truck_modern_heavy_padera_std4",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_modern_heavy_padera_std4.xml",
         "torque": 196000,
         "critical_damage_threshold": 0.35,
         "damage_capacity": 150,
@@ -960,9 +1248,10 @@
         "name": "KoRDA-835E"
     },
     "e_us_truck_modern_heavy_padera_std4-us_truck_modern_engine_padera_std4_2": {
-        "id": "us_truck_modern_engine_padera_std4_2",
+        "id": "e_us_truck_modern_heavy_padera_std4_us_truck_modern_engine_padera_std4_2",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_PADERA_STD4_2_DESC",
         "engine_file": "e_us_truck_modern_heavy_padera_std4",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_modern_heavy_padera_std4.xml",
         "torque": 220000,
         "critical_damage_threshold": 0.66,
         "damage_capacity": 200,
@@ -972,9 +1261,10 @@
         "name": "KoRDA-860MX"
     },
     "e_us_truck_old_heavy_avenhorn_a15-us_truck_old_engine_avenhorn_a15_0": {
-        "id": "us_truck_old_engine_avenhorn_a15_0",
+        "id": "e_us_truck_old_heavy_avenhorn_a15_us_truck_old_engine_avenhorn_a15_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_AVENHORN_A15_0_DESC",
         "engine_file": "e_us_truck_old_heavy_avenhorn_a15",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_old_heavy_avenhorn_a15.xml",
         "torque": 214000,
         "critical_damage_threshold": 0.35,
         "damage_capacity": 200,
@@ -984,9 +1274,10 @@
         "name": "Columbus V12 302D"
     },
     "e_us_truck_old_heavy_avenhorn_a15-us_truck_old_engine_avenhorn_a15_1": {
-        "id": "us_truck_old_engine_avenhorn_a15_1",
+        "id": "e_us_truck_old_heavy_avenhorn_a15_us_truck_old_engine_avenhorn_a15_1",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_AVENHORN_A15_1_DESC",
         "engine_file": "e_us_truck_old_heavy_avenhorn_a15",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_old_heavy_avenhorn_a15.xml",
         "torque": 242000,
         "critical_damage_threshold": 0.55,
         "damage_capacity": 240,
@@ -996,9 +1287,10 @@
         "name": "Columbus V12 302TD"
     },
     "e_us_truck_old_heavy_avenhorn_a15-us_truck_old_engine_avenhorn_a15_2": {
-        "id": "us_truck_old_engine_avenhorn_a15_2",
+        "id": "e_us_truck_old_heavy_avenhorn_a15_us_truck_old_engine_avenhorn_a15_2",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_AVENHORN_A15_2_DESC",
         "engine_file": "e_us_truck_old_heavy_avenhorn_a15",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_16_5\\classes\\engines\\e_us_truck_old_heavy_avenhorn_a15.xml",
         "torque": 270200,
         "critical_damage_threshold": 0.8,
         "damage_capacity": 380,
@@ -1008,9 +1300,10 @@
         "name": "Niagara BH 20-20"
     },
     "e_ru_truck_old_voron_g5352-ru_truck_old_engine_voron_g5352_0": {
-        "id": "ru_truck_old_engine_voron_g5352_0",
+        "id": "e_ru_truck_old_voron_g5352_ru_truck_old_engine_voron_g5352_0",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_VORON_G5352_0_DESC",
         "engine_file": "e_ru_truck_old_voron_g5352",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_ru_truck_old_voron_g5352.xml",
         "torque": 161000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 200,
@@ -1020,9 +1313,10 @@
         "name": "IMZ-8 300-T"
     },
     "e_ru_truck_old_voron_g5352-ru_truck_old_engine_voron_g5352_1": {
-        "id": "ru_truck_old_engine_voron_g5352_1",
+        "id": "e_ru_truck_old_voron_g5352_ru_truck_old_engine_voron_g5352_1",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_VORON_G5352_1_DESC",
         "engine_file": "e_ru_truck_old_voron_g5352",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_ru_truck_old_voron_g5352.xml",
         "torque": 185000,
         "critical_damage_threshold": 0.33,
         "damage_capacity": 180,
@@ -1032,9 +1326,10 @@
         "name": "IMZ-8 310-TB"
     },
     "e_ru_truck_old_voron_g5352-ru_truck_old_engine_voron_g5352_2": {
-        "id": "ru_truck_old_engine_voron_g5352_2",
+        "id": "e_ru_truck_old_voron_g5352_ru_truck_old_engine_voron_g5352_2",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_VORON_G5352_2_DESC",
         "engine_file": "e_ru_truck_old_voron_g5352",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_ru_truck_old_voron_g5352.xml",
         "torque": 210000,
         "critical_damage_threshold": 0.64,
         "damage_capacity": 220,
@@ -1044,9 +1339,10 @@
         "name": "IMZ-8 360-X"
     },
     "e_truck_old_jangsu_rx600-truck_old_engine_jangsu_rx600_0": {
-        "id": "truck_old_engine_jangsu_rx600_0",
+        "id": "e_truck_old_jangsu_rx600_truck_old_engine_jangsu_rx600_0",
         "ui_desc_id": "UI_ENGINE_TRUCK_OLD_JANGSU_RX600_0_DESC",
         "engine_file": "e_truck_old_jangsu_rx600",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_truck_old_jangsu_rx600.xml",
         "torque": 123000,
         "critical_damage_threshold": 0.63,
         "damage_capacity": 160,
@@ -1056,9 +1352,10 @@
         "name": "Columbus 6V-170X"
     },
     "e_truck_old_jangsu_rx600-truck_old_engine_jangsu_rx600_1": {
-        "id": "truck_old_engine_jangsu_rx600_1",
+        "id": "e_truck_old_jangsu_rx600_truck_old_engine_jangsu_rx600_1",
         "ui_desc_id": "UI_ENGINE_TRUCK_OLD_JANGSU_RX600_1_DESC",
         "engine_file": "e_truck_old_jangsu_rx600",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_truck_old_jangsu_rx600.xml",
         "torque": 142000,
         "critical_damage_threshold": 0.67,
         "damage_capacity": 180,
@@ -1068,9 +1365,10 @@
         "name": "Columbus 6V-TX"
     },
     "e_truck_old_jangsu_rx600-truck_old_engine_jangsu_rx600_2": {
-        "id": "truck_old_engine_jangsu_rx600_2",
+        "id": "e_truck_old_jangsu_rx600_truck_old_engine_jangsu_rx600_2",
         "ui_desc_id": "UI_ENGINE_TRUCK_OLD_JANGSU_RX600_2_DESC",
         "engine_file": "e_truck_old_jangsu_rx600",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17\\classes\\engines\\e_truck_old_jangsu_rx600.xml",
         "torque": 160000,
         "critical_damage_threshold": 0.63,
         "damage_capacity": 190,
@@ -1080,9 +1378,10 @@
         "name": "Columbus 6V-280X"
     },
     "e_us_truck_modern_mercedes_benz_actros_6x6-us_truck_modern_engine_mercedes_actros_0": {
-        "id": "us_truck_modern_engine_mercedes_actros_0",
+        "id": "e_us_truck_modern_mercedes_benz_actros_6x6_us_truck_modern_engine_mercedes_actros_0",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ACTROS_0_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_actros_6x6",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_actros_6x6.xml",
         "torque": 154000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 180,
@@ -1092,9 +1391,10 @@
         "name": "MEREX 6L-320"
     },
     "e_us_truck_modern_mercedes_benz_actros_6x6-us_truck_modern_engine_mercedes_actros_1": {
-        "id": "us_truck_modern_engine_mercedes_actros_1",
+        "id": "e_us_truck_modern_mercedes_benz_actros_6x6_us_truck_modern_engine_mercedes_actros_1",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ACTROS_1_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_actros_6x6",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_actros_6x6.xml",
         "torque": 172000,
         "critical_damage_threshold": 0.53,
         "damage_capacity": 190,
@@ -1104,9 +1404,10 @@
         "name": "MEREX 6L-360H"
     },
     "e_us_truck_modern_mercedes_benz_actros_6x6-us_truck_modern_engine_mercedes_actros_2": {
-        "id": "us_truck_modern_engine_mercedes_actros_2",
+        "id": "e_us_truck_modern_mercedes_benz_actros_6x6_us_truck_modern_engine_mercedes_actros_2",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ACTROS_2_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_actros_6x6",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_actros_6x6.xml",
         "torque": 190000,
         "critical_damage_threshold": 0.88,
         "damage_capacity": 160,
@@ -1116,45 +1417,205 @@
         "name": "MEREX V8-420X"
     },
     "e_us_truck_modern_mercedes_benz_zetros_6x6-us_truck_modern_engine_mercedes_zetros_0": {
-        "id": "us_truck_modern_engine_mercedes_zetros_0",
+        "id": "e_us_truck_modern_mercedes_benz_zetros_6x6_us_truck_modern_engine_mercedes_zetros_0",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ZETROS_0_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_zetros_6x6",
-        "torque": 197000,
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_zetros_6x6.xml",
+        "torque": 207000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 200,
-        "fuel_consumption": 5.43,
-        "torque_efficiency": 36.3,
+        "fuel_consumption": 5.21,
+        "torque_efficiency": 39.7,
         "price": 15200,
         "name": "BRANDT V6-360"
     },
     "e_us_truck_modern_mercedes_benz_zetros_6x6-us_truck_modern_engine_mercedes_zetros_1": {
-        "id": "us_truck_modern_engine_mercedes_zetros_1",
+        "id": "e_us_truck_modern_mercedes_benz_zetros_6x6_us_truck_modern_engine_mercedes_zetros_1",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ZETROS_1_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_zetros_6x6",
-        "torque": 221000,
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_zetros_6x6.xml",
+        "torque": 232000,
         "critical_damage_threshold": 0.57,
         "damage_capacity": 210,
-        "fuel_consumption": 6.41,
-        "torque_efficiency": 34.5,
+        "fuel_consumption": 6.15,
+        "torque_efficiency": 37.7,
         "price": 17800,
         "name": "BRANDT V6-420HB"
     },
     "e_us_truck_modern_mercedes_benz_zetros_6x6-us_truck_modern_engine_mercedes_zetros_2": {
-        "id": "us_truck_modern_engine_mercedes_zetros_2",
+        "id": "e_us_truck_modern_mercedes_benz_zetros_6x6_us_truck_modern_engine_mercedes_zetros_2",
         "ui_desc_id": "UI_ENGINE_US_MERCEDES_ZETROS_2_DESC",
         "engine_file": "e_us_truck_modern_mercedes_benz_zetros_6x6",
-        "torque": 245500,
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_17_5\\classes\\engines\\e_us_truck_modern_mercedes_benz_zetros_6x6.xml",
+        "torque": 257700,
         "critical_damage_threshold": 0.61,
         "damage_capacity": 230,
-        "fuel_consumption": 7.4,
-        "torque_efficiency": 33.2,
+        "fuel_consumption": 7.1,
+        "torque_efficiency": 36.3,
         "price": 19500,
         "name": "BRANDT V8-500TX"
     },
+    "e_truck_engine_hib_billert_m816-engine_truck_hib_billert_m816_00": {
+        "id": "e_truck_engine_hib_billert_m816_engine_truck_hib_billert_m816_00",
+        "ui_desc_id": "UI_ENGINE_HIB_BILLERT_M816_00_DESC",
+        "engine_file": "e_truck_engine_hib_billert_m816",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_hib_billert_m816.xml",
+        "torque": 138000,
+        "critical_damage_threshold": 0.5,
+        "damage_capacity": 120,
+        "fuel_consumption": 4.26,
+        "torque_efficiency": 32.4,
+        "price": 7200,
+        "name": "KTV 6-680"
+    },
+    "e_truck_engine_hib_billert_m816-engine_truck_hib_billert_m816_01": {
+        "id": "e_truck_engine_hib_billert_m816_engine_truck_hib_billert_m816_01",
+        "ui_desc_id": "UI_ENGINE_HIB_BILLERT_M816_01_DESC",
+        "engine_file": "e_truck_engine_hib_billert_m816",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_hib_billert_m816.xml",
+        "torque": 160000,
+        "critical_damage_threshold": 0.67,
+        "damage_capacity": 150,
+        "fuel_consumption": 5.33,
+        "torque_efficiency": 30.0,
+        "price": 7500,
+        "name": "KTV 9-730"
+    },
+    "e_truck_engine_hib_billert_m816-engine_truck_hib_billert_m816_02": {
+        "id": "e_truck_engine_hib_billert_m816_engine_truck_hib_billert_m816_02",
+        "ui_desc_id": "UI_ENGINE_HIB_BILLERT_M816_02_DESC",
+        "engine_file": "e_truck_engine_hib_billert_m816",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_hib_billert_m816.xml",
+        "torque": 182950,
+        "critical_damage_threshold": 0.85,
+        "damage_capacity": 100,
+        "fuel_consumption": 6.4,
+        "torque_efficiency": 28.6,
+        "price": 7900,
+        "name": "KTV 14-890"
+    },
+    "e_truck_engine_mercer_6x6r_230-engine_truck_mercer_6x6r_230_00": {
+        "id": "e_truck_engine_mercer_6x6r_230_engine_truck_mercer_6x6r_230_00",
+        "ui_desc_id": "UI_ENGINE_MERCER_6X6_R230_00_DESC",
+        "engine_file": "e_truck_engine_mercer_6x6r_230",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_mercer_6x6r_230.xml",
+        "torque": 128000,
+        "critical_damage_threshold": 0.77,
+        "damage_capacity": 90,
+        "fuel_consumption": 4.4,
+        "torque_efficiency": 29.1,
+        "price": 7900,
+        "name": "MMDV-50 180"
+    },
+    "e_truck_engine_mercer_6x6r_230-engine_truck_mercer_6x6r_230_01": {
+        "id": "e_truck_engine_mercer_6x6r_230_engine_truck_mercer_6x6r_230_01",
+        "ui_desc_id": "UI_ENGINE_MERCER_6X6_R230_01_DESC",
+        "engine_file": "e_truck_engine_mercer_6x6r_230",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_mercer_6x6r_230.xml",
+        "torque": 146000,
+        "critical_damage_threshold": 0.42,
+        "damage_capacity": 120,
+        "fuel_consumption": 5.38,
+        "torque_efficiency": 27.1,
+        "price": 9000,
+        "name": "MMDV-80 220X"
+    },
+    "e_truck_engine_mercer_6x6r_230-engine_truck_mercer_6x6r_230_02": {
+        "id": "e_truck_engine_mercer_6x6r_230_engine_truck_mercer_6x6r_230_02",
+        "ui_desc_id": "UI_ENGINE_MERCER_6X6_R230_02_DESC",
+        "engine_file": "e_truck_engine_mercer_6x6r_230",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18\\classes\\engines\\e_truck_engine_mercer_6x6r_230.xml",
+        "torque": 165240,
+        "critical_damage_threshold": 0.6,
+        "damage_capacity": 200,
+        "fuel_consumption": 6.35,
+        "torque_efficiency": 26.0,
+        "price": 10100,
+        "name": "MMDV-96 X300"
+    },
+    "e_truck_engine_mercedes_3850-engine_truck_mercedes_3850_0": {
+        "id": "e_truck_engine_mercedes_3850_engine_truck_mercedes_3850_0",
+        "ui_desc_id": "UI_ENGINE_TRUCK_MERCEDES_3850_0_DESC",
+        "engine_file": "e_truck_engine_mercedes_3850",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_3850.xml",
+        "torque": 159000,
+        "critical_damage_threshold": 0.715,
+        "damage_capacity": 210,
+        "fuel_consumption": 5.24,
+        "torque_efficiency": 30.3,
+        "price": 7200,
+        "name": "BEL 11-101Ka"
+    },
+    "e_truck_engine_mercedes_3850-engine_truck_mercedes_3850_1": {
+        "id": "e_truck_engine_mercedes_3850_engine_truck_mercedes_3850_1",
+        "ui_desc_id": "UI_ENGINE_TRUCK_MERCEDES_3850_1_DESC",
+        "engine_file": "e_truck_engine_mercedes_3850",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_3850.xml",
+        "torque": 182000,
+        "critical_damage_threshold": 0.682,
+        "damage_capacity": 220,
+        "fuel_consumption": 6.37,
+        "torque_efficiency": 28.6,
+        "price": 7500,
+        "name": "BEL 18-109Ka"
+    },
+    "e_truck_engine_mercedes_3850-engine_truck_mercedes_3850_2": {
+        "id": "e_truck_engine_mercedes_3850_engine_truck_mercedes_3850_2",
+        "ui_desc_id": "UI_ENGINE_TRUCK_MERCEDES_3850_2_DESC",
+        "engine_file": "e_truck_engine_mercedes_3850",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_3850.xml",
+        "torque": 205000,
+        "critical_damage_threshold": 0.5,
+        "damage_capacity": 240,
+        "fuel_consumption": 7.5,
+        "torque_efficiency": 27.3,
+        "price": 7900,
+        "name": "BEL 28-192Ka"
+    },
+    "e_truck_engine_mercedes_mamute_1519-engine_truck_mercedes_mamute_1519_0": {
+        "id": "e_truck_engine_mercedes_mamute_1519_engine_truck_mercedes_mamute_1519_0",
+        "ui_desc_id": "UI_ENGINE_MERCEDES_MAMUTE_1519_0_DESC",
+        "engine_file": "e_truck_engine_mercedes_mamute_1519",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_mamute_1519.xml",
+        "torque": 152000,
+        "critical_damage_threshold": 0.589,
+        "damage_capacity": 170,
+        "fuel_consumption": 4.88,
+        "torque_efficiency": 31.1,
+        "price": 7200,
+        "name": "MEL-7/ 104A"
+    },
+    "e_truck_engine_mercedes_mamute_1519-engine_truck_mercedes_mamute_1519_1": {
+        "id": "e_truck_engine_mercedes_mamute_1519_engine_truck_mercedes_mamute_1519_1",
+        "ui_desc_id": "UI_ENGINE_MERCEDES_MAMUTE_1519_1_DESC",
+        "engine_file": "e_truck_engine_mercedes_mamute_1519",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_mamute_1519.xml",
+        "torque": 174000,
+        "critical_damage_threshold": 0.682,
+        "damage_capacity": 220,
+        "fuel_consumption": 5.94,
+        "torque_efficiency": 29.3,
+        "price": 7500,
+        "name": "MEL-7/ 111L"
+    },
+    "e_truck_engine_mercedes_mamute_1519-engine_truck_mercedes_mamute_1519_2": {
+        "id": "e_truck_engine_mercedes_mamute_1519_engine_truck_mercedes_mamute_1519_2",
+        "ui_desc_id": "UI_ENGINE_MERCEDES_MAMUTE_1519_2_DESC",
+        "engine_file": "e_truck_engine_mercedes_mamute_1519",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_18_1\\classes\\engines\\e_truck_engine_mercedes_mamute_1519.xml",
+        "torque": 196000,
+        "critical_damage_threshold": 0.4,
+        "damage_capacity": 250,
+        "fuel_consumption": 7.0,
+        "torque_efficiency": 28.0,
+        "price": 7900,
+        "name": "MEL-7/ 196N"
+    },
     "e_us_scout_old_f750-us_scout_old_engine_f750": {
-        "id": "us_scout_old_engine_f750",
+        "id": "e_us_scout_old_f750_us_scout_old_engine_f750",
         "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_F750_DESC",
         "engine_file": "e_us_scout_old_f750",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_1_1\\classes\\engines\\e_us_scout_old_f750.xml",
         "torque": 120000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 100,
@@ -1164,9 +1625,10 @@
         "name": "Het/10V 6,6"
     },
     "e_us_special_cat_th357-us_special_cat_th357_engine_0": {
-        "id": "us_special_cat_th357_engine_0",
+        "id": "e_us_special_cat_th357_us_special_cat_th357_engine_0",
         "ui_desc_id": "UI_ENGINE_US_SPECIAL_CAT_TH357_0_DESC",
         "engine_file": "e_us_special_cat_th357",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_2_1\\classes\\engines\\e_us_special_cat_th357.xml",
         "torque": 90000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 90,
@@ -1176,9 +1638,10 @@
         "name": "Het/4 Ace 106kW"
     },
     "e_us_truck_modern_ws_49x-us_truck_modern_engine_ws49x": {
-        "id": "us_truck_modern_engine_ws49x",
+        "id": "e_us_truck_modern_ws_49x_us_truck_modern_engine_ws49x",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_WS_49X_DESC",
         "engine_file": "e_us_truck_modern_ws_49x",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_2_1\\classes\\engines\\e_us_truck_modern_ws_49x.xml",
         "torque": 220000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 170,
@@ -1188,9 +1651,10 @@
         "name": "Si-8V/2850Tc"
     },
     "e_ru_truck_modern_grad-ru_truck_modern_engine_grad": {
-        "id": "ru_truck_modern_engine_grad",
+        "id": "e_ru_truck_modern_grad_ru_truck_modern_engine_grad",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_GRAD_DESC",
         "engine_file": "e_ru_truck_modern_grad",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_4\\classes\\engines\\e_ru_truck_modern_grad.xml",
         "torque": 235000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 180,
@@ -1200,9 +1664,10 @@
         "name": "IMZ-8 17,0T"
     },
     "e_us_truck_modern_cathx-us_truck_modern_engine_cathx": {
-        "id": "us_truck_modern_engine_cathx",
+        "id": "e_us_truck_modern_cathx_us_truck_modern_engine_cathx",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_CATHX_DESC",
         "engine_file": "e_us_truck_modern_cathx",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_4_1\\classes\\engines\\e_us_truck_modern_cathx.xml",
         "torque": 210000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 200,
@@ -1211,10 +1676,50 @@
         "price": 11300,
         "name": "Si-8V/2900TTA"
     },
+    "e_scout_engine_jeep_cj7_renegade-engine_jeep_cj7_renegade_00": {
+        "id": "e_scout_engine_jeep_cj7_renegade_engine_jeep_cj7_renegade_00",
+        "ui_desc_id": "UI_ENGINE_US_SCOUT_OLD_2_DESC",
+        "engine_file": "e_scout_engine_jeep_cj7_renegade",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_5\\classes\\engines\\e_scout_engine_jeep_cj7_renegade.xml",
+        "torque": 66000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 150,
+        "fuel_consumption": 0.5,
+        "torque_efficiency": 132.0,
+        "price": 6000,
+        "name": "Het/6V 5,0"
+    },
+    "e_scout_engine_jeep_cj7_renegade-us_scout_modern_engine_0": {
+        "id": "e_scout_engine_jeep_cj7_renegade_us_scout_modern_engine_0",
+        "ui_desc_id": "UI_ENGINE_US_SCOUT_MODERN_0_DESC",
+        "engine_file": "e_scout_engine_jeep_cj7_renegade",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_5\\classes\\engines\\e_scout_engine_jeep_cj7_renegade.xml",
+        "torque": 88000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 100,
+        "fuel_consumption": 0.8,
+        "torque_efficiency": 110.0,
+        "price": 1900,
+        "name": "Het/8V 5,8"
+    },
+    "e_scout_engine_jeep_cj7_renegade-us_scout_modern_engine_1": {
+        "id": "e_scout_engine_jeep_cj7_renegade_us_scout_modern_engine_1",
+        "ui_desc_id": "UI_ENGINE_US_SCOUT_MODERN_1_DESC",
+        "engine_file": "e_scout_engine_jeep_cj7_renegade",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_5\\classes\\engines\\e_scout_engine_jeep_cj7_renegade.xml",
+        "torque": 110000,
+        "critical_damage_threshold": 0.7,
+        "damage_capacity": 120,
+        "fuel_consumption": 1.1,
+        "torque_efficiency": 100.0,
+        "price": 5500,
+        "name": "Het/8V 6,2"
+    },
     "e_un_truck_heavy_boarpac-ru_truck_modern_engine_grad": {
-        "id": "ru_truck_modern_engine_grad",
+        "id": "e_un_truck_heavy_boarpac_ru_truck_modern_engine_grad",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_MODERN_GRAD_DESC",
         "engine_file": "e_un_truck_heavy_boarpac",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_6\\classes\\engines\\e_un_truck_heavy_boarpac.xml",
         "torque": 235000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 180,
@@ -1224,9 +1729,10 @@
         "name": "IMZ-8 17,0T"
     },
     "e_us_truck_modern_longhorn_4520-us_truck_modern_engine_longhorn_4520": {
-        "id": "us_truck_modern_engine_longhorn_4520",
+        "id": "e_us_truck_modern_longhorn_4520_us_truck_modern_engine_longhorn_4520",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_LONGHORN_4520_DESC",
         "engine_file": "e_us_truck_modern_longhorn_4520",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_6\\classes\\engines\\e_us_truck_modern_longhorn_4520.xml",
         "torque": 240000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 190,
@@ -1236,9 +1742,10 @@
         "name": "Gb-8V 3200"
     },
     "e_ru_azov_sprinter-ru_azov_sprinter_custom_engine": {
-        "id": "ru_azov_sprinter_custom_engine",
+        "id": "e_ru_azov_sprinter_ru_azov_sprinter_custom_engine",
         "ui_desc_id": "UI_ENGINE_SPORT_DESC",
         "engine_file": "e_ru_azov_sprinter",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_7\\classes\\engines\\e_ru_azov_sprinter.xml",
         "torque": 250000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 210,
@@ -1248,9 +1755,10 @@
         "name": "Azov SAM-8 14"
     },
     "e_ru_kirovets_k700_special-ru_kirovets_k700_engine_0": {
-        "id": "ru_kirovets_k700_engine_0",
+        "id": "e_ru_kirovets_k700_special_ru_kirovets_k700_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_0_DESC",
         "engine_file": "e_ru_kirovets_k700_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k700_special.xml",
         "torque": 136000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 220,
@@ -1260,9 +1768,10 @@
         "name": "KZGT-8 490"
     },
     "e_ru_kirovets_k700_special-ru_kirovets_k700_engine_1": {
-        "id": "ru_kirovets_k700_engine_1",
+        "id": "e_ru_kirovets_k700_special_ru_kirovets_k700_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_1_DESC",
         "engine_file": "e_ru_kirovets_k700_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k700_special.xml",
         "torque": 155000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 270,
@@ -1272,9 +1781,10 @@
         "name": "IMZ-8 520 AT"
     },
     "e_ru_kirovets_k700_special-ru_kirovets_k700_engine_2": {
-        "id": "ru_kirovets_k700_engine_2",
+        "id": "e_ru_kirovets_k700_special_ru_kirovets_k700_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_2_DESC",
         "engine_file": "e_ru_kirovets_k700_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k700_special.xml",
         "torque": 175000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 300,
@@ -1284,9 +1794,10 @@
         "name": "KZGT-8 530 T"
     },
     "e_ru_kirovets_k7m_special-ru_kirovets_k7m_engine_0": {
-        "id": "ru_kirovets_k7m_engine_0",
+        "id": "e_ru_kirovets_k7m_special_ru_kirovets_k7m_engine_0",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_0_DESC",
         "engine_file": "e_ru_kirovets_k7m_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k7m_special.xml",
         "torque": 129000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 220,
@@ -1296,9 +1807,10 @@
         "name": "LAZ 8 T310 Tractor"
     },
     "e_ru_kirovets_k7m_special-ru_kirovets_k7m_engine_1": {
-        "id": "ru_kirovets_k7m_engine_1",
+        "id": "e_ru_kirovets_k7m_special_ru_kirovets_k7m_engine_1",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_1_DESC",
         "engine_file": "e_ru_kirovets_k7m_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k7m_special.xml",
         "torque": 150000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 270,
@@ -1308,9 +1820,10 @@
         "name": "DAN-8C 370"
     },
     "e_ru_kirovets_k7m_special-ru_kirovets_k7m_engine_2": {
-        "id": "ru_kirovets_k7m_engine_2",
+        "id": "e_ru_kirovets_k7m_special_ru_kirovets_k7m_engine_2",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_2_DESC",
         "engine_file": "e_ru_kirovets_k7m_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_8\\classes\\engines\\e_ru_kirovets_k7m_special.xml",
         "torque": 170000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 300,
@@ -1320,9 +1833,10 @@
         "name": "KZGT-8 420T"
     },
     "e_ru_special_zikz_mastodont-ru_special_mastodont_0": {
-        "id": "ru_special_mastodont_0",
+        "id": "e_ru_special_zikz_mastodont_ru_special_mastodont_0",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_ZIKZ_MASTODONT_0_DESC",
         "engine_file": "e_ru_special_zikz_mastodont",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\engines\\e_ru_special_zikz_mastodont.xml",
         "torque": 207000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 150,
@@ -1332,9 +1846,10 @@
         "name": "TUSK12-530-\u04202"
     },
     "e_ru_special_zikz_mastodont-ru_special_mastodont_1": {
-        "id": "ru_special_mastodont_1",
+        "id": "e_ru_special_zikz_mastodont_ru_special_mastodont_1",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_ZIKZ_MASTODONT_1_DESC",
         "engine_file": "e_ru_special_zikz_mastodont",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\engines\\e_ru_special_zikz_mastodont.xml",
         "torque": 236000,
         "critical_damage_threshold": 0.5,
         "damage_capacity": 260,
@@ -1344,9 +1859,10 @@
         "name": "TUSK12-850-\u04204\u0422"
     },
     "e_ru_special_zikz_mastodont-ru_special_mastodont_2": {
-        "id": "ru_special_mastodont_2",
+        "id": "e_ru_special_zikz_mastodont_ru_special_mastodont_2",
         "ui_desc_id": "UI_ENGINE_RU_SPECIAL_ZIKZ_MASTODONT_2_DESC",
         "engine_file": "e_ru_special_zikz_mastodont",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\engines\\e_ru_special_zikz_mastodont.xml",
         "torque": 265000,
         "critical_damage_threshold": 0.3,
         "damage_capacity": 320,
@@ -1356,9 +1872,10 @@
         "name": "STORM3120\u0422"
     },
     "e_ru_truck_old_zikz_566a-ru_truck_old_engine_zikz_566a": {
-        "id": "ru_truck_old_engine_zikz_566a",
+        "id": "e_ru_truck_old_zikz_566a_ru_truck_old_engine_zikz_566a",
         "ui_desc_id": "UI_ENGINE_RU_TRUCK_OLD_ZIKZ_566A_DESC",
         "engine_file": "e_ru_truck_old_zikz_566a",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\engines\\e_ru_truck_old_zikz_566a.xml",
         "torque": 180000,
         "critical_damage_threshold": 0.7,
         "damage_capacity": 100,
@@ -1368,9 +1885,10 @@
         "name": "IMZ-6 370"
     },
     "e_us_truck_modern_derry_special-us_truck_modern_engine_derry_special": {
-        "id": "us_truck_modern_engine_derry_special",
+        "id": "e_us_truck_modern_derry_special_us_truck_modern_engine_derry_special",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_MODERN_DERRY_SPECIAL_DESC",
         "engine_file": "e_us_truck_modern_derry_special",
+        "full_file": "input\\initial\\[media]\\_dlc\\dlc_9\\classes\\engines\\e_us_truck_modern_derry_special.xml",
         "torque": 280000,
         "critical_damage_threshold": 0.4,
         "damage_capacity": 300,
@@ -1380,14 +1898,15 @@
         "name": "Gb-8V 3500T"
     },
     "e_us_truck_old_gmc8000-us_truck_old_engine_gmc8000": {
-        "id": "us_truck_old_engine_gmc8000",
+        "id": "e_us_truck_old_gmc8000_us_truck_old_engine_gmc8000",
         "ui_desc_id": "UI_ENGINE_US_TRUCK_OLD_GMC8000_DESC",
         "engine_file": "e_us_truck_old_gmc8000",
-        "torque": 175000,
+        "full_file": "input\\initial\\[media]\\_dlc\\DLC_trial_6\\classes\\engines\\e_us_truck_old_gmc8000.xml",
+        "torque": 185000,
         "critical_damage_threshold": 0.6,
         "damage_capacity": 230,
-        "fuel_consumption": 7.5,
-        "torque_efficiency": 23.3,
+        "fuel_consumption": 7.75,
+        "torque_efficiency": 23.9,
         "price": 11300,
         "name": "A6V-2330"
     }

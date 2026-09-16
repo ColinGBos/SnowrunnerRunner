@@ -4,8 +4,8 @@
         "num_format": {},
         "con_format": {}
     },
-    "addon_id": {
-        "name": "addon_id",
+    "id": {
+        "name": "id",
         "num_format": {},
         "con_format": {}
     },
