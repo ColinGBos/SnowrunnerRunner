@@ -306,5 +306,6 @@
     "update_tire_desc",
     "cargo_name_updates",
     "truck_description_updates",
+    "engine_description_updates",
     "gearbox_description_updates"
 ]

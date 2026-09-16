@@ -906,16 +906,42 @@ def get_updated_truck_descs(game_data: TruckDataProcessor) -> None:
 
 def get_updated_engine_descs(game_data: TruckDataProcessor) -> None:
     engine_data_dict: dict = game_data.engine_dict
+    engine_descriptions: dict[str, list[dict]] = {}
     for _, engine_data in engine_data_dict.items():
-        contents = utils.get_modified_file_if_possible(Path(root_path, engine_data["full_file"]), False)
-        new_ui_desc_id = f"{engine_data["engine_file"]}_{engine_data['id']}_desc".replace(" ", "_").replace("(", "_").replace(
-            ")", "_").upper()
-        ui_descr = engine_data["ui_desc_id"]
+        name = engine_data["name"]
         torque = int(engine_data["torque"] / 100)
         torque_efficiency = engine_data["torque_efficiency"]
-        value = (
-            f"Torque: {torque:,} Nm. Fuel Use: {round(engine_data['fuel_consumption'], 1)}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
-        )
+        fuel_efficiency = round(engine_data['fuel_consumption'], 1)
+        vals = {"torque": torque,"torque_efficiency": torque_efficiency,"fuel_efficiency": fuel_efficiency,}
+        if name not in engine_descriptions:
+            engine_descriptions[name] = []
+            engine_descriptions[name].append(vals)
+        else:
+            if engine_descriptions[name][0] != vals:
+                engine_descriptions[name].append(vals)
+
+    for _, engine_data in engine_data_dict.items():
+        contents = utils.get_modified_file_if_possible(Path(root_path, engine_data["full_file"]), False)
+        new_ui_desc_id = f"{engine_data['id']}_desc".replace(" ", "_").replace("(", "_").replace(
+            ")", "_").upper()
+        ui_descr = engine_data["ui_desc_id"]
+        values = engine_descriptions[engine_data["name"]]
+        if len(values) == 1:
+            torque = f"{values[0]["torque"]:,}"
+            torque_efficiency = values[0]["torque_efficiency"]
+            fuel_efficiency = values[0]["fuel_efficiency"]
+            value = (
+                f"Torque: {torque} Nm.\\nFuel Use: {fuel_efficiency}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
+            )
+        elif len(values) == 2:
+            torque = f"{values[0]["torque"]:,}/{values[1]["torque"]:,}"
+            torque_efficiency = f"{values[0]["torque_efficiency"]}/{values[1]["torque_efficiency"]}"
+            fuel_efficiency = f"{values[0]["fuel_efficiency"]}/{values[1]["fuel_efficiency"]}"
+            value = (
+                f"Torque: {torque} Nm.\\nFuel Use: {fuel_efficiency}\\nEfficiency: {torque_efficiency} Nm/L-consumed"
+            )
+        else:
+            value = "This engine is used in multiple configurations."
         game_data.lang_registry.add_entry(new_ui_desc_id, value)
         utils.write_to_output(Path(root_path, engine_data["full_file"]),
                               contents.replace(ui_descr, new_ui_desc_id))
@@ -1040,9 +1066,9 @@ def main():
         get_updated_truck_descs(game_data)
         performed_adjustments.append("truck_description_updates")
 
-    # if "engine_description_updates" not in performed_adjustments:
-    #     get_updated_engine_descs(game_data)
-    #     performed_adjustments.append("engine_description_updates")
+    if "engine_description_updates" not in performed_adjustments:
+        get_updated_engine_descs(game_data)
+        performed_adjustments.append("engine_description_updates")
 
     if "gearbox_description_updates" not in performed_adjustments:
         get_updated_gearbox_descs(game_data)
