@@ -144,6 +144,15 @@ def get_all_addon_data(use_initial_files, truck_data:dict[str,dict], ui_dict: di
         if addon_name != "None":
             all_addon_data[addon_name] = addon_data
 
+    for file_path in dlc_folder.glob(
+        "dlc_*/classes/trucks/*_tunning/*.xml", case_sensitive=False
+    ):
+        addon_name, addon_data = get_addon_data(
+            file_path, use_initial_files, truck_data, ui_dict
+        )
+        if addon_name != "None":
+            all_addon_data[addon_name] = addon_data
+
     return all_addon_data
 
 

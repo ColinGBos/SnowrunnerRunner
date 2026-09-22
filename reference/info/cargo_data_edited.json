@@ -78,9 +78,9 @@
     "CargoMetalRoll": {
         "id": "cargo_metal_roll_1",
         "type": "CargoMetalRoll",
-        "packed_mass": 1000,
+        "packed_mass": 2500,
         "packed_length": 1,
-        "unpacked_mass": 1000,
+        "unpacked_mass": 2500,
         "name": "Metal Rolls"
     },
     "CargoBags2": {

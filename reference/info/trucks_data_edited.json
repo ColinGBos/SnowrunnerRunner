@@ -10940,7 +10940,7 @@
         "unlock_rank": 1,
         "awd": "Always",
         "desc_ui_id": "UI_VEHICLE_DERRY_SPECIAL_15C177_DESC",
-        "difflock": "Switchable",
+        "difflock": "Always",
         "steering_angle_1": 30.1,
         "steering_angle_2": 25.9,
         "steer_speed": 0.022,
@@ -10966,12 +10966,12 @@
             "e_us_truck_modern_derry_special"
         ],
         "min_engine_torque": 197000,
-        "max_engine_torque": 280000,
-        "pure_p/w": 12.4,
-        "adj_p/w": 15.89,
-        "adj_p/w+": 13.01,
-        "adj_p/w++": 9.55,
-        "wheel_adj_power": 358700,
+        "max_engine_torque": 260000,
+        "pure_p/w": 11.52,
+        "adj_p/w": 14.76,
+        "adj_p/w+": 12.08,
+        "adj_p/w++": 8.86,
+        "wheel_adj_power": 333100,
         "gearbox_type": [
             "gearboxes_special",
             "gearboxes_special_kolob"
@@ -10988,11 +10988,11 @@
         "fuel_use_rate": 59.33232375,
         "engine_on_time": 8.4,
         "suspension_type": "s_derry_special_15c177",
-        "max_rear_sus_height": 0.13,
+        "max_rear_sus_height": 0.135,
         "repair_supplies": true,
         "truck_trailer": true,
         "futom_trailer": true,
-        "high_saddle_height": 1.9507499999999998,
+        "high_saddle_height": 1.9557499999999999,
         "high_saddle": true,
         "hydrolift_saddle": true,
         "long_logs": true,
@@ -11020,7 +11020,7 @@
             "SaddleHigh1",
             "MinicraneUS"
         ],
-        "pulling_quotient": 23.54
+        "pulling_quotient": 22.66
     },
     "zikz_566a": {
         "name": "ZiKZ 566A",

@@ -3427,5 +3427,64 @@
         "price": 2500,
         "install_socket": "Gmc8000SpareWheel",
         "mass": 120
+    },
+    "derry_special_15c177_firefighter_addon": {
+        "name": "Fire Tank (Derry Special 15C-177)",
+        "addon_name_id": "UI_ADDON_FRAME_DERRY_SPECIAL_FIREFITGHTER_NAME",
+        "id": "derry_special_15c177_firefighter_addon",
+        "water_capacity": 2200,
+        "full_mass": 3350,
+        "repair_capacity": 200,
+        "price": 5900,
+        "install_socket": "FrameAddonDerryFirefighter",
+        "mass": 1850
+    },
+    "derry_special_15c177_roofrack_01a": {
+        "name": "Trunk Repair Supplies (Derry Special 15C-177)",
+        "addon_name_id": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME",
+        "id": "derry_special_15c177_roofrack_01a",
+        "fuel_capacity": 120,
+        "repair_capacity": 300,
+        "price": 1300,
+        "install_socket": "DerrySpecial15c177Roofrack",
+        "mass": 150
+    },
+    "derry_special_15c177_spare_wheel_01": {
+        "name": "Spare Wheel",
+        "addon_name_id": "UI_TUNING_SPARE_WHEEL_NAME",
+        "id": "derry_special_15c177_spare_wheel_01",
+        "spare_wheels": 2,
+        "price": 3000,
+        "install_socket": "DerrySpecial15c177SpareWheel",
+        "mass": 100
+    },
+    "zikz_566a_firefighter_addon": {
+        "name": "Fire Tank (ZiKZ 566A)",
+        "addon_name_id": "UI_ADDON_FRAME_ZIKZ_566A_FIREFIGHTER_NAME",
+        "id": "zikz_566a_firefighter_addon",
+        "water_capacity": 1800,
+        "full_mass": 1810,
+        "price": 6450,
+        "install_socket": "ZiKZ566aFirefighterAddon",
+        "mass": 1010
+    },
+    "zikz_566a_repair_kit_addon": {
+        "name": "Repair kit ZiKZ 566 (ZiKZ 566A)",
+        "addon_name_id": "UI_TUNING_ZIKZ_566A_REPAIR_KIT_NAME",
+        "id": "zikz_566a_repair_kit_addon",
+        "repair_capacity": 50,
+        "spare_wheels": 2,
+        "price": 2700,
+        "install_socket": "ZiKZ566aRepairKit",
+        "mass": 106
+    },
+    "zikz_566a_roofrack_01a": {
+        "name": "Small Roof Rack (ZiKZ 566A)",
+        "addon_name_id": "UI_TUNING_ROOFRACK_SMALL_NAME",
+        "id": "zikz_566a_roofrack_01a",
+        "fuel_capacity": 120,
+        "price": 2400,
+        "install_socket": "zikz566Roofrack",
+        "mass": 90
     }
 }

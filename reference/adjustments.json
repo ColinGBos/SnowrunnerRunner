@@ -1,4 +1,10 @@
 {
+    "trucks_base_chains_substance": {
+        "path": "input/initial/[media]/_templates/trucks.xml",
+        "from": "<Chains\n\t\t\tBodyFriction=\"3.0\"\n\t\t\tBodyFrictionAsphalt=\"1.2\"\n\t\t\tIsIgnoreIce=\"true\"\n\t\t\tSubstanceFriction=\"1.3\"",
+        "to": "<Chains\n\t\t\tBodyFriction=\"2.6\"\n\t\t\tBodyFrictionAsphalt=\"1.2\"\n\t\t\tIsIgnoreIce=\"true\"\n\t\t\tSubstanceFriction=\"2.0\"",
+        "enabled": true
+    },
     "us_old_top_engine": {
         "path": "input/initial/[media]/classes/engines/e_us_truck_old_heavy.xml",
         "from": "Torque=\"210000\"",
@@ -113,13 +119,13 @@
         "to": "FuelCapacity=\"360\"",
         "enabled": true
     },
-    "plad_450_fuel_mass_decrease_1": {
+    "plad_450_mass_decrease_1": {
         "path": "input/initial/[media]/_dlc/dlc_13/classes/trucks/plad_450.xml",
         "from": "Mass=\"9000\"",
         "to": "Mass=\"8000\"",
         "enabled": true
     },
-    "plad_450_fuel_mass_decrease_2": {
+    "plad_450_mass_decrease_2": {
         "path": "input/initial/[media]/_dlc/dlc_13/classes/trucks/plad_450.xml",
         "from": "Mass=\"17000\"",
         "to": "Mass=\"16000\"",
@@ -128,97 +134,115 @@
     "frame_addon_tank_capacity": {
         "path": "input/initial/[media]/classes/trucks/addons/frame_addon_tank.xml",
         "from": "<TruckData FuelCapacity=\"1800\">",
-        "to": "<TruckData FuelCapacity=\"2500\">",
+        "to": "<TruckData FuelCapacity=\"5000\">",
         "enabled": true
     },
     "frame_addon_tank_fuel_mass": {
         "path": "input/initial/[media]/classes/trucks/addons/frame_addon_tank.xml",
         "from": "<Body Mass=\"5040\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"7500\" />",
         "enabled": true
     },
     "zetros_frame_addon_tank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_tank_mercedes_zetros_6x6.xml",
         "from": "<TruckData FuelCapacity=\"1800\">",
-        "to": "<TruckData FuelCapacity=\"2500\">",
+        "to": "<TruckData FuelCapacity=\"5000\">",
         "enabled": true
     },
     "zetros_frame_addon_tank_mass": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_tank_mercedes_zetros_6x6.xml",
         "from": "<Body Mass=\"5040\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"7500\" />",
         "enabled": true
     },
     "tatra_frame_addon_tank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_5/classes/trucks/addons/tatra_frame_addon_tank.xml",
         "from": "<TruckData FuelCapacity=\"2000\">",
-        "to": "<TruckData FuelCapacity=\"3000\">",
+        "to": "<TruckData FuelCapacity=\"7000\">",
         "enabled": true
     },
     "tatra_frame_addon_tank_mass": {
         "path": "input/initial/[media]/_dlc/dlc_5/classes/trucks/addons/tatra_frame_addon_tank.xml",
         "from": "<Body Mass=\"5600\" />",
-        "to": "<Body Mass=\"7250\" />",
+        "to": "<Body Mass=\"8000\" />",
         "enabled": true
     },
     "frame_addon_tank_long_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_3/classes/trucks/addons/frame_addon_tank_long.xml",
         "from": "<TruckData FuelCapacity=\"2800\">",
-        "to": "<TruckData FuelCapacity=\"3500\">",
+        "to": "<TruckData FuelCapacity=\"10000\">",
         "enabled": true
     },
     "frame_addon_tank_long_mass": {
         "path": "input/initial/[media]/_dlc/dlc_3/classes/trucks/addons/frame_addon_tank_long.xml",
         "from": "<Body Mass=\"7840\" />",
-        "to": "<Body Mass=\"10000\" />",
+        "to": "<Body Mass=\"12000\" />",
+        "enabled": true
+    },
+    "azov_670963n_frame_addon_tank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_12_5/classes/trucks/addons/azov_670963n_frame_addon_tank.xml",
+        "from": "FuelCapacity=\"2500\"",
+        "to": "FuelCapacity=\"4500\"",
         "enabled": true
     },
     "crocodile_frame_addon_tank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_6/classes/trucks/addons/step_3364_crocodile_tank.xml",
         "from": "<TruckData FuelCapacity=\"900\">",
-        "to": "<TruckData FuelCapacity=\"1200\">",
+        "to": "<TruckData FuelCapacity=\"2000\">",
         "enabled": true
     },
     "crocodile_frame_addon_tank_mass": {
         "path": "input/initial/[media]/_dlc/dlc_6/classes/trucks/addons/step_3364_crocodile_tank.xml",
         "from": "<Body Mass=\"2520\" />",
-        "to": "<Body Mass=\"3500\" />",
+        "to": "<Body Mass=\"3000\" />",
         "enabled": true
     },
     "cat_745c_water_tank_mass": {
         "path": "input/initial/[media]/classes/trucks/addons/cat_745c_water_tank.xml",
         "from": "<Body Mass=\"7700\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"9000\" />",
         "enabled": true
     },
     "cat_745c_water_tank_capacity": {
         "path": "input/initial/[media]/classes/trucks/addons/cat_745c_water_tank.xml",
         "from": "<TruckData WaterCapacity=\"2000\">",
-        "to": "<TruckData WaterCapacity=\"3000\">",
+        "to": "<TruckData WaterCapacity=\"6000\">",
         "enabled": true
     },
     "cat_745c_fuel_tank_mass": {
         "path": "input/initial/[media]/classes/trucks/addons/cat_745c_fuel_tank.xml",
         "from": "<Body Mass=\"4480\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"8000\" />",
         "enabled": true
     },
     "cat_745c_fuel_tank_capacity": {
         "path": "input/initial/[media]/classes/trucks/addons/cat_745c_fuel_tank.xml",
         "from": "FuelCapacity=\"1600\"",
-        "to": "FuelCapacity=\"3000\"",
+        "to": "FuelCapacity=\"6000\"",
         "enabled": true
     },
     "frame_addon_watertank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/addons/frame_addon_watertank.xml",
         "from": "<TruckData WaterCapacity=\"1800\">",
-        "to": "<TruckData WaterCapacity=\"2500\">",
+        "to": "<TruckData WaterCapacity=\"5000\">",
+        "enabled": true
+    },
+    "derry_special_15c177_firefighter_addon_watertank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177_tunning/derry_special_15c177_firefighter_addon.xml",
+        "from": "WaterCapacity=\"2200\"",
+        "to": "WaterCapacity=\"5000\"",
+        "enabled": true
+    },
+    "derry_special_15c177_firefighter_addon_watertank_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177_tunning/derry_special_15c177_firefighter_addon.xml",
+        "from": "Body Mass=\"2200\"",
+        "to": "Body Mass=\"6000\"",
         "enabled": true
     },
     "frame_addon_watertank_water_mass": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/addons/frame_addon_watertank.xml",
         "from": "<Body Mass=\"6300\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"7500\" />",
         "enabled": true
     },
     "frame_addon_watertank_body_mass": {
@@ -227,70 +251,130 @@
         "to": "Mass=\"500\"",
         "enabled": true
     },
+    "frame_addon_watertank_mercedes_3850_watertank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_watertank_mercedes_3850.xml",
+        "from": "WaterCapacity=\"1800\"",
+        "to": "WaterCapacity=\"5000\"",
+        "enabled": true
+    },
+    "frame_addon_watertank_mercedes_3850_watertank_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_watertank_mercedes_3850.xml",
+        "from": "Body Mass=\"6300\"",
+        "to": "Body Mass=\"7500\"",
+        "enabled": true
+    },
+    "frame_addon_tank_mercedes_3850_tank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_tank_mercedes_3850.xml",
+        "from": "FuelCapacity=\"1800\"",
+        "to": "FuelCapacity=\"5000\"",
+        "enabled": true
+    },
+    "frame_addon_tank_mercedes_3850_tank_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/addons/frame_addon_tank_mercedes_3850.xml",
+        "from": "Body Mass=\"5040\"",
+        "to": "Body Mass=\"7500\"",
+        "enabled": true
+    },
+    "frame_tank_zikz_605r_tank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_4/classes/trucks/addons/frame_tank_zikz_605r.xml",
+        "from": "FuelCapacity=\"1800\"",
+        "to": "FuelCapacity=\"5000\"",
+        "enabled": true
+    },
+    "frame_tank_zikz_605r_tank_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_4/classes/trucks/addons/frame_tank_zikz_605r.xml",
+        "from": "Body Mass=\"5040\"",
+        "to": "Body Mass=\"7500\"",
+        "enabled": true
+    },
+    "frame_addon_tank_zikz_612h_mastodon_tank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_612h_mastodont_tuning/frame_addon_tank_zikz_612h_mastodon.xml",
+        "from": "FuelCapacity=\"1800\"",
+        "to": "FuelCapacity=\"5000\"",
+        "enabled": true
+    },
+    "frame_addon_tank_zikz_612h_mastodon_tank_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_612h_mastodont_tuning/frame_addon_tank_zikz_612h_mastodon.xml",
+        "from": "Body Mass=\"12000\"",
+        "to": "Body Mass=\"7500\"",
+        "enabled": true
+    },
+    "zikz_566a_firefighter_addon_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_566a_tunning/zikz_566a_firefighter_addon.xml",
+        "from": "WaterCapacity=\"1800\"",
+        "to": "WaterCapacity=\"4000\"",
+        "enabled": true
+    },
+    "zikz_566a_firefighter_addon_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_566a_tunning/zikz_566a_firefighter_addon.xml",
+        "from": "Body Mass=\"1800\"",
+        "to": "Body Mass=\"4000\"",
+        "enabled": true
+    },
     "zetros_frame_addon_watertank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_watertank_mercedes_zetros_6x6.xml",
         "from": "<TruckData WaterCapacity=\"1800\">",
-        "to": "<TruckData WaterCapacity=\"2500\">",
+        "to": "<TruckData WaterCapacity=\"5000\">",
         "enabled": true
     },
     "zetros_frame_addon_watertank_water_mass": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_watertank_mercedes_zetros_6x6.xml",
         "from": "<Body Mass=\"6300\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"7500\" />",
         "enabled": true
     },
     "zetros_frame_addon_watertank_body_mass": {
         "path": "input/initial/[media]/_dlc/dlc_17_5/classes/trucks/addons/frame_addon_watertank_mercedes_zetros_6x6.xml",
         "from": "Mass=\"1500\"",
-        "to": "Mass=\"500\"",
+        "to": "Mass=\"1000\"",
         "enabled": true
     },
     "frame_addon_long_watertank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_15_5/classes/trucks/addons/frame_addon_watertank_long.xml",
         "from": "<TruckData WaterCapacity=\"2800\">",
-        "to": "<TruckData WaterCapacity=\"4000\">",
+        "to": "<TruckData WaterCapacity=\"10000\">",
         "enabled": true
     },
     "frame_addon_long_watertank_water_mass": {
         "path": "input/initial/[media]/_dlc/dlc_15_5/classes/trucks/addons/frame_addon_watertank_long.xml",
         "from": "<Body Mass=\"9800\" />",
-        "to": "<Body Mass=\"12000\" />",
+        "to": "<Body Mass=\"12500\" />",
         "enabled": true
     },
     "trailer_watertank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/trailers/trailer_watertank.xml",
         "from": "<TruckData WaterCapacity=\"2000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData WaterCapacity=\"3000\">",
+        "to": "<TruckData WaterCapacity=\"7000\"  HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "trailer_watertank_mass": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/trailers/trailer_watertank.xml",
         "from": "<Body Mass=\"2000\" />",
-        "to": "<Body Mass=\"4000\" />",
+        "to": "<Body Mass=\"8000\" />",
         "enabled": true
     },
     "semitrailer_watertank_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/trailers/semitrailer_watertank.xml",
         "from": "<TruckData WaterCapacity=\"3700\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData WaterCapacity=\"5000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
+        "to": "<TruckData WaterCapacity=\"15000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "semitrailer_watertank_mass": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/trailers/semitrailer_watertank.xml",
         "from": "<Body Mass=\"3700\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"16000\" />",
         "enabled": true
     },
     "semitrailer_oiltank_capacity": {
         "path": "input/initial/[media]/classes/trucks/trailers/semitrailer_oiltank.xml",
         "from": "<TruckData FuelCapacity=\"3700\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData FuelCapacity=\"5000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
+        "to": "<TruckData FuelCapacity=\"15000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "semitrailer_oiltank_fuel_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/semitrailer_oiltank.xml",
         "from": "<Body Mass=\"3700\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"16000\" />",
         "enabled": true
     },
     "semitrailer_oiltank_body_mass": {
@@ -302,49 +386,61 @@
     "trailer_oiltank_fuel_capacity": {
         "path": "input/initial/[media]/classes/trucks/trailers/trailer_oiltank.xml",
         "from": "<TruckData FuelCapacity=\"2000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData FuelCapacity=\"3000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
+        "to": "<TruckData FuelCapacity=\"7000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "trailer_oiltank_fuel_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/trailer_oiltank.xml",
         "from": "<Body Mass=\"3700\" />",
-        "to": "<Body Mass=\"6000\" />",
+        "to": "<Body Mass=\"8000\" />",
         "enabled": true
     },
     "semitrailer_heavy_oiltank_fuel_capacity": {
         "path": "input/initial/[media]/classes/trucks/trailers/semitrailer_heavy_oiltank.xml",
         "from": "<TruckData FuelCapacity=\"5000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData FuelCapacity=\"8000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
+        "to": "<TruckData FuelCapacity=\"20000\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "semitrailer_heavy_oiltank_fuel_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/semitrailer_heavy_oiltank.xml",
         "from": "<Body Mass=\"5000\" />",
-        "to": "<Body Mass=\"15000\" />",
+        "to": "<Body Mass=\"20000\" />",
         "enabled": true
     },
     "semitrailer_heavy_oiltank_body_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/semitrailer_heavy_oiltank.xml",
         "from": "Mass=\"11000\"",
-        "to": "Mass=\"6000\"",
+        "to": "Mass=\"4000\"",
         "enabled": true
     },
     "scout_trailer_oiltank_fuel_capacity": {
         "path": "input/initial/[media]/classes/trucks/trailers/scout_trailer_oiltank.xml",
         "from": "<TruckData FuelCapacity=\"900\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
-        "to": "<TruckData FuelCapacity=\"500\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
+        "to": "<TruckData FuelCapacity=\"750\" HideDistance=\"250\" ShadowHideDistance=\"100\">",
         "enabled": true
     },
     "scout_trailer_oiltank_fuel_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/scout_trailer_oiltank.xml",
         "from": "<Body Mass=\"900\" />",
-        "to": "<Body Mass=\"2250\" />",
+        "to": "<Body Mass=\"2000\" />",
+        "enabled": true
+    },
+    "frame_addon_tank_small_fuel_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_1_1/classes/trucks/addons/frame_addon_tank_small.xml",
+        "from": "FuelCapacity=\"900\"",
+        "to": "FuelCapacity=\"1500\"",
+        "enabled": true
+    },
+    "frame_addon_tank_small_2_fuel_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_17/classes/trucks/addons/frame_addon_tank_small_02.xml",
+        "from": "FuelCapacity=\"900\"",
+        "to": "FuelCapacity=\"1500\"",
         "enabled": true
     },
     "scout_trailer_oiltank_body_mass": {
         "path": "input/initial/[media]/classes/trucks/trailers/scout_trailer_oiltank.xml",
         "from": "Mass=\"2500\"",
-        "to": "Mass=\"750\"",
+        "to": "Mass=\"500\"",
         "enabled": true
     },
     "e_us_scout_old_top_engine_buff": {
@@ -437,16 +533,16 @@
         "to": "Mass=\"4500\"",
         "enabled": true
     },
-    "frame_addon_tank_zikz_612h_mastodon_fuel_mass": {
-        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_612h_mastodont_tuning/frame_addon_tank_zikz_612h_mastodon.xml",
-        "from": "<Body Mass=\"12000\" />",
-        "to": "<Body Mass=\"5500\" />",
-        "enabled": true
-    },
     "frame_addon_tank_zikz_612h_mastodon_water_mass": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_612h_mastodont_tuning/zikz_612h_mastodont_watertank.xml",
         "from": "<Body Mass=\"2500\" />",
-        "to": "<Body Mass=\"5500\" />",
+        "to": "<Body Mass=\"6000\" />",
+        "enabled": true
+    },
+    "frame_addon_tank_zikz_612h_mastodon_watertank_capacity": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/zikz_612h_mastodont_tuning/zikz_612h_mastodont_watertank.xml",
+        "from": "WaterCapacity=\"2500\"",
+        "to": "WaterCapacity=\"4000\"",
         "enabled": true
     },
     "frame_addon_heavy_repair_body_mass_1": {
@@ -701,6 +797,18 @@
         "to": "<Motor Damping=\"200000\" Spring=\"200000\" Type=\"Spring\" />",
         "enabled": true
     },
+    "s_freightliner_fld120_suspension_damping_normal": {
+        "path": "input/initial/[media]/_dlc/dlc_15_5/classes/suspensions/s_freightliner_fld120.xml",
+        "from": "Damping=\"0.2\"",
+        "to": "Damping=\"0.26\"",
+        "enabled": true
+    },
+    "s_freightliner_fld120_suspension_high": {
+        "path": "input/initial/[media]/_dlc/dlc_15_5/classes/suspensions/s_freightliner_fld120.xml",
+        "from": "Height=\"0.32\"\n\t\t\tStrength=\"0.1\"\n\t\t\tDamping=\"0.45\"",
+        "to": "Height=\"0.35\"\n\t\t\tStrength=\"0.125\"\n\t\t\tDamping=\"0.5\"",
+        "enabled": true
+    },
     "cat_770g_awd": {
         "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/cat_770g.xml",
         "from": "Torque=\"none\"",
@@ -710,13 +818,13 @@
     "cat_770g_tank_addon_fuel_capacity": {
         "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/addons/cat_770g_tank.xml",
         "from": "<TruckData FuelCapacity=\"2000\" />",
-        "to": "<TruckData FuelCapacity=\"3000\" />",
+        "to": "<TruckData FuelCapacity=\"8000\" />",
         "enabled": true
     },
     "cat_770g_tank_addon_fuel_mass": {
         "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/addons/cat_770g_tank.xml",
         "from": "<Body Mass=\"5600\" />",
-        "to": "<Body Mass=\"7000\" />",
+        "to": "<Body Mass=\"10000\" />",
         "enabled": true
     },
     "cat_770g_service_addon": {
@@ -1031,29 +1139,53 @@
         "to": "Mass=\"13000\"",
         "enabled": true
     },
-    "derry_special_voron_wheels": {
+    "derry_special_15c177_rotation_amount": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177.xml",
-        "from": "<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single2\" />\n\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_offroad_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single2\" />",
-        "to": "<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_single2_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_offroad_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single_voron_g5352\" />\n\t\t<CompatibleWheels Scale=\"0.7\" Type=\"wheels_heavy_mudtires_single2_voron_g5352\" />",
-        "enabled": false
+        "from": "MinLimit=\"-2\"\n\t\t\t\t\tMaxLimit=\"2\"",
+        "to": "MinLimit=\"-4\"\n\t\t\t\t\tMaxLimit=\"4\"",
+        "enabled": true
     },
-    "derry_special_15c177_wheel_template": {
-        "path": "input/initial/[media]/_dlc/dlc_9/classes/wheels/wheels_derry_special_15c177.xml",
-        "from": "_template=\"Heavy\"",
-        "to": "Mass=\"300\"",
-        "enabled": false
+    "derry_special_15c177_difflock": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/trucks/derry_special_15c177.xml",
+        "from": "DiffLockType=\"Installed\"",
+        "to": "DiffLockType=\"Always\"",
+        "enabled": true
     },
-    "derry_special_15c177_suspension_strength": {
+    "e_us_truck_modern_derry_special_torque_nerf": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/engines/e_us_truck_modern_derry_special.xml",
+        "from": "Torque=\"280000\"",
+        "to": "Torque=\"260000\"",
+        "enabled": true
+    },
+    "e_us_truck_modern_derry_special_fuel_consumption_buff": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/engines/e_us_truck_modern_derry_special.xml",
+        "from": "FuelConsumption=\"12\"",
+        "to": "FuelConsumption=\"11.5\"",
+        "enabled": true
+    },
+    "derry_special_15c177_suspension_normal_front": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
-        "from": "Strength=\"0.15\"",
-        "to": "Strength=\"0.08\"",
-        "enabled": false
+        "from": "Strength=\"0.09\" \n\t\t\tHeight=\"0.045\" \n\t\t\tWheelType=\"front\" \n\t\t\tBrokenSuspensionMax=\"0.15\"\n\t\t\tSuspensionMax=\"0.15\"\n\t\t\tSuspensionMin=\"-0.17\"",
+        "to": "Strength=\"0.075\" \n\t\t\tHeight=\"0.055\" \n\t\t\tWheelType=\"front\" \n\t\t\tBrokenSuspensionMax=\"0.25\"\n\t\t\tSuspensionMax=\"0.25\"\n\t\t\tSuspensionMin=\"-0.25\"",
+        "enabled": true
     },
-    "derry_special_15c177_suspension_strength_rear": {
+    "derry_special_15c177_suspension_normal_rear": {
         "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
-        "from": "Strength=\"0.1\"",
-        "to": "Strength=\"0.08\"",
-        "enabled": false
+        "from": "Height=\"0.02\" \n\t\t\tStrength=\"0.065\" \n\t\t\tWheelType=\"rear\" \n\t\t\tBrokenSuspensionMax=\"0.2\"\n\t\t\tSuspensionMax=\"0.2\" \n\t\t\tSuspensionMin=\"-0.15\"",
+        "to": "Height=\"0.025\" \n\t\t\tStrength=\"0.055\" \n\t\t\tWheelType=\"rear\" \n\t\t\tBrokenSuspensionMax=\"0.3\"\n\t\t\tSuspensionMax=\"0.3\" \n\t\t\tSuspensionMin=\"-0.25\"",
+        "enabled": true
+    },
+    "derry_special_15c177_suspension_active_front": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
+        "from": "Strength=\"0.09\" \n\t\t\tHeight=\"0.055\" \n\t\t\tWheelType=\"front\" \n\t\t\tBrokenSuspensionMax=\"0.15\"\n\t\t\tSuspensionMax=\"0.15\"\n\t\t\tSuspensionMin=\"-0.17\"\n\t\t\tDeviationMax=\"0.12\"",
+        "to": "Strength=\"0.075\" \n\t\t\tHeight=\"0.06\" \n\t\t\tWheelType=\"front\" \n\t\t\tBrokenSuspensionMax=\"0.3\"\n\t\t\tSuspensionMax=\"0.3\"\n\t\t\tSuspensionMin=\"-0.3\"\n\t\t\tDeviationMax=\"0.12\"",
+        "enabled": true
+    },
+    "derry_special_15c177_suspension_active_rear": {
+        "path": "input/initial/[media]/_dlc/dlc_9/classes/suspensions/s_derry_special_15c177.xml",
+        "from": "Height=\"0.03\" \n\t\t\tStrength=\"0.065\" \n\t\t\tWheelType=\"rear\" \n\t\t\tBrokenSuspensionMax=\"0.2\"\n\t\t\tSuspensionMax=\"0.2\" \n\t\t\tSuspensionMin=\"-0.15\"\n\t\t\tDeviationMax=\"0.1\"",
+        "to": "Height=\"0.035\" \n\t\t\tStrength=\"0.055\" \n\t\t\tWheelType=\"rear\" \n\t\t\tBrokenSuspensionMax=\"0.35\"\n\t\t\tSuspensionMax=\"0.35\" \n\t\t\tSuspensionMin=\"-0.35\"\n\t\t\tDeviationMax=\"0.1\"",
+        "enabled": true
     },
     "derry_longhorn_3194_mass_1": {
         "path": "input/initial/[media]/classes/trucks/derry_longhorn_3194.xml",
@@ -1163,10 +1295,22 @@
         "to": "StrengthMult=\"1.4\"",
         "enabled": true
     },
-    "cargo_wood_planls_1_unpacked_mass": {
+    "cargo_unit_wooden_planks_1_unpacked_mass": {
         "path": "input/initial/[media]/classes/models/cargo_unit_wooden_planks_1.xml",
         "from": "Mass=\"1000.0\"",
         "to": "Mass=\"500\"",
+        "enabled": true
+    },
+    "cargo_metal_roll_1_packed_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_2_1/classes/trucks/cargo/cargo_metal_roll_1.xml",
+        "from": "<Body Mass=\"1000\">",
+        "to": "<Body Mass=\"2500\">",
+        "enabled": true
+    },
+    "cargo_metal_roll_1_unpacked_mass": {
+        "path": "input/initial/[media]/_dlc/dlc_2_1/classes/models/cargo_unit_metal_roll.xml",
+        "from": "Mass=\"1000.0\"",
+        "to": "Mass=\"2500\"",
         "enabled": true
     },
     "cargo_empty_container_packed_mass": {
@@ -1738,18 +1882,6 @@
         "from": "Mass=\"2950\"",
         "to": "Mass=\"4500\"",
         "enabled": true
-    },
-    "mercedes_3850_low_saddle_adjustment": {
-        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
-        "from": "<Socket Names=\"SaddleLow2Mercedes3850\" ParentFrame=\"BoneChassis_cdt\" NamesBlock=\"Mercedes3850Wings, Mercedes3850FrameExtended\" Offset=\"(0; 0; 0)\" >\n\t\t\t\t<ExtraParent Frame=\"BoneChassis_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t\t<ExtraParent Frame=\"BoneChassis_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t\t<ExtraParent Frame=\"BoneCabin_cdt\" Offset=\"(0; 0; 0)\" />\n\t\t\t</Socket>",
-        "to": "",
-        "enabled": false
-    },
-    "mercedes_3850_low_saddle_reference": {
-        "path": "input/initial/[media]/_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
-        "from": "SaddleLow2Mercedes3850",
-        "to": "SaddleLow",
-        "enabled": false
     },
     "mercedes_3850_suspension_increase_1": {
         "path": "input/initial/[media]/_dlc/dlc_18_1/classes/suspensions/s_mercedes_3850.xml",

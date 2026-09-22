@@ -41,6 +41,7 @@ def get_wheel_data(
     body_friction: float = 0
     asphalt_friction: float = 0
     substance_friction: float = 0
+    ignore_ice: bool = False
 
     templates = root.find("_templates")
     if templates is not None:
@@ -49,9 +50,7 @@ def get_wheel_data(
             for child in tire_templates:
                 wheel_material_template = child.tag
                 if child.get("_template") is not None:
-                    mass = wheel_template_dict["TruckTire"][child.get("_template")][
-                        "Mass"
-                    ]
+                    mass = wheel_template_dict["TruckTire"][child.get("_template")]["Mass"]
                 else:
                     if child.get("Mass") is not None:
                         mass = int(child.get("Mass"))
@@ -59,26 +58,17 @@ def get_wheel_data(
                 if softness_element is not None:
                     s_type = softness_element.get("_template")
                     if s_type is not None:
-                        radius_offset = wheel_template_dict["WheelSoftness"][s_type][
-                            "RadiusOffset"
-                        ]
-                        soft_force_scale = wheel_template_dict["WheelSoftness"][s_type][
-                            "SoftForceScale"
-                        ]
+                        radius_offset = wheel_template_dict["WheelSoftness"][s_type]["RadiusOffset"]
+                        soft_force_scale = wheel_template_dict["WheelSoftness"][s_type]["SoftForceScale"]
 
                 friction_element = child.find("WheelFriction")
                 if friction_element is not None:
                     f_type = friction_element.get("_template")
                     if f_type is not None:
-                        body_friction = wheel_template_dict["WheelFriction"][f_type][
-                            "BodyFriction"
-                        ]
-                        asphalt_friction = wheel_template_dict["WheelFriction"][f_type][
-                            "BodyFrictionAsphalt"
-                        ]
-                        substance_friction = wheel_template_dict["WheelFriction"][
-                            f_type
-                        ]["SubstanceFriction"]
+                        body_friction = wheel_template_dict["WheelFriction"][f_type]["BodyFriction"]
+                        asphalt_friction = wheel_template_dict["WheelFriction"][f_type]["BodyFrictionAsphalt"]
+                        substance_friction = wheel_template_dict["WheelFriction"][f_type]["SubstanceFriction"]
+                        ignore_ice = wheel_template_dict["WheelFriction"][f_type]["IgnoreIce"]
 
                 template_data[wheel_material_template] = {
                     "Material": wheel_material_template,
@@ -88,6 +78,7 @@ def get_wheel_data(
                     "BodyFriction": body_friction,
                     "BodyFrictionAsphalt": asphalt_friction,
                     "SubstanceFriction": substance_friction,
+                    "IgnoreIce": ignore_ice,
                 }
 
     truck_wheels = root.find("TruckWheels")
@@ -110,7 +101,7 @@ def get_wheel_data(
         tire_data: dict = {"file": wheel_file, "full_file": str(file_path.relative_to(utils.root_path))}
         if "_template" in truck_tire.attrib:
             if truck_tire.attrib["_template"] in template_data:
-                tire_data.update(template_data[truck_tire.attrib["_template"]])
+                tire_data.update(template_data[truck_tire.attrib["_template"]].copy())
 
         tire_data["Mass"] = mass
         tire_data["DamageCapacity"] = damage_capacity
@@ -121,27 +112,20 @@ def get_wheel_data(
         if wheel_friction is not None:
             f_type = wheel_friction.get("_template")
             if f_type is not None:
-                tire_data["BodyFriction"] = wheel_template_dict["WheelFriction"][
-                    f_type
-                ]["BodyFriction"]
-                tire_data["BodyFrictionAsphalt"] = wheel_template_dict["WheelFriction"][
-                    f_type
-                ]["BodyFrictionAsphalt"]
-                tire_data["SubstanceFriction"] = wheel_template_dict["WheelFriction"][
-                    f_type
-                ]["SubstanceFriction"]
-        if wheel_friction is not None:
+                tire_data["IgnoreIce"] = wheel_template_dict["WheelFriction"][f_type]["IgnoreIce"]
+                tire_data["BodyFriction"] = wheel_template_dict["WheelFriction"][f_type]["BodyFriction"]
+                tire_data["BodyFrictionAsphalt"] = wheel_template_dict["WheelFriction"][f_type]["BodyFrictionAsphalt"]
+                tire_data["SubstanceFriction"] = wheel_template_dict["WheelFriction"][f_type]["SubstanceFriction"]
+
+            if "IgnoreIce" in wheel_friction.attrib:
+                tire_data["IgnoreIce"] = wheel_friction.attrib["IgnoreIce"] == "true"
             if "BodyFriction" in wheel_friction.attrib:
                 tire_data["BodyFriction"] = float(wheel_friction.attrib["BodyFriction"])
             if "BodyFrictionAsphalt" in wheel_friction.attrib:
-                tire_data["BodyFrictionAsphalt"] = float(
-                    wheel_friction.attrib["BodyFrictionAsphalt"]
-                )
+                tire_data["BodyFrictionAsphalt"] = float(wheel_friction.attrib["BodyFrictionAsphalt"])
             if "SubstanceFriction" in wheel_friction.attrib:
-                tire_data["SubstanceFriction"] = float(
-                    wheel_friction.attrib["SubstanceFriction"]
-                )
-
+                tire_data["SubstanceFriction"] = float(wheel_friction.attrib["SubstanceFriction"])
+        name_id = ""
         tire_data["Price"] = float(truck_tire.find("GameData").get("Price"))
         if truck_tire.find("GameData").find("UiDesc") is not None:
             name_id = truck_tire.find("GameData").find("UiDesc").get("UiName")
@@ -154,12 +138,12 @@ def get_wheel_data(
                 tire_data["name"] = name_id
                 print(f"No name for {name_id}")
         if "BodyFriction" not in tire_data:
-            print(f"No friction for {wheel_file}-{truck_tire.get('Name')}")
+            print(f"No friction for {wheel_file}-{name_id}")
         elif tire_data["BodyFriction"] == 0:
-            print(f"Body friction for {wheel_file}-{truck_tire.get('Name')} is 0")
-        if "name" in tire_data and tire_data["name"] != "":
-            tire_data["id"] = f"{wheel_file}_{tire_data["name"]}"
-            rets[f"{wheel_file}-{truck_tire.get('Name')}"] = tire_data
+            print(f"Body friction for {wheel_file}-{name_id} is 0")
+        if "name" in tire_data and tire_data["name"] != "" and name_id:
+            tire_data["id"] = f"{wheel_file}_{name_id.lower()}"
+            rets[f"{wheel_file}-{name_id.lower()}"] = tire_data
 
     return rets
 
@@ -186,11 +170,13 @@ def get_wheel_template_info(use_initial_files: bool, input_folder: str) -> dict:
     wheel_friction = root.find("WheelFriction")
     for child in wheel_friction:
         if child is not None:
+            has_ignore_ice = child.get("IsIgnoreIce") == "true"
             wheel_friction_dict[child.tag] = {
                 "BodyFriction": float(child.get("BodyFriction")),
                 "BodyFrictionAsphalt": float(child.get("BodyFrictionAsphalt")),
                 "SubstanceFriction": float(child.get("SubstanceFriction")),
                 "UiName": child.get("UiName"),
+                "IgnoreIce": has_ignore_ice
             }
     ret_dict["WheelFriction"] = wheel_friction_dict
 

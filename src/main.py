@@ -158,13 +158,11 @@ def buff_steering_angle_for_all_trucks():
 
 
 def buff_wheel_friction_value_in_file(
-    file_path, friction_type="BodyFrictionAsphalt", weight=2, base: float = 3.0
+    file_path, friction_type, weight:int, base: float
 ):
-    # print(f"Buffing asphalt for: {file_path}")
     content = get_modified_file_if_possible(file_path)
 
-    # Find and replace Asphalt values
-    def replace_asphalt_friction(match):
+    def replace_friction(match):
         current_value = float(match.group(1))
         weights = [base]
         for _ in range(weight + 1):
@@ -178,16 +176,15 @@ def buff_wheel_friction_value_in_file(
             return f'{friction_type}="{new_value}"'
         return f'{friction_type}="{current_value}"'
 
-    # Use regex to find BodyFrictionAsphalt="number" and replace with buffed value
     modified_content = re.sub(
-        rf'{friction_type}="(\d+(?:\.\d+)?)"', replace_asphalt_friction, content
+        rf'{friction_type}="(\d+(?:\.\d+)?)"', replace_friction, content
     )
 
     write_to_output(file_path, modified_content)
 
 
 def buff_friction_type_for_all_wheels(
-    friction_type="BodyFrictionAsphalt", weight=2, base: float = 3.0
+    friction_type, weight:int, base: float
 ):
     wheels_folder = Path(root_path, "input/initial/[media]/classes/wheels")
     dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
@@ -206,6 +203,22 @@ def buff_friction_type_for_all_wheels(
         # Iterate through all XML files in the folder
         for file_path in dlc_truck_folder.glob("*.xml"):
             buff_wheel_friction_value_in_file(file_path, friction_type, weight, base)
+
+
+# def buff_substance_for_chain_wheels():
+#     wheels_folder = Path(root_path, "input/initial/[media]/classes/wheels")
+#     dlc_folder = Path(root_path, "input/initial/[media]/_dlc")
+#
+#     # Iterate through all XML files in the folder
+#     for file_path in wheels_folder.glob("*.xml"):
+#         buff_substance_for_template_chains(file_path)
+#
+#     for folder_path in dlc_folder.glob("dlc_*", case_sensitive=False):
+#         dlc_truck_folder = Path(folder_path, "classes/wheels")
+#
+#         # Iterate through all XML files in the folder
+#         for file_path in dlc_truck_folder.glob("*.xml"):
+#             buff_substance_for_template_chains(file_path)
 
 
 def get_text_width(text: str) -> int:
@@ -996,7 +1009,7 @@ def main():
         performed_adjustments.append("buffed_all_trucks_steering_angle")
 
     if "buffed_all_wheel_asphalt" not in performed_adjustments:
-        buff_friction_type_for_all_wheels("BodyFrictionAsphalt", 3, base=3.0)
+        buff_friction_type_for_all_wheels("BodyFrictionAsphalt", 3, base=3.5)
         performed_adjustments.append("buffed_all_wheel_asphalt")
 
     if "buffed_all_wheel_body_friction" not in performed_adjustments:
@@ -1006,6 +1019,10 @@ def main():
     if "buffed_all_wheel_substance_friction" not in performed_adjustments:
         buff_friction_type_for_all_wheels("SubstanceFriction", 5, base=2.3)
         performed_adjustments.append("buffed_all_wheel_substance_friction")
+
+    # if "buff_chain_substance_friction" not in performed_adjustments:
+    #     buff_substance_for_chain_wheels()
+    #     performed_adjustments.append("buff_chain_substance_friction")
 
     cargo_list: list[Cargo] = []
     if "cargo_mass_adjustments" not in performed_adjustments:

@@ -73,7 +73,6 @@ def get_difflock_status(contents, truck_id) -> str:
     manual_difflock = {
         "kirovets_k700": "Switchable",
         "kirovets_k7m": "Switchable",
-        "derry_special_15c177": "Switchable",
         "zikz_566a": "Switchable",
         "navistar_5000mv": "None",
         "royal_bm17": "None",
@@ -95,6 +94,10 @@ def get_difflock_status(contents, truck_id) -> str:
         dlc_folder = Path(utils.root_path, "input/initial/[media]/_dlc")
         if Path(f"{trucks_folder}/{truck_id}_tuning").exists():
             for dest in Path(f"{trucks_folder}/{truck_id}_tuning").glob("*diff*"):
+                if "diff_lock" or "difflock" in str(dest):
+                    return "Switchable"
+        elif Path(f"{trucks_folder}/{truck_id}_tunning").exists():
+            for dest in Path(f"{trucks_folder}/{truck_id}_tunning").glob("*diff*"):
                 if "diff_lock" or "difflock" in str(dest):
                     return "Switchable"
 

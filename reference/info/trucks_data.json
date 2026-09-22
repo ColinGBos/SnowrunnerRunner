@@ -7746,7 +7746,7 @@
         "awd": "Capable",
         "desc_ui_id": "UI_VEHICLE_MERCEDES_3850_DESC",
         "difflock": "Switchable",
-        "steering_angle_1": 30.0,
+        "steering_angle_1": 33.5,
         "steer_speed": 0.022,
         "back_steer_speed": 0.018,
         "responsiveness": 0.18,
@@ -7842,7 +7842,7 @@
         "dlc": "DLC",
         "class": "OFFROAD",
         "fuel_capacity": 260,
-        "mass": 9025,
+        "mass": 9115,
         "price": 113300,
         "region": "US,NE,CE,CA",
         "unlock_rank": 1,
@@ -7873,10 +7873,10 @@
         ],
         "min_engine_torque": 144700,
         "max_engine_torque": 186300,
-        "pure_p/w": 20.64,
-        "adj_p/w": 22.79,
-        "adj_p/w+": 14.67,
-        "adj_p/w++": 8.56,
+        "pure_p/w": 20.44,
+        "adj_p/w": 22.57,
+        "adj_p/w+": 14.57,
+        "adj_p/w++": 8.53,
         "wheel_adj_power": 205700,
         "gearbox_type": [
             "gearboxes_mercedes_mamute_1519"
@@ -7928,7 +7928,7 @@
             "LargeSemitrailer",
             "LargeSemitrailerOiltank"
         ],
-        "pulling_quotient": 19.22
+        "pulling_quotient": 19.15
     },
     "derry_savior": {
         "name": "DERRY \"SAVIOR\"",
@@ -11005,7 +11005,7 @@
         "unlock_rank": 1,
         "awd": "Always",
         "desc_ui_id": "UI_VEHICLE_DERRY_SPECIAL_15C177_DESC",
-        "difflock": "Switchable",
+        "difflock": "None",
         "steering_angle_1": 26.0,
         "steering_angle_2": 21.0,
         "steer_speed": 0.017,
@@ -11084,7 +11084,7 @@
             "SaddleHigh1",
             "MinicraneUS"
         ],
-        "pulling_quotient": 22.08
+        "pulling_quotient": 20.73
     },
     "zikz_566a": {
         "name": "ZiKZ 566A",
